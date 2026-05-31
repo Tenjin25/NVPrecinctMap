@@ -1744,6 +1744,442 @@
         }
       }
     },
+    "2018": {
+      "us_senate": {
+        "general": {
+          "results": {
+            "01": {
+              "dem_votes": 98334,
+              "rep_votes": 48757,
+              "other_votes": 7100,
+              "total_votes": 154191,
+              "dem_candidate": "Jacky Rosen",
+              "rep_candidate": "Dean Heller",
+              "margin": -49577,
+              "margin_pct": -32.15,
+              "winner": "DEM",
+              "competitiveness": {
+                "color": "#3182bd"
+              }
+            },
+            "02": {
+              "dem_votes": 123795,
+              "rep_votes": 154837,
+              "other_votes": 12470,
+              "total_votes": 291102,
+              "dem_candidate": "Jacky Rosen",
+              "rep_candidate": "Dean Heller",
+              "margin": 31042,
+              "margin_pct": 10.66,
+              "winner": "REP",
+              "competitiveness": {
+                "color": "#ef3b2c"
+              }
+            },
+            "03": {
+              "dem_votes": 145964,
+              "rep_votes": 133121,
+              "other_votes": 10607,
+              "total_votes": 289692,
+              "dem_candidate": "Jacky Rosen",
+              "rep_candidate": "Dean Heller",
+              "margin": -12843,
+              "margin_pct": -4.43,
+              "winner": "DEM",
+              "competitiveness": {
+                "color": "#c6dbef"
+              }
+            },
+            "04": {
+              "dem_votes": 121978,
+              "rep_votes": 104487,
+              "other_votes": 10682,
+              "total_votes": 237147,
+              "dem_candidate": "Jacky Rosen",
+              "rep_candidate": "Dean Heller",
+              "margin": -17491,
+              "margin_pct": -7.38,
+              "winner": "DEM",
+              "competitiveness": {
+                "color": "#c6dbef"
+              }
+            }
+          }
+        }
+      },
+      "governor": {
+        "general": {
+          "results": {
+            "01": {
+              "dem_votes": 95844,
+              "rep_votes": 48958,
+              "other_votes": 9226,
+              "total_votes": 154028,
+              "dem_candidate": "Steve Sisolak",
+              "rep_candidate": "Adam P. Laxalt",
+              "margin": -46886,
+              "margin_pct": -30.44,
+              "winner": "DEM",
+              "competitiveness": {
+                "color": "#3182bd"
+              }
+            },
+            "02": {
+              "dem_votes": 120396,
+              "rep_votes": 154838,
+              "other_votes": 15690,
+              "total_votes": 290924,
+              "dem_candidate": "Steve Sisolak",
+              "rep_candidate": "Adam P. Laxalt",
+              "margin": 34442,
+              "margin_pct": 11.84,
+              "winner": "REP",
+              "competitiveness": {
+                "color": "#ef3b2c"
+              }
+            },
+            "03": {
+              "dem_votes": 144383,
+              "rep_votes": 132665,
+              "other_votes": 12584,
+              "total_votes": 289632,
+              "dem_candidate": "Steve Sisolak",
+              "rep_candidate": "Adam P. Laxalt",
+              "margin": -11718,
+              "margin_pct": -4.05,
+              "winner": "DEM",
+              "competitiveness": {
+                "color": "#c6dbef"
+              }
+            },
+            "04": {
+              "dem_votes": 119384,
+              "rep_votes": 103859,
+              "other_votes": 13972,
+              "total_votes": 237215,
+              "dem_candidate": "Steve Sisolak",
+              "rep_candidate": "Adam P. Laxalt",
+              "margin": -15525,
+              "margin_pct": -6.54,
+              "winner": "DEM",
+              "competitiveness": {
+                "color": "#c6dbef"
+              }
+            }
+          }
+        }
+      },
+      "lieutenant_governor": {
+        "general": {
+          "results": {
+            "01": {
+              "dem_votes": 95225,
+              "rep_votes": 0,
+              "other_votes": 57511,
+              "total_votes": 152736,
+              "dem_candidate": "Kate Marshall",
+              "rep_candidate": "",
+              "margin": -95225,
+              "margin_pct": -62.35,
+              "winner": "DEM",
+              "competitiveness": {
+                "color": "#08306b"
+              }
+            },
+            "02": {
+              "dem_votes": 127678,
+              "rep_votes": 0,
+              "other_votes": 161570,
+              "total_votes": 289248,
+              "dem_candidate": "Kate Marshall",
+              "rep_candidate": "",
+              "margin": -127678,
+              "margin_pct": -44.14,
+              "winner": "DEM",
+              "competitiveness": {
+                "color": "#08306b"
+              }
+            },
+            "03": {
+              "dem_votes": 142476,
+              "rep_votes": 0,
+              "other_votes": 145567,
+              "total_votes": 288043,
+              "dem_candidate": "Kate Marshall",
+              "rep_candidate": "",
+              "margin": -142476,
+              "margin_pct": -49.46,
+              "winner": "DEM",
+              "competitiveness": {
+                "color": "#08306b"
+              }
+            },
+            "04": {
+              "dem_votes": 121002,
+              "rep_votes": 0,
+              "other_votes": 114914,
+              "total_votes": 235916,
+              "dem_candidate": "Kate Marshall",
+              "rep_candidate": "",
+              "margin": -121002,
+              "margin_pct": -51.29,
+              "winner": "DEM",
+              "competitiveness": {
+                "color": "#08306b"
+              }
+            }
+          }
+        }
+      },
+      "attorney_general": {
+        "general": {
+          "results": {
+            "01": {
+              "dem_votes": 0,
+              "rep_votes": 0,
+              "other_votes": 152927,
+              "total_votes": 152927,
+              "dem_candidate": "",
+              "rep_candidate": "",
+              "margin": 0,
+              "margin_pct": 0.0,
+              "winner": "TIE",
+              "competitiveness": {
+                "color": "#f7f7f7"
+              }
+            },
+            "02": {
+              "dem_votes": 0,
+              "rep_votes": 0,
+              "other_votes": 289234,
+              "total_votes": 289234,
+              "dem_candidate": "",
+              "rep_candidate": "",
+              "margin": 0,
+              "margin_pct": 0.0,
+              "winner": "TIE",
+              "competitiveness": {
+                "color": "#f7f7f7"
+              }
+            },
+            "03": {
+              "dem_votes": 0,
+              "rep_votes": 0,
+              "other_votes": 287744,
+              "total_votes": 287744,
+              "dem_candidate": "",
+              "rep_candidate": "",
+              "margin": 0,
+              "margin_pct": 0.0,
+              "winner": "TIE",
+              "competitiveness": {
+                "color": "#f7f7f7"
+              }
+            },
+            "04": {
+              "dem_votes": 0,
+              "rep_votes": 0,
+              "other_votes": 235848,
+              "total_votes": 235848,
+              "dem_candidate": "",
+              "rep_candidate": "",
+              "margin": 0,
+              "margin_pct": 0.0,
+              "winner": "TIE",
+              "competitiveness": {
+                "color": "#f7f7f7"
+              }
+            }
+          }
+        }
+      },
+      "treasurer": {
+        "general": {
+          "results": {
+            "01": {
+              "dem_votes": 92574,
+              "rep_votes": 0,
+              "other_votes": 210683,
+              "total_votes": 303257,
+              "dem_candidate": "Zach Conine",
+              "rep_candidate": "",
+              "margin": -92574,
+              "margin_pct": -30.53,
+              "winner": "DEM",
+              "competitiveness": {
+                "color": "#3182bd"
+              }
+            },
+            "02": {
+              "dem_votes": 115212,
+              "rep_votes": 0,
+              "other_votes": 424907,
+              "total_votes": 540119,
+              "dem_candidate": "Zach Conine",
+              "rep_candidate": "",
+              "margin": -115212,
+              "margin_pct": -21.33,
+              "winner": "DEM",
+              "competitiveness": {
+                "color": "#3182bd"
+              }
+            },
+            "03": {
+              "dem_votes": 136073,
+              "rep_votes": 0,
+              "other_votes": 433944,
+              "total_votes": 570017,
+              "dem_candidate": "Zach Conine",
+              "rep_candidate": "",
+              "margin": -136073,
+              "margin_pct": -23.87,
+              "winner": "DEM",
+              "competitiveness": {
+                "color": "#3182bd"
+              }
+            },
+            "04": {
+              "dem_votes": 116015,
+              "rep_votes": 0,
+              "other_votes": 350496,
+              "total_votes": 466511,
+              "dem_candidate": "Zach Conine",
+              "rep_candidate": "",
+              "margin": -116015,
+              "margin_pct": -24.87,
+              "winner": "DEM",
+              "competitiveness": {
+                "color": "#3182bd"
+              }
+            }
+          }
+        }
+      },
+      "controller": {
+        "general": {
+          "results": {
+            "01": {
+              "dem_votes": 0,
+              "rep_votes": 49632,
+              "other_votes": 102903,
+              "total_votes": 152535,
+              "dem_candidate": "",
+              "rep_candidate": "Ron Knecht",
+              "margin": 49632,
+              "margin_pct": 32.54,
+              "winner": "REP",
+              "competitiveness": {
+                "color": "#cb181d"
+              }
+            },
+            "02": {
+              "dem_votes": 0,
+              "rep_votes": 156513,
+              "other_votes": 131871,
+              "total_votes": 288384,
+              "dem_candidate": "",
+              "rep_candidate": "Ron Knecht",
+              "margin": 156513,
+              "margin_pct": 54.27,
+              "winner": "REP",
+              "competitiveness": {
+                "color": "#67000d"
+              }
+            },
+            "03": {
+              "dem_votes": 0,
+              "rep_votes": 134231,
+              "other_votes": 152439,
+              "total_votes": 286670,
+              "dem_candidate": "",
+              "rep_candidate": "Ron Knecht",
+              "margin": 134231,
+              "margin_pct": 46.82,
+              "winner": "REP",
+              "competitiveness": {
+                "color": "#67000d"
+              }
+            },
+            "04": {
+              "dem_votes": 0,
+              "rep_votes": 104723,
+              "other_votes": 130355,
+              "total_votes": 235078,
+              "dem_candidate": "",
+              "rep_candidate": "Ron Knecht",
+              "margin": 104723,
+              "margin_pct": 44.55,
+              "winner": "REP",
+              "competitiveness": {
+                "color": "#67000d"
+              }
+            }
+          }
+        }
+      },
+      "us_house": {
+        "general": {
+          "results": {
+            "01": {
+              "dem_votes": 100707,
+              "rep_votes": 0,
+              "other_votes": 51494,
+              "total_votes": 152201,
+              "dem_candidate": "Dina Titus",
+              "rep_candidate": "",
+              "margin": -100707,
+              "margin_pct": -66.17,
+              "winner": "DEM",
+              "competitiveness": {
+                "color": "#08306b"
+              }
+            },
+            "02": {
+              "dem_votes": 0,
+              "rep_votes": 167435,
+              "other_votes": 120102,
+              "total_votes": 287537,
+              "dem_candidate": "",
+              "rep_candidate": "Mark E. Amodei",
+              "margin": 167435,
+              "margin_pct": 58.23,
+              "winner": "REP",
+              "competitiveness": {
+                "color": "#67000d"
+              }
+            },
+            "03": {
+              "dem_votes": 0,
+              "rep_votes": 122566,
+              "other_votes": 163602,
+              "total_votes": 286168,
+              "dem_candidate": "",
+              "rep_candidate": "Danny Tarkanian",
+              "margin": 122566,
+              "margin_pct": 42.83,
+              "winner": "REP",
+              "competitiveness": {
+                "color": "#67000d"
+              }
+            },
+            "04": {
+              "dem_votes": 0,
+              "rep_votes": 102748,
+              "other_votes": 132120,
+              "total_votes": 234868,
+              "dem_candidate": "",
+              "rep_candidate": "Cresent Hardy",
+              "margin": 102748,
+              "margin_pct": 43.75,
+              "winner": "REP",
+              "competitiveness": {
+                "color": "#67000d"
+              }
+            }
+          }
+        }
+      }
+    },
     "2020": {
       "president": {
         "general": {

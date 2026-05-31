@@ -163,6 +163,42 @@
       "rows": 1984
     },
     {
+      "year": 2018,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2018.json",
+      "rows": 2038
+    },
+    {
+      "year": 2018,
+      "contest_type": "controller",
+      "file": "controller_2018.json",
+      "rows": 2038
+    },
+    {
+      "year": 2018,
+      "contest_type": "governor",
+      "file": "governor_2018.json",
+      "rows": 2038
+    },
+    {
+      "year": 2018,
+      "contest_type": "lieutenant_governor",
+      "file": "lieutenant_governor_2018.json",
+      "rows": 2038
+    },
+    {
+      "year": 2018,
+      "contest_type": "treasurer",
+      "file": "treasurer_2018.json",
+      "rows": 2038
+    },
+    {
+      "year": 2018,
+      "contest_type": "us_senate",
+      "file": "us_senate_2018.json",
+      "rows": 2060
+    },
+    {
       "year": 2020,
       "contest_type": "president",
       "file": "president_2020.json",

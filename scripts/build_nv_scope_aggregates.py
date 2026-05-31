@@ -185,6 +185,16 @@ def load_vtd20_to_neutral() -> dict[str, str]:
                 out[geoid] = nid
     return out
 
+def load_vtd20_to_cd() -> dict[str, str]:
+    out = {}
+    with (CROSSWALKS_DIR / "vtd20_to_cd118.csv").open("r", encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f):
+            geoid = clean(r.get("geoid20"))
+            cd = clean(r.get("district_id")).zfill(2)
+            if geoid and cd:
+                out[geoid] = cd
+    return out
+
 
 def load_cd_to_neutral() -> dict[str, str]:
     vtd_to_cd = {}
@@ -286,6 +296,7 @@ def aggregate_rows(rows: list[dict], group_key_name: str) -> dict:
 def main() -> None:
     cd_to_neutral = load_cd_to_neutral()
     precinct_to_geoid20 = load_precinct_to_geoid20()
+    vtd20_to_cd = load_vtd20_to_cd()
     vtd20_to_neutral = load_vtd20_to_neutral()
     legislative = {"results_by_year": {}}
     congressional = {"results_by_year": {}}
@@ -313,6 +324,25 @@ def main() -> None:
             pkey = (clean(r.get("county", "")), clean(r.get("precinct", "")))
             cd = clean(r.get("district", "")).zfill(2)
             if pkey[0] and pkey[1] and cd:
+                pkey_to_cd[pkey] = cd
+
+        # Fallback map via precinct -> VTD20 -> CD118 for years where house rows are incomplete/missing.
+        all_pkeys = {(clean(r.get("county", "")), clean(r.get("precinct", ""))) for r in rows}
+        for county, precinct in all_pkeys:
+            pkey = (county, precinct)
+            if pkey in pkey_to_cd:
+                continue
+            probes = [(county_norm(county), norm(precinct))]
+            m = re.match(r"^(\d+[A-Za-z0-9\-]*)", clean(precinct))
+            if m:
+                probes.append((county_norm(county), norm(m.group(1))))
+            geoid = ""
+            for pr in probes:
+                if pr in precinct_to_geoid20:
+                    geoid = precinct_to_geoid20[pr]
+                    break
+            cd = vtd20_to_cd.get(geoid, "")
+            if cd:
                 pkey_to_cd[pkey] = cd
 
         # Legislative (district field from OE rows)
