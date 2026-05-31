@@ -196,7 +196,7 @@ def load_vtd20_to_cd() -> dict[str, str]:
     return out
 
 
-def load_cd_to_neutral() -> dict[str, str]:
+def load_cd_to_neutral_shares() -> dict[str, list[tuple[str, float]]]:
     vtd_to_cd = {}
     with (CROSSWALKS_DIR / "vtd20_to_cd118.csv").open("r", encoding="utf-8", newline="") as f:
         for r in csv.DictReader(f):
@@ -211,42 +211,15 @@ def load_cd_to_neutral() -> dict[str, str]:
             if cd and neutral_id:
                 overlap[cd][neutral_id] += 1
 
-    # Build a one-to-one CD -> neutral assignment so all districts remain represented.
-    cds = sorted(overlap.keys())
-    neutrals = sorted({nid for counts in overlap.values() for nid in counts.keys()})
-    if not cds or not neutrals:
-        return {}
-
-    cd_to_neutral = {}
-    used_neutral = set()
-    used_cd = set()
-    candidates = []
-    for cd in cds:
-        for nid in neutrals:
-            score = overlap.get(cd, {}).get(nid, 0)
-            if score > 0:
-                candidates.append((score, cd, nid))
-    candidates.sort(key=lambda x: (-x[0], x[1], x[2]))
-
-    for score, cd, nid in candidates:
-        if cd in used_cd or nid in used_neutral:
+    cd_to_neutral_shares = {}
+    for cd, counts in overlap.items():
+        total = sum(counts.values())
+        if total <= 0:
             continue
-        cd_to_neutral[cd] = nid
-        used_cd.add(cd)
-        used_neutral.add(nid)
-
-    # Fallback for any unassigned CDs (only if overlap is sparse).
-    for cd in cds:
-        if cd in cd_to_neutral:
-            continue
-        for nid, _ in sorted(overlap.get(cd, {}).items(), key=lambda kv: (-kv[1], kv[0])):
-            if nid not in used_neutral:
-                cd_to_neutral[cd] = nid
-                used_neutral.add(nid)
-                break
-        if cd not in cd_to_neutral:
-            cd_to_neutral[cd] = pick_top_name(overlap.get(cd, {}))
-    return cd_to_neutral
+        cd_to_neutral_shares[cd.zfill(2)] = [
+            (nid, cnt / total) for nid, cnt in sorted(counts.items(), key=lambda kv: (-kv[1], kv[0])) if cnt > 0
+        ]
+    return cd_to_neutral_shares
 
 
 def aggregate_rows(rows: list[dict], group_key_name: str) -> dict:
@@ -294,7 +267,7 @@ def aggregate_rows(rows: list[dict], group_key_name: str) -> dict:
 
 
 def main() -> None:
-    cd_to_neutral = load_cd_to_neutral()
+    cd_to_neutral_shares = load_cd_to_neutral_shares()
     precinct_to_geoid20 = load_precinct_to_geoid20()
     vtd20_to_cd = load_vtd20_to_cd()
     vtd20_to_neutral = load_vtd20_to_neutral()
@@ -302,7 +275,7 @@ def main() -> None:
     congressional = {"results_by_year": {}}
     neutral_congressional = {
         "results_by_year": {},
-        "meta": {"cd_to_neutral_fallback": cd_to_neutral, "neutral_source": "neutral_to_vtd20 (from DRA neutral geometry)"},
+        "meta": {"cd_to_neutral_shares": cd_to_neutral_shares, "neutral_source": "neutral_to_vtd20 (from DRA neutral geometry)"},
     }
 
     for path in sorted(OE_DIR.glob("*__nv__general__precinct.csv")):
@@ -398,8 +371,9 @@ def main() -> None:
         if year_cong:
             congressional["results_by_year"][year] = year_cong
 
-        # Neutral congressional (map precinct -> VTD20 -> neutral_id) for the same contest set as congressional.
-        # This is intentionally strict to the neutral crosswalk geography (no CD->neutral backfill).
+        # Neutral congressional for the same contest set as congressional.
+        # Primary path: precinct -> VTD20 -> neutral_id.
+        # Backfill path: unmatched precinct rows are allocated by CD->neutral overlap shares (crosswalk-derived).
         pkey_to_neutral = {}
         for county, precinct in {(clean(r.get("county", "")), clean(r.get("precinct", ""))) for r in rows}:
             probes = [(county_norm(county), norm(precinct))]
@@ -422,25 +396,51 @@ def main() -> None:
             neutral_rows = []
             total_source = 0
             matched_source = 0
+            backfilled_source = 0
             for r in source_rows:
                 pkey = (clean(r.get("county", "")), clean(r.get("precinct", "")))
                 total_source += 1
                 nid = pkey_to_neutral.get(pkey, "")
-                if not nid:
+                if nid:
+                    matched_source += 1
+                    rc = dict(r)
+                    rc["neutral_id"] = nid
+                    neutral_rows.append(rc)
                     continue
-                matched_source += 1
-                rc = dict(r)
-                rc["neutral_id"] = nid
-                neutral_rows.append(rc)
+
+                cd = pkey_to_cd.get(pkey, "") or clean(r.get("district", "")).zfill(2)
+                shares = cd_to_neutral_shares.get(cd, [])
+                votes_total = to_int(r.get("votes", ""))
+                if not shares or votes_total <= 0:
+                    continue
+
+                backfilled_source += 1
+                remaining = votes_total
+                for i, (share_nid, share_w) in enumerate(shares):
+                    if i == len(shares) - 1:
+                        alloc = remaining
+                    else:
+                        alloc = int(round(votes_total * share_w))
+                        alloc = max(0, min(remaining, alloc))
+                    remaining -= alloc
+                    if alloc <= 0:
+                        continue
+                    rc = dict(r)
+                    rc["neutral_id"] = share_nid
+                    rc["votes"] = str(alloc)
+                    neutral_rows.append(rc)
             if neutral_rows:
                 coverage = (matched_source / total_source * 100.0) if total_source else 0.0
+                allocated_coverage = ((matched_source + backfilled_source) / total_source * 100.0) if total_source else 0.0
                 year_neutral[t] = {
                     "general": {"results": aggregate_rows(neutral_rows, "neutral_id")},
                     "meta": {
                         "match_rows": matched_source,
+                        "backfilled_rows": backfilled_source,
                         "total_rows": total_source,
                         "match_coverage_pct": round(coverage, 2),
-                        "mapping": "precinct -> VTD20 -> neutral_id"
+                        "allocated_coverage_pct": round(allocated_coverage, 2),
+                        "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
                     }
                 }
         if year_neutral:
