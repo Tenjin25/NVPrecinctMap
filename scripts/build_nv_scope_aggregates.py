@@ -1,6 +1,7 @@
 import csv
 import json
 import re
+import argparse
 from collections import defaultdict
 from pathlib import Path
 
@@ -355,6 +356,14 @@ def aggregate_rows(rows: list[dict], group_key_name: str) -> dict:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--rebuild-neutral",
+        action="store_true",
+        help="Recompute and overwrite nv_neutral_congressional_aggregated.json.",
+    )
+    args = parser.parse_args()
+
     cd_to_neutral_shares = load_cd_to_neutral_shares()
     precinct_to_geoid20 = load_precinct_to_geoid20()
     vtd20_to_cd = load_vtd20_to_cd()
@@ -457,80 +466,81 @@ def main() -> None:
         if year_cong:
             congressional["results_by_year"][year] = year_cong
 
-        # Neutral congressional for the same contest set as congressional.
-        # Primary path: precinct -> VTD20 -> neutral_id.
-        # Backfill path: unmatched precinct rows are allocated by CD->neutral overlap shares (crosswalk-derived).
-        pkey_to_neutral = {}
-        for county, precinct in {(clean(r.get("county", "")), clean(r.get("precinct", ""))) for r in rows}:
-            if (county, precinct) in precinct_to_neutral_overrides:
-                pkey_to_neutral[(county, precinct)] = precinct_to_neutral_overrides[(county, precinct)]
-                continue
-            probes = build_precinct_match_probes(county, precinct)
-            geoid = ""
-            for pr in probes:
-                if pr in precinct_to_geoid20:
-                    geoid = precinct_to_geoid20[pr]
-                    break
-            if geoid and geoid in vtd20_to_neutral:
-                pkey_to_neutral[(county, precinct)] = vtd20_to_neutral[geoid]
-
-        year_neutral = {}
-        for t in congressional_types:
-            source_rows = by_type.get(t, [])
-            if not source_rows:
-                continue
-            neutral_rows = []
-            total_source = 0
-            matched_source = 0
-            backfilled_source = 0
-            for r in source_rows:
-                pkey = (clean(r.get("county", "")), clean(r.get("precinct", "")))
-                total_source += 1
-                nid = pkey_to_neutral.get(pkey, "")
-                if nid:
-                    matched_source += 1
-                    rc = dict(r)
-                    rc["neutral_id"] = nid
-                    neutral_rows.append(rc)
+        if args.rebuild_neutral:
+            # Neutral congressional for the same contest set as congressional.
+            # Primary path: precinct -> VTD20 -> neutral_id.
+            # Backfill path: unmatched precinct rows are allocated by CD->neutral overlap shares (crosswalk-derived).
+            pkey_to_neutral = {}
+            for county, precinct in {(clean(r.get("county", "")), clean(r.get("precinct", ""))) for r in rows}:
+                if (county, precinct) in precinct_to_neutral_overrides:
+                    pkey_to_neutral[(county, precinct)] = precinct_to_neutral_overrides[(county, precinct)]
                     continue
+                probes = build_precinct_match_probes(county, precinct)
+                geoid = ""
+                for pr in probes:
+                    if pr in precinct_to_geoid20:
+                        geoid = precinct_to_geoid20[pr]
+                        break
+                if geoid and geoid in vtd20_to_neutral:
+                    pkey_to_neutral[(county, precinct)] = vtd20_to_neutral[geoid]
 
-                cd = pkey_to_cd.get(pkey, "") or clean(r.get("district", "")).zfill(2)
-                shares = cd_to_neutral_shares.get(cd, [])
-                votes_total = to_int(r.get("votes", ""))
-                if not shares or votes_total <= 0:
+            year_neutral = {}
+            for t in congressional_types:
+                source_rows = by_type.get(t, [])
+                if not source_rows:
                     continue
-
-                backfilled_source += 1
-                remaining = votes_total
-                for i, (share_nid, share_w) in enumerate(shares):
-                    if i == len(shares) - 1:
-                        alloc = remaining
-                    else:
-                        alloc = int(round(votes_total * share_w))
-                        alloc = max(0, min(remaining, alloc))
-                    remaining -= alloc
-                    if alloc <= 0:
+                neutral_rows = []
+                total_source = 0
+                matched_source = 0
+                backfilled_source = 0
+                for r in source_rows:
+                    pkey = (clean(r.get("county", "")), clean(r.get("precinct", "")))
+                    total_source += 1
+                    nid = pkey_to_neutral.get(pkey, "")
+                    if nid:
+                        matched_source += 1
+                        rc = dict(r)
+                        rc["neutral_id"] = nid
+                        neutral_rows.append(rc)
                         continue
-                    rc = dict(r)
-                    rc["neutral_id"] = share_nid
-                    rc["votes"] = str(alloc)
-                    neutral_rows.append(rc)
-            if neutral_rows:
-                coverage = (matched_source / total_source * 100.0) if total_source else 0.0
-                allocated_coverage = ((matched_source + backfilled_source) / total_source * 100.0) if total_source else 0.0
-                year_neutral[t] = {
-                    "general": {"results": aggregate_rows(neutral_rows, "neutral_id")},
-                    "meta": {
-                        "match_rows": matched_source,
-                        "backfilled_rows": backfilled_source,
-                        "total_rows": total_source,
-                        "match_coverage_pct": round(coverage, 2),
-                        "allocated_coverage_pct": round(allocated_coverage, 2),
-                        "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
+
+                    cd = pkey_to_cd.get(pkey, "") or clean(r.get("district", "")).zfill(2)
+                    shares = cd_to_neutral_shares.get(cd, [])
+                    votes_total = to_int(r.get("votes", ""))
+                    if not shares or votes_total <= 0:
+                        continue
+
+                    backfilled_source += 1
+                    remaining = votes_total
+                    for i, (share_nid, share_w) in enumerate(shares):
+                        if i == len(shares) - 1:
+                            alloc = remaining
+                        else:
+                            alloc = int(round(votes_total * share_w))
+                            alloc = max(0, min(remaining, alloc))
+                        remaining -= alloc
+                        if alloc <= 0:
+                            continue
+                        rc = dict(r)
+                        rc["neutral_id"] = share_nid
+                        rc["votes"] = str(alloc)
+                        neutral_rows.append(rc)
+                if neutral_rows:
+                    coverage = (matched_source / total_source * 100.0) if total_source else 0.0
+                    allocated_coverage = ((matched_source + backfilled_source) / total_source * 100.0) if total_source else 0.0
+                    year_neutral[t] = {
+                        "general": {"results": aggregate_rows(neutral_rows, "neutral_id")},
+                        "meta": {
+                            "match_rows": matched_source,
+                            "backfilled_rows": backfilled_source,
+                            "total_rows": total_source,
+                            "match_coverage_pct": round(coverage, 2),
+                            "allocated_coverage_pct": round(allocated_coverage, 2),
+                            "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
+                        }
                     }
-                }
-        if year_neutral:
-            neutral_congressional["results_by_year"][year] = year_neutral
+            if year_neutral:
+                neutral_congressional["results_by_year"][year] = year_neutral
 
     leg_path = OUT_DIR / "nv_legislative_aggregated.json"
     cong_path = OUT_DIR / "nv_congressional_aggregated.json"
@@ -538,10 +548,14 @@ def main() -> None:
 
     leg_path.write_text(json.dumps(legislative, indent=2), encoding="utf-8")
     cong_path.write_text(json.dumps(congressional, indent=2), encoding="utf-8")
-    neutral_cong_path.write_text(json.dumps(neutral_congressional, indent=2), encoding="utf-8")
+    if args.rebuild_neutral:
+        neutral_cong_path.write_text(json.dumps(neutral_congressional, indent=2), encoding="utf-8")
     print(f"Wrote {leg_path}")
     print(f"Wrote {cong_path}")
-    print(f"Wrote {neutral_cong_path}")
+    if args.rebuild_neutral:
+        print(f"Wrote {neutral_cong_path}")
+    else:
+        print(f"Left existing {neutral_cong_path} unchanged (use --rebuild-neutral to overwrite)")
 
     # Write high-impact unmatched precinct rows report for targeted override cleanup.
     report_rows = []
