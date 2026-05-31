@@ -31240,6 +31240,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Quick info functions for hover tooltips
     function getQuickCountyInfo(countyName) {
+      const countyJurisdictionLabel = formatCountyJurisdiction(countyName);
       // Find the most recent presidential election data
       const recent = electionData
         .filter(row => row.county === countyName && row.president_total > 0)
@@ -31253,14 +31254,14 @@ document.addEventListener('DOMContentLoaded', function() {
         const marginAbs = Math.abs(margin);
         
         return `<div class="quick-tooltip">
-          <strong>${countyName} County</strong><br>
+          <strong>${countyJurisdictionLabel}</strong><br>
           ${recent.year}: ${winner}+${toFixedForDisplay(marginAbs, 2)}%<br>
           <em>Click for full trends</em>
         </div>`;
       }
       
       return `<div class="quick-tooltip">
-        <strong>${countyName} County</strong><br>
+        <strong>${countyJurisdictionLabel}</strong><br>
         <em>Click for details</em>
       </div>`;
     }
