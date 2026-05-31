@@ -1,0 +1,55 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 0,
+        "rep_votes": 112929,
+        "other_votes": 214200,
+        "total_votes": 327129,
+        "dem_candidate": "",
+        "rep_candidate": "Steven E. Martin",
+        "margin": 112929,
+        "margin_pct": 34.52,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "02": {
+        "dem_votes": 0,
+        "rep_votes": 330255,
+        "other_votes": 164554,
+        "total_votes": 494809,
+        "dem_candidate": "",
+        "rep_candidate": "Steven E. Martin",
+        "margin": 330255,
+        "margin_pct": 66.74,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "03": {
+        "dem_votes": 0,
+        "rep_votes": 219803,
+        "other_votes": 298134,
+        "total_votes": 517937,
+        "dem_candidate": "",
+        "rep_candidate": "Steven E. Martin",
+        "margin": 219803,
+        "margin_pct": 42.44,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

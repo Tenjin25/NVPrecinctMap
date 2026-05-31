@@ -1,0 +1,55 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "attorney_general",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 0,
+        "rep_votes": 48512,
+        "other_votes": 118597,
+        "total_votes": 167109,
+        "dem_candidate": "",
+        "rep_candidate": "Travis Barrick",
+        "margin": 48512,
+        "margin_pct": 29.03,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "02": {
+        "dem_votes": 0,
+        "rep_votes": 107104,
+        "other_votes": 164046,
+        "total_votes": 271150,
+        "dem_candidate": "",
+        "rep_candidate": "Travis Barrick",
+        "margin": 107104,
+        "margin_pct": 39.5,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "03": {
+        "dem_votes": 0,
+        "rep_votes": 95415,
+        "other_votes": 170153,
+        "total_votes": 265568,
+        "dem_candidate": "",
+        "rep_candidate": "Travis Barrick",
+        "margin": 95415,
+        "margin_pct": 35.93,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      }
+    }
+  }
+}

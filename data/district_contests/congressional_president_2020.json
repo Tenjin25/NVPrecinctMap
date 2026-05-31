@@ -1,0 +1,69 @@
+{
+  "year": 2020,
+  "scope": "congressional",
+  "contest_type": "president",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 143410,
+        "rep_votes": 84964,
+        "other_votes": 4949,
+        "total_votes": 233323,
+        "dem_candidate": "Joseph R. Biden",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -58446,
+        "margin_pct": -25.05,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "02": {
+        "dem_votes": 170895,
+        "rep_votes": 210011,
+        "other_votes": 11332,
+        "total_votes": 392238,
+        "dem_candidate": "Joseph R. Biden",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 39116,
+        "margin_pct": 9.97,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "03": {
+        "dem_votes": 214147,
+        "rep_votes": 213257,
+        "other_votes": 8312,
+        "total_votes": 435716,
+        "dem_candidate": "Joseph R. Biden",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -890,
+        "margin_pct": -0.2,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "04": {
+        "dem_votes": 174771,
+        "rep_votes": 161235,
+        "other_votes": 7394,
+        "total_votes": 343400,
+        "dem_candidate": "Joseph R. Biden",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -13536,
+        "margin_pct": -3.94,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      }
+    }
+  }
+}

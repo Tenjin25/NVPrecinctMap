@@ -1,0 +1,55 @@
+{
+  "year": 2006,
+  "scope": "congressional",
+  "contest_type": "controller",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 67723,
+        "rep_votes": 48521,
+        "other_votes": 13933,
+        "total_votes": 130177,
+        "dem_candidate": "Kim R. Wallin",
+        "rep_candidate": "Steve Martin",
+        "margin": -19202,
+        "margin_pct": -14.75,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "02": {
+        "dem_votes": 93864,
+        "rep_votes": 110782,
+        "other_votes": 26554,
+        "total_votes": 231200,
+        "dem_candidate": "Kim R. Wallin",
+        "rep_candidate": "Steve Martin",
+        "margin": 16918,
+        "margin_pct": 7.32,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "03": {
+        "dem_votes": 96011,
+        "rep_votes": 91319,
+        "other_votes": 21599,
+        "total_votes": 208929,
+        "dem_candidate": "Kim R. Wallin",
+        "rep_candidate": "Steve Martin",
+        "margin": -4692,
+        "margin_pct": -2.25,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      }
+    }
+  }
+}

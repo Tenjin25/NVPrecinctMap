@@ -3,69 +3,65 @@
   "scope": "congressional",
   "contest_type": "us_house",
   "meta": {
-    "source": "nv_openelections_precinct+house_component_inference",
-    "office": "US HOUSE",
-    "nongeo_allocation_mode": "precinct_component",
-    "match_coverage_pct": 0.0,
-    "matched_precinct_keys": 0,
-    "total_precinct_keys": 0
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
   },
   "general": {
     "results": {
-      "1": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
-        "dem_candidate": "",
-        "rep_candidate": "",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "TIE",
+      "01": {
+        "dem_votes": 115689,
+        "rep_votes": 103099,
+        "other_votes": 5533,
+        "total_votes": 224321,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mark Robertson",
+        "margin": -12590,
+        "margin_pct": -5.61,
+        "winner": "DEM",
         "competitiveness": {
-          "color": "#f7f7f7"
+          "color": "#c6dbef"
         }
       },
-      "2": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
-        "dem_candidate": "",
-        "rep_candidate": "",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "TIE",
+      "02": {
+        "dem_votes": 117327,
+        "rep_votes": 185355,
+        "other_votes": 7654,
+        "total_votes": 310336,
+        "dem_candidate": "Elizabeth M. Krause",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 68028,
+        "margin_pct": 21.92,
+        "winner": "REP",
         "competitiveness": {
-          "color": "#f7f7f7"
+          "color": "#cb181d"
         }
       },
-      "3": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+      "03": {
+        "dem_votes": 131078,
+        "rep_votes": 121057,
         "other_votes": 0,
-        "total_votes": 0,
-        "dem_candidate": "",
-        "rep_candidate": "",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "TIE",
+        "total_votes": 252135,
+        "dem_candidate": "Susie Lee",
+        "rep_candidate": "April Becker",
+        "margin": -10021,
+        "margin_pct": -3.97,
+        "winner": "DEM",
         "competitiveness": {
-          "color": "#f7f7f7"
+          "color": "#c6dbef"
         }
       },
-      "4": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+      "04": {
+        "dem_votes": 116563,
+        "rep_votes": 105790,
         "other_votes": 0,
-        "total_votes": 0,
-        "dem_candidate": "",
-        "rep_candidate": "",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "TIE",
+        "total_votes": 222353,
+        "dem_candidate": "Steven A. Horsford",
+        "rep_candidate": "Sam Peters",
+        "margin": -10773,
+        "margin_pct": -4.84,
+        "winner": "DEM",
         "competitiveness": {
-          "color": "#f7f7f7"
+          "color": "#c6dbef"
         }
       }
     }

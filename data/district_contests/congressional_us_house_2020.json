@@ -1,0 +1,69 @@
+{
+  "year": 2020,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 137861,
+        "rep_votes": 0,
+        "other_votes": 85341,
+        "total_votes": 223202,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "",
+        "margin": -137861,
+        "margin_pct": -61.77,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "02": {
+        "dem_votes": 0,
+        "rep_votes": 215948,
+        "other_votes": 166523,
+        "total_votes": 382471,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 215948,
+        "margin_pct": 56.46,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "03": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 417201,
+        "total_votes": 417201,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "04": {
+        "dem_votes": 0,
+        "rep_votes": 152193,
+        "other_votes": 180127,
+        "total_votes": 332320,
+        "dem_candidate": "",
+        "rep_candidate": "Jim Marchant",
+        "margin": 152193,
+        "margin_pct": 45.8,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

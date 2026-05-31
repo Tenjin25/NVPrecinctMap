@@ -1,6 +1,412 @@
 {
   "files": [
     {
+      "year": 2004,
+      "scope": "congressional",
+      "contest_type": "president",
+      "file": "congressional_president_2004.json",
+      "districts": 3
+    },
+    {
+      "year": 2004,
+      "scope": "congressional",
+      "contest_type": "us_house",
+      "file": "congressional_us_house_2004.json",
+      "districts": 3
+    },
+    {
+      "year": 2004,
+      "scope": "congressional",
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2004.json",
+      "districts": 3
+    },
+    {
+      "year": 2004,
+      "scope": "state_house",
+      "contest_type": "state_assembly",
+      "file": "state_house_state_assembly_2004.json",
+      "districts": 42
+    },
+    {
+      "year": 2004,
+      "scope": "state_senate",
+      "contest_type": "state_senate",
+      "file": "state_senate_state_senate_2004.json",
+      "districts": 8
+    },
+    {
+      "year": 2006,
+      "scope": "congressional",
+      "contest_type": "attorney_general",
+      "file": "congressional_attorney_general_2006.json",
+      "districts": 3
+    },
+    {
+      "year": 2006,
+      "scope": "congressional",
+      "contest_type": "controller",
+      "file": "congressional_controller_2006.json",
+      "districts": 3
+    },
+    {
+      "year": 2006,
+      "scope": "congressional",
+      "contest_type": "governor",
+      "file": "congressional_governor_2006.json",
+      "districts": 3
+    },
+    {
+      "year": 2006,
+      "scope": "congressional",
+      "contest_type": "lieutenant_governor",
+      "file": "congressional_lieutenant_governor_2006.json",
+      "districts": 3
+    },
+    {
+      "year": 2006,
+      "scope": "congressional",
+      "contest_type": "treasurer",
+      "file": "congressional_treasurer_2006.json",
+      "districts": 3
+    },
+    {
+      "year": 2006,
+      "scope": "congressional",
+      "contest_type": "us_house",
+      "file": "congressional_us_house_2006.json",
+      "districts": 3
+    },
+    {
+      "year": 2006,
+      "scope": "congressional",
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2006.json",
+      "districts": 3
+    },
+    {
+      "year": 2006,
+      "scope": "state_house",
+      "contest_type": "state_assembly",
+      "file": "state_house_state_assembly_2006.json",
+      "districts": 42
+    },
+    {
+      "year": 2006,
+      "scope": "state_senate",
+      "contest_type": "state_senate",
+      "file": "state_senate_state_senate_2006.json",
+      "districts": 10
+    },
+    {
+      "year": 2008,
+      "scope": "congressional",
+      "contest_type": "president",
+      "file": "congressional_president_2008.json",
+      "districts": 3
+    },
+    {
+      "year": 2008,
+      "scope": "congressional",
+      "contest_type": "treasurer",
+      "file": "congressional_treasurer_2008.json",
+      "districts": 1
+    },
+    {
+      "year": 2008,
+      "scope": "congressional",
+      "contest_type": "us_house",
+      "file": "congressional_us_house_2008.json",
+      "districts": 3
+    },
+    {
+      "year": 2008,
+      "scope": "state_house",
+      "contest_type": "state_assembly",
+      "file": "state_house_state_assembly_2008.json",
+      "districts": 42
+    },
+    {
+      "year": 2008,
+      "scope": "state_senate",
+      "contest_type": "state_senate",
+      "file": "state_senate_state_senate_2008.json",
+      "districts": 8
+    },
+    {
+      "year": 2010,
+      "scope": "congressional",
+      "contest_type": "attorney_general",
+      "file": "congressional_attorney_general_2010.json",
+      "districts": 3
+    },
+    {
+      "year": 2010,
+      "scope": "congressional",
+      "contest_type": "controller",
+      "file": "congressional_controller_2010.json",
+      "districts": 3
+    },
+    {
+      "year": 2010,
+      "scope": "congressional",
+      "contest_type": "governor",
+      "file": "congressional_governor_2010.json",
+      "districts": 3
+    },
+    {
+      "year": 2010,
+      "scope": "congressional",
+      "contest_type": "lieutenant_governor",
+      "file": "congressional_lieutenant_governor_2010.json",
+      "districts": 3
+    },
+    {
+      "year": 2010,
+      "scope": "congressional",
+      "contest_type": "treasurer",
+      "file": "congressional_treasurer_2010.json",
+      "districts": 3
+    },
+    {
+      "year": 2010,
+      "scope": "congressional",
+      "contest_type": "us_house",
+      "file": "congressional_us_house_2010.json",
+      "districts": 3
+    },
+    {
+      "year": 2010,
+      "scope": "congressional",
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2010.json",
+      "districts": 3
+    },
+    {
+      "year": 2010,
+      "scope": "state_house",
+      "contest_type": "state_assembly",
+      "file": "state_house_state_assembly_2010.json",
+      "districts": 42
+    },
+    {
+      "year": 2010,
+      "scope": "state_senate",
+      "contest_type": "state_senate",
+      "file": "state_senate_state_senate_2010.json",
+      "districts": 10
+    },
+    {
+      "year": 2012,
+      "scope": "congressional",
+      "contest_type": "president",
+      "file": "congressional_president_2012.json",
+      "districts": 4
+    },
+    {
+      "year": 2012,
+      "scope": "congressional",
+      "contest_type": "treasurer",
+      "file": "congressional_treasurer_2012.json",
+      "districts": 1
+    },
+    {
+      "year": 2012,
+      "scope": "congressional",
+      "contest_type": "us_house",
+      "file": "congressional_us_house_2012.json",
+      "districts": 4
+    },
+    {
+      "year": 2012,
+      "scope": "congressional",
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2012.json",
+      "districts": 4
+    },
+    {
+      "year": 2012,
+      "scope": "state_house",
+      "contest_type": "state_assembly",
+      "file": "state_house_state_assembly_2012.json",
+      "districts": 42
+    },
+    {
+      "year": 2012,
+      "scope": "state_senate",
+      "contest_type": "state_senate",
+      "file": "state_senate_state_senate_2012.json",
+      "districts": 12
+    },
+    {
+      "year": 2014,
+      "scope": "congressional",
+      "contest_type": "attorney_general",
+      "file": "congressional_attorney_general_2014.json",
+      "districts": 4
+    },
+    {
+      "year": 2014,
+      "scope": "congressional",
+      "contest_type": "controller",
+      "file": "congressional_controller_2014.json",
+      "districts": 4
+    },
+    {
+      "year": 2014,
+      "scope": "congressional",
+      "contest_type": "governor",
+      "file": "congressional_governor_2014.json",
+      "districts": 4
+    },
+    {
+      "year": 2014,
+      "scope": "congressional",
+      "contest_type": "lieutenant_governor",
+      "file": "congressional_lieutenant_governor_2014.json",
+      "districts": 4
+    },
+    {
+      "year": 2014,
+      "scope": "congressional",
+      "contest_type": "treasurer",
+      "file": "congressional_treasurer_2014.json",
+      "districts": 4
+    },
+    {
+      "year": 2014,
+      "scope": "congressional",
+      "contest_type": "us_house",
+      "file": "congressional_us_house_2014.json",
+      "districts": 4
+    },
+    {
+      "year": 2014,
+      "scope": "state_house",
+      "contest_type": "state_assembly",
+      "file": "state_house_state_assembly_2014.json",
+      "districts": 42
+    },
+    {
+      "year": 2014,
+      "scope": "state_senate",
+      "contest_type": "state_senate",
+      "file": "state_senate_state_senate_2014.json",
+      "districts": 11
+    },
+    {
+      "year": 2016,
+      "scope": "congressional",
+      "contest_type": "president",
+      "file": "congressional_president_2016.json",
+      "districts": 4
+    },
+    {
+      "year": 2016,
+      "scope": "congressional",
+      "contest_type": "treasurer",
+      "file": "congressional_treasurer_2016.json",
+      "districts": 2
+    },
+    {
+      "year": 2016,
+      "scope": "congressional",
+      "contest_type": "us_house",
+      "file": "congressional_us_house_2016.json",
+      "districts": 4
+    },
+    {
+      "year": 2016,
+      "scope": "congressional",
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2016.json",
+      "districts": 4
+    },
+    {
+      "year": 2016,
+      "scope": "state_house",
+      "contest_type": "state_assembly",
+      "file": "state_house_state_assembly_2016.json",
+      "districts": 42
+    },
+    {
+      "year": 2016,
+      "scope": "state_senate",
+      "contest_type": "state_senate",
+      "file": "state_senate_state_senate_2016.json",
+      "districts": 11
+    },
+    {
+      "year": 2020,
+      "scope": "congressional",
+      "contest_type": "president",
+      "file": "congressional_president_2020.json",
+      "districts": 4
+    },
+    {
+      "year": 2020,
+      "scope": "congressional",
+      "contest_type": "treasurer",
+      "file": "congressional_treasurer_2020.json",
+      "districts": 2
+    },
+    {
+      "year": 2020,
+      "scope": "congressional",
+      "contest_type": "us_house",
+      "file": "congressional_us_house_2020.json",
+      "districts": 4
+    },
+    {
+      "year": 2020,
+      "scope": "state_house",
+      "contest_type": "state_assembly",
+      "file": "state_house_state_assembly_2020.json",
+      "districts": 42
+    },
+    {
+      "year": 2020,
+      "scope": "state_senate",
+      "contest_type": "state_senate",
+      "file": "state_senate_state_senate_2020.json",
+      "districts": 10
+    },
+    {
+      "year": 2022,
+      "scope": "congressional",
+      "contest_type": "attorney_general",
+      "file": "congressional_attorney_general_2022.json",
+      "districts": 4
+    },
+    {
+      "year": 2022,
+      "scope": "congressional",
+      "contest_type": "controller",
+      "file": "congressional_controller_2022.json",
+      "districts": 4
+    },
+    {
+      "year": 2022,
+      "scope": "congressional",
+      "contest_type": "governor",
+      "file": "congressional_governor_2022.json",
+      "districts": 4
+    },
+    {
+      "year": 2022,
+      "scope": "congressional",
+      "contest_type": "lieutenant_governor",
+      "file": "congressional_lieutenant_governor_2022.json",
+      "districts": 4
+    },
+    {
+      "year": 2022,
+      "scope": "congressional",
+      "contest_type": "treasurer",
+      "file": "congressional_treasurer_2022.json",
+      "districts": 4
+    },
+    {
       "year": 2022,
       "scope": "congressional",
       "contest_type": "us_house",
@@ -12,6 +418,27 @@
       "scope": "congressional",
       "contest_type": "us_senate",
       "file": "congressional_us_senate_2022.json",
+      "districts": 4
+    },
+    {
+      "year": 2022,
+      "scope": "state_house",
+      "contest_type": "state_assembly",
+      "file": "state_house_state_assembly_2022.json",
+      "districts": 42
+    },
+    {
+      "year": 2022,
+      "scope": "state_senate",
+      "contest_type": "state_senate",
+      "file": "state_senate_state_senate_2022.json",
+      "districts": 11
+    },
+    {
+      "year": 2024,
+      "scope": "congressional",
+      "contest_type": "president",
+      "file": "congressional_president_2024.json",
       "districts": 4
     },
     {
@@ -27,6 +454,20 @@
       "contest_type": "us_senate",
       "file": "congressional_us_senate_2024.json",
       "districts": 4
+    },
+    {
+      "year": 2024,
+      "scope": "state_house",
+      "contest_type": "state_assembly",
+      "file": "state_house_state_assembly_2024.json",
+      "districts": 42
+    },
+    {
+      "year": 2024,
+      "scope": "state_senate",
+      "contest_type": "state_senate",
+      "file": "state_senate_state_senate_2024.json",
+      "districts": 10
     }
   ]
 }

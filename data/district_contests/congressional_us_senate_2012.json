@@ -1,0 +1,69 @@
+{
+  "year": 2012,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 107201,
+        "rep_votes": 57838,
+        "other_votes": 17992,
+        "total_votes": 183031,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -49363,
+        "margin_pct": -26.97,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "02": {
+        "dem_votes": 99368,
+        "rep_votes": 161888,
+        "other_votes": 28703,
+        "total_votes": 289959,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 62520,
+        "margin_pct": 21.56,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "03": {
+        "dem_votes": 120814,
+        "rep_votes": 133618,
+        "other_votes": 24329,
+        "total_votes": 278761,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 12804,
+        "margin_pct": 4.59,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "04": {
+        "dem_votes": 118547,
+        "rep_votes": 104065,
+        "other_votes": 23004,
+        "total_votes": 245616,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -14482,
+        "margin_pct": -5.9,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      }
+    }
+  }
+}

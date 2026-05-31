@@ -1,0 +1,55 @@
+{
+  "year": 2004,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 133508,
+        "rep_votes": 62963,
+        "other_votes": 5859,
+        "total_votes": 202330,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Russ Mickelson",
+        "margin": -70545,
+        "margin_pct": -34.87,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "02": {
+        "dem_votes": 79936,
+        "rep_votes": 195332,
+        "other_votes": 15626,
+        "total_votes": 290894,
+        "dem_candidate": "Angie G. Cochran",
+        "rep_candidate": "Jim Gibbons",
+        "margin": 115396,
+        "margin_pct": 39.67,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "03": {
+        "dem_votes": 120334,
+        "rep_votes": 162194,
+        "other_votes": 15309,
+        "total_votes": 297837,
+        "dem_candidate": "Tom Gallagher",
+        "rep_candidate": "Jon Porter",
+        "margin": 41860,
+        "margin_pct": 14.05,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "year": 2016,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 115885,
+        "rep_votes": 58465,
+        "other_votes": 18247,
+        "total_votes": 192597,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Joe Heck",
+        "margin": -57420,
+        "margin_pct": -29.81,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "02": {
+        "dem_votes": 127841,
+        "rep_votes": 170946,
+        "other_votes": 24170,
+        "total_votes": 322957,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Joe Heck",
+        "margin": 43105,
+        "margin_pct": 13.35,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "03": {
+        "dem_votes": 145101,
+        "rep_votes": 149756,
+        "other_votes": 25096,
+        "total_votes": 319953,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Joe Heck",
+        "margin": 4655,
+        "margin_pct": 1.45,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "04": {
+        "dem_votes": 133042,
+        "rep_votes": 115666,
+        "other_votes": 23685,
+        "total_votes": 272393,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Joe Heck",
+        "margin": -17376,
+        "margin_pct": -6.38,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      }
+    }
+  }
+}

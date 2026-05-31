@@ -1,0 +1,69 @@
+{
+  "year": 2022,
+  "scope": "congressional",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 110884,
+        "rep_votes": 103495,
+        "other_votes": 10961,
+        "total_votes": 225340,
+        "dem_candidate": "Elizabeth L. Cano Burkhead",
+        "rep_candidate": "Stavros Anthony",
+        "margin": -7389,
+        "margin_pct": -3.28,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "02": {
+        "dem_votes": 121899,
+        "rep_votes": 170635,
+        "other_votes": 16960,
+        "total_votes": 309494,
+        "dem_candidate": "Elizabeth L. Cano Burkhead",
+        "rep_candidate": "Stavros Anthony",
+        "margin": 48736,
+        "margin_pct": 15.75,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "03": {
+        "dem_votes": 123430,
+        "rep_votes": 120551,
+        "other_votes": 9898,
+        "total_votes": 253879,
+        "dem_candidate": "Elizabeth L. Cano Burkhead",
+        "rep_candidate": "Stavros Anthony",
+        "margin": -2879,
+        "margin_pct": -1.13,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "04": {
+        "dem_votes": 107547,
+        "rep_votes": 106082,
+        "other_votes": 11197,
+        "total_votes": 224826,
+        "dem_candidate": "Elizabeth L. Cano Burkhead",
+        "rep_candidate": "Stavros Anthony",
+        "margin": -1465,
+        "margin_pct": -0.65,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#e1f5fe"
+        }
+      }
+    }
+  }
+}

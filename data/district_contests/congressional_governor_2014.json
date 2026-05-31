@@ -1,0 +1,69 @@
+{
+  "year": 2014,
+  "scope": "congressional",
+  "contest_type": "governor",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 0,
+        "rep_votes": 47921,
+        "other_votes": 33069,
+        "total_votes": 80990,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 47921,
+        "margin_pct": 59.17,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "02": {
+        "dem_votes": 0,
+        "rep_votes": 146036,
+        "other_votes": 41711,
+        "total_votes": 187747,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 146036,
+        "margin_pct": 77.78,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "03": {
+        "dem_votes": 0,
+        "rep_votes": 104519,
+        "other_votes": 41692,
+        "total_votes": 146211,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 104519,
+        "margin_pct": 71.49,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "04": {
+        "dem_votes": 0,
+        "rep_votes": 87552,
+        "other_votes": 44435,
+        "total_votes": 131987,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 87552,
+        "margin_pct": 66.33,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

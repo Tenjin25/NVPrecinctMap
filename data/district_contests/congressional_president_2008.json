@@ -1,0 +1,55 @@
+{
+  "year": 2008,
+  "scope": "congressional",
+  "contest_type": "president",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 0,
+        "rep_votes": 85136,
+        "other_votes": 163428,
+        "total_votes": 248564,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 85136,
+        "margin_pct": 34.25,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "02": {
+        "dem_votes": 0,
+        "rep_votes": 167577,
+        "other_votes": 175931,
+        "total_votes": 343508,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 167577,
+        "margin_pct": 48.78,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "03": {
+        "dem_votes": 0,
+        "rep_votes": 159579,
+        "other_votes": 215128,
+        "total_votes": 374707,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 159579,
+        "margin_pct": 42.59,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

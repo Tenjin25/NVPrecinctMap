@@ -1,0 +1,153 @@
+{
+  "year": 2010,
+  "scope": "state_senate",
+  "contest_type": "state_senate",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 5756,
+        "other_votes": 12056,
+        "total_votes": 17812,
+        "dem_candidate": "",
+        "rep_candidate": "Phillip G. Salerno",
+        "margin": 5756,
+        "margin_pct": 32.32,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 3438,
+        "other_votes": 9205,
+        "total_votes": 12643,
+        "dem_candidate": "",
+        "rep_candidate": "Henry Tyler",
+        "margin": 3438,
+        "margin_pct": 27.19,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 35181,
+        "other_votes": 25531,
+        "total_votes": 60712,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Hardy",
+        "margin": 35181,
+        "margin_pct": 57.95,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 25509,
+        "other_votes": 25656,
+        "total_votes": 51165,
+        "dem_candidate": "",
+        "rep_candidate": "Don Gustavson",
+        "margin": 25509,
+        "margin_pct": 49.86,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 27265,
+        "other_votes": 9629,
+        "total_votes": 36894,
+        "dem_candidate": "",
+        "rep_candidate": "Ben Kieckhefer",
+        "margin": 27265,
+        "margin_pct": 73.9,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 38401,
+        "other_votes": 35638,
+        "total_votes": 74039,
+        "dem_candidate": "",
+        "rep_candidate": "Michael Roberson",
+        "margin": 38401,
+        "margin_pct": 51.87,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 13127,
+        "other_votes": 24843,
+        "total_votes": 37970,
+        "dem_candidate": "",
+        "rep_candidate": "Anthony T. Wright",
+        "margin": 13127,
+        "margin_pct": 34.57,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 17125,
+        "other_votes": 13572,
+        "total_votes": 30697,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara K. Cegavske",
+        "margin": 17125,
+        "margin_pct": 55.79,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 41633,
+        "other_votes": 41711,
+        "total_votes": 83344,
+        "dem_candidate": "",
+        "rep_candidate": "Elizabeth Halseth",
+        "margin": 41633,
+        "margin_pct": 49.95,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "rict": {
+        "dem_votes": 0,
+        "rep_votes": 26463,
+        "other_votes": 13704,
+        "total_votes": 40167,
+        "dem_candidate": "",
+        "rep_candidate": "James A. Settelmeyer",
+        "margin": 26463,
+        "margin_pct": 65.88,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 0,
+        "rep_votes": 70615,
+        "other_votes": 95545,
+        "total_votes": 166160,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 70615,
+        "margin_pct": 42.5,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "02": {
+        "dem_votes": 0,
+        "rep_votes": 152622,
+        "other_votes": 118970,
+        "total_votes": 271592,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 152622,
+        "margin_pct": 56.2,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "03": {
+        "dem_votes": 0,
+        "rep_votes": 137058,
+        "other_votes": 128182,
+        "total_votes": 265240,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 137058,
+        "margin_pct": 51.67,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

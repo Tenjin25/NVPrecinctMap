@@ -1,0 +1,55 @@
+{
+  "year": 2006,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 64294,
+        "rep_votes": 64058,
+        "other_votes": 4673,
+        "total_votes": 133025,
+        "dem_candidate": "Jack Carter",
+        "rep_candidate": "John Ensign",
+        "margin": -236,
+        "margin_pct": -0.18,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "02": {
+        "dem_votes": 84931,
+        "rep_votes": 140700,
+        "other_votes": 9683,
+        "total_votes": 235314,
+        "dem_candidate": "Jack Carter",
+        "rep_candidate": "John Ensign",
+        "margin": 55769,
+        "margin_pct": 23.7,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "03": {
+        "dem_votes": 89395,
+        "rep_votes": 117447,
+        "other_votes": 6851,
+        "total_votes": 213693,
+        "dem_candidate": "Jack Carter",
+        "rep_candidate": "John Ensign",
+        "margin": 28052,
+        "margin_pct": 13.13,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      }
+    }
+  }
+}

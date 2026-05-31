@@ -1,0 +1,69 @@
+{
+  "year": 2022,
+  "scope": "congressional",
+  "contest_type": "governor",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 114452,
+        "rep_votes": 103160,
+        "other_votes": 8469,
+        "total_votes": 226081,
+        "dem_candidate": "Steve Sisolak",
+        "rep_candidate": "Joe Lombardo",
+        "margin": -11292,
+        "margin_pct": -4.99,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "02": {
+        "dem_votes": 127624,
+        "rep_votes": 170756,
+        "other_votes": 13890,
+        "total_votes": 312270,
+        "dem_candidate": "Steve Sisolak",
+        "rep_candidate": "Joe Lombardo",
+        "margin": 43132,
+        "margin_pct": 13.81,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "03": {
+        "dem_votes": 128480,
+        "rep_votes": 118574,
+        "other_votes": 7848,
+        "total_votes": 254902,
+        "dem_candidate": "Steve Sisolak",
+        "rep_candidate": "Joe Lombardo",
+        "margin": -9906,
+        "margin_pct": -3.89,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "04": {
+        "dem_votes": 111316,
+        "rep_votes": 104657,
+        "other_votes": 9479,
+        "total_votes": 225452,
+        "dem_candidate": "Steve Sisolak",
+        "rep_candidate": "Joe Lombardo",
+        "margin": -6659,
+        "margin_pct": -2.95,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      }
+    }
+  }
+}

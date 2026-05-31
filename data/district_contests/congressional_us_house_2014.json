@@ -1,0 +1,69 @@
+{
+  "year": 2014,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 80297,
+        "total_votes": 80297,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "02": {
+        "dem_votes": 0,
+        "rep_votes": 122233,
+        "other_votes": 63720,
+        "total_votes": 185953,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 122233,
+        "margin_pct": 65.73,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "03": {
+        "dem_votes": 0,
+        "rep_votes": 88493,
+        "other_votes": 57168,
+        "total_votes": 145661,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 88493,
+        "margin_pct": 60.75,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "04": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 130663,
+        "total_votes": 130663,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      }
+    }
+  }
+}

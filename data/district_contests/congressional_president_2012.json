@@ -1,0 +1,69 @@
+{
+  "year": 2012,
+  "scope": "congressional",
+  "contest_type": "president",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 0,
+        "rep_votes": 60800,
+        "other_votes": 126856,
+        "total_votes": 187656,
+        "dem_candidate": "",
+        "rep_candidate": "Mitt Romney",
+        "margin": 60800,
+        "margin_pct": 32.4,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "02": {
+        "dem_votes": 0,
+        "rep_votes": 155000,
+        "other_votes": 138137,
+        "total_votes": 293137,
+        "dem_candidate": "",
+        "rep_candidate": "Mitt Romney",
+        "margin": 155000,
+        "margin_pct": 52.88,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "03": {
+        "dem_votes": 0,
+        "rep_votes": 138179,
+        "other_votes": 145365,
+        "total_votes": 283544,
+        "dem_candidate": "",
+        "rep_candidate": "Mitt Romney",
+        "margin": 138179,
+        "margin_pct": 48.73,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "04": {
+        "dem_votes": 0,
+        "rep_votes": 109186,
+        "other_votes": 140681,
+        "total_votes": 249867,
+        "dem_candidate": "",
+        "rep_candidate": "Mitt Romney",
+        "margin": 109186,
+        "margin_pct": 43.7,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

@@ -3,69 +3,65 @@
   "scope": "congressional",
   "contest_type": "us_senate",
   "meta": {
-    "source": "nv_openelections_precinct+house_component_inference",
-    "office": "US SENATE",
-    "nongeo_allocation_mode": "precinct_component",
-    "match_coverage_pct": 0.0,
-    "matched_precinct_keys": 0,
-    "total_precinct_keys": 0
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
   },
   "general": {
     "results": {
-      "1": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
-        "dem_candidate": "",
-        "rep_candidate": "",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "TIE",
+      "01": {
+        "dem_votes": 117886,
+        "rep_votes": 101433,
+        "other_votes": 7274,
+        "total_votes": 226593,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -16453,
+        "margin_pct": -7.26,
+        "winner": "DEM",
         "competitiveness": {
-          "color": "#f7f7f7"
+          "color": "#c6dbef"
         }
       },
-      "2": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
-        "dem_candidate": "",
-        "rep_candidate": "",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "TIE",
+      "02": {
+        "dem_votes": 133798,
+        "rep_votes": 168374,
+        "other_votes": 10425,
+        "total_votes": 312597,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 34576,
+        "margin_pct": 11.06,
+        "winner": "REP",
         "competitiveness": {
-          "color": "#f7f7f7"
+          "color": "#ef3b2c"
         }
       },
-      "3": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
-        "dem_candidate": "",
-        "rep_candidate": "",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "TIE",
+      "03": {
+        "dem_votes": 131895,
+        "rep_votes": 116811,
+        "other_votes": 6617,
+        "total_votes": 255323,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -15084,
+        "margin_pct": -5.91,
+        "winner": "DEM",
         "competitiveness": {
-          "color": "#f7f7f7"
+          "color": "#c6dbef"
         }
       },
-      "4": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
-        "dem_candidate": "",
-        "rep_candidate": "",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "TIE",
+      "04": {
+        "dem_votes": 114609,
+        "rep_votes": 103541,
+        "other_votes": 7818,
+        "total_votes": 225968,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -11068,
+        "margin_pct": -4.9,
+        "winner": "DEM",
         "competitiveness": {
-          "color": "#f7f7f7"
+          "color": "#c6dbef"
         }
       }
     }

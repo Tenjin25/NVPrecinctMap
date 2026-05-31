@@ -1,0 +1,69 @@
+{
+  "year": 2016,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 116530,
+        "rep_votes": 54171,
+        "other_votes": 17640,
+        "total_votes": 188341,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mary Perry",
+        "margin": -62359,
+        "margin_pct": -33.11,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "02": {
+        "dem_votes": 115665,
+        "rep_votes": 182546,
+        "other_votes": 14931,
+        "total_votes": 313142,
+        "dem_candidate": "H.D. C. Evans",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 66881,
+        "margin_pct": 21.36,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "03": {
+        "dem_votes": 146843,
+        "rep_votes": 142900,
+        "other_votes": 21164,
+        "total_votes": 310907,
+        "dem_candidate": "Jacky Rosen",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": -3943,
+        "margin_pct": -1.27,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "04": {
+        "dem_votes": 128960,
+        "rep_votes": 118230,
+        "other_votes": 18523,
+        "total_votes": 265713,
+        "dem_candidate": "Ruben Kihuen",
+        "rep_candidate": "Cresent Hardy",
+        "margin": -10730,
+        "margin_pct": -4.04,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      }
+    }
+  }
+}

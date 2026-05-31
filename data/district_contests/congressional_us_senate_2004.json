@@ -1,0 +1,55 @@
+{
+  "year": 2004,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 143342,
+        "rep_votes": 58077,
+        "other_votes": 7821,
+        "total_votes": 209240,
+        "dem_candidate": "Harry Reid",
+        "rep_candidate": "Richard Ziser",
+        "margin": -85265,
+        "margin_pct": -40.75,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "02": {
+        "dem_votes": 158861,
+        "rep_votes": 123883,
+        "other_votes": 12332,
+        "total_votes": 295076,
+        "dem_candidate": "Harry Reid",
+        "rep_candidate": "Richard Ziser",
+        "margin": -34978,
+        "margin_pct": -11.85,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "03": {
+        "dem_votes": 192410,
+        "rep_votes": 102512,
+        "other_votes": 10459,
+        "total_votes": 305381,
+        "dem_candidate": "Harry Reid",
+        "rep_candidate": "Richard Ziser",
+        "margin": -89898,
+        "margin_pct": -29.44,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "year": 2012,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 179262,
+        "total_votes": 179262,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "02": {
+        "dem_votes": 0,
+        "rep_votes": 162057,
+        "other_votes": 119134,
+        "total_votes": 281191,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 162057,
+        "margin_pct": 57.63,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "03": {
+        "dem_votes": 0,
+        "rep_votes": 137210,
+        "other_votes": 135241,
+        "total_votes": 272451,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 137210,
+        "margin_pct": 50.36,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "04": {
+        "dem_votes": 0,
+        "rep_votes": 101204,
+        "other_votes": 139191,
+        "total_votes": 240395,
+        "dem_candidate": "",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": 101204,
+        "margin_pct": 42.1,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "year": 2004,
+  "scope": "state_senate",
+  "contest_type": "state_senate",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 18982,
+        "rep_votes": 12021,
+        "other_votes": 0,
+        "total_votes": 31003,
+        "dem_candidate": "John Lee",
+        "rep_candidate": "Ray Shaffer",
+        "margin": -6961,
+        "margin_pct": -22.45,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "11": {
+        "dem_votes": 13645,
+        "rep_votes": 11745,
+        "other_votes": 0,
+        "total_votes": 25390,
+        "dem_candidate": "Mike Schneider",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": -1900,
+        "margin_pct": -7.48,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "3": {
+        "dem_votes": 29184,
+        "rep_votes": 43016,
+        "other_votes": 2378,
+        "total_votes": 74578,
+        "dem_candidate": "Valerie Wiener",
+        "rep_candidate": "Bill Raggio",
+        "margin": 13832,
+        "margin_pct": 18.55,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "4": {
+        "dem_votes": 22037,
+        "rep_votes": 8533,
+        "other_votes": 0,
+        "total_votes": 30570,
+        "dem_candidate": "Steven Horsford",
+        "rep_candidate": "Mabel F. Lucier",
+        "margin": -13504,
+        "margin_pct": -44.17,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "5": {
+        "dem_votes": 37217,
+        "rep_votes": 48589,
+        "other_votes": 3052,
+        "total_votes": 88858,
+        "dem_candidate": "Richard Fitzpatrick",
+        "rep_candidate": "Joe Heck",
+        "margin": 11372,
+        "margin_pct": 12.8,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 27221,
+        "other_votes": 13101,
+        "total_votes": 40322,
+        "dem_candidate": "",
+        "rep_candidate": "Bob Beers",
+        "margin": 27221,
+        "margin_pct": 67.51,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "7": {
+        "dem_votes": 34183,
+        "rep_votes": 16506,
+        "other_votes": 2506,
+        "total_votes": 53195,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Paul Fairfield",
+        "margin": -17677,
+        "margin_pct": -33.23,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "rict": {
+        "dem_votes": 9342,
+        "rep_votes": 52278,
+        "other_votes": 8366,
+        "total_votes": 69986,
+        "dem_candidate": "Freddie L. Warman",
+        "rep_candidate": "Mike Mcginness",
+        "margin": 42936,
+        "margin_pct": 61.35,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "year": 2004,
+  "scope": "congressional",
+  "contest_type": "president",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 121410,
+        "rep_votes": 89745,
+        "other_votes": 3455,
+        "total_votes": 214610,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": -31665,
+        "margin_pct": -14.75,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "02": {
+        "dem_votes": 123283,
+        "rep_votes": 172037,
+        "other_votes": 5630,
+        "total_votes": 300950,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 48754,
+        "margin_pct": 16.2,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "03": {
+        "dem_votes": 152112,
+        "rep_votes": 156289,
+        "other_votes": 4606,
+        "total_votes": 313007,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 4177,
+        "margin_pct": 1.33,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      }
+    }
+  }
+}

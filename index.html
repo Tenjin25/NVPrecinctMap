@@ -20339,6 +20339,16 @@ document.addEventListener('DOMContentLoaded', function() {
       return toTitleCaseName(cleaned);
     }
 
+    function isIndependentCityName(raw) {
+      return normalizeCountyToken(raw) === 'CARSON CITY';
+    }
+
+    function formatCountyJurisdiction(raw) {
+      const name = displayCountyName(raw);
+      if (isIndependentCityName(raw) || isIndependentCityName(name)) return name;
+      return `${name} County`;
+    }
+
     function numericOrNull(value) {
       if (value === null || value === undefined) return null;
       const t = String(value).trim();

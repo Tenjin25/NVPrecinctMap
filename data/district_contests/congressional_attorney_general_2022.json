@@ -1,0 +1,69 @@
+{
+  "year": 2022,
+  "scope": "congressional",
+  "contest_type": "attorney_general",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 119317,
+        "rep_votes": 91150,
+        "other_votes": 6907,
+        "total_votes": 217374,
+        "dem_candidate": "Aaron D. Ford",
+        "rep_candidate": "Sigal Chattah",
+        "margin": -28167,
+        "margin_pct": -12.96,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "02": {
+        "dem_votes": 141382,
+        "rep_votes": 143372,
+        "other_votes": 12394,
+        "total_votes": 297148,
+        "dem_candidate": "Aaron D. Ford",
+        "rep_candidate": "Sigal Chattah",
+        "margin": 1990,
+        "margin_pct": 0.67,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fee8c8"
+        }
+      },
+      "03": {
+        "dem_votes": 133439,
+        "rep_votes": 106333,
+        "other_votes": 6865,
+        "total_votes": 246637,
+        "dem_candidate": "Aaron D. Ford",
+        "rep_candidate": "Sigal Chattah",
+        "margin": -27106,
+        "margin_pct": -10.99,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "04": {
+        "dem_votes": 116983,
+        "rep_votes": 93021,
+        "other_votes": 6951,
+        "total_votes": 216955,
+        "dem_candidate": "Aaron D. Ford",
+        "rep_candidate": "Sigal Chattah",
+        "margin": -23962,
+        "margin_pct": -11.04,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      }
+    }
+  }
+}

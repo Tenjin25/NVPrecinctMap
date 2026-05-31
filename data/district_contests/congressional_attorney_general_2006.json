@@ -1,0 +1,55 @@
+{
+  "year": 2006,
+  "scope": "congressional",
+  "contest_type": "attorney_general",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 82246,
+        "rep_votes": 42074,
+        "other_votes": 6919,
+        "total_votes": 131239,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -40172,
+        "margin_pct": -30.61,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "02": {
+        "dem_votes": 136386,
+        "rep_votes": 83130,
+        "other_votes": 13059,
+        "total_votes": 232575,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -53256,
+        "margin_pct": -22.9,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "03": {
+        "dem_votes": 120578,
+        "rep_votes": 79428,
+        "other_votes": 10669,
+        "total_votes": 210675,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -41150,
+        "margin_pct": -19.53,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      }
+    }
+  }
+}

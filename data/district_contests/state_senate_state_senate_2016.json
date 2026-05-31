@@ -1,0 +1,167 @@
+{
+  "year": 2016,
+  "scope": "state_senate",
+  "contest_type": "state_senate",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 33680,
+        "rep_votes": 17785,
+        "other_votes": 0,
+        "total_votes": 51465,
+        "dem_candidate": "Patricia P. Spearman",
+        "rep_candidate": "Arsen A. Ter-Petrosyan",
+        "margin": -15895,
+        "margin_pct": -30.89,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "11": {
+        "dem_votes": 22439,
+        "rep_votes": 14221,
+        "other_votes": 2229,
+        "total_votes": 38889,
+        "dem_candidate": "Aaron D. Ford",
+        "rep_candidate": "Jon Frazier",
+        "margin": -8218,
+        "margin_pct": -21.13,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "13": {
+        "dem_votes": 27266,
+        "rep_votes": 15791,
+        "other_votes": 2406,
+        "total_votes": 45463,
+        "dem_candidate": "Julia Ratti",
+        "rep_candidate": "Kent Bailey",
+        "margin": -11475,
+        "margin_pct": -25.24,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "15": {
+        "dem_votes": 26765,
+        "rep_votes": 33795,
+        "other_votes": 3265,
+        "total_votes": 63825,
+        "dem_candidate": "Devon T. Reese",
+        "rep_candidate": "Heidi S. Gansert",
+        "margin": 7030,
+        "margin_pct": 11.01,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "18": {
+        "dem_votes": 26849,
+        "rep_votes": 34772,
+        "other_votes": 0,
+        "total_votes": 61621,
+        "dem_candidate": "Alexander Marks",
+        "rep_candidate": "Scott T. Hammond",
+        "margin": 7923,
+        "margin_pct": 12.86,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 36852,
+        "other_votes": 13661,
+        "total_votes": 50513,
+        "dem_candidate": "",
+        "rep_candidate": "Pete Goicoechea",
+        "margin": 36852,
+        "margin_pct": 72.96,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "3": {
+        "dem_votes": 21189,
+        "rep_votes": 11052,
+        "other_votes": 2888,
+        "total_votes": 35129,
+        "dem_candidate": "Tick Segerblom",
+        "rep_candidate": "Dennis Palmerston",
+        "margin": -10137,
+        "margin_pct": -28.86,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "4": {
+        "dem_votes": 29906,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 29906,
+        "dem_candidate": "Kelvin Atkinson",
+        "rep_candidate": "",
+        "margin": -29906,
+        "margin_pct": -100.0,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "5": {
+        "dem_votes": 26208,
+        "rep_votes": 25739,
+        "other_votes": 2784,
+        "total_votes": 54731,
+        "dem_candidate": "Joyce Woodhouse",
+        "rep_candidate": "Carrie Buck",
+        "margin": -469,
+        "margin_pct": -0.86,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#e1f5fe"
+        }
+      },
+      "6": {
+        "dem_votes": 28729,
+        "rep_votes": 27681,
+        "other_votes": 0,
+        "total_votes": 56410,
+        "dem_candidate": "Nicole Cannizzaro",
+        "rep_candidate": "Victoria Seaman",
+        "margin": -1048,
+        "margin_pct": -1.86,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "7": {
+        "dem_votes": 28431,
+        "rep_votes": 0,
+        "other_votes": 12454,
+        "total_votes": 40885,
+        "dem_candidate": "David Parks",
+        "rep_candidate": "",
+        "margin": -28431,
+        "margin_pct": -69.54,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      }
+    }
+  }
+}

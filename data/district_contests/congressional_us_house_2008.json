@@ -1,0 +1,55 @@
+{
+  "year": 2008,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 0,
+        "rep_votes": 64786,
+        "other_votes": 164027,
+        "total_votes": 228813,
+        "dem_candidate": "",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": 64786,
+        "margin_pct": 28.31,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "02": {
+        "dem_votes": 0,
+        "rep_votes": 170597,
+        "other_votes": 158621,
+        "total_votes": 329218,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 170597,
+        "margin_pct": 51.82,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "03": {
+        "dem_votes": 0,
+        "rep_votes": 147897,
+        "other_votes": 201846,
+        "total_votes": 349743,
+        "dem_candidate": "",
+        "rep_candidate": "Jon Porter",
+        "margin": 147897,
+        "margin_pct": 42.29,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

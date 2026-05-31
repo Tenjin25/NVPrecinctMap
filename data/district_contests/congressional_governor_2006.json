@@ -1,0 +1,55 @@
+{
+  "year": 2006,
+  "scope": "congressional",
+  "contest_type": "governor",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 70261,
+        "rep_votes": 51235,
+        "other_votes": 11435,
+        "total_votes": 132931,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Jim Gibbons",
+        "margin": -19026,
+        "margin_pct": -14.31,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "02": {
+        "dem_votes": 84150,
+        "rep_votes": 131271,
+        "other_votes": 19864,
+        "total_votes": 235285,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Jim Gibbons",
+        "margin": 47121,
+        "margin_pct": 20.03,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "03": {
+        "dem_votes": 101099,
+        "rep_votes": 96243,
+        "other_votes": 16120,
+        "total_votes": 213462,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Jim Gibbons",
+        "margin": -4856,
+        "margin_pct": -2.27,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 0,
+        "rep_votes": 61280,
+        "other_votes": 110651,
+        "total_votes": 171931,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 61280,
+        "margin_pct": 35.64,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "02": {
+        "dem_votes": 0,
+        "rep_votes": 138784,
+        "other_votes": 137532,
+        "total_votes": 276316,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 138784,
+        "margin_pct": 50.23,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "03": {
+        "dem_votes": 0,
+        "rep_votes": 120995,
+        "other_votes": 151594,
+        "total_votes": 272589,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 120995,
+        "margin_pct": 44.39,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

@@ -68,6 +68,16 @@ def contest_type(office: str) -> str:
         return "state_assembly"
     return ""
 
+def normalize_candidate_name(contest: str, candidate: str) -> str:
+    cand = clean(candidate)
+    if contest != "president":
+        return cand
+    # Strip running mate from ticket labels:
+    # "Kamala D. Harris and Tim Walz" -> "Kamala D. Harris"
+    # "Donald J. Trump / JD Vance" -> "Donald J. Trump"
+    cand = re.split(r"\s+(?:and|&)\s+|/|;", cand, maxsplit=1, flags=re.IGNORECASE)[0].strip()
+    return cand
+
 
 def competitiveness_color(margin_pct: float) -> str:
     abs_margin = abs(margin_pct)
@@ -226,7 +236,7 @@ def aggregate_rows(rows: list[dict], group_key_name: str) -> dict:
         if not group_key:
             continue
         p = normalize_party(row.get("party", ""))
-        cand = clean(row.get("candidate", ""))
+        cand = normalize_candidate_name(contest_type(clean(row.get("office", ""))), row.get("candidate", ""))
         votes = to_int(row.get("votes", ""))
         if p == "DEM":
             grouped[group_key]["dem"] += votes

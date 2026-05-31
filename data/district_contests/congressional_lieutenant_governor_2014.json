@@ -1,0 +1,69 @@
+{
+  "year": 2014,
+  "scope": "congressional",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 36886,
+        "rep_votes": 38493,
+        "other_votes": 5517,
+        "total_votes": 80896,
+        "dem_candidate": "Lucy Flores",
+        "rep_candidate": "Mark Hutchison",
+        "margin": 1607,
+        "margin_pct": 1.99,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "02": {
+        "dem_votes": 50457,
+        "rep_votes": 121195,
+        "other_votes": 15201,
+        "total_votes": 186853,
+        "dem_candidate": "Lucy Flores",
+        "rep_candidate": "Mark Hutchison",
+        "margin": 70738,
+        "margin_pct": 37.86,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "03": {
+        "dem_votes": 48339,
+        "rep_votes": 89477,
+        "other_votes": 7828,
+        "total_votes": 145644,
+        "dem_candidate": "Lucy Flores",
+        "rep_candidate": "Mark Hutchison",
+        "margin": 41138,
+        "margin_pct": 28.25,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "04": {
+        "dem_votes": 47777,
+        "rep_votes": 75012,
+        "other_votes": 8941,
+        "total_votes": 131730,
+        "dem_candidate": "Lucy Flores",
+        "rep_candidate": "Mark Hutchison",
+        "margin": 27235,
+        "margin_pct": 20.67,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "year": 2006,
+  "scope": "congressional",
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 166326,
+        "rep_votes": 45159,
+        "other_votes": 41060,
+        "total_votes": 252545,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -121167,
+        "margin_pct": -47.98,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "02": {
+        "dem_votes": 117894,
+        "rep_votes": 245992,
+        "other_votes": 64308,
+        "total_votes": 428194,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Mark Destefano",
+        "margin": 128098,
+        "margin_pct": 29.92,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "03": {
+        "dem_votes": 244268,
+        "rep_votes": 85822,
+        "other_votes": 72537,
+        "total_votes": 402627,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -158446,
+        "margin_pct": -39.35,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      }
+    }
+  }
+}

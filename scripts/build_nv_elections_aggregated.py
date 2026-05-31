@@ -103,6 +103,12 @@ def pick_top_candidate(candidate_votes: dict[str, int]) -> str:
         return ""
     return sorted(candidate_votes.items(), key=lambda kv: (-kv[1], kv[0].lower()))[0][0]
 
+def normalize_candidate_name(contest_type: str, candidate: str) -> str:
+    cand = clean(candidate)
+    if contest_type != "president":
+        return cand
+    return re.split(r"\s+(?:and|&)\s+|/|;", cand, maxsplit=1, flags=re.IGNORECASE)[0].strip()
+
 
 def load_crosswalk_share_rows(filename: str) -> list[dict]:
     path = CROSSWALKS_DIR / filename
@@ -128,7 +134,7 @@ def load_crosswalk_context() -> dict:
     }
 
 
-def build_contest_results(rows: list[dict]) -> dict:
+def build_contest_results(rows: list[dict], contest_type: str) -> dict:
     by_precinct = defaultdict(lambda: {"dem_votes": 0, "rep_votes": 0, "other_votes": 0})
     dem_cand_votes = defaultdict(lambda: defaultdict(int))
     rep_cand_votes = defaultdict(lambda: defaultdict(int))
@@ -141,7 +147,7 @@ def build_contest_results(rows: list[dict]) -> dict:
         precinct = clean(row.get("precinct", ""))
         precinct_key = f"{county} - {precinct}" if county else precinct
         party = normalize_party(row.get("party", ""))
-        candidate = clean(row.get("candidate", ""))
+        candidate = normalize_candidate_name(contest_type, row.get("candidate", ""))
         votes = to_int(row.get("votes", ""))
 
         if party == "DEM":
@@ -249,7 +255,7 @@ def main() -> None:
             rows = by_contest.get(contest, [])
             if not rows:
                 continue
-            year_data[contest] = {"general": {"results": build_contest_results(rows)}}
+            year_data[contest] = {"general": {"results": build_contest_results(rows, contest)}}
 
         if year_data:
             aggregated["results_by_year"][year] = year_data

@@ -1,0 +1,69 @@
+{
+  "year": 2014,
+  "scope": "congressional",
+  "contest_type": "controller",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 0,
+        "rep_votes": 32667,
+        "other_votes": 47171,
+        "total_votes": 79838,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 32667,
+        "margin_pct": 40.92,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "02": {
+        "dem_votes": 0,
+        "rep_votes": 105882,
+        "other_votes": 78649,
+        "total_votes": 184531,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 105882,
+        "margin_pct": 57.38,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "03": {
+        "dem_votes": 0,
+        "rep_votes": 78701,
+        "other_votes": 64644,
+        "total_votes": 143345,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 78701,
+        "margin_pct": 54.9,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "04": {
+        "dem_votes": 0,
+        "rep_votes": 65184,
+        "other_votes": 64862,
+        "total_votes": 130046,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 65184,
+        "margin_pct": 50.12,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

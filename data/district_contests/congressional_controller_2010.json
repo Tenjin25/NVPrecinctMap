@@ -1,0 +1,55 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "controller",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 0,
+        "rep_votes": 57255,
+        "other_votes": 108378,
+        "total_votes": 165633,
+        "dem_candidate": "",
+        "rep_candidate": "Barry Herr",
+        "margin": 57255,
+        "margin_pct": 34.57,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "02": {
+        "dem_votes": 0,
+        "rep_votes": 126758,
+        "other_votes": 141862,
+        "total_votes": 268620,
+        "dem_candidate": "",
+        "rep_candidate": "Barry Herr",
+        "margin": 126758,
+        "margin_pct": 47.19,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "03": {
+        "dem_votes": 0,
+        "rep_votes": 112780,
+        "other_votes": 150057,
+        "total_votes": 262837,
+        "dem_candidate": "",
+        "rep_candidate": "Barry Herr",
+        "margin": 112780,
+        "margin_pct": 42.91,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

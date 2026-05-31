@@ -1,0 +1,55 @@
+{
+  "year": 2006,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 84957,
+        "rep_votes": 40877,
+        "other_votes": 5175,
+        "total_votes": 131009,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": -44080,
+        "margin_pct": -33.65,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "02": {
+        "dem_votes": 104461,
+        "rep_votes": 117005,
+        "other_votes": 10958,
+        "total_votes": 232424,
+        "dem_candidate": "Jill Derby",
+        "rep_candidate": "Dean Heller",
+        "margin": 12544,
+        "margin_pct": 5.4,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "03": {
+        "dem_votes": 98241,
+        "rep_votes": 102189,
+        "other_votes": 10482,
+        "total_votes": 210912,
+        "dem_candidate": "Tessa M. Hafen",
+        "rep_candidate": "Jon Porter",
+        "margin": 3948,
+        "margin_pct": 1.87,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      }
+    }
+  }
+}

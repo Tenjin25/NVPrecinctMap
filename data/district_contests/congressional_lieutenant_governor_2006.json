@@ -1,0 +1,55 @@
+{
+  "year": 2006,
+  "scope": "congressional",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 64878,
+        "rep_votes": 56023,
+        "other_votes": 10568,
+        "total_votes": 131469,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -8855,
+        "margin_pct": -6.74,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "02": {
+        "dem_votes": 72192,
+        "rep_votes": 140350,
+        "other_votes": 20895,
+        "total_votes": 233437,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 68158,
+        "margin_pct": 29.2,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "03": {
+        "dem_votes": 91285,
+        "rep_votes": 104619,
+        "other_votes": 15414,
+        "total_votes": 211318,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 13334,
+        "margin_pct": 6.31,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      }
+    }
+  }
+}

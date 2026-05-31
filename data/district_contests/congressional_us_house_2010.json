@@ -1,0 +1,55 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 0,
+        "rep_votes": 58937,
+        "other_votes": 108152,
+        "total_votes": 167089,
+        "dem_candidate": "",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": 58937,
+        "margin_pct": 35.27,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "02": {
+        "dem_votes": 0,
+        "rep_votes": 169239,
+        "other_votes": 98157,
+        "total_votes": 267396,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 169239,
+        "margin_pct": 63.29,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "03": {
+        "dem_votes": 0,
+        "rep_votes": 128864,
+        "other_votes": 138940,
+        "total_votes": 267804,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 128864,
+        "margin_pct": 48.12,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

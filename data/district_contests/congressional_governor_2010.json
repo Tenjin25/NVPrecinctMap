@@ -1,0 +1,55 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "governor",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 0,
+        "rep_votes": 72733,
+        "other_votes": 97577,
+        "total_votes": 170310,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 72733,
+        "margin_pct": 42.71,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "02": {
+        "dem_votes": 0,
+        "rep_votes": 169170,
+        "other_votes": 105981,
+        "total_votes": 275151,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 169170,
+        "margin_pct": 61.48,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "03": {
+        "dem_votes": 0,
+        "rep_votes": 140115,
+        "other_votes": 130409,
+        "total_votes": 270524,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 140115,
+        "margin_pct": 51.79,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

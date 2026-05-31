@@ -1,0 +1,153 @@
+{
+  "year": 2006,
+  "scope": "state_senate",
+  "contest_type": "state_senate",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 13517,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 13517,
+        "dem_candidate": "Bernice M. Mathews",
+        "rep_candidate": "",
+        "margin": -13517,
+        "margin_pct": -100.0,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "10": {
+        "dem_votes": 9146,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 9146,
+        "dem_candidate": "Bob Coffin",
+        "rep_candidate": "",
+        "margin": -9146,
+        "margin_pct": -100.0,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 28270,
+        "other_votes": 13721,
+        "total_votes": 41991,
+        "dem_candidate": "",
+        "rep_candidate": "Warren B. Hardy",
+        "margin": 28270,
+        "margin_pct": 67.32,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "2": {
+        "dem_votes": 20878,
+        "rep_votes": 21649,
+        "other_votes": 0,
+        "total_votes": 42527,
+        "dem_candidate": "John H. Emerson",
+        "rep_candidate": "Maurice Washington",
+        "margin": 771,
+        "margin_pct": 1.81,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 27009,
+        "other_votes": 0,
+        "total_votes": 27009,
+        "dem_candidate": "",
+        "rep_candidate": "Randolph Townsend",
+        "margin": 27009,
+        "margin_pct": 100.0,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "5": {
+        "dem_votes": 29966,
+        "rep_votes": 28159,
+        "other_votes": 4794,
+        "total_votes": 62919,
+        "dem_candidate": "Joyce Woodhouse",
+        "rep_candidate": "Sandra Tiffany",
+        "margin": -1807,
+        "margin_pct": -2.87,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "7": {
+        "dem_votes": 27456,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 27456,
+        "dem_candidate": "Terry Care",
+        "rep_candidate": "",
+        "margin": -27456,
+        "margin_pct": -100.0,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "8": {
+        "dem_votes": 12412,
+        "rep_votes": 14881,
+        "other_votes": 0,
+        "total_votes": 27293,
+        "dem_candidate": "Chanda Cook",
+        "rep_candidate": "Barbara K. Cegavske",
+        "margin": 2469,
+        "margin_pct": 9.05,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 35785,
+        "other_votes": 18301,
+        "total_votes": 54086,
+        "dem_candidate": "",
+        "rep_candidate": "Dennis Nolan",
+        "margin": 35785,
+        "margin_pct": 66.16,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "rict": {
+        "dem_votes": 0,
+        "rep_votes": 27038,
+        "other_votes": 7760,
+        "total_votes": 34798,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 27038,
+        "margin_pct": 77.7,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

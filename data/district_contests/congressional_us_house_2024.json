@@ -3,69 +3,65 @@
   "scope": "congressional",
   "contest_type": "us_house",
   "meta": {
-    "source": "nv_openelections_precinct+house_component_inference",
-    "office": "US HOUSE",
-    "nongeo_allocation_mode": "precinct_component",
-    "match_coverage_pct": 100.0,
-    "matched_precinct_keys": 1636,
-    "total_precinct_keys": 1636
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
   },
   "general": {
     "results": {
-      "1": {
+      "01": {
         "dem_votes": 167874,
         "rep_votes": 143638,
         "other_votes": 11363,
         "total_votes": 322875,
-        "dem_candidate": "Titus, Dina",
-        "rep_candidate": "ROBERTSON, MARK",
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mark Robertson",
         "margin": -24236,
         "margin_pct": -7.51,
         "winner": "DEM",
         "competitiveness": {
-          "color": "#6baed6"
+          "color": "#c6dbef"
         }
       },
-      "2": {
-        "dem_votes": 111,
-        "rep_votes": 220325,
-        "other_votes": 179625,
-        "total_votes": 400061,
-        "dem_candidate": "Horsford, Steven",
-        "rep_candidate": "Amodei, Mark E.",
-        "margin": 220214,
-        "margin_pct": 55.05,
+      "02": {
+        "dem_votes": 0,
+        "rep_votes": 219807,
+        "other_votes": 179611,
+        "total_votes": 399418,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 219807,
+        "margin_pct": 55.03,
         "winner": "REP",
         "competitiveness": {
           "color": "#67000d"
         }
       },
-      "3": {
+      "03": {
         "dem_votes": 191292,
         "rep_votes": 181063,
         "other_votes": 0,
         "total_votes": 372355,
-        "dem_candidate": "Lee, Susie",
-        "rep_candidate": "JOHNSON, Drew",
+        "dem_candidate": "Susie Lee",
+        "rep_candidate": "Drew Johnson",
         "margin": -10229,
         "margin_pct": -2.75,
         "winner": "DEM",
         "competitiveness": {
-          "color": "#9ecae1"
+          "color": "#c6dbef"
         }
       },
-      "4": {
-        "dem_votes": 174773,
-        "rep_votes": 147483,
-        "other_votes": 9198,
-        "total_votes": 331454,
-        "dem_candidate": "Horsford, Steven",
-        "rep_candidate": "Lee, John",
-        "margin": -27290,
-        "margin_pct": -8.23,
+      "04": {
+        "dem_votes": 174884,
+        "rep_votes": 148001,
+        "other_votes": 9212,
+        "total_votes": 332097,
+        "dem_candidate": "Steven Horsford",
+        "rep_candidate": "John Lee",
+        "margin": -26883,
+        "margin_pct": -8.09,
         "winner": "DEM",
         "competitiveness": {
-          "color": "#6baed6"
+          "color": "#c6dbef"
         }
       }
     }

@@ -1,0 +1,153 @@
+{
+  "year": 2020,
+  "scope": "state_senate",
+  "contest_type": "state_senate",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 51630,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 51630,
+        "dem_candidate": "Patricia P. Spearman",
+        "rep_candidate": "",
+        "margin": -51630,
+        "margin_pct": -100.0,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "11": {
+        "dem_votes": 30484,
+        "rep_votes": 21576,
+        "other_votes": 0,
+        "total_votes": 52060,
+        "dem_candidate": "Dallas Harris",
+        "rep_candidate": "Joshua Dowden",
+        "margin": -8908,
+        "margin_pct": -17.11,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "15": {
+        "dem_votes": 36591,
+        "rep_votes": 39292,
+        "other_votes": 0,
+        "total_votes": 75883,
+        "dem_candidate": "Wendy Jauregui-Jackins",
+        "rep_candidate": "Heidi S. Gansert",
+        "margin": 2701,
+        "margin_pct": 3.56,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "18": {
+        "dem_votes": 34837,
+        "rep_votes": 44520,
+        "other_votes": 0,
+        "total_votes": 79357,
+        "dem_candidate": "Liz Becker",
+        "rep_candidate": "Scott T. Hammond",
+        "margin": 9683,
+        "margin_pct": 12.2,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 52573,
+        "other_votes": 14381,
+        "total_votes": 66954,
+        "dem_candidate": "",
+        "rep_candidate": "Pete Goicoechea",
+        "margin": 52573,
+        "margin_pct": 78.52,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "3": {
+        "dem_votes": 30934,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 30934,
+        "dem_candidate": "Christopher Brooks",
+        "rep_candidate": "",
+        "margin": -30934,
+        "margin_pct": -100.0,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "4": {
+        "dem_votes": 31412,
+        "rep_votes": 10319,
+        "other_votes": 0,
+        "total_votes": 41731,
+        "dem_candidate": "Dina Neal",
+        "rep_candidate": "Esper M. Hickman",
+        "margin": -21093,
+        "margin_pct": -50.55,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "5": {
+        "dem_votes": 32411,
+        "rep_votes": 32740,
+        "other_votes": 2007,
+        "total_votes": 67158,
+        "dem_candidate": "Kristee Watson",
+        "rep_candidate": "Carrie Buck",
+        "margin": 329,
+        "margin_pct": 0.49,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "6": {
+        "dem_votes": 33887,
+        "rep_votes": 33241,
+        "other_votes": 0,
+        "total_votes": 67128,
+        "dem_candidate": "Nicole Cannizzaro",
+        "rep_candidate": "April Becker",
+        "margin": -646,
+        "margin_pct": -0.96,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#e1f5fe"
+        }
+      },
+      "7": {
+        "dem_votes": 39036,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 39036,
+        "dem_candidate": "Roberta Lange",
+        "rep_candidate": "",
+        "margin": -39036,
+        "margin_pct": -100.0,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      }
+    }
+  }
+}

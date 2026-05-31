@@ -64,6 +64,12 @@ def normalize_party(party: str) -> str:
         return "REP"
     return ""
 
+def normalize_candidate_name(contest_type: str, candidate: str) -> str:
+    cand = clean(candidate)
+    if contest_type != "president":
+        return cand
+    return re.split(r"\s+(?:and|&)\s+|/|;", cand, maxsplit=1, flags=re.IGNORECASE)[0].strip()
+
 
 def competitiveness_color(margin_pct: float) -> str:
     abs_margin = abs(margin_pct)
@@ -112,7 +118,7 @@ def build_rows_for_contest(rows: list[dict], year: int, contest_type: str) -> di
         precinct = clean(row.get("precinct", ""))
         key = f"{county} - {precinct}" if county else precinct
         party = normalize_party(row.get("party", ""))
-        candidate = clean(row.get("candidate", ""))
+        candidate = normalize_candidate_name(contest_type, row.get("candidate", ""))
         votes = to_int(row.get("votes", ""))
 
         if party == "DEM":

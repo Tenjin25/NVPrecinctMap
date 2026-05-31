@@ -1,0 +1,69 @@
+{
+  "year": 2022,
+  "scope": "congressional",
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "nv_scope_aggregates",
+    "nongeo_allocation_mode": "precomputed"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 114545,
+        "rep_votes": 95647,
+        "other_votes": 235662,
+        "total_votes": 445854,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Michele Fiore",
+        "margin": -18898,
+        "margin_pct": -4.24,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "02": {
+        "dem_votes": 127456,
+        "rep_votes": 162578,
+        "other_votes": 235529,
+        "total_votes": 525563,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Michele Fiore",
+        "margin": 35122,
+        "margin_pct": 6.68,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "03": {
+        "dem_votes": 129035,
+        "rep_votes": 109934,
+        "other_votes": 262596,
+        "total_votes": 501565,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Michele Fiore",
+        "margin": -19101,
+        "margin_pct": -3.81,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "04": {
+        "dem_votes": 111597,
+        "rep_votes": 97209,
+        "other_votes": 232861,
+        "total_votes": 441667,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Michele Fiore",
+        "margin": -14388,
+        "margin_pct": -3.26,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      }
+    }
+  }
+}
