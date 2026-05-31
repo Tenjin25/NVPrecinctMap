@@ -19467,8 +19467,49 @@ document.addEventListener('DOMContentLoaded', function() {
         const scope = currentView === 'districts'
           ? 'congressional'
           : (currentView === 'state_house' ? 'state_house' : (currentView === 'state_senate' ? 'state_senate' : null));
-        if (scope && Array.isArray(activeDistrictManifest) && activeDistrictManifest.length) {
-          entries = activeDistrictManifest.filter(e => e && e.scope === scope);
+        if (scope) {
+          const scoped = (Array.isArray(activeDistrictManifest) ? activeDistrictManifest : []).filter(e => e && e.scope === scope);
+          if (scope === 'congressional') {
+            const statewideCongressionalContestTypes = new Set([
+              'president',
+              'us_senate',
+              'governor',
+              'lieutenant_governor',
+              'treasurer',
+              'attorney_general',
+              'controller'
+            ]);
+            const synthetic = (contestManifest || []).filter(e => {
+              if (!e) return false;
+              const ct = String(e?.contest_type || '').trim().toLowerCase();
+              const y = Number(e?.year);
+              return statewideCongressionalContestTypes.has(ct) && Number.isFinite(y);
+            }).map(e => ({
+              year: Number(e.year),
+              contest_type: String(e.contest_type || '').trim().toLowerCase(),
+              scope: 'congressional',
+              file: String(e.file || ''),
+              rows: Number(e.rows) || 0,
+              synthetic_statewide: true
+            }));
+            const merged = [];
+            const seen = new Set();
+            [...scoped, ...synthetic].forEach(e => {
+              const ct = String(e?.contest_type || '').trim().toLowerCase();
+              const y = Number(e?.year);
+              const s = String(e?.scope || '').trim();
+              if (!ct || !Number.isFinite(y) || !s) return;
+              const k = `${s}|${ct}|${y}`;
+              if (seen.has(k)) return;
+              seen.add(k);
+              merged.push(e);
+            });
+            entries = merged;
+          } else if (scoped.length > 0) {
+            entries = scoped;
+          } else {
+            entries = [];
+          }
         } else {
           entries = [];
         }
