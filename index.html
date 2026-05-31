@@ -26338,7 +26338,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (layerName === 'county-fill') {
         renderCountyHoverAtPoint(evt, { forceTooltip });
       } else if (layerName === 'district-fill') {
-        await renderDistrictHover(evt, 'congressional', 'Congressional District', ['DISTRICT', 'CD118FP', 'CD119FP', 'district_id', 'district', 'NAMELSAD'], { forceTooltip });
+        await renderDistrictHover(evt, 'congressional', 'Congressional District', ['DISTRICT', 'CD118FP', 'CD119FP', 'district_id', 'district', 'id', 'NAME', 'NAMELSAD'], { forceTooltip });
       } else if (layerName === 'state-house-fill') {
         await renderDistrictHover(evt, 'state_house', 'State Assembly District', ['DISTRICT', 'SLDLST', 'district_id', 'district', 'NAMELSAD'], { forceTooltip });
       } else if (layerName === 'state-senate-fill') {
@@ -29456,7 +29456,7 @@ document.addEventListener('DOMContentLoaded', function() {
         map.on('click', 'district-fill', async (e) => {
           if (e.features && e.features[0] && e.features[0].properties) {
             const props = e.features[0].properties;
-            const districtNum = normalizeDistrictNumber(props.DISTRICT || props.CD118FP || props.CD119FP || props.district_id || props.district);
+            const districtNum = normalizeDistrictNumber(props.DISTRICT || props.CD118FP || props.CD119FP || props.district_id || props.district || props.id || props.NAME);
             if (districtNum) {
               zoomToClickedDistrictFeature(e.features[0], { padding: 40, duration: 850, maxZoom: 10.5 });
               // Show detailed sidebar (results + trends).
@@ -29496,7 +29496,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     e,
                     'congressional',
                     'Congressional District',
-                    ['DISTRICT', 'CD118FP', 'CD119FP', 'district_id', 'district', 'NAMELSAD'],
+                    ['DISTRICT', 'CD118FP', 'CD119FP', 'district_id', 'district', 'id', 'NAME', 'NAMELSAD'],
                     { forceTooltip: true }
                   );
                   setTooltipPinned(true);
