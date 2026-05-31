@@ -1,0 +1,125 @@
+{
+  "year": 2008,
+  "scope": "state_senate",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 11111,
+        "other_votes": 27769,
+        "total_votes": 38880,
+        "dem_candidate": "",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": 11111,
+        "margin_pct": 28.58,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 33583,
+        "other_votes": 47349,
+        "total_votes": 80932,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 33583,
+        "margin_pct": 41.5,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 7145,
+        "other_votes": 28809,
+        "total_votes": 35954,
+        "dem_candidate": "",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": 7145,
+        "margin_pct": 19.87,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 44746,
+        "other_votes": 56831,
+        "total_votes": 101577,
+        "dem_candidate": "",
+        "rep_candidate": "Jon Porter",
+        "margin": 44746,
+        "margin_pct": 44.05,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 18616,
+        "other_votes": 26286,
+        "total_votes": 44902,
+        "dem_candidate": "",
+        "rep_candidate": "Jon Porter",
+        "margin": 18616,
+        "margin_pct": 41.46,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 16469,
+        "other_votes": 41196,
+        "total_votes": 57665,
+        "dem_candidate": "",
+        "rep_candidate": "Jon Porter",
+        "margin": 16469,
+        "margin_pct": 28.56,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 8433,
+        "other_votes": 18898,
+        "total_votes": 27331,
+        "dem_candidate": "",
+        "rep_candidate": "Jon Porter",
+        "margin": 8433,
+        "margin_pct": 30.86,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "rict": {
+        "dem_votes": 0,
+        "rep_votes": 46803,
+        "other_votes": 30636,
+        "total_votes": 77439,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 46803,
+        "margin_pct": 60.44,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

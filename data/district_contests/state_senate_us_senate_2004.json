@@ -1,0 +1,125 @@
+{
+  "year": 2004,
+  "scope": "state_senate",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 21928,
+        "rep_votes": 9434,
+        "other_votes": 1237,
+        "total_votes": 32599,
+        "dem_candidate": "Harry Reid",
+        "rep_candidate": "Richard Ziser",
+        "margin": -12494,
+        "margin_pct": -38.33,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "3": {
+        "dem_votes": 47494,
+        "rep_votes": 26972,
+        "other_votes": 2870,
+        "total_votes": 77336,
+        "dem_candidate": "Harry Reid",
+        "rep_candidate": "Richard Ziser",
+        "margin": -20522,
+        "margin_pct": -26.54,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "4": {
+        "dem_votes": 24454,
+        "rep_votes": 7016,
+        "other_votes": 1164,
+        "total_votes": 32634,
+        "dem_candidate": "Harry Reid",
+        "rep_candidate": "Richard Ziser",
+        "margin": -17438,
+        "margin_pct": -53.44,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "5": {
+        "dem_votes": 59306,
+        "rep_votes": 31865,
+        "other_votes": 3091,
+        "total_votes": 94262,
+        "dem_candidate": "Harry Reid",
+        "rep_candidate": "Richard Ziser",
+        "margin": -27441,
+        "margin_pct": -29.11,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "6": {
+        "dem_votes": 27888,
+        "rep_votes": 16488,
+        "other_votes": 1320,
+        "total_votes": 45696,
+        "dem_candidate": "Harry Reid",
+        "rep_candidate": "Richard Ziser",
+        "margin": -11400,
+        "margin_pct": -24.95,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "7": {
+        "dem_votes": 40075,
+        "rep_votes": 14037,
+        "other_votes": 2419,
+        "total_votes": 56531,
+        "dem_candidate": "Harry Reid",
+        "rep_candidate": "Richard Ziser",
+        "margin": -26038,
+        "margin_pct": -46.06,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "11": {
+        "dem_votes": 18602,
+        "rep_votes": 6884,
+        "other_votes": 1186,
+        "total_votes": 26672,
+        "dem_candidate": "Harry Reid",
+        "rep_candidate": "Richard Ziser",
+        "margin": -11718,
+        "margin_pct": -43.93,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "rict": {
+        "dem_votes": 33278,
+        "rep_votes": 35217,
+        "other_votes": 3961,
+        "total_votes": 72456,
+        "dem_candidate": "Harry Reid",
+        "rep_candidate": "Richard Ziser",
+        "margin": 1939,
+        "margin_pct": 2.68,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      }
+    }
+  }
+}

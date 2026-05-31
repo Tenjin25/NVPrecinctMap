@@ -1,0 +1,601 @@
+{
+  "year": 2008,
+  "scope": "state_house",
+  "contest_type": "president",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 7740,
+        "other_votes": 12023,
+        "total_votes": 19763,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 7740,
+        "margin_pct": 39.16,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 12820,
+        "other_votes": 13688,
+        "total_votes": 26508,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 12820,
+        "margin_pct": 48.36,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 5775,
+        "other_votes": 10138,
+        "total_votes": 15913,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 5775,
+        "margin_pct": 36.29,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 15582,
+        "other_votes": 15928,
+        "total_votes": 31510,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 15582,
+        "margin_pct": 49.45,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 8436,
+        "other_votes": 11556,
+        "total_votes": 19992,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 8436,
+        "margin_pct": 42.2,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 2273,
+        "other_votes": 10206,
+        "total_votes": 12479,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 2273,
+        "margin_pct": 18.21,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 3199,
+        "other_votes": 14994,
+        "total_votes": 18193,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 3199,
+        "margin_pct": 17.58,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 3659,
+        "other_votes": 7847,
+        "total_votes": 11506,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 3659,
+        "margin_pct": 31.8,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 3573,
+        "other_votes": 8443,
+        "total_votes": 12016,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 3573,
+        "margin_pct": 29.74,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 6099,
+        "other_votes": 10144,
+        "total_votes": 16243,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 6099,
+        "margin_pct": 37.55,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 1250,
+        "other_votes": 4849,
+        "total_votes": 6099,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 1250,
+        "margin_pct": 20.5,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 4168,
+        "other_votes": 10118,
+        "total_votes": 14286,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 4168,
+        "margin_pct": 29.18,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 38913,
+        "other_votes": 48744,
+        "total_votes": 87657,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 38913,
+        "margin_pct": 44.39,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 5098,
+        "other_votes": 10203,
+        "total_votes": 15301,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 5098,
+        "margin_pct": 33.32,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 5551,
+        "other_votes": 10717,
+        "total_votes": 16268,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 5551,
+        "margin_pct": 34.12,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 6914,
+        "other_votes": 11927,
+        "total_votes": 18841,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 6914,
+        "margin_pct": 36.7,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 8789,
+        "other_votes": 19258,
+        "total_votes": 28047,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 8789,
+        "margin_pct": 31.34,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 7857,
+        "other_votes": 15006,
+        "total_votes": 22863,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 7857,
+        "margin_pct": 34.37,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 4027,
+        "other_votes": 8415,
+        "total_votes": 12442,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 4027,
+        "margin_pct": 32.37,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 14259,
+        "other_votes": 9977,
+        "total_votes": 24236,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 14259,
+        "margin_pct": 58.83,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 10653,
+        "other_votes": 12561,
+        "total_votes": 23214,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 10653,
+        "margin_pct": 45.89,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 38037,
+        "other_votes": 44862,
+        "total_votes": 82899,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 38037,
+        "margin_pct": 45.88,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "23": {
+        "dem_votes": 0,
+        "rep_votes": 8511,
+        "other_votes": 10816,
+        "total_votes": 19327,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 8511,
+        "margin_pct": 44.04,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "24": {
+        "dem_votes": 0,
+        "rep_votes": 6700,
+        "other_votes": 14098,
+        "total_votes": 20798,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 6700,
+        "margin_pct": 32.21,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 16698,
+        "other_votes": 18109,
+        "total_votes": 34807,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 16698,
+        "margin_pct": 47.97,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "26": {
+        "dem_votes": 0,
+        "rep_votes": 17657,
+        "other_votes": 18959,
+        "total_votes": 36616,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 17657,
+        "margin_pct": 48.22,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 5076,
+        "other_votes": 11470,
+        "total_votes": 16546,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 5076,
+        "margin_pct": 30.68,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 1197,
+        "other_votes": 5534,
+        "total_votes": 6731,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 1197,
+        "margin_pct": 17.78,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "29": {
+        "dem_votes": 0,
+        "rep_votes": 9962,
+        "other_votes": 14139,
+        "total_votes": 24101,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 9962,
+        "margin_pct": 41.33,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "30": {
+        "dem_votes": 0,
+        "rep_votes": 5333,
+        "other_votes": 10000,
+        "total_votes": 15333,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 5333,
+        "margin_pct": 34.78,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "31": {
+        "dem_votes": 0,
+        "rep_votes": 5323,
+        "other_votes": 10206,
+        "total_votes": 15529,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 5323,
+        "margin_pct": 34.28,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "32": {
+        "dem_votes": 0,
+        "rep_votes": 18385,
+        "other_votes": 18111,
+        "total_votes": 36496,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 18385,
+        "margin_pct": 50.38,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 11557,
+        "other_votes": 5277,
+        "total_votes": 16834,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 11557,
+        "margin_pct": 68.65,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "34": {
+        "dem_votes": 0,
+        "rep_votes": 5746,
+        "other_votes": 10465,
+        "total_votes": 16211,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 5746,
+        "margin_pct": 35.45,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "35": {
+        "dem_votes": 0,
+        "rep_votes": 11894,
+        "other_votes": 7141,
+        "total_votes": 19035,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 11894,
+        "margin_pct": 62.48,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "36": {
+        "dem_votes": 0,
+        "rep_votes": 13704,
+        "other_votes": 10307,
+        "total_votes": 24011,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 13704,
+        "margin_pct": 57.07,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "37": {
+        "dem_votes": 0,
+        "rep_votes": 6241,
+        "other_votes": 11135,
+        "total_votes": 17376,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 6241,
+        "margin_pct": 35.92,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "38": {
+        "dem_votes": 0,
+        "rep_votes": 16639,
+        "other_votes": 12550,
+        "total_votes": 29189,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 16639,
+        "margin_pct": 57.0,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "39": {
+        "dem_votes": 0,
+        "rep_votes": 16392,
+        "other_votes": 13125,
+        "total_votes": 29517,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 16392,
+        "margin_pct": 55.53,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "40": {
+        "dem_votes": 0,
+        "rep_votes": 9913,
+        "other_votes": 10941,
+        "total_votes": 20854,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 9913,
+        "margin_pct": 47.54,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "41": {
+        "dem_votes": 0,
+        "rep_votes": 4885,
+        "other_votes": 8969,
+        "total_votes": 13854,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 4885,
+        "margin_pct": 35.26,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "42": {
+        "dem_votes": 0,
+        "rep_votes": 4839,
+        "other_votes": 9249,
+        "total_votes": 14088,
+        "dem_candidate": "",
+        "rep_candidate": "John Mccain",
+        "margin": 4839,
+        "margin_pct": 34.35,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      }
+    }
+  }
+}

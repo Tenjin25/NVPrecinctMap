@@ -1,0 +1,153 @@
+{
+  "year": 2010,
+  "scope": "state_senate",
+  "contest_type": "controller",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 4942,
+        "other_votes": 12928,
+        "total_votes": 17870,
+        "dem_candidate": "",
+        "rep_candidate": "Barry Herr",
+        "margin": 4942,
+        "margin_pct": 27.66,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 21669,
+        "other_votes": 31563,
+        "total_votes": 53232,
+        "dem_candidate": "",
+        "rep_candidate": "Barry Herr",
+        "margin": 21669,
+        "margin_pct": 40.71,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 19500,
+        "other_votes": 20599,
+        "total_votes": 40099,
+        "dem_candidate": "",
+        "rep_candidate": "Barry Herr",
+        "margin": 19500,
+        "margin_pct": 48.63,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 34256,
+        "other_votes": 42464,
+        "total_votes": 76720,
+        "dem_candidate": "",
+        "rep_candidate": "Barry Herr",
+        "margin": 34256,
+        "margin_pct": 44.65,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 12522,
+        "other_votes": 27586,
+        "total_votes": 40108,
+        "dem_candidate": "",
+        "rep_candidate": "Barry Herr",
+        "margin": 12522,
+        "margin_pct": 31.22,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 14165,
+        "other_votes": 17474,
+        "total_votes": 31639,
+        "dem_candidate": "",
+        "rep_candidate": "Barry Herr",
+        "margin": 14165,
+        "margin_pct": 44.77,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 38663,
+        "other_votes": 47113,
+        "total_votes": 85776,
+        "dem_candidate": "",
+        "rep_candidate": "Barry Herr",
+        "margin": 38663,
+        "margin_pct": 45.07,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 3232,
+        "other_votes": 10350,
+        "total_votes": 13582,
+        "dem_candidate": "",
+        "rep_candidate": "Barry Herr",
+        "margin": 3232,
+        "margin_pct": 23.8,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 29808,
+        "other_votes": 32338,
+        "total_votes": 62146,
+        "dem_candidate": "",
+        "rep_candidate": "Barry Herr",
+        "margin": 29808,
+        "margin_pct": 47.96,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "rict": {
+        "dem_votes": 0,
+        "rep_votes": 20009,
+        "other_votes": 20225,
+        "total_votes": 40234,
+        "dem_candidate": "",
+        "rep_candidate": "Barry Herr",
+        "margin": 20009,
+        "margin_pct": 49.73,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

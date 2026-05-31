@@ -3,8 +3,8 @@
   "scope": "state_house",
   "contest_type": "state_assembly",
   "meta": {
-    "source": "nv_scope_aggregates",
-    "nongeo_allocation_mode": "precomputed"
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
   },
   "general": {
     "results": {
@@ -20,6 +20,118 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#3182bd"
+        }
+      },
+      "2": {
+        "dem_votes": 7412,
+        "rep_votes": 8827,
+        "other_votes": 601,
+        "total_votes": 16840,
+        "dem_candidate": "Carlos Blumberg",
+        "rep_candidate": "Garn Mabey",
+        "margin": 1415,
+        "margin_pct": 8.4,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "3": {
+        "dem_votes": 8917,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 8917,
+        "dem_candidate": "Peggy Pierce",
+        "rep_candidate": "",
+        "margin": -8917,
+        "margin_pct": -100.0,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "4": {
+        "dem_votes": 8730,
+        "rep_votes": 11071,
+        "other_votes": 0,
+        "total_votes": 19801,
+        "dem_candidate": "C. Butcher",
+        "rep_candidate": "Francis Allen",
+        "margin": 2341,
+        "margin_pct": 11.82,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "5": {
+        "dem_votes": 5355,
+        "rep_votes": 6134,
+        "other_votes": 458,
+        "total_votes": 11947,
+        "dem_candidate": "Dawn Dudas",
+        "rep_candidate": "Valerie E. Weber",
+        "margin": 779,
+        "margin_pct": 6.52,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "6": {
+        "dem_votes": 5074,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 5074,
+        "dem_candidate": "Harvey J. Munford",
+        "rep_candidate": "",
+        "margin": -5074,
+        "margin_pct": -100.0,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "7": {
+        "dem_votes": 4438,
+        "rep_votes": 0,
+        "other_votes": 2794,
+        "total_votes": 7232,
+        "dem_candidate": "M. Arberry Jr.",
+        "rep_candidate": "",
+        "margin": -4438,
+        "margin_pct": -61.37,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "8": {
+        "dem_votes": 4099,
+        "rep_votes": 1916,
+        "other_votes": 0,
+        "total_votes": 6015,
+        "dem_candidate": "Barbara Buckley",
+        "rep_candidate": "Patricia M. Peacock",
+        "margin": -2183,
+        "margin_pct": -36.29,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "9": {
+        "dem_votes": 4733,
+        "rep_votes": 0,
+        "other_votes": 1538,
+        "total_votes": 6271,
+        "dem_candidate": "Tick Segerblom",
+        "rep_candidate": "",
+        "margin": -4733,
+        "margin_pct": -75.47,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
         }
       },
       "10": {
@@ -162,20 +274,6 @@
           "color": "#08306b"
         }
       },
-      "2": {
-        "dem_votes": 7412,
-        "rep_votes": 8827,
-        "other_votes": 601,
-        "total_votes": 16840,
-        "dem_candidate": "Carlos Blumberg",
-        "rep_candidate": "Garn Mabey",
-        "margin": 1415,
-        "margin_pct": 8.4,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#fcae91"
-        }
-      },
       "20": {
         "dem_votes": 5110,
         "rep_votes": 11274,
@@ -314,20 +412,6 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
-        }
-      },
-      "3": {
-        "dem_votes": 8917,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 8917,
-        "dem_candidate": "Peggy Pierce",
-        "rep_candidate": "",
-        "margin": -8917,
-        "margin_pct": -100.0,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#08306b"
         }
       },
       "30": {
@@ -470,20 +554,6 @@
           "color": "#3182bd"
         }
       },
-      "4": {
-        "dem_votes": 8730,
-        "rep_votes": 11071,
-        "other_votes": 0,
-        "total_votes": 19801,
-        "dem_candidate": "C. Butcher",
-        "rep_candidate": "Francis Allen",
-        "margin": 2341,
-        "margin_pct": 11.82,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#ef3b2c"
-        }
-      },
       "40": {
         "dem_votes": 8735,
         "rep_votes": 6920,
@@ -521,76 +591,6 @@
         "rep_candidate": "",
         "margin": -6786,
         "margin_pct": -100.0,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#08306b"
-        }
-      },
-      "5": {
-        "dem_votes": 5355,
-        "rep_votes": 6134,
-        "other_votes": 458,
-        "total_votes": 11947,
-        "dem_candidate": "Dawn Dudas",
-        "rep_candidate": "Valerie E. Weber",
-        "margin": 779,
-        "margin_pct": 6.52,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#fcae91"
-        }
-      },
-      "6": {
-        "dem_votes": 5074,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 5074,
-        "dem_candidate": "Harvey J. Munford",
-        "rep_candidate": "",
-        "margin": -5074,
-        "margin_pct": -100.0,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#08306b"
-        }
-      },
-      "7": {
-        "dem_votes": 4438,
-        "rep_votes": 0,
-        "other_votes": 2794,
-        "total_votes": 7232,
-        "dem_candidate": "Jr., M. Arberry",
-        "rep_candidate": "",
-        "margin": -4438,
-        "margin_pct": -61.37,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#08306b"
-        }
-      },
-      "8": {
-        "dem_votes": 4099,
-        "rep_votes": 1916,
-        "other_votes": 0,
-        "total_votes": 6015,
-        "dem_candidate": "Barbara Buckley",
-        "rep_candidate": "Patricia M. Peacock",
-        "margin": -2183,
-        "margin_pct": -36.29,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#3182bd"
-        }
-      },
-      "9": {
-        "dem_votes": 4733,
-        "rep_votes": 0,
-        "other_votes": 1538,
-        "total_votes": 6271,
-        "dem_candidate": "Tick Segerblom",
-        "rep_candidate": "",
-        "margin": -4733,
-        "margin_pct": -75.47,
         "winner": "DEM",
         "competitiveness": {
           "color": "#08306b"

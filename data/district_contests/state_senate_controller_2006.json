@@ -1,0 +1,153 @@
+{
+  "year": 2006,
+  "scope": "state_senate",
+  "contest_type": "controller",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 9251,
+        "rep_votes": 5012,
+        "other_votes": 1979,
+        "total_votes": 16242,
+        "dem_candidate": "Kim R. Wallin",
+        "rep_candidate": "Steve Martin",
+        "margin": -4239,
+        "margin_pct": -26.1,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "2": {
+        "dem_votes": 19808,
+        "rep_votes": 18236,
+        "other_votes": 4598,
+        "total_votes": 42642,
+        "dem_candidate": "Kim R. Wallin",
+        "rep_candidate": "Steve Martin",
+        "margin": -1572,
+        "margin_pct": -3.69,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "4": {
+        "dem_votes": 14011,
+        "rep_votes": 16882,
+        "other_votes": 3405,
+        "total_votes": 34298,
+        "dem_candidate": "Kim R. Wallin",
+        "rep_candidate": "Steve Martin",
+        "margin": 2871,
+        "margin_pct": 8.37,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "5": {
+        "dem_votes": 28809,
+        "rep_votes": 28313,
+        "other_votes": 6364,
+        "total_votes": 63486,
+        "dem_candidate": "Kim R. Wallin",
+        "rep_candidate": "Steve Martin",
+        "margin": -496,
+        "margin_pct": -0.78,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#e1f5fe"
+        }
+      },
+      "7": {
+        "dem_votes": 18847,
+        "rep_votes": 11676,
+        "other_votes": 3767,
+        "total_votes": 34290,
+        "dem_candidate": "Kim R. Wallin",
+        "rep_candidate": "Steve Martin",
+        "margin": -7171,
+        "margin_pct": -20.91,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "8": {
+        "dem_votes": 12267,
+        "rep_votes": 12433,
+        "other_votes": 2777,
+        "total_votes": 27477,
+        "dem_candidate": "Kim R. Wallin",
+        "rep_candidate": "Steve Martin",
+        "margin": 166,
+        "margin_pct": 0.6,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fee8c8"
+        }
+      },
+      "9": {
+        "dem_votes": 26068,
+        "rep_votes": 26909,
+        "other_votes": 5931,
+        "total_votes": 58908,
+        "dem_candidate": "Kim R. Wallin",
+        "rep_candidate": "Steve Martin",
+        "margin": 841,
+        "margin_pct": 1.43,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "10": {
+        "dem_votes": 6493,
+        "rep_votes": 3136,
+        "other_votes": 1281,
+        "total_votes": 10910,
+        "dem_candidate": "Kim R. Wallin",
+        "rep_candidate": "Steve Martin",
+        "margin": -3357,
+        "margin_pct": -30.77,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "12": {
+        "dem_votes": 18694,
+        "rep_votes": 21331,
+        "other_votes": 4613,
+        "total_votes": 44638,
+        "dem_candidate": "Kim R. Wallin",
+        "rep_candidate": "Steve Martin",
+        "margin": 2637,
+        "margin_pct": 5.91,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "rict": {
+        "dem_votes": 13623,
+        "rep_votes": 19121,
+        "other_votes": 3856,
+        "total_votes": 36600,
+        "dem_candidate": "Kim R. Wallin",
+        "rep_candidate": "Steve Martin",
+        "margin": 5498,
+        "margin_pct": 15.02,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      }
+    }
+  }
+}

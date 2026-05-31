@@ -3,8 +3,8 @@
   "scope": "state_house",
   "contest_type": "state_assembly",
   "meta": {
-    "source": "nv_scope_aggregates",
-    "nongeo_allocation_mode": "precomputed"
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
   },
   "general": {
     "results": {
@@ -17,6 +17,118 @@
         "rep_candidate": "Howard Brean",
         "margin": -5259,
         "margin_pct": -18.99,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "2": {
+        "dem_votes": 14159,
+        "rep_votes": 16688,
+        "other_votes": 0,
+        "total_votes": 30847,
+        "dem_candidate": "Owen Carver",
+        "rep_candidate": "John Hambrick",
+        "margin": 2529,
+        "margin_pct": 8.2,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "3": {
+        "dem_votes": 14491,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 14491,
+        "dem_candidate": "N. Araujo Jr.",
+        "rep_candidate": "",
+        "margin": -14491,
+        "margin_pct": -100.0,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "4": {
+        "dem_votes": 15026,
+        "rep_votes": 16279,
+        "other_votes": 0,
+        "total_votes": 31305,
+        "dem_candidate": "John Piro",
+        "rep_candidate": "Richard Mcarthur",
+        "margin": 1253,
+        "margin_pct": 4.0,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "5": {
+        "dem_votes": 12666,
+        "rep_votes": 12311,
+        "other_votes": 0,
+        "total_votes": 24977,
+        "dem_candidate": "Brittney Miller",
+        "rep_candidate": "Artemus A. Ham",
+        "margin": -355,
+        "margin_pct": -1.42,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "6": {
+        "dem_votes": 12224,
+        "rep_votes": 1785,
+        "other_votes": 0,
+        "total_votes": 14009,
+        "dem_candidate": "W. Mccurdy II",
+        "rep_candidate": "Carlo Maffatt",
+        "margin": -10439,
+        "margin_pct": -74.52,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "7": {
+        "dem_votes": 15065,
+        "rep_votes": 5608,
+        "other_votes": 0,
+        "total_votes": 20673,
+        "dem_candidate": "Dina Neal",
+        "rep_candidate": "Jennifer Fawzy",
+        "margin": -9457,
+        "margin_pct": -45.75,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "8": {
+        "dem_votes": 12060,
+        "rep_votes": 7978,
+        "other_votes": 1464,
+        "total_votes": 21502,
+        "dem_candidate": "Jason Frierson",
+        "rep_candidate": "Norm Ross",
+        "margin": -4082,
+        "margin_pct": -18.98,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "9": {
+        "dem_votes": 15177,
+        "rep_votes": 12257,
+        "other_votes": 0,
+        "total_votes": 27434,
+        "dem_candidate": "Steve Yeager",
+        "rep_candidate": "David Gardner",
+        "margin": -2920,
+        "margin_pct": -10.64,
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
@@ -162,20 +274,6 @@
           "color": "#67000d"
         }
       },
-      "2": {
-        "dem_votes": 14159,
-        "rep_votes": 16688,
-        "other_votes": 0,
-        "total_votes": 30847,
-        "dem_candidate": "Owen Carver",
-        "rep_candidate": "John Hambrick",
-        "margin": 2529,
-        "margin_pct": 8.2,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#fcae91"
-        }
-      },
       "20": {
         "dem_votes": 13548,
         "rep_votes": 8807,
@@ -314,20 +412,6 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#e1f5fe"
-        }
-      },
-      "3": {
-        "dem_votes": 14491,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 14491,
-        "dem_candidate": "Jr., N. Araujo",
-        "rep_candidate": "",
-        "margin": -14491,
-        "margin_pct": -100.0,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#08306b"
         }
       },
       "30": {
@@ -470,20 +554,6 @@
           "color": "#67000d"
         }
       },
-      "4": {
-        "dem_votes": 15026,
-        "rep_votes": 16279,
-        "other_votes": 0,
-        "total_votes": 31305,
-        "dem_candidate": "John Piro",
-        "rep_candidate": "Richard Mcarthur",
-        "margin": 1253,
-        "margin_pct": 4.0,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#fcae91"
-        }
-      },
       "40": {
         "dem_votes": 9978,
         "rep_votes": 17861,
@@ -524,76 +594,6 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#3182bd"
-        }
-      },
-      "5": {
-        "dem_votes": 12666,
-        "rep_votes": 12311,
-        "other_votes": 0,
-        "total_votes": 24977,
-        "dem_candidate": "Brittney Miller",
-        "rep_candidate": "Artemus A. Ham",
-        "margin": -355,
-        "margin_pct": -1.42,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#c6dbef"
-        }
-      },
-      "6": {
-        "dem_votes": 12224,
-        "rep_votes": 1785,
-        "other_votes": 0,
-        "total_votes": 14009,
-        "dem_candidate": "Ii, W. Mccurdy",
-        "rep_candidate": "Carlo Maffatt",
-        "margin": -10439,
-        "margin_pct": -74.52,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#08306b"
-        }
-      },
-      "7": {
-        "dem_votes": 15065,
-        "rep_votes": 5608,
-        "other_votes": 0,
-        "total_votes": 20673,
-        "dem_candidate": "Dina Neal",
-        "rep_candidate": "Jennifer Fawzy",
-        "margin": -9457,
-        "margin_pct": -45.75,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#08306b"
-        }
-      },
-      "8": {
-        "dem_votes": 12060,
-        "rep_votes": 7978,
-        "other_votes": 1464,
-        "total_votes": 21502,
-        "dem_candidate": "Jason Frierson",
-        "rep_candidate": "Norm Ross",
-        "margin": -4082,
-        "margin_pct": -18.98,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#6baed6"
-        }
-      },
-      "9": {
-        "dem_votes": 15177,
-        "rep_votes": 12257,
-        "other_votes": 0,
-        "total_votes": 27434,
-        "dem_candidate": "Steve Yeager",
-        "rep_candidate": "David Gardner",
-        "margin": -2920,
-        "margin_pct": -10.64,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#6baed6"
         }
       }
     }

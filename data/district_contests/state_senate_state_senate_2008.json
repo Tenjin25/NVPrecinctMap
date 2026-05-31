@@ -3,8 +3,8 @@
   "scope": "state_senate",
   "contest_type": "state_senate",
   "meta": {
-    "source": "nv_scope_aggregates",
-    "nongeo_allocation_mode": "precomputed"
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
   },
   "general": {
     "results": {
@@ -17,20 +17,6 @@
         "rep_candidate": "Ron Mcginnis",
         "margin": 10774,
         "margin_pct": 28.15,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#cb181d"
-        }
-      },
-      "11": {
-        "dem_votes": 0,
-        "rep_votes": 7919,
-        "other_votes": 18775,
-        "total_votes": 26694,
-        "dem_candidate": "",
-        "rep_candidate": "Joe Locatelli",
-        "margin": 7919,
-        "margin_pct": 29.67,
         "winner": "REP",
         "competitiveness": {
           "color": "#cb181d"
@@ -101,6 +87,20 @@
         "rep_candidate": "Lindsay N. Madsen",
         "margin": 17921,
         "margin_pct": 31.93,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 7919,
+        "other_votes": 18775,
+        "total_votes": 26694,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Locatelli",
+        "margin": 7919,
+        "margin_pct": 29.67,
         "winner": "REP",
         "competitiveness": {
           "color": "#cb181d"

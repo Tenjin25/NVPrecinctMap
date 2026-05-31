@@ -1,0 +1,601 @@
+{
+  "year": 2014,
+  "scope": "state_house",
+  "contest_type": "governor",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 7664,
+        "other_votes": 4923,
+        "total_votes": 12587,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 7664,
+        "margin_pct": 60.89,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 12183,
+        "other_votes": 4131,
+        "total_votes": 16314,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 12183,
+        "margin_pct": 74.68,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 4784,
+        "other_votes": 3324,
+        "total_votes": 8108,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 4784,
+        "margin_pct": 59.0,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 10510,
+        "other_votes": 4375,
+        "total_votes": 14885,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 10510,
+        "margin_pct": 70.61,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 8922,
+        "other_votes": 3871,
+        "total_votes": 12793,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 8922,
+        "margin_pct": 69.74,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 1650,
+        "other_votes": 4215,
+        "total_votes": 5865,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 1650,
+        "margin_pct": 28.13,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 4512,
+        "other_votes": 4741,
+        "total_votes": 9253,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 4512,
+        "margin_pct": 48.76,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 5635,
+        "other_votes": 3022,
+        "total_votes": 8657,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 5635,
+        "margin_pct": 65.09,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 7660,
+        "other_votes": 3562,
+        "total_votes": 11222,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 7660,
+        "margin_pct": 68.26,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 5051,
+        "other_votes": 3278,
+        "total_votes": 8329,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 5051,
+        "margin_pct": 60.64,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 1672,
+        "other_votes": 2066,
+        "total_votes": 3738,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 1672,
+        "margin_pct": 44.73,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 8045,
+        "other_votes": 4124,
+        "total_votes": 12169,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 8045,
+        "margin_pct": 66.11,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 11468,
+        "other_votes": 4306,
+        "total_votes": 15774,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 11468,
+        "margin_pct": 72.7,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 3453,
+        "other_votes": 2820,
+        "total_votes": 6273,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 3453,
+        "margin_pct": 55.05,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 4538,
+        "other_votes": 3421,
+        "total_votes": 7959,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 4538,
+        "margin_pct": 57.02,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 3253,
+        "other_votes": 2516,
+        "total_votes": 5769,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 3253,
+        "margin_pct": 56.39,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 5085,
+        "other_votes": 4175,
+        "total_votes": 9260,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 5085,
+        "margin_pct": 54.91,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 4940,
+        "other_votes": 3454,
+        "total_votes": 8394,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 4940,
+        "margin_pct": 58.85,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 9942,
+        "other_votes": 3562,
+        "total_votes": 13504,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 9942,
+        "margin_pct": 73.62,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 6804,
+        "other_votes": 3990,
+        "total_votes": 10794,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 6804,
+        "margin_pct": 63.04,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 8385,
+        "other_votes": 4014,
+        "total_votes": 12399,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 8385,
+        "margin_pct": 67.63,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 13218,
+        "other_votes": 4468,
+        "total_votes": 17686,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 13218,
+        "margin_pct": 74.74,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "23": {
+        "dem_votes": 0,
+        "rep_votes": 17017,
+        "other_votes": 4890,
+        "total_votes": 21907,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 17017,
+        "margin_pct": 77.68,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "24": {
+        "dem_votes": 0,
+        "rep_votes": 6338,
+        "other_votes": 3886,
+        "total_votes": 10224,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 6338,
+        "margin_pct": 61.99,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 19148,
+        "other_votes": 5044,
+        "total_votes": 24192,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 19148,
+        "margin_pct": 79.15,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "26": {
+        "dem_votes": 0,
+        "rep_votes": 19126,
+        "other_votes": 4563,
+        "total_votes": 23689,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 19126,
+        "margin_pct": 80.74,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 10566,
+        "other_votes": 4435,
+        "total_votes": 15001,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 10566,
+        "margin_pct": 70.44,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 2019,
+        "other_votes": 2141,
+        "total_votes": 4160,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 2019,
+        "margin_pct": 48.53,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "29": {
+        "dem_votes": 0,
+        "rep_votes": 9829,
+        "other_votes": 4273,
+        "total_votes": 14102,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 9829,
+        "margin_pct": 69.7,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "30": {
+        "dem_votes": 0,
+        "rep_votes": 8378,
+        "other_votes": 3454,
+        "total_votes": 11832,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 8378,
+        "margin_pct": 70.81,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "31": {
+        "dem_votes": 0,
+        "rep_votes": 14041,
+        "other_votes": 4046,
+        "total_votes": 18087,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 14041,
+        "margin_pct": 77.63,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "32": {
+        "dem_votes": 0,
+        "rep_votes": 15148,
+        "other_votes": 3404,
+        "total_votes": 18552,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 15148,
+        "margin_pct": 81.65,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 11183,
+        "other_votes": 3268,
+        "total_votes": 14451,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 11183,
+        "margin_pct": 77.39,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "34": {
+        "dem_votes": 0,
+        "rep_votes": 8388,
+        "other_votes": 4312,
+        "total_votes": 12700,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 8388,
+        "margin_pct": 66.05,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "35": {
+        "dem_votes": 0,
+        "rep_votes": 8005,
+        "other_votes": 3725,
+        "total_votes": 11730,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 8005,
+        "margin_pct": 68.24,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "36": {
+        "dem_votes": 0,
+        "rep_votes": 12400,
+        "other_votes": 4222,
+        "total_votes": 16622,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 12400,
+        "margin_pct": 74.6,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "37": {
+        "dem_votes": 0,
+        "rep_votes": 13565,
+        "other_votes": 4827,
+        "total_votes": 18392,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 13565,
+        "margin_pct": 73.75,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "38": {
+        "dem_votes": 0,
+        "rep_votes": 14946,
+        "other_votes": 2842,
+        "total_votes": 17788,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 14946,
+        "margin_pct": 84.02,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "39": {
+        "dem_votes": 0,
+        "rep_votes": 19432,
+        "other_votes": 4327,
+        "total_votes": 23759,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 19432,
+        "margin_pct": 81.79,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "40": {
+        "dem_votes": 0,
+        "rep_votes": 15317,
+        "other_votes": 4345,
+        "total_votes": 19662,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 15317,
+        "margin_pct": 77.9,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "41": {
+        "dem_votes": 0,
+        "rep_votes": 7307,
+        "other_votes": 3503,
+        "total_votes": 10810,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 7307,
+        "margin_pct": 67.59,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "42": {
+        "dem_votes": 0,
+        "rep_votes": 4501,
+        "other_votes": 3042,
+        "total_votes": 7543,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 4501,
+        "margin_pct": 59.67,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,601 @@
+{
+  "year": 2010,
+  "scope": "state_house",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 6463,
+        "other_votes": 7709,
+        "total_votes": 14172,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 6463,
+        "margin_pct": 45.6,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 11759,
+        "other_votes": 7994,
+        "total_votes": 19753,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 11759,
+        "margin_pct": 59.53,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 4670,
+        "other_votes": 6084,
+        "total_votes": 10754,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 4670,
+        "margin_pct": 43.43,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 14176,
+        "other_votes": 9965,
+        "total_votes": 24141,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 14176,
+        "margin_pct": 58.72,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 6958,
+        "other_votes": 6726,
+        "total_votes": 13684,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 6958,
+        "margin_pct": 50.85,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 1838,
+        "other_votes": 5544,
+        "total_votes": 7382,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 1838,
+        "margin_pct": 24.9,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 2478,
+        "other_votes": 8835,
+        "total_votes": 11313,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 2478,
+        "margin_pct": 21.9,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 2685,
+        "other_votes": 4301,
+        "total_votes": 6986,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 2685,
+        "margin_pct": 38.43,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 2901,
+        "other_votes": 4774,
+        "total_votes": 7675,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 2901,
+        "margin_pct": 37.8,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 4867,
+        "other_votes": 5197,
+        "total_votes": 10064,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 4867,
+        "margin_pct": 48.36,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 826,
+        "other_votes": 3031,
+        "total_votes": 3857,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 826,
+        "margin_pct": 21.42,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 3045,
+        "other_votes": 6389,
+        "total_votes": 9434,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 3045,
+        "margin_pct": 32.28,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 35154,
+        "other_votes": 29090,
+        "total_votes": 64244,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 35154,
+        "margin_pct": 54.72,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 3980,
+        "other_votes": 6505,
+        "total_votes": 10485,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 3980,
+        "margin_pct": 37.96,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 4598,
+        "other_votes": 6456,
+        "total_votes": 11054,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 4598,
+        "margin_pct": 41.6,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 5866,
+        "other_votes": 7002,
+        "total_votes": 12868,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 5866,
+        "margin_pct": 45.59,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 7037,
+        "other_votes": 11410,
+        "total_votes": 18447,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 7037,
+        "margin_pct": 38.15,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 6467,
+        "other_votes": 9025,
+        "total_votes": 15492,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 6467,
+        "margin_pct": 41.74,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 3030,
+        "other_votes": 4646,
+        "total_votes": 7676,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 3030,
+        "margin_pct": 39.47,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 12919,
+        "other_votes": 7285,
+        "total_votes": 20204,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 12919,
+        "margin_pct": 63.94,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 9602,
+        "other_votes": 7577,
+        "total_votes": 17179,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 9602,
+        "margin_pct": 55.89,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 34228,
+        "other_votes": 26595,
+        "total_votes": 60823,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 34228,
+        "margin_pct": 56.27,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "23": {
+        "dem_votes": 0,
+        "rep_votes": 6946,
+        "other_votes": 6755,
+        "total_votes": 13701,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 6946,
+        "margin_pct": 50.7,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "24": {
+        "dem_votes": 0,
+        "rep_votes": 5330,
+        "other_votes": 8731,
+        "total_votes": 14061,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 5330,
+        "margin_pct": 37.91,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 16464,
+        "other_votes": 12260,
+        "total_votes": 28724,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 16464,
+        "margin_pct": 57.32,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "26": {
+        "dem_votes": 0,
+        "rep_votes": 17052,
+        "other_votes": 12938,
+        "total_votes": 29990,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 17052,
+        "margin_pct": 56.86,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 4324,
+        "other_votes": 6897,
+        "total_votes": 11221,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 4324,
+        "margin_pct": 38.53,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 833,
+        "other_votes": 3638,
+        "total_votes": 4471,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 833,
+        "margin_pct": 18.63,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "29": {
+        "dem_votes": 0,
+        "rep_votes": 8183,
+        "other_votes": 7971,
+        "total_votes": 16154,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 8183,
+        "margin_pct": 50.66,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "30": {
+        "dem_votes": 0,
+        "rep_votes": 4175,
+        "other_votes": 6477,
+        "total_votes": 10652,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 4175,
+        "margin_pct": 39.19,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "31": {
+        "dem_votes": 0,
+        "rep_votes": 4427,
+        "other_votes": 6712,
+        "total_votes": 11139,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 4427,
+        "margin_pct": 39.74,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "32": {
+        "dem_votes": 0,
+        "rep_votes": 17248,
+        "other_votes": 12711,
+        "total_votes": 29959,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 17248,
+        "margin_pct": 57.57,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 9267,
+        "other_votes": 4231,
+        "total_votes": 13498,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 9267,
+        "margin_pct": 68.65,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "34": {
+        "dem_votes": 0,
+        "rep_votes": 4559,
+        "other_votes": 6238,
+        "total_votes": 10797,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 4559,
+        "margin_pct": 42.22,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "35": {
+        "dem_votes": 0,
+        "rep_votes": 10284,
+        "other_votes": 6015,
+        "total_votes": 16299,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 10284,
+        "margin_pct": 63.1,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "36": {
+        "dem_votes": 0,
+        "rep_votes": 11610,
+        "other_votes": 8292,
+        "total_votes": 19902,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 11610,
+        "margin_pct": 58.34,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "37": {
+        "dem_votes": 0,
+        "rep_votes": 5033,
+        "other_votes": 5964,
+        "total_votes": 10997,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 5033,
+        "margin_pct": 45.77,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "38": {
+        "dem_votes": 0,
+        "rep_votes": 15291,
+        "other_votes": 8947,
+        "total_votes": 24238,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 15291,
+        "margin_pct": 63.09,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "39": {
+        "dem_votes": 0,
+        "rep_votes": 16081,
+        "other_votes": 8199,
+        "total_votes": 24280,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 16081,
+        "margin_pct": 66.23,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "40": {
+        "dem_votes": 0,
+        "rep_votes": 9881,
+        "other_votes": 7033,
+        "total_votes": 16914,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 9881,
+        "margin_pct": 58.42,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "41": {
+        "dem_votes": 0,
+        "rep_votes": 3978,
+        "other_votes": 4929,
+        "total_votes": 8907,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 3978,
+        "margin_pct": 44.66,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "42": {
+        "dem_votes": 0,
+        "rep_votes": 3782,
+        "other_votes": 5619,
+        "total_votes": 9401,
+        "dem_candidate": "",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 3782,
+        "margin_pct": 40.23,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

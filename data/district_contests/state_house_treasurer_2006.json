@@ -1,0 +1,601 @@
+{
+  "year": 2006,
+  "scope": "state_house",
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 14374,
+        "rep_votes": 4298,
+        "other_votes": 3979,
+        "total_votes": 22651,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -10076,
+        "margin_pct": -44.48,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "2": {
+        "dem_votes": 19739,
+        "rep_votes": 7780,
+        "other_votes": 5462,
+        "total_votes": 32981,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -11959,
+        "margin_pct": -36.26,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "3": {
+        "dem_votes": 12257,
+        "rep_votes": 3238,
+        "other_votes": 3258,
+        "total_votes": 18753,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -9019,
+        "margin_pct": -48.09,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "4": {
+        "dem_votes": 23396,
+        "rep_votes": 8807,
+        "other_votes": 7148,
+        "total_votes": 39351,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -14589,
+        "margin_pct": -37.07,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "5": {
+        "dem_votes": 14280,
+        "rep_votes": 4977,
+        "other_votes": 4069,
+        "total_votes": 23326,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -9303,
+        "margin_pct": -39.88,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "6": {
+        "dem_votes": 8730,
+        "rep_votes": 1344,
+        "other_votes": 1379,
+        "total_votes": 11453,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -7386,
+        "margin_pct": -64.49,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "7": {
+        "dem_votes": 11629,
+        "rep_votes": 1797,
+        "other_votes": 1893,
+        "total_votes": 15319,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -9832,
+        "margin_pct": -64.18,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "8": {
+        "dem_votes": 7958,
+        "rep_votes": 1991,
+        "other_votes": 1860,
+        "total_votes": 11809,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -5967,
+        "margin_pct": -50.53,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "9": {
+        "dem_votes": 9207,
+        "rep_votes": 1979,
+        "other_votes": 1965,
+        "total_votes": 13151,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -7228,
+        "margin_pct": -54.96,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "10": {
+        "dem_votes": 10281,
+        "rep_votes": 3310,
+        "other_votes": 2920,
+        "total_votes": 16511,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -6971,
+        "margin_pct": -42.22,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "11": {
+        "dem_votes": 4248,
+        "rep_votes": 664,
+        "other_votes": 759,
+        "total_votes": 5671,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -3584,
+        "margin_pct": -63.2,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "12": {
+        "dem_votes": 10268,
+        "rep_votes": 2348,
+        "other_votes": 2205,
+        "total_votes": 14821,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -7920,
+        "margin_pct": -53.44,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "13": {
+        "dem_votes": 44847,
+        "rep_votes": 17426,
+        "other_votes": 14589,
+        "total_votes": 76862,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -27421,
+        "margin_pct": -35.68,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "14": {
+        "dem_votes": 10827,
+        "rep_votes": 3019,
+        "other_votes": 2835,
+        "total_votes": 16681,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -7808,
+        "margin_pct": -46.81,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "15": {
+        "dem_votes": 13239,
+        "rep_votes": 3393,
+        "other_votes": 2979,
+        "total_votes": 19611,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -9846,
+        "margin_pct": -50.21,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "16": {
+        "dem_votes": 14300,
+        "rep_votes": 4036,
+        "other_votes": 3522,
+        "total_votes": 21858,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -10264,
+        "margin_pct": -46.96,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "17": {
+        "dem_votes": 14887,
+        "rep_votes": 4056,
+        "other_votes": 3856,
+        "total_votes": 22799,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -10831,
+        "margin_pct": -47.51,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "18": {
+        "dem_votes": 15007,
+        "rep_votes": 4109,
+        "other_votes": 3678,
+        "total_votes": 22794,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -10898,
+        "margin_pct": -47.81,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "19": {
+        "dem_votes": 8129,
+        "rep_votes": 2262,
+        "other_votes": 2273,
+        "total_votes": 12664,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -5867,
+        "margin_pct": -46.33,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "20": {
+        "dem_votes": 16523,
+        "rep_votes": 7983,
+        "other_votes": 7251,
+        "total_votes": 31757,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -8540,
+        "margin_pct": -26.89,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "21": {
+        "dem_votes": 17221,
+        "rep_votes": 6459,
+        "other_votes": 4832,
+        "total_votes": 28512,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -10762,
+        "margin_pct": -37.75,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "22": {
+        "dem_votes": 45326,
+        "rep_votes": 18453,
+        "other_votes": 14599,
+        "total_votes": 78378,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -26873,
+        "margin_pct": -34.29,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "23": {
+        "dem_votes": 13924,
+        "rep_votes": 4309,
+        "other_votes": 4353,
+        "total_votes": 22586,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -9615,
+        "margin_pct": -42.57,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "24": {
+        "dem_votes": 6732,
+        "rep_votes": 11430,
+        "other_votes": 5565,
+        "total_votes": 23727,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Bill Berrum",
+        "margin": 4698,
+        "margin_pct": 19.8,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "25": {
+        "dem_votes": 10739,
+        "rep_votes": 29320,
+        "other_votes": 7011,
+        "total_votes": 47070,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Bill Berrum",
+        "margin": 18581,
+        "margin_pct": 39.48,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "26": {
+        "dem_votes": 11060,
+        "rep_votes": 28738,
+        "other_votes": 8477,
+        "total_votes": 48275,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Bill Berrum",
+        "margin": 17678,
+        "margin_pct": 36.62,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "27": {
+        "dem_votes": 5845,
+        "rep_votes": 9217,
+        "other_votes": 4645,
+        "total_votes": 19707,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Bill Berrum",
+        "margin": 3372,
+        "margin_pct": 17.11,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "28": {
+        "dem_votes": 4528,
+        "rep_votes": 653,
+        "other_votes": 768,
+        "total_votes": 5949,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -3875,
+        "margin_pct": -65.14,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "29": {
+        "dem_votes": 15691,
+        "rep_votes": 5558,
+        "other_votes": 4690,
+        "total_votes": 25939,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -10133,
+        "margin_pct": -39.06,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "30": {
+        "dem_votes": 4931,
+        "rep_votes": 8633,
+        "other_votes": 4559,
+        "total_votes": 18123,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Bill Berrum",
+        "margin": 3702,
+        "margin_pct": 20.43,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "31": {
+        "dem_votes": 5398,
+        "rep_votes": 9962,
+        "other_votes": 4598,
+        "total_votes": 19958,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Bill Berrum",
+        "margin": 4564,
+        "margin_pct": 22.87,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "32": {
+        "dem_votes": 10089,
+        "rep_votes": 28239,
+        "other_votes": 7792,
+        "total_votes": 46120,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Bill Berrum",
+        "margin": 18150,
+        "margin_pct": 39.35,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "33": {
+        "dem_votes": 3648,
+        "rep_votes": 16957,
+        "other_votes": 3880,
+        "total_votes": 24485,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Rebecca B. Erickson",
+        "margin": 13309,
+        "margin_pct": 54.36,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "34": {
+        "dem_votes": 12103,
+        "rep_votes": 3386,
+        "other_votes": 2910,
+        "total_votes": 18399,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -8717,
+        "margin_pct": -47.38,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "35": {
+        "dem_votes": 7236,
+        "rep_votes": 19013,
+        "other_votes": 2794,
+        "total_votes": 29043,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Mark Destefano",
+        "margin": 11777,
+        "margin_pct": 40.55,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "36": {
+        "dem_votes": 15200,
+        "rep_votes": 16138,
+        "other_votes": 2896,
+        "total_votes": 34234,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Mark Destefano",
+        "margin": 938,
+        "margin_pct": 2.74,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "37": {
+        "dem_votes": 11644,
+        "rep_votes": 3414,
+        "other_votes": 3100,
+        "total_votes": 18158,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -8230,
+        "margin_pct": -45.32,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "38": {
+        "dem_votes": 7702,
+        "rep_votes": 26099,
+        "other_votes": 2430,
+        "total_votes": 36231,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Nikki A. Bryan",
+        "margin": 18397,
+        "margin_pct": 50.78,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "39": {
+        "dem_votes": 7834,
+        "rep_votes": 28878,
+        "other_votes": 2849,
+        "total_votes": 39561,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Barbara J. Griffin Reed",
+        "margin": 21044,
+        "margin_pct": 53.19,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "40": {
+        "dem_votes": 7013,
+        "rep_votes": 7791,
+        "other_votes": 2082,
+        "total_votes": 16886,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Mark Destefano",
+        "margin": 778,
+        "margin_pct": 4.61,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "41": {
+        "dem_votes": 9680,
+        "rep_votes": 2689,
+        "other_votes": 2584,
+        "total_votes": 14953,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -6991,
+        "margin_pct": -46.75,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "42": {
+        "dem_votes": 10818,
+        "rep_votes": 2820,
+        "other_votes": 2611,
+        "total_votes": 16249,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -7998,
+        "margin_pct": -49.22,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "year": 2016,
+  "scope": "state_house",
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "32": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 1651,
+        "total_votes": 1651,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "39": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 22070,
+        "total_votes": 22070,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      }
+    }
+  }
+}

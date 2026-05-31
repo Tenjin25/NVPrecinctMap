@@ -1,0 +1,601 @@
+{
+  "year": 2004,
+  "scope": "state_house",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 10784,
+        "rep_votes": 6146,
+        "other_votes": 503,
+        "total_votes": 17433,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Russ Mickelson",
+        "margin": -4638,
+        "margin_pct": -26.6,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "2": {
+        "dem_votes": 12559,
+        "rep_votes": 11601,
+        "other_votes": 615,
+        "total_votes": 24775,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Russ Mickelson",
+        "margin": -958,
+        "margin_pct": -3.87,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "3": {
+        "dem_votes": 9526,
+        "rep_votes": 4947,
+        "other_votes": 493,
+        "total_votes": 14966,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Russ Mickelson",
+        "margin": -4579,
+        "margin_pct": -30.6,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "4": {
+        "dem_votes": 11675,
+        "rep_votes": 15214,
+        "other_votes": 1150,
+        "total_votes": 28039,
+        "dem_candidate": "Tom Gallagher",
+        "rep_candidate": "Jon Porter",
+        "margin": 3539,
+        "margin_pct": 12.62,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "5": {
+        "dem_votes": 7602,
+        "rep_votes": 9705,
+        "other_votes": 876,
+        "total_votes": 18183,
+        "dem_candidate": "Tom Gallagher",
+        "rep_candidate": "Jon Porter",
+        "margin": 2103,
+        "margin_pct": 11.57,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "6": {
+        "dem_votes": 8186,
+        "rep_votes": 1879,
+        "other_votes": 252,
+        "total_votes": 10317,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Russ Mickelson",
+        "margin": -6307,
+        "margin_pct": -61.13,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "7": {
+        "dem_votes": 10810,
+        "rep_votes": 3046,
+        "other_votes": 344,
+        "total_votes": 14200,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Russ Mickelson",
+        "margin": -7764,
+        "margin_pct": -54.68,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "8": {
+        "dem_votes": 5839,
+        "rep_votes": 3931,
+        "other_votes": 589,
+        "total_votes": 10359,
+        "dem_candidate": "Tom Gallagher",
+        "rep_candidate": "Jon Porter",
+        "margin": -1908,
+        "margin_pct": -18.42,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "9": {
+        "dem_votes": 7645,
+        "rep_votes": 2647,
+        "other_votes": 416,
+        "total_votes": 10708,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Russ Mickelson",
+        "margin": -4998,
+        "margin_pct": -46.68,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "10": {
+        "dem_votes": 7552,
+        "rep_votes": 6692,
+        "other_votes": 824,
+        "total_votes": 15068,
+        "dem_candidate": "Tom Gallagher",
+        "rep_candidate": "Jon Porter",
+        "margin": -860,
+        "margin_pct": -5.71,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "11": {
+        "dem_votes": 3718,
+        "rep_votes": 1229,
+        "other_votes": 212,
+        "total_votes": 5159,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Russ Mickelson",
+        "margin": -2489,
+        "margin_pct": -48.25,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "12": {
+        "dem_votes": 7548,
+        "rep_votes": 4513,
+        "other_votes": 570,
+        "total_votes": 12631,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Jon Porter",
+        "margin": -3035,
+        "margin_pct": -24.03,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "13": {
+        "dem_votes": 22592,
+        "rep_votes": 23564,
+        "other_votes": 1595,
+        "total_votes": 47751,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Jon Porter",
+        "margin": 972,
+        "margin_pct": 2.04,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "14": {
+        "dem_votes": 7004,
+        "rep_votes": 6021,
+        "other_votes": 718,
+        "total_votes": 13743,
+        "dem_candidate": "Tom Gallagher",
+        "rep_candidate": "Jon Porter",
+        "margin": -983,
+        "margin_pct": -7.15,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "15": {
+        "dem_votes": 9151,
+        "rep_votes": 5466,
+        "other_votes": 667,
+        "total_votes": 15284,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Jon Porter",
+        "margin": -3685,
+        "margin_pct": -24.11,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "16": {
+        "dem_votes": 8136,
+        "rep_votes": 7957,
+        "other_votes": 1010,
+        "total_votes": 17103,
+        "dem_candidate": "Tom Gallagher",
+        "rep_candidate": "Jon Porter",
+        "margin": -179,
+        "margin_pct": -1.05,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "17": {
+        "dem_votes": 10691,
+        "rep_votes": 5935,
+        "other_votes": 512,
+        "total_votes": 17138,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Russ Mickelson",
+        "margin": -4756,
+        "margin_pct": -27.75,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "18": {
+        "dem_votes": 7935,
+        "rep_votes": 7837,
+        "other_votes": 1039,
+        "total_votes": 16811,
+        "dem_candidate": "Tom Gallagher",
+        "rep_candidate": "Jon Porter",
+        "margin": -98,
+        "margin_pct": -0.58,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#e1f5fe"
+        }
+      },
+      "19": {
+        "dem_votes": 6244,
+        "rep_votes": 4250,
+        "other_votes": 472,
+        "total_votes": 10966,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Jon Porter",
+        "margin": -1994,
+        "margin_pct": -18.18,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "20": {
+        "dem_votes": 5760,
+        "rep_votes": 13675,
+        "other_votes": 819,
+        "total_votes": 20254,
+        "dem_candidate": "Tom Gallagher",
+        "rep_candidate": "Jon Porter",
+        "margin": 7915,
+        "margin_pct": 39.08,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "21": {
+        "dem_votes": 7959,
+        "rep_votes": 12492,
+        "other_votes": 900,
+        "total_votes": 21351,
+        "dem_candidate": "Tom Gallagher",
+        "rep_candidate": "Jon Porter",
+        "margin": 4533,
+        "margin_pct": 21.23,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "22": {
+        "dem_votes": 18339,
+        "rep_votes": 31165,
+        "other_votes": 2165,
+        "total_votes": 51669,
+        "dem_candidate": "Tom Gallagher",
+        "rep_candidate": "Jon Porter",
+        "margin": 12826,
+        "margin_pct": 24.82,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "23": {
+        "dem_votes": 6922,
+        "rep_votes": 9005,
+        "other_votes": 1074,
+        "total_votes": 17001,
+        "dem_candidate": "Tom Gallagher",
+        "rep_candidate": "Jon Porter",
+        "margin": 2083,
+        "margin_pct": 12.25,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "24": {
+        "dem_votes": 6508,
+        "rep_votes": 10169,
+        "other_votes": 1244,
+        "total_votes": 17921,
+        "dem_candidate": "Angie G. Cochran",
+        "rep_candidate": "Jim Gibbons",
+        "margin": 3661,
+        "margin_pct": 20.43,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "25": {
+        "dem_votes": 7175,
+        "rep_votes": 21064,
+        "other_votes": 1256,
+        "total_votes": 29495,
+        "dem_candidate": "Angie G. Cochran",
+        "rep_candidate": "Jim Gibbons",
+        "margin": 13889,
+        "margin_pct": 47.09,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "26": {
+        "dem_votes": 8223,
+        "rep_votes": 20587,
+        "other_votes": 1379,
+        "total_votes": 30189,
+        "dem_candidate": "Angie G. Cochran",
+        "rep_candidate": "Jim Gibbons",
+        "margin": 12364,
+        "margin_pct": 40.96,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "27": {
+        "dem_votes": 5836,
+        "rep_votes": 7907,
+        "other_votes": 1106,
+        "total_votes": 14849,
+        "dem_candidate": "Angie G. Cochran",
+        "rep_candidate": "Jim Gibbons",
+        "margin": 2071,
+        "margin_pct": 13.95,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "28": {
+        "dem_votes": 4087,
+        "rep_votes": 1379,
+        "other_votes": 298,
+        "total_votes": 5764,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Jon Porter",
+        "margin": -2708,
+        "margin_pct": -46.98,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "29": {
+        "dem_votes": 8434,
+        "rep_votes": 11483,
+        "other_votes": 1092,
+        "total_votes": 21009,
+        "dem_candidate": "Tom Gallagher",
+        "rep_candidate": "Jon Porter",
+        "margin": 3049,
+        "margin_pct": 14.51,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "30": {
+        "dem_votes": 5027,
+        "rep_votes": 7424,
+        "other_votes": 949,
+        "total_votes": 13400,
+        "dem_candidate": "Angie G. Cochran",
+        "rep_candidate": "Jim Gibbons",
+        "margin": 2397,
+        "margin_pct": 17.89,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "31": {
+        "dem_votes": 5214,
+        "rep_votes": 8569,
+        "other_votes": 900,
+        "total_votes": 14683,
+        "dem_candidate": "Angie G. Cochran",
+        "rep_candidate": "Jim Gibbons",
+        "margin": 3355,
+        "margin_pct": 22.85,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "32": {
+        "dem_votes": 6776,
+        "rep_votes": 20614,
+        "other_votes": 1254,
+        "total_votes": 28644,
+        "dem_candidate": "Angie G. Cochran",
+        "rep_candidate": "Jim Gibbons",
+        "margin": 13838,
+        "margin_pct": 48.31,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "33": {
+        "dem_votes": 2414,
+        "rep_votes": 12454,
+        "other_votes": 891,
+        "total_votes": 15759,
+        "dem_candidate": "Angie G. Cochran",
+        "rep_candidate": "Jim Gibbons",
+        "margin": 10040,
+        "margin_pct": 63.71,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "34": {
+        "dem_votes": 9539,
+        "rep_votes": 5113,
+        "other_votes": 493,
+        "total_votes": 15145,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Russ Mickelson",
+        "margin": -4426,
+        "margin_pct": -29.22,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "35": {
+        "dem_votes": 3421,
+        "rep_votes": 13682,
+        "other_votes": 975,
+        "total_votes": 18078,
+        "dem_candidate": "Angie G. Cochran",
+        "rep_candidate": "Jim Gibbons",
+        "margin": 10261,
+        "margin_pct": 56.76,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "36": {
+        "dem_votes": 5300,
+        "rep_votes": 13697,
+        "other_votes": 1414,
+        "total_votes": 20411,
+        "dem_candidate": "Angie G. Cochran",
+        "rep_candidate": "Jim Gibbons",
+        "margin": 8397,
+        "margin_pct": 41.14,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "37": {
+        "dem_votes": 8958,
+        "rep_votes": 5873,
+        "other_votes": 532,
+        "total_votes": 15363,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Russ Mickelson",
+        "margin": -3085,
+        "margin_pct": -20.08,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "38": {
+        "dem_votes": 5705,
+        "rep_votes": 17137,
+        "other_votes": 1282,
+        "total_votes": 24124,
+        "dem_candidate": "Angie G. Cochran",
+        "rep_candidate": "Jim Gibbons",
+        "margin": 11432,
+        "margin_pct": 47.39,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "39": {
+        "dem_votes": 6282,
+        "rep_votes": 18960,
+        "other_votes": 1252,
+        "total_votes": 26494,
+        "dem_candidate": "Angie G. Cochran",
+        "rep_candidate": "Jim Gibbons",
+        "margin": 12678,
+        "margin_pct": 47.85,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "40": {
+        "dem_votes": 5311,
+        "rep_votes": 13509,
+        "other_votes": 1019,
+        "total_votes": 19839,
+        "dem_candidate": "Angie G. Cochran",
+        "rep_candidate": "Jim Gibbons",
+        "margin": 8198,
+        "margin_pct": 41.32,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "41": {
+        "dem_votes": 7192,
+        "rep_votes": 5087,
+        "other_votes": 685,
+        "total_votes": 12964,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Jon Porter",
+        "margin": -2105,
+        "margin_pct": -16.24,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "42": {
+        "dem_votes": 6819,
+        "rep_votes": 5890,
+        "other_votes": 814,
+        "total_votes": 13523,
+        "dem_candidate": "Tom Gallagher",
+        "rep_candidate": "Jon Porter",
+        "margin": -929,
+        "margin_pct": -6.87,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,601 @@
+{
+  "year": 2006,
+  "scope": "state_house",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 5390,
+        "rep_votes": 5380,
+        "other_votes": 967,
+        "total_votes": 11737,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -10,
+        "margin_pct": -0.09,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "2": {
+        "dem_votes": 6863,
+        "rep_votes": 9653,
+        "other_votes": 947,
+        "total_votes": 17463,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 2790,
+        "margin_pct": 15.98,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "3": {
+        "dem_votes": 4750,
+        "rep_votes": 4201,
+        "other_votes": 804,
+        "total_votes": 9755,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -549,
+        "margin_pct": -5.63,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "4": {
+        "dem_votes": 8114,
+        "rep_votes": 11358,
+        "other_votes": 1276,
+        "total_votes": 20748,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 3244,
+        "margin_pct": 15.64,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "5": {
+        "dem_votes": 5315,
+        "rep_votes": 6060,
+        "other_votes": 848,
+        "total_votes": 12223,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 745,
+        "margin_pct": 6.1,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "6": {
+        "dem_votes": 3617,
+        "rep_votes": 1687,
+        "other_votes": 580,
+        "total_votes": 5884,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -1930,
+        "margin_pct": -32.8,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "7": {
+        "dem_votes": 4949,
+        "rep_votes": 2187,
+        "other_votes": 714,
+        "total_votes": 7850,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -2762,
+        "margin_pct": -35.18,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "8": {
+        "dem_votes": 3253,
+        "rep_votes": 2356,
+        "other_votes": 514,
+        "total_votes": 6123,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -897,
+        "margin_pct": -14.65,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "9": {
+        "dem_votes": 3750,
+        "rep_votes": 2511,
+        "other_votes": 617,
+        "total_votes": 6878,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -1239,
+        "margin_pct": -18.01,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "10": {
+        "dem_votes": 4041,
+        "rep_votes": 3926,
+        "other_votes": 697,
+        "total_votes": 8664,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -115,
+        "margin_pct": -1.33,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "11": {
+        "dem_votes": 1836,
+        "rep_votes": 790,
+        "other_votes": 282,
+        "total_votes": 2908,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -1046,
+        "margin_pct": -35.97,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "12": {
+        "dem_votes": 4139,
+        "rep_votes": 2861,
+        "other_votes": 695,
+        "total_votes": 7695,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -1278,
+        "margin_pct": -16.61,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "13": {
+        "dem_votes": 16376,
+        "rep_votes": 21175,
+        "other_votes": 2760,
+        "total_votes": 40311,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 4799,
+        "margin_pct": 11.9,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "14": {
+        "dem_votes": 4098,
+        "rep_votes": 3836,
+        "other_votes": 716,
+        "total_votes": 8650,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -262,
+        "margin_pct": -3.03,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "15": {
+        "dem_votes": 5244,
+        "rep_votes": 4213,
+        "other_votes": 828,
+        "total_votes": 10285,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -1031,
+        "margin_pct": -10.02,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "16": {
+        "dem_votes": 5606,
+        "rep_votes": 4961,
+        "other_votes": 914,
+        "total_votes": 11481,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -645,
+        "margin_pct": -5.62,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "17": {
+        "dem_votes": 5921,
+        "rep_votes": 4850,
+        "other_votes": 974,
+        "total_votes": 11745,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -1071,
+        "margin_pct": -9.12,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "18": {
+        "dem_votes": 6013,
+        "rep_votes": 4968,
+        "other_votes": 978,
+        "total_votes": 11959,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -1045,
+        "margin_pct": -8.74,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "19": {
+        "dem_votes": 3160,
+        "rep_votes": 2760,
+        "other_votes": 611,
+        "total_votes": 6531,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -400,
+        "margin_pct": -6.12,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "20": {
+        "dem_votes": 5564,
+        "rep_votes": 9805,
+        "other_votes": 1339,
+        "total_votes": 16708,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 4241,
+        "margin_pct": 25.38,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "21": {
+        "dem_votes": 6340,
+        "rep_votes": 7776,
+        "other_votes": 880,
+        "total_votes": 14996,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 1436,
+        "margin_pct": 9.58,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "22": {
+        "dem_votes": 16772,
+        "rep_votes": 21995,
+        "other_votes": 2553,
+        "total_votes": 41320,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 5223,
+        "margin_pct": 12.64,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "23": {
+        "dem_votes": 5340,
+        "rep_votes": 5278,
+        "other_votes": 1111,
+        "total_votes": 11729,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -62,
+        "margin_pct": -0.53,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#e1f5fe"
+        }
+      },
+      "24": {
+        "dem_votes": 5188,
+        "rep_votes": 6131,
+        "other_votes": 1182,
+        "total_votes": 12501,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 943,
+        "margin_pct": 7.54,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "25": {
+        "dem_votes": 6919,
+        "rep_votes": 16324,
+        "other_votes": 1377,
+        "total_votes": 24620,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 9405,
+        "margin_pct": 38.2,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "26": {
+        "dem_votes": 7679,
+        "rep_votes": 15885,
+        "other_votes": 1673,
+        "total_votes": 25237,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 8206,
+        "margin_pct": 32.52,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "27": {
+        "dem_votes": 4483,
+        "rep_votes": 4977,
+        "other_votes": 940,
+        "total_votes": 10400,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 494,
+        "margin_pct": 4.75,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "28": {
+        "dem_votes": 1927,
+        "rep_votes": 820,
+        "other_votes": 299,
+        "total_votes": 3046,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -1107,
+        "margin_pct": -36.34,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "29": {
+        "dem_votes": 5999,
+        "rep_votes": 6530,
+        "other_votes": 1073,
+        "total_votes": 13602,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 531,
+        "margin_pct": 3.9,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "30": {
+        "dem_votes": 3864,
+        "rep_votes": 4542,
+        "other_votes": 1021,
+        "total_votes": 9427,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 678,
+        "margin_pct": 7.19,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "31": {
+        "dem_votes": 4120,
+        "rep_votes": 5288,
+        "other_votes": 995,
+        "total_votes": 10403,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 1168,
+        "margin_pct": 11.23,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "32": {
+        "dem_votes": 6674,
+        "rep_votes": 15380,
+        "other_votes": 1815,
+        "total_votes": 23869,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 8706,
+        "margin_pct": 36.47,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "33": {
+        "dem_votes": 2659,
+        "rep_votes": 7960,
+        "other_votes": 1838,
+        "total_votes": 12457,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 5301,
+        "margin_pct": 42.55,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "34": {
+        "dem_votes": 4664,
+        "rep_votes": 4220,
+        "other_votes": 775,
+        "total_votes": 9659,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -444,
+        "margin_pct": -4.6,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "35": {
+        "dem_votes": 3797,
+        "rep_votes": 9418,
+        "other_votes": 1917,
+        "total_votes": 15132,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 5621,
+        "margin_pct": 37.15,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "36": {
+        "dem_votes": 5624,
+        "rep_votes": 9527,
+        "other_votes": 2404,
+        "total_votes": 17555,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 3903,
+        "margin_pct": 22.23,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "37": {
+        "dem_votes": 4473,
+        "rep_votes": 4315,
+        "other_votes": 714,
+        "total_votes": 9502,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -158,
+        "margin_pct": -1.66,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "38": {
+        "dem_votes": 5632,
+        "rep_votes": 13655,
+        "other_votes": 1994,
+        "total_votes": 21281,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 8023,
+        "margin_pct": 37.7,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "39": {
+        "dem_votes": 5463,
+        "rep_votes": 14658,
+        "other_votes": 1638,
+        "total_votes": 21759,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 9195,
+        "margin_pct": 42.26,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "40": {
+        "dem_votes": 4558,
+        "rep_votes": 10077,
+        "other_votes": 1225,
+        "total_votes": 15860,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 5519,
+        "margin_pct": 34.8,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "41": {
+        "dem_votes": 3889,
+        "rep_votes": 3255,
+        "other_votes": 669,
+        "total_votes": 7813,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -634,
+        "margin_pct": -8.11,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "42": {
+        "dem_votes": 4292,
+        "rep_votes": 3443,
+        "other_votes": 723,
+        "total_votes": 8458,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -849,
+        "margin_pct": -10.04,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      }
+    }
+  }
+}

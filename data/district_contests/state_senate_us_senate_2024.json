@@ -1,0 +1,153 @@
+{
+  "year": 2024,
+  "scope": "state_senate",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 39730,
+        "rep_votes": 25982,
+        "other_votes": 4475,
+        "total_votes": 70187,
+        "dem_candidate": "Jacky S. Rosen",
+        "rep_candidate": "Sam Brown",
+        "margin": -13748,
+        "margin_pct": -19.59,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "3": {
+        "dem_votes": 28945,
+        "rep_votes": 20869,
+        "other_votes": 3613,
+        "total_votes": 53427,
+        "dem_candidate": "Jacky S. Rosen",
+        "rep_candidate": "Sam Brown",
+        "margin": -8076,
+        "margin_pct": -15.12,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "4": {
+        "dem_votes": 30751,
+        "rep_votes": 12834,
+        "other_votes": 3690,
+        "total_votes": 47275,
+        "dem_candidate": "Jacky S. Rosen",
+        "rep_candidate": "Sam Brown",
+        "margin": -17917,
+        "margin_pct": -37.9,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "5": {
+        "dem_votes": 38583,
+        "rep_votes": 38625,
+        "other_votes": 4576,
+        "total_votes": 81784,
+        "dem_candidate": "Jacky S. Rosen",
+        "rep_candidate": "Sam Brown",
+        "margin": 42,
+        "margin_pct": 0.05,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "6": {
+        "dem_votes": 38175,
+        "rep_votes": 31953,
+        "other_votes": 3967,
+        "total_votes": 74095,
+        "dem_candidate": "Jacky S. Rosen",
+        "rep_candidate": "Sam Brown",
+        "margin": -6222,
+        "margin_pct": -8.4,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "7": {
+        "dem_votes": 30065,
+        "rep_votes": 19279,
+        "other_votes": 3727,
+        "total_votes": 53071,
+        "dem_candidate": "Jacky S. Rosen",
+        "rep_candidate": "Sam Brown",
+        "margin": -10786,
+        "margin_pct": -20.32,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "11": {
+        "dem_votes": 37974,
+        "rep_votes": 34479,
+        "other_votes": 4193,
+        "total_votes": 76646,
+        "dem_candidate": "Jacky S. Rosen",
+        "rep_candidate": "Sam Brown",
+        "margin": -3495,
+        "margin_pct": -4.56,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "15": {
+        "dem_votes": 41506,
+        "rep_votes": 28878,
+        "other_votes": 4227,
+        "total_votes": 74611,
+        "dem_candidate": "Jacky S. Rosen",
+        "rep_candidate": "Sam Brown",
+        "margin": -12628,
+        "margin_pct": -16.93,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "18": {
+        "dem_votes": 38238,
+        "rep_votes": 41543,
+        "other_votes": 4494,
+        "total_votes": 84275,
+        "dem_candidate": "Jacky S. Rosen",
+        "rep_candidate": "Sam Brown",
+        "margin": 3305,
+        "margin_pct": 3.92,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "19": {
+        "dem_votes": 25044,
+        "rep_votes": 51786,
+        "other_votes": 5674,
+        "total_votes": 82504,
+        "dem_candidate": "Jacky S. Rosen",
+        "rep_candidate": "Sam Brown",
+        "margin": 26742,
+        "margin_pct": 32.41,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      }
+    }
+  }
+}

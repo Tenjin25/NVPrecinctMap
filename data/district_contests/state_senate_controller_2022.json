@@ -1,0 +1,167 @@
+{
+  "year": 2022,
+  "scope": "state_senate",
+  "contest_type": "controller",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "2": {
+        "dem_votes": 11763,
+        "rep_votes": 5216,
+        "other_votes": 1022,
+        "total_votes": 18001,
+        "dem_candidate": "Ellen Spiegel",
+        "rep_candidate": "Andy Matthews",
+        "margin": -6547,
+        "margin_pct": -36.37,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "8": {
+        "dem_votes": 25410,
+        "rep_votes": 25926,
+        "other_votes": 1751,
+        "total_votes": 53087,
+        "dem_candidate": "Ellen Spiegel",
+        "rep_candidate": "Andy Matthews",
+        "margin": 516,
+        "margin_pct": 0.97,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fee8c8"
+        }
+      },
+      "9": {
+        "dem_votes": 22147,
+        "rep_votes": 19324,
+        "other_votes": 1620,
+        "total_votes": 43091,
+        "dem_candidate": "Ellen Spiegel",
+        "rep_candidate": "Andy Matthews",
+        "margin": -2823,
+        "margin_pct": -6.55,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "10": {
+        "dem_votes": 16531,
+        "rep_votes": 12527,
+        "other_votes": 1359,
+        "total_votes": 30417,
+        "dem_candidate": "Ellen Spiegel",
+        "rep_candidate": "Andy Matthews",
+        "margin": -4004,
+        "margin_pct": -13.16,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "12": {
+        "dem_votes": 25571,
+        "rep_votes": 23831,
+        "other_votes": 1786,
+        "total_votes": 51188,
+        "dem_candidate": "Ellen Spiegel",
+        "rep_candidate": "Andy Matthews",
+        "margin": -1740,
+        "margin_pct": -3.4,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "13": {
+        "dem_votes": 22048,
+        "rep_votes": 14502,
+        "other_votes": 1905,
+        "total_votes": 38455,
+        "dem_candidate": "Ellen Spiegel",
+        "rep_candidate": "Andy Matthews",
+        "margin": -7546,
+        "margin_pct": -19.62,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "14": {
+        "dem_votes": 21241,
+        "rep_votes": 37912,
+        "other_votes": 2693,
+        "total_votes": 61846,
+        "dem_candidate": "Ellen Spiegel",
+        "rep_candidate": "Andy Matthews",
+        "margin": 16671,
+        "margin_pct": 26.96,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "16": {
+        "dem_votes": 28658,
+        "rep_votes": 40331,
+        "other_votes": 2643,
+        "total_votes": 71632,
+        "dem_candidate": "Ellen Spiegel",
+        "rep_candidate": "Andy Matthews",
+        "margin": 11673,
+        "margin_pct": 16.3,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "17": {
+        "dem_votes": 17036,
+        "rep_votes": 45607,
+        "other_votes": 2951,
+        "total_votes": 65594,
+        "dem_candidate": "Ellen Spiegel",
+        "rep_candidate": "Andy Matthews",
+        "margin": 28571,
+        "margin_pct": 43.56,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "20": {
+        "dem_votes": 26277,
+        "rep_votes": 44413,
+        "other_votes": 2373,
+        "total_votes": 73063,
+        "dem_candidate": "Ellen Spiegel",
+        "rep_candidate": "Andy Matthews",
+        "margin": 18136,
+        "margin_pct": 24.82,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "21": {
+        "dem_votes": 17924,
+        "rep_votes": 14022,
+        "other_votes": 1467,
+        "total_votes": 33413,
+        "dem_candidate": "Ellen Spiegel",
+        "rep_candidate": "Andy Matthews",
+        "margin": -3902,
+        "margin_pct": -11.68,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      }
+    }
+  }
+}

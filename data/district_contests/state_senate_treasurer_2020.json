@@ -1,0 +1,27 @@
+{
+  "year": 2020,
+  "scope": "state_senate",
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 20672,
+        "total_votes": 20672,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "year": 2006,
+  "scope": "state_senate",
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 9470,
+        "rep_votes": 13476,
+        "other_votes": 8054,
+        "total_votes": 31000,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Bill Berrum",
+        "margin": 4006,
+        "margin_pct": 12.92,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "2": {
+        "dem_votes": 25636,
+        "rep_votes": 42946,
+        "other_votes": 14085,
+        "total_votes": 82667,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Bill Berrum",
+        "margin": 17310,
+        "margin_pct": 20.94,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "4": {
+        "dem_votes": 14763,
+        "rep_votes": 37630,
+        "other_votes": 10572,
+        "total_votes": 62965,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Bill Berrum",
+        "margin": 22867,
+        "margin_pct": 36.32,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "5": {
+        "dem_votes": 73929,
+        "rep_votes": 26746,
+        "other_votes": 21669,
+        "total_votes": 122344,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -47183,
+        "margin_pct": -38.57,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "7": {
+        "dem_votes": 44605,
+        "rep_votes": 11127,
+        "other_votes": 10211,
+        "total_votes": 65943,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -33478,
+        "margin_pct": -50.77,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "8": {
+        "dem_votes": 31926,
+        "rep_votes": 11735,
+        "other_votes": 9183,
+        "total_votes": 52844,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -20191,
+        "margin_pct": -38.21,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "9": {
+        "dem_votes": 66712,
+        "rep_votes": 25483,
+        "other_votes": 21173,
+        "total_votes": 113368,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -41229,
+        "margin_pct": -36.37,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "10": {
+        "dem_votes": 15262,
+        "rep_votes": 2941,
+        "other_votes": 3063,
+        "total_votes": 21266,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -12321,
+        "margin_pct": -57.94,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "12": {
+        "dem_votes": 49224,
+        "rep_votes": 19635,
+        "other_votes": 17237,
+        "total_votes": 86096,
+        "dem_candidate": "Laura Fitzpatrick",
+        "rep_candidate": "Mark Destefano",
+        "margin": -29589,
+        "margin_pct": -34.37,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "rict": {
+        "dem_votes": 14502,
+        "rep_votes": 36803,
+        "other_votes": 3945,
+        "total_votes": 55250,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Mark Destefano",
+        "margin": 22301,
+        "margin_pct": 40.36,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

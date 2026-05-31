@@ -1,0 +1,153 @@
+{
+  "year": 2010,
+  "scope": "state_senate",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 7313,
+        "other_votes": 10160,
+        "total_votes": 17473,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 7313,
+        "margin_pct": 41.85,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 28635,
+        "other_votes": 24099,
+        "total_votes": 52734,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 28635,
+        "margin_pct": 54.3,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 25631,
+        "other_votes": 14392,
+        "total_votes": 40023,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 25631,
+        "margin_pct": 64.04,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 39063,
+        "other_votes": 38984,
+        "total_votes": 78047,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 39063,
+        "margin_pct": 50.05,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 13457,
+        "other_votes": 26837,
+        "total_votes": 40294,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 13457,
+        "margin_pct": 33.4,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 15134,
+        "other_votes": 16994,
+        "total_votes": 32128,
+        "dem_candidate": "",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": 15134,
+        "margin_pct": 47.11,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 43474,
+        "other_votes": 43609,
+        "total_votes": 87083,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 43474,
+        "margin_pct": 49.92,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 3299,
+        "other_votes": 10187,
+        "total_votes": 13486,
+        "dem_candidate": "",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": 3299,
+        "margin_pct": 24.46,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 33791,
+        "other_votes": 29112,
+        "total_votes": 62903,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 33791,
+        "margin_pct": 53.72,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "rict": {
+        "dem_votes": 0,
+        "rep_votes": 27450,
+        "other_votes": 12682,
+        "total_votes": 40132,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 27450,
+        "margin_pct": 68.4,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

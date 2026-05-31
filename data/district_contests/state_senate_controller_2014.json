@@ -1,0 +1,167 @@
+{
+  "year": 2014,
+  "scope": "state_senate",
+  "contest_type": "controller",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 2034,
+        "other_votes": 5764,
+        "total_votes": 7798,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 2034,
+        "margin_pct": 26.08,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 15797,
+        "other_votes": 12654,
+        "total_votes": 28451,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 15797,
+        "margin_pct": 55.52,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 11394,
+        "other_votes": 11091,
+        "total_votes": 22485,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 11394,
+        "margin_pct": 50.67,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 5086,
+        "other_votes": 8444,
+        "total_votes": 13530,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 5086,
+        "margin_pct": 37.59,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 21264,
+        "other_votes": 13505,
+        "total_votes": 34769,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 21264,
+        "margin_pct": 61.16,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 8923,
+        "other_votes": 12717,
+        "total_votes": 21640,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 8923,
+        "margin_pct": 41.23,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 21029,
+        "other_votes": 15011,
+        "total_votes": 36040,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 21029,
+        "margin_pct": 58.35,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 25243,
+        "other_votes": 17356,
+        "total_votes": 42599,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 25243,
+        "margin_pct": 59.26,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 27510,
+        "other_votes": 13542,
+        "total_votes": 41052,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 27510,
+        "margin_pct": 67.01,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 15601,
+        "other_votes": 12362,
+        "total_votes": 27963,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 15601,
+        "margin_pct": 55.79,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 8274,
+        "other_votes": 9877,
+        "total_votes": 18151,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 8274,
+        "margin_pct": 45.58,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

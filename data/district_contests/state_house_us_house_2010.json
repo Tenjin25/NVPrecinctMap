@@ -1,0 +1,601 @@
+{
+  "year": 2010,
+  "scope": "state_house",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 5525,
+        "other_votes": 8660,
+        "total_votes": 14185,
+        "dem_candidate": "",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": 5525,
+        "margin_pct": 38.95,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 9788,
+        "other_votes": 10103,
+        "total_votes": 19891,
+        "dem_candidate": "",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": 9788,
+        "margin_pct": 49.21,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 3874,
+        "other_votes": 6877,
+        "total_votes": 10751,
+        "dem_candidate": "",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": 3874,
+        "margin_pct": 36.03,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 12731,
+        "other_votes": 11594,
+        "total_votes": 24325,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 12731,
+        "margin_pct": 52.34,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 6454,
+        "other_votes": 7335,
+        "total_votes": 13789,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 6454,
+        "margin_pct": 46.81,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 1409,
+        "other_votes": 6062,
+        "total_votes": 7471,
+        "dem_candidate": "",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": 1409,
+        "margin_pct": 18.86,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 2124,
+        "other_votes": 9223,
+        "total_votes": 11347,
+        "dem_candidate": "",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": 2124,
+        "margin_pct": 18.72,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 2422,
+        "other_votes": 4599,
+        "total_votes": 7021,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 2422,
+        "margin_pct": 34.5,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 2186,
+        "other_votes": 5523,
+        "total_votes": 7709,
+        "dem_candidate": "",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": 2186,
+        "margin_pct": 28.36,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 4345,
+        "other_votes": 5824,
+        "total_votes": 10169,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 4345,
+        "margin_pct": 42.73,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 710,
+        "other_votes": 3129,
+        "total_votes": 3839,
+        "dem_candidate": "",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": 710,
+        "margin_pct": 18.49,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 2735,
+        "other_votes": 6725,
+        "total_votes": 9460,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 2735,
+        "margin_pct": 28.91,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 32008,
+        "other_votes": 32529,
+        "total_votes": 64537,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 32008,
+        "margin_pct": 49.6,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 3666,
+        "other_votes": 6794,
+        "total_votes": 10460,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 3666,
+        "margin_pct": 35.05,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 3805,
+        "other_votes": 7253,
+        "total_votes": 11058,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 3805,
+        "margin_pct": 34.41,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 5253,
+        "other_votes": 7701,
+        "total_votes": 12954,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 5253,
+        "margin_pct": 40.55,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 6344,
+        "other_votes": 12063,
+        "total_votes": 18407,
+        "dem_candidate": "",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": 6344,
+        "margin_pct": 34.47,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 5911,
+        "other_votes": 9656,
+        "total_votes": 15567,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 5911,
+        "margin_pct": 37.97,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 2729,
+        "other_votes": 4924,
+        "total_votes": 7653,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 2729,
+        "margin_pct": 35.66,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 12879,
+        "other_votes": 7380,
+        "total_votes": 20259,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 12879,
+        "margin_pct": 63.57,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 8782,
+        "other_votes": 8505,
+        "total_votes": 17287,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 8782,
+        "margin_pct": 50.8,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 33032,
+        "other_votes": 28073,
+        "total_votes": 61105,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 33032,
+        "margin_pct": 54.06,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "23": {
+        "dem_votes": 0,
+        "rep_votes": 6654,
+        "other_votes": 7111,
+        "total_votes": 13765,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 6654,
+        "margin_pct": 48.34,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "24": {
+        "dem_votes": 0,
+        "rep_votes": 6476,
+        "other_votes": 7203,
+        "total_votes": 13679,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 6476,
+        "margin_pct": 47.34,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 18146,
+        "other_votes": 10027,
+        "total_votes": 28173,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 18146,
+        "margin_pct": 64.41,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "26": {
+        "dem_votes": 0,
+        "rep_votes": 18657,
+        "other_votes": 10838,
+        "total_votes": 29495,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 18657,
+        "margin_pct": 63.25,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 5088,
+        "other_votes": 5799,
+        "total_votes": 10887,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 5088,
+        "margin_pct": 46.73,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 720,
+        "other_votes": 3743,
+        "total_votes": 4463,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 720,
+        "margin_pct": 16.13,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "29": {
+        "dem_votes": 0,
+        "rep_votes": 7664,
+        "other_votes": 8586,
+        "total_votes": 16250,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 7664,
+        "margin_pct": 47.16,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "30": {
+        "dem_votes": 0,
+        "rep_votes": 5117,
+        "other_votes": 5205,
+        "total_votes": 10322,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 5117,
+        "margin_pct": 49.57,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "31": {
+        "dem_votes": 0,
+        "rep_votes": 5433,
+        "other_votes": 5392,
+        "total_votes": 10825,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 5433,
+        "margin_pct": 50.19,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "32": {
+        "dem_votes": 0,
+        "rep_votes": 19551,
+        "other_votes": 9920,
+        "total_votes": 29471,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 19551,
+        "margin_pct": 66.34,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 10051,
+        "other_votes": 3311,
+        "total_votes": 13362,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 10051,
+        "margin_pct": 75.22,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "34": {
+        "dem_votes": 0,
+        "rep_votes": 3820,
+        "other_votes": 7031,
+        "total_votes": 10851,
+        "dem_candidate": "",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": 3820,
+        "margin_pct": 35.2,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "35": {
+        "dem_votes": 0,
+        "rep_votes": 11813,
+        "other_votes": 4293,
+        "total_votes": 16106,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 11813,
+        "margin_pct": 73.35,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "36": {
+        "dem_votes": 0,
+        "rep_votes": 12899,
+        "other_votes": 6713,
+        "total_votes": 19612,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 12899,
+        "margin_pct": 65.77,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "37": {
+        "dem_votes": 0,
+        "rep_votes": 4370,
+        "other_votes": 6693,
+        "total_votes": 11063,
+        "dem_candidate": "",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": 4370,
+        "margin_pct": 39.5,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "38": {
+        "dem_votes": 0,
+        "rep_votes": 16894,
+        "other_votes": 7021,
+        "total_votes": 23915,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 16894,
+        "margin_pct": 70.64,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "39": {
+        "dem_votes": 0,
+        "rep_votes": 16626,
+        "other_votes": 7357,
+        "total_votes": 23983,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 16626,
+        "margin_pct": 69.32,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "40": {
+        "dem_votes": 0,
+        "rep_votes": 10754,
+        "other_votes": 5950,
+        "total_votes": 16704,
+        "dem_candidate": "",
+        "rep_candidate": "Dean Heller",
+        "margin": 10754,
+        "margin_pct": 64.38,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "41": {
+        "dem_votes": 0,
+        "rep_votes": 3525,
+        "other_votes": 5414,
+        "total_votes": 8939,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 3525,
+        "margin_pct": 39.43,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "42": {
+        "dem_votes": 0,
+        "rep_votes": 3520,
+        "other_votes": 5899,
+        "total_votes": 9419,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 3520,
+        "margin_pct": 37.37,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      }
+    }
+  }
+}

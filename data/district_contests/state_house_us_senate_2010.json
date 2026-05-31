@@ -1,0 +1,601 @@
+{
+  "year": 2010,
+  "scope": "state_house",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 5733,
+        "other_votes": 8801,
+        "total_votes": 14534,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 5733,
+        "margin_pct": 39.45,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 10230,
+        "other_votes": 10030,
+        "total_votes": 20260,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 10230,
+        "margin_pct": 50.49,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 4073,
+        "other_votes": 7001,
+        "total_votes": 11074,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 4073,
+        "margin_pct": 36.78,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 12531,
+        "other_votes": 12176,
+        "total_votes": 24707,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 12531,
+        "margin_pct": 50.72,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 6081,
+        "other_votes": 8009,
+        "total_votes": 14090,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 6081,
+        "margin_pct": 43.16,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 1479,
+        "other_votes": 6271,
+        "total_votes": 7750,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 1479,
+        "margin_pct": 19.08,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 1981,
+        "other_votes": 9801,
+        "total_votes": 11782,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 1981,
+        "margin_pct": 16.81,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 2368,
+        "other_votes": 4863,
+        "total_votes": 7231,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 2368,
+        "margin_pct": 32.75,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 2389,
+        "other_votes": 5615,
+        "total_votes": 8004,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 2389,
+        "margin_pct": 29.85,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 4273,
+        "other_votes": 6097,
+        "total_votes": 10370,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 4273,
+        "margin_pct": 41.21,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 640,
+        "other_votes": 3455,
+        "total_votes": 4095,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 640,
+        "margin_pct": 15.63,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 2629,
+        "other_votes": 7178,
+        "total_votes": 9807,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 2629,
+        "margin_pct": 26.81,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 31292,
+        "other_votes": 34391,
+        "total_votes": 65683,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 31292,
+        "margin_pct": 47.64,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 3470,
+        "other_votes": 7314,
+        "total_votes": 10784,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 3470,
+        "margin_pct": 32.18,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 3812,
+        "other_votes": 7566,
+        "total_votes": 11378,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 3812,
+        "margin_pct": 33.5,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 4994,
+        "other_votes": 8227,
+        "total_votes": 13221,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 4994,
+        "margin_pct": 37.77,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 6190,
+        "other_votes": 12669,
+        "total_votes": 18859,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 6190,
+        "margin_pct": 32.82,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 5473,
+        "other_votes": 10435,
+        "total_votes": 15908,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 5473,
+        "margin_pct": 34.4,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 2638,
+        "other_votes": 5265,
+        "total_votes": 7903,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 2638,
+        "margin_pct": 33.38,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 12174,
+        "other_votes": 8503,
+        "total_votes": 20677,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 12174,
+        "margin_pct": 58.88,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 8147,
+        "other_votes": 9396,
+        "total_votes": 17543,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 8147,
+        "margin_pct": 46.44,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 30279,
+        "other_votes": 32027,
+        "total_votes": 62306,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 30279,
+        "margin_pct": 48.6,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "23": {
+        "dem_votes": 0,
+        "rep_votes": 6266,
+        "other_votes": 7703,
+        "total_votes": 13969,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 6266,
+        "margin_pct": 44.86,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "24": {
+        "dem_votes": 0,
+        "rep_votes": 4719,
+        "other_votes": 9639,
+        "total_votes": 14358,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 4719,
+        "margin_pct": 32.87,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 14318,
+        "other_votes": 14808,
+        "total_votes": 29126,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 14318,
+        "margin_pct": 49.16,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "26": {
+        "dem_votes": 0,
+        "rep_votes": 15280,
+        "other_votes": 15128,
+        "total_votes": 30408,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 15280,
+        "margin_pct": 50.25,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 3670,
+        "other_votes": 7789,
+        "total_votes": 11459,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 3670,
+        "margin_pct": 32.03,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 659,
+        "other_votes": 4076,
+        "total_votes": 4735,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 659,
+        "margin_pct": 13.92,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "29": {
+        "dem_votes": 0,
+        "rep_votes": 7216,
+        "other_votes": 9279,
+        "total_votes": 16495,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 7216,
+        "margin_pct": 43.75,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "30": {
+        "dem_votes": 0,
+        "rep_votes": 3904,
+        "other_votes": 7001,
+        "total_votes": 10905,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 3904,
+        "margin_pct": 35.8,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "31": {
+        "dem_votes": 0,
+        "rep_votes": 3940,
+        "other_votes": 7418,
+        "total_votes": 11358,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 3940,
+        "margin_pct": 34.69,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "32": {
+        "dem_votes": 0,
+        "rep_votes": 15806,
+        "other_votes": 14521,
+        "total_votes": 30327,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 15806,
+        "margin_pct": 52.12,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 8680,
+        "other_votes": 4974,
+        "total_votes": 13654,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 8680,
+        "margin_pct": 63.57,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "34": {
+        "dem_votes": 0,
+        "rep_votes": 3946,
+        "other_votes": 7188,
+        "total_votes": 11134,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 3946,
+        "margin_pct": 35.44,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "35": {
+        "dem_votes": 0,
+        "rep_votes": 9924,
+        "other_votes": 6545,
+        "total_votes": 16469,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 9924,
+        "margin_pct": 60.26,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "36": {
+        "dem_votes": 0,
+        "rep_votes": 11335,
+        "other_votes": 8844,
+        "total_votes": 20179,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 11335,
+        "margin_pct": 56.17,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "37": {
+        "dem_votes": 0,
+        "rep_votes": 4313,
+        "other_votes": 6996,
+        "total_votes": 11309,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 4313,
+        "margin_pct": 38.14,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "38": {
+        "dem_votes": 0,
+        "rep_votes": 14442,
+        "other_votes": 10085,
+        "total_votes": 24527,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 14442,
+        "margin_pct": 58.88,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "39": {
+        "dem_votes": 0,
+        "rep_votes": 14488,
+        "other_votes": 10160,
+        "total_votes": 24648,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 14488,
+        "margin_pct": 58.78,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "40": {
+        "dem_votes": 0,
+        "rep_votes": 8051,
+        "other_votes": 9043,
+        "total_votes": 17094,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 8051,
+        "margin_pct": 47.1,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "41": {
+        "dem_votes": 0,
+        "rep_votes": 3424,
+        "other_votes": 5774,
+        "total_votes": 9198,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 3424,
+        "margin_pct": 37.23,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "42": {
+        "dem_votes": 0,
+        "rep_votes": 3348,
+        "other_votes": 6325,
+        "total_votes": 9673,
+        "dem_candidate": "",
+        "rep_candidate": "Sharron Angle",
+        "margin": 3348,
+        "margin_pct": 34.61,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      }
+    }
+  }
+}

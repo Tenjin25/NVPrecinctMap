@@ -3,11 +3,53 @@
   "scope": "state_senate",
   "contest_type": "state_senate",
   "meta": {
-    "source": "nv_scope_aggregates",
-    "nongeo_allocation_mode": "precomputed"
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
   },
   "general": {
     "results": {
+      "2": {
+        "dem_votes": 12441,
+        "rep_votes": 5350,
+        "other_votes": 0,
+        "total_votes": 17791,
+        "dem_candidate": "Edgar Flores",
+        "rep_candidate": "Leo Henderson",
+        "margin": -7091,
+        "margin_pct": -39.86,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "8": {
+        "dem_votes": 26698,
+        "rep_votes": 25944,
+        "other_votes": 0,
+        "total_votes": 52642,
+        "dem_candidate": "Marilyn D. Loop",
+        "rep_candidate": "Joey Paulos",
+        "margin": -754,
+        "margin_pct": -1.43,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "9": {
+        "dem_votes": 22823,
+        "rep_votes": 19875,
+        "other_votes": 0,
+        "total_votes": 42698,
+        "dem_candidate": "Melanie Scheible",
+        "rep_candidate": "Tina Brown",
+        "margin": -2948,
+        "margin_pct": -6.9,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
       "10": {
         "dem_votes": 16710,
         "rep_votes": 12275,
@@ -92,20 +134,6 @@
           "color": "#67000d"
         }
       },
-      "2": {
-        "dem_votes": 12441,
-        "rep_votes": 5350,
-        "other_votes": 0,
-        "total_votes": 17791,
-        "dem_candidate": "Edgar Flores",
-        "rep_candidate": "Leo Henderson",
-        "margin": -7091,
-        "margin_pct": -39.86,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#3182bd"
-        }
-      },
       "20": {
         "dem_votes": 25706,
         "rep_votes": 44553,
@@ -132,34 +160,6 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
-        }
-      },
-      "8": {
-        "dem_votes": 26698,
-        "rep_votes": 25944,
-        "other_votes": 0,
-        "total_votes": 52642,
-        "dem_candidate": "Marilyn D. Loop",
-        "rep_candidate": "Joey Paulos",
-        "margin": -754,
-        "margin_pct": -1.43,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#c6dbef"
-        }
-      },
-      "9": {
-        "dem_votes": 22823,
-        "rep_votes": 19875,
-        "other_votes": 0,
-        "total_votes": 42698,
-        "dem_candidate": "Melanie Scheible",
-        "rep_candidate": "Tina Brown",
-        "margin": -2948,
-        "margin_pct": -6.9,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#c6dbef"
         }
       }
     }

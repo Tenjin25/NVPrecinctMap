@@ -3,8 +3,8 @@
   "scope": "state_senate",
   "contest_type": "state_senate",
   "meta": {
-    "source": "nv_scope_aggregates",
-    "nongeo_allocation_mode": "precomputed"
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
   },
   "general": {
     "results": {
@@ -20,62 +20,6 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
-        }
-      },
-      "11": {
-        "dem_votes": 36615,
-        "rep_votes": 37668,
-        "other_votes": 0,
-        "total_votes": 74283,
-        "dem_candidate": "Dallas Harris",
-        "rep_candidate": "Lori Rogich",
-        "margin": 1053,
-        "margin_pct": 1.42,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#fcae91"
-        }
-      },
-      "15": {
-        "dem_votes": 39738,
-        "rep_votes": 32588,
-        "other_votes": 0,
-        "total_votes": 72326,
-        "dem_candidate": "Angela D. Taylor",
-        "rep_candidate": "Mike Ginsburg",
-        "margin": -7150,
-        "margin_pct": -9.89,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#c6dbef"
-        }
-      },
-      "18": {
-        "dem_votes": 35083,
-        "rep_votes": 46322,
-        "other_votes": 0,
-        "total_votes": 81405,
-        "dem_candidate": "Ronald R. Bilodeau",
-        "rep_candidate": "John Steinbeck",
-        "margin": 11239,
-        "margin_pct": 13.81,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#ef3b2c"
-        }
-      },
-      "19": {
-        "dem_votes": 0,
-        "rep_votes": 64711,
-        "other_votes": 0,
-        "total_votes": 64711,
-        "dem_candidate": "",
-        "rep_candidate": "John Ellison",
-        "margin": 64711,
-        "margin_pct": 100.0,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#67000d"
         }
       },
       "3": {
@@ -146,6 +90,62 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
+        }
+      },
+      "11": {
+        "dem_votes": 36615,
+        "rep_votes": 37668,
+        "other_votes": 0,
+        "total_votes": 74283,
+        "dem_candidate": "Dallas Harris",
+        "rep_candidate": "Lori Rogich",
+        "margin": 1053,
+        "margin_pct": 1.42,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "15": {
+        "dem_votes": 39738,
+        "rep_votes": 32588,
+        "other_votes": 0,
+        "total_votes": 72326,
+        "dem_candidate": "Angela D. Taylor",
+        "rep_candidate": "Mike Ginsburg",
+        "margin": -7150,
+        "margin_pct": -9.89,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "18": {
+        "dem_votes": 35083,
+        "rep_votes": 46322,
+        "other_votes": 0,
+        "total_votes": 81405,
+        "dem_candidate": "Ronald R. Bilodeau",
+        "rep_candidate": "John Steinbeck",
+        "margin": 11239,
+        "margin_pct": 13.81,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 64711,
+        "other_votes": 0,
+        "total_votes": 64711,
+        "dem_candidate": "",
+        "rep_candidate": "John Ellison",
+        "margin": 64711,
+        "margin_pct": 100.0,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
         }
       }
     }

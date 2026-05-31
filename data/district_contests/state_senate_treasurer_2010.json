@@ -1,0 +1,153 @@
+{
+  "year": 2010,
+  "scope": "state_senate",
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 19873,
+        "other_votes": 12738,
+        "total_votes": 32611,
+        "dem_candidate": "",
+        "rep_candidate": "Tammi Davis",
+        "margin": 19873,
+        "margin_pct": 60.94,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 62768,
+        "other_votes": 38681,
+        "total_votes": 101449,
+        "dem_candidate": "",
+        "rep_candidate": "Tammi Davis",
+        "margin": 62768,
+        "margin_pct": 61.87,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 51378,
+        "other_votes": 20365,
+        "total_votes": 71743,
+        "dem_candidate": "",
+        "rep_candidate": "Tammi Davis",
+        "margin": 51378,
+        "margin_pct": 71.61,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 66609,
+        "other_votes": 84557,
+        "total_votes": 151166,
+        "dem_candidate": "",
+        "rep_candidate": "Steven E. Martin",
+        "margin": 66609,
+        "margin_pct": 44.06,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 24768,
+        "other_votes": 54228,
+        "total_votes": 78996,
+        "dem_candidate": "",
+        "rep_candidate": "Steven E. Martin",
+        "margin": 24768,
+        "margin_pct": 31.35,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 27627,
+        "other_votes": 34744,
+        "total_votes": 62371,
+        "dem_candidate": "",
+        "rep_candidate": "Steven E. Martin",
+        "margin": 27627,
+        "margin_pct": 44.29,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 76068,
+        "other_votes": 92753,
+        "total_votes": 168821,
+        "dem_candidate": "",
+        "rep_candidate": "Steven E. Martin",
+        "margin": 76068,
+        "margin_pct": 45.06,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 6356,
+        "other_votes": 20336,
+        "total_votes": 26692,
+        "dem_candidate": "",
+        "rep_candidate": "Steven E. Martin",
+        "margin": 6356,
+        "margin_pct": 23.81,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 57961,
+        "other_votes": 64706,
+        "total_votes": 122667,
+        "dem_candidate": "",
+        "rep_candidate": "Steven E. Martin",
+        "margin": 57961,
+        "margin_pct": 47.25,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "rict": {
+        "dem_votes": 0,
+        "rep_votes": 42138,
+        "other_votes": 21531,
+        "total_votes": 63669,
+        "dem_candidate": "",
+        "rep_candidate": "Steven E. Martin",
+        "margin": 42138,
+        "margin_pct": 66.18,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

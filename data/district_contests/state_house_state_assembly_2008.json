@@ -3,8 +3,8 @@
   "scope": "state_house",
   "contest_type": "state_assembly",
   "meta": {
-    "source": "nv_scope_aggregates",
-    "nongeo_allocation_mode": "precomputed"
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
   },
   "general": {
     "results": {
@@ -17,6 +17,118 @@
         "rep_candidate": "Linda West Myers",
         "margin": 6190,
         "margin_pct": 34.17,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 11781,
+        "other_votes": 11897,
+        "total_votes": 23678,
+        "dem_candidate": "",
+        "rep_candidate": "John Hambrick",
+        "margin": 11781,
+        "margin_pct": 49.76,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 4631,
+        "other_votes": 9708,
+        "total_votes": 14339,
+        "dem_candidate": "",
+        "rep_candidate": "Eric Morelli",
+        "margin": 4631,
+        "margin_pct": 32.3,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 13731,
+        "other_votes": 14131,
+        "total_votes": 27862,
+        "dem_candidate": "",
+        "rep_candidate": "Richard Mcarthur",
+        "margin": 13731,
+        "margin_pct": 49.28,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 7295,
+        "other_votes": 10859,
+        "total_votes": 18154,
+        "dem_candidate": "",
+        "rep_candidate": "Donna Toussaint",
+        "margin": 7295,
+        "margin_pct": 40.18,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 1967,
+        "other_votes": 9134,
+        "total_votes": 11101,
+        "dem_candidate": "",
+        "rep_candidate": "Lisamarie Johnson",
+        "margin": 1967,
+        "margin_pct": 17.72,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 3522,
+        "other_votes": 12965,
+        "total_votes": 16487,
+        "dem_candidate": "",
+        "rep_candidate": "Geraldine Lewis",
+        "margin": 3522,
+        "margin_pct": 21.36,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 2897,
+        "other_votes": 7565,
+        "total_votes": 10462,
+        "dem_candidate": "",
+        "rep_candidate": "Kevin L. Child",
+        "margin": 2897,
+        "margin_pct": 27.69,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 2733,
+        "other_votes": 7853,
+        "total_votes": 10586,
+        "dem_candidate": "",
+        "rep_candidate": "Jefferson Lee",
+        "margin": 2733,
+        "margin_pct": 25.82,
         "winner": "REP",
         "competitiveness": {
           "color": "#cb181d"
@@ -162,20 +274,6 @@
           "color": "#cb181d"
         }
       },
-      "2": {
-        "dem_votes": 0,
-        "rep_votes": 11781,
-        "other_votes": 11897,
-        "total_votes": 23678,
-        "dem_candidate": "",
-        "rep_candidate": "John Hambrick",
-        "margin": 11781,
-        "margin_pct": 49.76,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#67000d"
-        }
-      },
       "20": {
         "dem_votes": 0,
         "rep_votes": 14962,
@@ -314,20 +412,6 @@
         "winner": "REP",
         "competitiveness": {
           "color": "#67000d"
-        }
-      },
-      "3": {
-        "dem_votes": 0,
-        "rep_votes": 4631,
-        "other_votes": 9708,
-        "total_votes": 14339,
-        "dem_candidate": "",
-        "rep_candidate": "Eric Morelli",
-        "margin": 4631,
-        "margin_pct": 32.3,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#cb181d"
         }
       },
       "30": {
@@ -470,20 +554,6 @@
           "color": "#67000d"
         }
       },
-      "4": {
-        "dem_votes": 0,
-        "rep_votes": 13731,
-        "other_votes": 14131,
-        "total_votes": 27862,
-        "dem_candidate": "",
-        "rep_candidate": "Richard Mcarthur",
-        "margin": 13731,
-        "margin_pct": 49.28,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#67000d"
-        }
-      },
       "40": {
         "dem_votes": 0,
         "rep_votes": 9370,
@@ -521,76 +591,6 @@
         "rep_candidate": "Carole Donald",
         "margin": 4247,
         "margin_pct": 33.7,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#cb181d"
-        }
-      },
-      "5": {
-        "dem_votes": 0,
-        "rep_votes": 7295,
-        "other_votes": 10859,
-        "total_votes": 18154,
-        "dem_candidate": "",
-        "rep_candidate": "Donna Toussaint",
-        "margin": 7295,
-        "margin_pct": 40.18,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#67000d"
-        }
-      },
-      "6": {
-        "dem_votes": 0,
-        "rep_votes": 1967,
-        "other_votes": 9134,
-        "total_votes": 11101,
-        "dem_candidate": "",
-        "rep_candidate": "Lisamarie Johnson",
-        "margin": 1967,
-        "margin_pct": 17.72,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#ef3b2c"
-        }
-      },
-      "7": {
-        "dem_votes": 0,
-        "rep_votes": 3522,
-        "other_votes": 12965,
-        "total_votes": 16487,
-        "dem_candidate": "",
-        "rep_candidate": "Geraldine Lewis",
-        "margin": 3522,
-        "margin_pct": 21.36,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#cb181d"
-        }
-      },
-      "8": {
-        "dem_votes": 0,
-        "rep_votes": 2897,
-        "other_votes": 7565,
-        "total_votes": 10462,
-        "dem_candidate": "",
-        "rep_candidate": "Kevin L. Child",
-        "margin": 2897,
-        "margin_pct": 27.69,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#cb181d"
-        }
-      },
-      "9": {
-        "dem_votes": 0,
-        "rep_votes": 2733,
-        "other_votes": 7853,
-        "total_votes": 10586,
-        "dem_candidate": "",
-        "rep_candidate": "Jefferson Lee",
-        "margin": 2733,
-        "margin_pct": 25.82,
         "winner": "REP",
         "competitiveness": {
           "color": "#cb181d"

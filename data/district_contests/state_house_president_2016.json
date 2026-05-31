@@ -1,0 +1,601 @@
+{
+  "year": 2016,
+  "scope": "state_house",
+  "contest_type": "president",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 16067,
+        "rep_votes": 11489,
+        "other_votes": 1756,
+        "total_votes": 29312,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -4578,
+        "margin_pct": -15.62,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "2": {
+        "dem_votes": 15191,
+        "rep_votes": 16073,
+        "other_votes": 1847,
+        "total_votes": 33111,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 882,
+        "margin_pct": 2.66,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "3": {
+        "dem_votes": 11677,
+        "rep_votes": 6495,
+        "other_votes": 1205,
+        "total_votes": 19377,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -5182,
+        "margin_pct": -26.74,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "4": {
+        "dem_votes": 14629,
+        "rep_votes": 16543,
+        "other_votes": 2154,
+        "total_votes": 33326,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 1914,
+        "margin_pct": 5.74,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "5": {
+        "dem_votes": 13159,
+        "rep_votes": 11706,
+        "other_votes": 1570,
+        "total_votes": 26435,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -1453,
+        "margin_pct": -5.5,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "6": {
+        "dem_votes": 12621,
+        "rep_votes": 1863,
+        "other_votes": 641,
+        "total_votes": 15125,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -10758,
+        "margin_pct": -71.13,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "7": {
+        "dem_votes": 15185,
+        "rep_votes": 5863,
+        "other_votes": 1101,
+        "total_votes": 22149,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -9322,
+        "margin_pct": -42.09,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "8": {
+        "dem_votes": 12927,
+        "rep_votes": 9078,
+        "other_votes": 1331,
+        "total_votes": 23336,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -3849,
+        "margin_pct": -16.49,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "9": {
+        "dem_votes": 15348,
+        "rep_votes": 12380,
+        "other_votes": 1611,
+        "total_votes": 29339,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -2968,
+        "margin_pct": -10.12,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "10": {
+        "dem_votes": 11169,
+        "rep_votes": 6253,
+        "other_votes": 1055,
+        "total_votes": 18477,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -4916,
+        "margin_pct": -26.61,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "11": {
+        "dem_votes": 8796,
+        "rep_votes": 2053,
+        "other_votes": 608,
+        "total_votes": 11457,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -6743,
+        "margin_pct": -58.85,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "12": {
+        "dem_votes": 14307,
+        "rep_votes": 11137,
+        "other_votes": 1531,
+        "total_votes": 26975,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -3170,
+        "margin_pct": -11.75,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "13": {
+        "dem_votes": 12527,
+        "rep_votes": 17366,
+        "other_votes": 2059,
+        "total_votes": 31952,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 4839,
+        "margin_pct": 15.14,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "14": {
+        "dem_votes": 11383,
+        "rep_votes": 4644,
+        "other_votes": 943,
+        "total_votes": 16970,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -6739,
+        "margin_pct": -39.71,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "15": {
+        "dem_votes": 11560,
+        "rep_votes": 5787,
+        "other_votes": 1047,
+        "total_votes": 18394,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -5773,
+        "margin_pct": -31.39,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "16": {
+        "dem_votes": 10020,
+        "rep_votes": 4949,
+        "other_votes": 920,
+        "total_votes": 15889,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -5071,
+        "margin_pct": -31.92,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "17": {
+        "dem_votes": 15818,
+        "rep_votes": 7817,
+        "other_votes": 1565,
+        "total_votes": 25200,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -8001,
+        "margin_pct": -31.75,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "18": {
+        "dem_votes": 13151,
+        "rep_votes": 7782,
+        "other_votes": 1459,
+        "total_votes": 22392,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -5369,
+        "margin_pct": -23.98,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "19": {
+        "dem_votes": 10555,
+        "rep_votes": 15136,
+        "other_votes": 1684,
+        "total_votes": 27375,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 4581,
+        "margin_pct": 16.73,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "20": {
+        "dem_votes": 13318,
+        "rep_votes": 9111,
+        "other_votes": 1559,
+        "total_votes": 23988,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -4207,
+        "margin_pct": -17.54,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "21": {
+        "dem_votes": 13371,
+        "rep_votes": 11985,
+        "other_votes": 1726,
+        "total_votes": 27082,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -1386,
+        "margin_pct": -5.12,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "22": {
+        "dem_votes": 15110,
+        "rep_votes": 18244,
+        "other_votes": 2119,
+        "total_votes": 35473,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 3134,
+        "margin_pct": 8.83,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "23": {
+        "dem_votes": 13967,
+        "rep_votes": 22975,
+        "other_votes": 2061,
+        "total_votes": 39003,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 9008,
+        "margin_pct": 23.1,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "24": {
+        "dem_votes": 14861,
+        "rep_votes": 6634,
+        "other_votes": 2150,
+        "total_votes": 23645,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -8227,
+        "margin_pct": -34.79,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "25": {
+        "dem_votes": 16939,
+        "rep_votes": 18539,
+        "other_votes": 3113,
+        "total_votes": 38591,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 1600,
+        "margin_pct": 4.15,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "26": {
+        "dem_votes": 16628,
+        "rep_votes": 19775,
+        "other_votes": 3303,
+        "total_votes": 39706,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 3147,
+        "margin_pct": 7.93,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "27": {
+        "dem_votes": 14620,
+        "rep_votes": 11197,
+        "other_votes": 2638,
+        "total_votes": 28455,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -3423,
+        "margin_pct": -12.03,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "28": {
+        "dem_votes": 9507,
+        "rep_votes": 2491,
+        "other_votes": 620,
+        "total_votes": 12618,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -7016,
+        "margin_pct": -55.6,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "29": {
+        "dem_votes": 14130,
+        "rep_votes": 14323,
+        "other_votes": 2029,
+        "total_votes": 30482,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 193,
+        "margin_pct": 0.63,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fee8c8"
+        }
+      },
+      "30": {
+        "dem_votes": 13002,
+        "rep_votes": 9949,
+        "other_votes": 2069,
+        "total_votes": 25020,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -3053,
+        "margin_pct": -12.2,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "31": {
+        "dem_votes": 14082,
+        "rep_votes": 16032,
+        "other_votes": 2815,
+        "total_votes": 32929,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 1950,
+        "margin_pct": 5.92,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "32": {
+        "dem_votes": 7577,
+        "rep_votes": 18803,
+        "other_votes": 2321,
+        "total_votes": 28701,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 11226,
+        "margin_pct": 39.11,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "33": {
+        "dem_votes": 4304,
+        "rep_votes": 17773,
+        "other_votes": 2093,
+        "total_votes": 24170,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 13469,
+        "margin_pct": 55.73,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "34": {
+        "dem_votes": 14660,
+        "rep_votes": 10765,
+        "other_votes": 1616,
+        "total_votes": 27041,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -3895,
+        "margin_pct": -14.4,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "35": {
+        "dem_votes": 16600,
+        "rep_votes": 14200,
+        "other_votes": 1910,
+        "total_votes": 32710,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -2400,
+        "margin_pct": -7.34,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "36": {
+        "dem_votes": 9126,
+        "rep_votes": 19247,
+        "other_votes": 1837,
+        "total_votes": 30210,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 10121,
+        "margin_pct": 33.5,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "37": {
+        "dem_votes": 14960,
+        "rep_votes": 16025,
+        "other_votes": 1727,
+        "total_votes": 32712,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 1065,
+        "margin_pct": 3.26,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "38": {
+        "dem_votes": 6371,
+        "rep_votes": 19399,
+        "other_votes": 2040,
+        "total_votes": 27810,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 13028,
+        "margin_pct": 46.85,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "39": {
+        "dem_votes": 11185,
+        "rep_votes": 23458,
+        "other_votes": 2673,
+        "total_votes": 37316,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 12273,
+        "margin_pct": 32.89,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "40": {
+        "dem_votes": 11922,
+        "rep_votes": 16765,
+        "other_votes": 2773,
+        "total_votes": 31460,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 4843,
+        "margin_pct": 15.39,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "41": {
+        "dem_votes": 14081,
+        "rep_votes": 12119,
+        "other_votes": 1597,
+        "total_votes": 27797,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -1962,
+        "margin_pct": -7.06,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "42": {
+        "dem_votes": 10994,
+        "rep_votes": 6697,
+        "other_votes": 1015,
+        "total_votes": 18706,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -4297,
+        "margin_pct": -22.97,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,601 @@
+{
+  "year": 2006,
+  "scope": "state_house",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 7105,
+        "rep_votes": 4072,
+        "other_votes": 487,
+        "total_votes": 11664,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": -3033,
+        "margin_pct": -26.0,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "2": {
+        "dem_votes": 9396,
+        "rep_votes": 7441,
+        "other_votes": 557,
+        "total_votes": 17394,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": -1955,
+        "margin_pct": -11.24,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "3": {
+        "dem_votes": 6203,
+        "rep_votes": 3069,
+        "other_votes": 444,
+        "total_votes": 9716,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": -3134,
+        "margin_pct": -32.26,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "4": {
+        "dem_votes": 9712,
+        "rep_votes": 10207,
+        "other_votes": 787,
+        "total_votes": 20706,
+        "dem_candidate": "Tessa M. Hafen",
+        "rep_candidate": "Jon Porter",
+        "margin": 495,
+        "margin_pct": 2.39,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "5": {
+        "dem_votes": 5742,
+        "rep_votes": 5846,
+        "other_votes": 579,
+        "total_votes": 12167,
+        "dem_candidate": "Tessa M. Hafen",
+        "rep_candidate": "Jon Porter",
+        "margin": 104,
+        "margin_pct": 0.85,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fee8c8"
+        }
+      },
+      "6": {
+        "dem_votes": 4538,
+        "rep_votes": 1161,
+        "other_votes": 191,
+        "total_votes": 5890,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": -3377,
+        "margin_pct": -57.33,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "7": {
+        "dem_votes": 5800,
+        "rep_votes": 1793,
+        "other_votes": 262,
+        "total_votes": 7855,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": -4007,
+        "margin_pct": -51.01,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "8": {
+        "dem_votes": 3625,
+        "rep_votes": 2113,
+        "other_votes": 369,
+        "total_votes": 6107,
+        "dem_candidate": "Tessa M. Hafen",
+        "rep_candidate": "Jon Porter",
+        "margin": -1512,
+        "margin_pct": -24.76,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "9": {
+        "dem_votes": 4887,
+        "rep_votes": 1635,
+        "other_votes": 326,
+        "total_votes": 6848,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": -3252,
+        "margin_pct": -47.49,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "10": {
+        "dem_votes": 4673,
+        "rep_votes": 3471,
+        "other_votes": 506,
+        "total_votes": 8650,
+        "dem_candidate": "Tessa M. Hafen",
+        "rep_candidate": "Jon Porter",
+        "margin": -1202,
+        "margin_pct": -13.9,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "11": {
+        "dem_votes": 2117,
+        "rep_votes": 648,
+        "other_votes": 145,
+        "total_votes": 2910,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": -1469,
+        "margin_pct": -50.48,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "12": {
+        "dem_votes": 4775,
+        "rep_votes": 2463,
+        "other_votes": 424,
+        "total_votes": 7662,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Jon Porter",
+        "margin": -2312,
+        "margin_pct": -30.17,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "13": {
+        "dem_votes": 20304,
+        "rep_votes": 18313,
+        "other_votes": 1547,
+        "total_votes": 40164,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Jon Porter",
+        "margin": -1991,
+        "margin_pct": -4.96,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "14": {
+        "dem_votes": 4489,
+        "rep_votes": 3661,
+        "other_votes": 450,
+        "total_votes": 8600,
+        "dem_candidate": "Tessa M. Hafen",
+        "rep_candidate": "Jon Porter",
+        "margin": -828,
+        "margin_pct": -9.63,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "15": {
+        "dem_votes": 6311,
+        "rep_votes": 3397,
+        "other_votes": 500,
+        "total_votes": 10208,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Jon Porter",
+        "margin": -2914,
+        "margin_pct": -28.55,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "16": {
+        "dem_votes": 6055,
+        "rep_votes": 4709,
+        "other_votes": 696,
+        "total_votes": 11460,
+        "dem_candidate": "Tessa M. Hafen",
+        "rep_candidate": "Jon Porter",
+        "margin": -1346,
+        "margin_pct": -11.75,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "17": {
+        "dem_votes": 7291,
+        "rep_votes": 3943,
+        "other_votes": 441,
+        "total_votes": 11675,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": -3348,
+        "margin_pct": -28.68,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "18": {
+        "dem_votes": 6260,
+        "rep_votes": 4923,
+        "other_votes": 696,
+        "total_votes": 11879,
+        "dem_candidate": "Tessa M. Hafen",
+        "rep_candidate": "Jon Porter",
+        "margin": -1337,
+        "margin_pct": -11.26,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "19": {
+        "dem_votes": 3687,
+        "rep_votes": 2438,
+        "other_votes": 362,
+        "total_votes": 6487,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Jon Porter",
+        "margin": -1249,
+        "margin_pct": -19.25,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "20": {
+        "dem_votes": 5929,
+        "rep_votes": 9939,
+        "other_votes": 811,
+        "total_votes": 16679,
+        "dem_candidate": "Tessa M. Hafen",
+        "rep_candidate": "Jon Porter",
+        "margin": 4010,
+        "margin_pct": 24.04,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "21": {
+        "dem_votes": 6921,
+        "rep_votes": 7484,
+        "other_votes": 577,
+        "total_votes": 14982,
+        "dem_candidate": "Tessa M. Hafen",
+        "rep_candidate": "Jon Porter",
+        "margin": 563,
+        "margin_pct": 3.76,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "22": {
+        "dem_votes": 18058,
+        "rep_votes": 21393,
+        "other_votes": 1755,
+        "total_votes": 41206,
+        "dem_candidate": "Tessa M. Hafen",
+        "rep_candidate": "Jon Porter",
+        "margin": 3335,
+        "margin_pct": 8.09,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "23": {
+        "dem_votes": 5722,
+        "rep_votes": 5243,
+        "other_votes": 744,
+        "total_votes": 11709,
+        "dem_candidate": "Tessa M. Hafen",
+        "rep_candidate": "Jon Porter",
+        "margin": -479,
+        "margin_pct": -4.09,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "24": {
+        "dem_votes": 7319,
+        "rep_votes": 4541,
+        "other_votes": 617,
+        "total_votes": 12477,
+        "dem_candidate": "Jill Derby",
+        "rep_candidate": "Dean Heller",
+        "margin": -2778,
+        "margin_pct": -22.26,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "25": {
+        "dem_votes": 11157,
+        "rep_votes": 12786,
+        "other_votes": 637,
+        "total_votes": 24580,
+        "dem_candidate": "Jill Derby",
+        "rep_candidate": "Dean Heller",
+        "margin": 1629,
+        "margin_pct": 6.63,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "26": {
+        "dem_votes": 11722,
+        "rep_votes": 12614,
+        "other_votes": 854,
+        "total_votes": 25190,
+        "dem_candidate": "Jill Derby",
+        "rep_candidate": "Dean Heller",
+        "margin": 892,
+        "margin_pct": 3.54,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "27": {
+        "dem_votes": 6201,
+        "rep_votes": 3713,
+        "other_votes": 464,
+        "total_votes": 10378,
+        "dem_candidate": "Jill Derby",
+        "rep_candidate": "Dean Heller",
+        "margin": -2488,
+        "margin_pct": -23.97,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "28": {
+        "dem_votes": 2112,
+        "rep_votes": 735,
+        "other_votes": 168,
+        "total_votes": 3015,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Jon Porter",
+        "margin": -1377,
+        "margin_pct": -45.67,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "29": {
+        "dem_votes": 6510,
+        "rep_votes": 6389,
+        "other_votes": 657,
+        "total_votes": 13556,
+        "dem_candidate": "Tessa M. Hafen",
+        "rep_candidate": "Jon Porter",
+        "margin": -121,
+        "margin_pct": -0.89,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#e1f5fe"
+        }
+      },
+      "30": {
+        "dem_votes": 5274,
+        "rep_votes": 3511,
+        "other_votes": 614,
+        "total_votes": 9399,
+        "dem_candidate": "Jill Derby",
+        "rep_candidate": "Dean Heller",
+        "margin": -1763,
+        "margin_pct": -18.76,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "31": {
+        "dem_votes": 5787,
+        "rep_votes": 4000,
+        "other_votes": 549,
+        "total_votes": 10336,
+        "dem_candidate": "Jill Derby",
+        "rep_candidate": "Dean Heller",
+        "margin": -1787,
+        "margin_pct": -17.29,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "32": {
+        "dem_votes": 10422,
+        "rep_votes": 12432,
+        "other_votes": 922,
+        "total_votes": 23776,
+        "dem_candidate": "Jill Derby",
+        "rep_candidate": "Dean Heller",
+        "margin": 2010,
+        "margin_pct": 8.45,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "33": {
+        "dem_votes": 3812,
+        "rep_votes": 7833,
+        "other_votes": 754,
+        "total_votes": 12399,
+        "dem_candidate": "Jill Derby",
+        "rep_candidate": "Dean Heller",
+        "margin": 4021,
+        "margin_pct": 32.43,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "34": {
+        "dem_votes": 6064,
+        "rep_votes": 3154,
+        "other_votes": 413,
+        "total_votes": 9631,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": -2910,
+        "margin_pct": -30.21,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "35": {
+        "dem_votes": 5703,
+        "rep_votes": 8381,
+        "other_votes": 938,
+        "total_votes": 15022,
+        "dem_candidate": "Jill Derby",
+        "rep_candidate": "Dean Heller",
+        "margin": 2678,
+        "margin_pct": 17.83,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "36": {
+        "dem_votes": 6765,
+        "rep_votes": 9132,
+        "other_votes": 1433,
+        "total_votes": 17330,
+        "dem_candidate": "Jill Derby",
+        "rep_candidate": "Dean Heller",
+        "margin": 2367,
+        "margin_pct": 13.66,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "37": {
+        "dem_votes": 5505,
+        "rep_votes": 3537,
+        "other_votes": 421,
+        "total_votes": 9463,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Kenneth A. Wegner",
+        "margin": -1968,
+        "margin_pct": -20.8,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "38": {
+        "dem_votes": 8483,
+        "rep_votes": 11573,
+        "other_votes": 1128,
+        "total_votes": 21184,
+        "dem_candidate": "Jill Derby",
+        "rep_candidate": "Dean Heller",
+        "margin": 3090,
+        "margin_pct": 14.59,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "39": {
+        "dem_votes": 8825,
+        "rep_votes": 12035,
+        "other_votes": 823,
+        "total_votes": 21683,
+        "dem_candidate": "Jill Derby",
+        "rep_candidate": "Dean Heller",
+        "margin": 3210,
+        "margin_pct": 14.8,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "40": {
+        "dem_votes": 7063,
+        "rep_votes": 8109,
+        "other_votes": 628,
+        "total_votes": 15800,
+        "dem_candidate": "Jill Derby",
+        "rep_candidate": "Dean Heller",
+        "margin": 1046,
+        "margin_pct": 6.62,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "41": {
+        "dem_votes": 4454,
+        "rep_votes": 2878,
+        "other_votes": 453,
+        "total_votes": 7785,
+        "dem_candidate": "Tessa M. Hafen",
+        "rep_candidate": "Jon Porter",
+        "margin": -1576,
+        "margin_pct": -20.24,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "42": {
+        "dem_votes": 4716,
+        "rep_votes": 3248,
+        "other_votes": 474,
+        "total_votes": 8438,
+        "dem_candidate": "Tessa M. Hafen",
+        "rep_candidate": "Jon Porter",
+        "margin": -1468,
+        "margin_pct": -17.4,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      }
+    }
+  }
+}

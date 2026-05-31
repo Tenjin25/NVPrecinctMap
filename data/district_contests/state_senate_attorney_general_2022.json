@@ -1,0 +1,167 @@
+{
+  "year": 2022,
+  "scope": "state_senate",
+  "contest_type": "attorney_general",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "2": {
+        "dem_votes": 12229,
+        "rep_votes": 4520,
+        "other_votes": 654,
+        "total_votes": 17403,
+        "dem_candidate": "Aaron D. Ford",
+        "rep_candidate": "Sigal Chattah",
+        "margin": -7709,
+        "margin_pct": -44.3,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "8": {
+        "dem_votes": 27764,
+        "rep_votes": 22866,
+        "other_votes": 1454,
+        "total_votes": 52084,
+        "dem_candidate": "Aaron D. Ford",
+        "rep_candidate": "Sigal Chattah",
+        "margin": -4898,
+        "margin_pct": -9.4,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "9": {
+        "dem_votes": 23724,
+        "rep_votes": 17287,
+        "other_votes": 1152,
+        "total_votes": 42163,
+        "dem_candidate": "Aaron D. Ford",
+        "rep_candidate": "Sigal Chattah",
+        "margin": -6437,
+        "margin_pct": -15.27,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "10": {
+        "dem_votes": 17468,
+        "rep_votes": 11171,
+        "other_votes": 917,
+        "total_votes": 29556,
+        "dem_candidate": "Aaron D. Ford",
+        "rep_candidate": "Sigal Chattah",
+        "margin": -6297,
+        "margin_pct": -21.31,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "12": {
+        "dem_votes": 27398,
+        "rep_votes": 21168,
+        "other_votes": 1367,
+        "total_votes": 49933,
+        "dem_candidate": "Aaron D. Ford",
+        "rep_candidate": "Sigal Chattah",
+        "margin": -6230,
+        "margin_pct": -12.48,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "13": {
+        "dem_votes": 24240,
+        "rep_votes": 11505,
+        "other_votes": 1450,
+        "total_votes": 37195,
+        "dem_candidate": "Aaron D. Ford",
+        "rep_candidate": "Sigal Chattah",
+        "margin": -12735,
+        "margin_pct": -34.24,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "14": {
+        "dem_votes": 25887,
+        "rep_votes": 30922,
+        "other_votes": 2691,
+        "total_votes": 59500,
+        "dem_candidate": "Aaron D. Ford",
+        "rep_candidate": "Sigal Chattah",
+        "margin": 5035,
+        "margin_pct": 8.46,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "16": {
+        "dem_votes": 34117,
+        "rep_votes": 32631,
+        "other_votes": 2688,
+        "total_votes": 69436,
+        "dem_candidate": "Aaron D. Ford",
+        "rep_candidate": "Sigal Chattah",
+        "margin": -1486,
+        "margin_pct": -2.14,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "17": {
+        "dem_votes": 21417,
+        "rep_votes": 38064,
+        "other_votes": 3209,
+        "total_votes": 62690,
+        "dem_candidate": "Aaron D. Ford",
+        "rep_candidate": "Sigal Chattah",
+        "margin": 16647,
+        "margin_pct": 26.55,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "20": {
+        "dem_votes": 29511,
+        "rep_votes": 39188,
+        "other_votes": 2263,
+        "total_votes": 70962,
+        "dem_candidate": "Aaron D. Ford",
+        "rep_candidate": "Sigal Chattah",
+        "margin": 9677,
+        "margin_pct": 13.64,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "21": {
+        "dem_votes": 19069,
+        "rep_votes": 12232,
+        "other_votes": 1009,
+        "total_votes": 32310,
+        "dem_candidate": "Aaron D. Ford",
+        "rep_candidate": "Sigal Chattah",
+        "margin": -6837,
+        "margin_pct": -21.16,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      }
+    }
+  }
+}

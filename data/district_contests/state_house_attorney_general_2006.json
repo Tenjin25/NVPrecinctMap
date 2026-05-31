@@ -1,0 +1,601 @@
+{
+  "year": 2006,
+  "scope": "state_house",
+  "contest_type": "attorney_general",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 7069,
+        "rep_votes": 3992,
+        "other_votes": 621,
+        "total_votes": 11682,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -3077,
+        "margin_pct": -26.34,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "2": {
+        "dem_votes": 9658,
+        "rep_votes": 7039,
+        "other_votes": 723,
+        "total_votes": 17420,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -2619,
+        "margin_pct": -15.03,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "3": {
+        "dem_votes": 5975,
+        "rep_votes": 3218,
+        "other_votes": 523,
+        "total_votes": 9716,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -2757,
+        "margin_pct": -28.38,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "4": {
+        "dem_votes": 11468,
+        "rep_votes": 8293,
+        "other_votes": 900,
+        "total_votes": 20661,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -3175,
+        "margin_pct": -15.37,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "5": {
+        "dem_votes": 7134,
+        "rep_votes": 4499,
+        "other_votes": 580,
+        "total_votes": 12213,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -2635,
+        "margin_pct": -21.58,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "6": {
+        "dem_votes": 4261,
+        "rep_votes": 1263,
+        "other_votes": 366,
+        "total_votes": 5890,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -2998,
+        "margin_pct": -50.9,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "7": {
+        "dem_votes": 5723,
+        "rep_votes": 1669,
+        "other_votes": 456,
+        "total_votes": 7848,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -4054,
+        "margin_pct": -51.66,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "8": {
+        "dem_votes": 3932,
+        "rep_votes": 1832,
+        "other_votes": 348,
+        "total_votes": 6112,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -2100,
+        "margin_pct": -34.36,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "9": {
+        "dem_votes": 4532,
+        "rep_votes": 1981,
+        "other_votes": 377,
+        "total_votes": 6890,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -2551,
+        "margin_pct": -37.02,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "10": {
+        "dem_votes": 5140,
+        "rep_votes": 3033,
+        "other_votes": 464,
+        "total_votes": 8637,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -2107,
+        "margin_pct": -24.4,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "11": {
+        "dem_votes": 2104,
+        "rep_votes": 644,
+        "other_votes": 169,
+        "total_votes": 2917,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -1460,
+        "margin_pct": -50.05,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "12": {
+        "dem_votes": 5047,
+        "rep_votes": 2180,
+        "other_votes": 464,
+        "total_votes": 7691,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -2867,
+        "margin_pct": -37.28,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "13": {
+        "dem_votes": 22721,
+        "rep_votes": 15662,
+        "other_votes": 1817,
+        "total_votes": 40200,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -7059,
+        "margin_pct": -17.56,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "14": {
+        "dem_votes": 5267,
+        "rep_votes": 2910,
+        "other_votes": 464,
+        "total_votes": 8641,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -2357,
+        "margin_pct": -27.28,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "15": {
+        "dem_votes": 6536,
+        "rep_votes": 3138,
+        "other_votes": 590,
+        "total_votes": 10264,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -3398,
+        "margin_pct": -33.11,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "16": {
+        "dem_votes": 7136,
+        "rep_votes": 3744,
+        "other_votes": 593,
+        "total_votes": 11473,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -3392,
+        "margin_pct": -29.57,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "17": {
+        "dem_votes": 7350,
+        "rep_votes": 3787,
+        "other_votes": 577,
+        "total_votes": 11714,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -3563,
+        "margin_pct": -30.42,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "18": {
+        "dem_votes": 7446,
+        "rep_votes": 3782,
+        "other_votes": 683,
+        "total_votes": 11911,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -3664,
+        "margin_pct": -30.76,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "19": {
+        "dem_votes": 3946,
+        "rep_votes": 2158,
+        "other_votes": 423,
+        "total_votes": 6527,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -1788,
+        "margin_pct": -27.39,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "20": {
+        "dem_votes": 7657,
+        "rep_votes": 7999,
+        "other_votes": 953,
+        "total_votes": 16609,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": 342,
+        "margin_pct": 2.06,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "21": {
+        "dem_votes": 8525,
+        "rep_votes": 5785,
+        "other_votes": 640,
+        "total_votes": 14950,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -2740,
+        "margin_pct": -18.33,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "22": {
+        "dem_votes": 22484,
+        "rep_votes": 16747,
+        "other_votes": 1906,
+        "total_votes": 41137,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -5737,
+        "margin_pct": -13.95,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "23": {
+        "dem_votes": 6853,
+        "rep_votes": 4098,
+        "other_votes": 755,
+        "total_votes": 11706,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -2755,
+        "margin_pct": -23.53,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "24": {
+        "dem_votes": 8700,
+        "rep_votes": 3087,
+        "other_votes": 696,
+        "total_votes": 12483,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -5613,
+        "margin_pct": -44.97,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "25": {
+        "dem_votes": 15484,
+        "rep_votes": 7974,
+        "other_votes": 1047,
+        "total_votes": 24505,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -7510,
+        "margin_pct": -30.65,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "26": {
+        "dem_votes": 15342,
+        "rep_votes": 8620,
+        "other_votes": 1122,
+        "total_votes": 25084,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -6722,
+        "margin_pct": -26.8,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "27": {
+        "dem_votes": 7379,
+        "rep_votes": 2433,
+        "other_votes": 565,
+        "total_votes": 10377,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -4946,
+        "margin_pct": -47.66,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "28": {
+        "dem_votes": 2156,
+        "rep_votes": 703,
+        "other_votes": 180,
+        "total_votes": 3039,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -1453,
+        "margin_pct": -47.81,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "29": {
+        "dem_votes": 7751,
+        "rep_votes": 5076,
+        "other_votes": 724,
+        "total_votes": 13551,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -2675,
+        "margin_pct": -19.74,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "30": {
+        "dem_votes": 6504,
+        "rep_votes": 2387,
+        "other_votes": 529,
+        "total_votes": 9420,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -4117,
+        "margin_pct": -43.7,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "31": {
+        "dem_votes": 7239,
+        "rep_votes": 2611,
+        "other_votes": 546,
+        "total_votes": 10396,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -4628,
+        "margin_pct": -44.52,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "32": {
+        "dem_votes": 14704,
+        "rep_votes": 7965,
+        "other_votes": 1116,
+        "total_votes": 23785,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -6739,
+        "margin_pct": -28.33,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "33": {
+        "dem_votes": 4366,
+        "rep_votes": 6977,
+        "other_votes": 1039,
+        "total_votes": 12382,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": 2611,
+        "margin_pct": 21.09,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "34": {
+        "dem_votes": 5969,
+        "rep_votes": 3142,
+        "other_votes": 517,
+        "total_votes": 9628,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -2827,
+        "margin_pct": -29.36,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "35": {
+        "dem_votes": 7642,
+        "rep_votes": 6272,
+        "other_votes": 1160,
+        "total_votes": 15074,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -1370,
+        "margin_pct": -9.09,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "36": {
+        "dem_votes": 8538,
+        "rep_votes": 7446,
+        "other_votes": 1569,
+        "total_votes": 17553,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -1092,
+        "margin_pct": -6.22,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "37": {
+        "dem_votes": 5839,
+        "rep_votes": 3181,
+        "other_votes": 491,
+        "total_votes": 9511,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -2658,
+        "margin_pct": -27.95,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "38": {
+        "dem_votes": 11978,
+        "rep_votes": 8076,
+        "other_votes": 1134,
+        "total_votes": 21188,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -3902,
+        "margin_pct": -18.42,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "39": {
+        "dem_votes": 11615,
+        "rep_votes": 8921,
+        "other_votes": 1074,
+        "total_votes": 21610,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -2694,
+        "margin_pct": -12.47,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "40": {
+        "dem_votes": 9814,
+        "rep_votes": 5167,
+        "other_votes": 830,
+        "total_votes": 15811,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -4647,
+        "margin_pct": -29.39,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "41": {
+        "dem_votes": 4825,
+        "rep_votes": 2522,
+        "other_votes": 459,
+        "total_votes": 7806,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -2303,
+        "margin_pct": -29.5,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "42": {
+        "dem_votes": 5401,
+        "rep_votes": 2619,
+        "other_votes": 457,
+        "total_votes": 8477,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -2782,
+        "margin_pct": -32.82,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      }
+    }
+  }
+}

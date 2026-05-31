@@ -1,0 +1,601 @@
+{
+  "year": 2016,
+  "scope": "state_house",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 15309,
+        "rep_votes": 11106,
+        "other_votes": 1798,
+        "total_votes": 28213,
+        "dem_candidate": "Ruben Kihuen",
+        "rep_candidate": "Cresent Hardy",
+        "margin": -4203,
+        "margin_pct": -14.9,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "2": {
+        "dem_votes": 14416,
+        "rep_votes": 15496,
+        "other_votes": 1672,
+        "total_votes": 31584,
+        "dem_candidate": "Jacky Rosen",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": 1080,
+        "margin_pct": 3.42,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "3": {
+        "dem_votes": 11152,
+        "rep_votes": 5753,
+        "other_votes": 1604,
+        "total_votes": 18509,
+        "dem_candidate": "Ruben Kihuen",
+        "rep_candidate": "Cresent Hardy",
+        "margin": -5399,
+        "margin_pct": -29.17,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "4": {
+        "dem_votes": 13949,
+        "rep_votes": 15826,
+        "other_votes": 2175,
+        "total_votes": 31950,
+        "dem_candidate": "Ruben Kihuen",
+        "rep_candidate": "Cresent Hardy",
+        "margin": 1877,
+        "margin_pct": 5.87,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "5": {
+        "dem_votes": 13022,
+        "rep_votes": 10626,
+        "other_votes": 1668,
+        "total_votes": 25316,
+        "dem_candidate": "Jacky Rosen",
+        "rep_candidate": "Mary Perry",
+        "margin": -2396,
+        "margin_pct": -9.46,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "6": {
+        "dem_votes": 11698,
+        "rep_votes": 1682,
+        "other_votes": 1014,
+        "total_votes": 14394,
+        "dem_candidate": "Ruben Kihuen",
+        "rep_candidate": "Cresent Hardy",
+        "margin": -10016,
+        "margin_pct": -69.58,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "7": {
+        "dem_votes": 14296,
+        "rep_votes": 5479,
+        "other_votes": 1403,
+        "total_votes": 21178,
+        "dem_candidate": "Ruben Kihuen",
+        "rep_candidate": "Cresent Hardy",
+        "margin": -8817,
+        "margin_pct": -41.63,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "8": {
+        "dem_votes": 12327,
+        "rep_votes": 8262,
+        "other_votes": 1473,
+        "total_votes": 22062,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mary Perry",
+        "margin": -4065,
+        "margin_pct": -18.43,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "9": {
+        "dem_votes": 14345,
+        "rep_votes": 11916,
+        "other_votes": 1684,
+        "total_votes": 27945,
+        "dem_candidate": "Jacky Rosen",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": -2429,
+        "margin_pct": -8.69,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "10": {
+        "dem_votes": 10999,
+        "rep_votes": 5363,
+        "other_votes": 1308,
+        "total_votes": 17670,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mary Perry",
+        "margin": -5636,
+        "margin_pct": -31.9,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "11": {
+        "dem_votes": 7493,
+        "rep_votes": 1694,
+        "other_votes": 1673,
+        "total_votes": 10860,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mary Perry",
+        "margin": -5799,
+        "margin_pct": -53.4,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "12": {
+        "dem_votes": 13808,
+        "rep_votes": 9771,
+        "other_votes": 2443,
+        "total_votes": 26022,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mary Perry",
+        "margin": -4037,
+        "margin_pct": -15.51,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "13": {
+        "dem_votes": 11920,
+        "rep_votes": 16792,
+        "other_votes": 2000,
+        "total_votes": 30712,
+        "dem_candidate": "Ruben Kihuen",
+        "rep_candidate": "Cresent Hardy",
+        "margin": 4872,
+        "margin_pct": 15.86,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "14": {
+        "dem_votes": 10715,
+        "rep_votes": 3868,
+        "other_votes": 1777,
+        "total_votes": 16360,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mary Perry",
+        "margin": -6847,
+        "margin_pct": -41.85,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "15": {
+        "dem_votes": 11341,
+        "rep_votes": 4643,
+        "other_votes": 1698,
+        "total_votes": 17682,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mary Perry",
+        "margin": -6698,
+        "margin_pct": -37.88,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "16": {
+        "dem_votes": 9443,
+        "rep_votes": 4306,
+        "other_votes": 1377,
+        "total_votes": 15126,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mary Perry",
+        "margin": -5137,
+        "margin_pct": -33.96,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "17": {
+        "dem_votes": 14968,
+        "rep_votes": 7705,
+        "other_votes": 1573,
+        "total_votes": 24246,
+        "dem_candidate": "Ruben Kihuen",
+        "rep_candidate": "Cresent Hardy",
+        "margin": -7263,
+        "margin_pct": -29.96,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "18": {
+        "dem_votes": 12881,
+        "rep_votes": 6591,
+        "other_votes": 1880,
+        "total_votes": 21352,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mary Perry",
+        "margin": -6290,
+        "margin_pct": -29.46,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "19": {
+        "dem_votes": 10382,
+        "rep_votes": 13937,
+        "other_votes": 2113,
+        "total_votes": 26432,
+        "dem_candidate": "Ruben Kihuen",
+        "rep_candidate": "Cresent Hardy",
+        "margin": 3555,
+        "margin_pct": 13.45,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "20": {
+        "dem_votes": 13189,
+        "rep_votes": 7963,
+        "other_votes": 1844,
+        "total_votes": 22996,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": -5226,
+        "margin_pct": -22.73,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "21": {
+        "dem_votes": 13096,
+        "rep_votes": 10813,
+        "other_votes": 1930,
+        "total_votes": 25839,
+        "dem_candidate": "Jacky Rosen",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": -2283,
+        "margin_pct": -8.84,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "22": {
+        "dem_votes": 14809,
+        "rep_votes": 16902,
+        "other_votes": 2282,
+        "total_votes": 33993,
+        "dem_candidate": "Jacky Rosen",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": 2093,
+        "margin_pct": 6.16,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "23": {
+        "dem_votes": 14242,
+        "rep_votes": 20671,
+        "other_votes": 2527,
+        "total_votes": 37440,
+        "dem_candidate": "Jacky Rosen",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": 6429,
+        "margin_pct": 17.17,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "24": {
+        "dem_votes": 13763,
+        "rep_votes": 7265,
+        "other_votes": 1257,
+        "total_votes": 22285,
+        "dem_candidate": "H.D. C. Evans",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": -6498,
+        "margin_pct": -29.16,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "25": {
+        "dem_votes": 14680,
+        "rep_votes": 21177,
+        "other_votes": 1264,
+        "total_votes": 37121,
+        "dem_candidate": "H.D. C. Evans",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 6497,
+        "margin_pct": 17.5,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "26": {
+        "dem_votes": 14241,
+        "rep_votes": 22707,
+        "other_votes": 1271,
+        "total_votes": 38219,
+        "dem_candidate": "H.D. C. Evans",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 8466,
+        "margin_pct": 22.15,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "27": {
+        "dem_votes": 13243,
+        "rep_votes": 12441,
+        "other_votes": 1396,
+        "total_votes": 27080,
+        "dem_candidate": "H.D. C. Evans",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": -802,
+        "margin_pct": -2.96,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "28": {
+        "dem_votes": 8510,
+        "rep_votes": 2140,
+        "other_votes": 1406,
+        "total_votes": 12056,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mary Perry",
+        "margin": -6370,
+        "margin_pct": -52.84,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "29": {
+        "dem_votes": 13908,
+        "rep_votes": 13012,
+        "other_votes": 2272,
+        "total_votes": 29192,
+        "dem_candidate": "Jacky Rosen",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": -896,
+        "margin_pct": -3.07,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "30": {
+        "dem_votes": 11868,
+        "rep_votes": 10653,
+        "other_votes": 1328,
+        "total_votes": 23849,
+        "dem_candidate": "H.D. C. Evans",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": -1215,
+        "margin_pct": -5.09,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "31": {
+        "dem_votes": 12952,
+        "rep_votes": 17297,
+        "other_votes": 1371,
+        "total_votes": 31620,
+        "dem_candidate": "H.D. C. Evans",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 4345,
+        "margin_pct": 13.74,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "32": {
+        "dem_votes": 6844,
+        "rep_votes": 19186,
+        "other_votes": 1700,
+        "total_votes": 27730,
+        "dem_candidate": "H.D. C. Evans",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 12342,
+        "margin_pct": 44.51,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "33": {
+        "dem_votes": 4086,
+        "rep_votes": 17674,
+        "other_votes": 1670,
+        "total_votes": 23430,
+        "dem_candidate": "H.D. C. Evans",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 13588,
+        "margin_pct": 57.99,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "34": {
+        "dem_votes": 13986,
+        "rep_votes": 10044,
+        "other_votes": 1782,
+        "total_votes": 25812,
+        "dem_candidate": "Ruben Kihuen",
+        "rep_candidate": "Cresent Hardy",
+        "margin": -3942,
+        "margin_pct": -15.27,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "35": {
+        "dem_votes": 15615,
+        "rep_votes": 13657,
+        "other_votes": 1973,
+        "total_votes": 31245,
+        "dem_candidate": "Jacky Rosen",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": -1958,
+        "margin_pct": -6.27,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "36": {
+        "dem_votes": 8636,
+        "rep_votes": 17754,
+        "other_votes": 2765,
+        "total_votes": 29155,
+        "dem_candidate": "Ruben Kihuen",
+        "rep_candidate": "Cresent Hardy",
+        "margin": 9118,
+        "margin_pct": 31.27,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "37": {
+        "dem_votes": 14042,
+        "rep_votes": 15400,
+        "other_votes": 1858,
+        "total_votes": 31300,
+        "dem_candidate": "Ruben Kihuen",
+        "rep_candidate": "Cresent Hardy",
+        "margin": 1358,
+        "margin_pct": 4.34,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "38": {
+        "dem_votes": 5826,
+        "rep_votes": 19321,
+        "other_votes": 1826,
+        "total_votes": 26973,
+        "dem_candidate": "H.D. C. Evans",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 13495,
+        "margin_pct": 50.03,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "39": {
+        "dem_votes": 9825,
+        "rep_votes": 24728,
+        "other_votes": 1437,
+        "total_votes": 35990,
+        "dem_candidate": "H.D. C. Evans",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 14903,
+        "margin_pct": 41.41,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "40": {
+        "dem_votes": 10486,
+        "rep_votes": 18580,
+        "other_votes": 1461,
+        "total_votes": 30527,
+        "dem_candidate": "H.D. C. Evans",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 8094,
+        "margin_pct": 26.51,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "41": {
+        "dem_votes": 13482,
+        "rep_votes": 11269,
+        "other_votes": 1694,
+        "total_votes": 26445,
+        "dem_candidate": "Jacky Rosen",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": -2213,
+        "margin_pct": -8.37,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "42": {
+        "dem_votes": 10756,
+        "rep_votes": 5675,
+        "other_votes": 1325,
+        "total_votes": 17756,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mary Perry",
+        "margin": -5081,
+        "margin_pct": -28.62,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      }
+    }
+  }
+}

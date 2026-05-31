@@ -3,8 +3,8 @@
   "scope": "state_senate",
   "contest_type": "state_senate",
   "meta": {
-    "source": "nv_scope_aggregates",
-    "nongeo_allocation_mode": "precomputed"
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
   },
   "general": {
     "results": {
@@ -20,20 +20,6 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#3182bd"
-        }
-      },
-      "11": {
-        "dem_votes": 13645,
-        "rep_votes": 11745,
-        "other_votes": 0,
-        "total_votes": 25390,
-        "dem_candidate": "Mike Schneider",
-        "rep_candidate": "Danny Tarkanian",
-        "margin": -1900,
-        "margin_pct": -7.48,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#c6dbef"
         }
       },
       "3": {
@@ -104,6 +90,20 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#3182bd"
+        }
+      },
+      "11": {
+        "dem_votes": 13645,
+        "rep_votes": 11745,
+        "other_votes": 0,
+        "total_votes": 25390,
+        "dem_candidate": "Mike Schneider",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": -1900,
+        "margin_pct": -7.48,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
         }
       },
       "rict": {

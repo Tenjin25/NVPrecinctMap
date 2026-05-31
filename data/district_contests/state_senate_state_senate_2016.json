@@ -3,8 +3,8 @@
   "scope": "state_senate",
   "contest_type": "state_senate",
   "meta": {
-    "source": "nv_scope_aggregates",
-    "nongeo_allocation_mode": "precomputed"
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
   },
   "general": {
     "results": {
@@ -20,76 +20,6 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#3182bd"
-        }
-      },
-      "11": {
-        "dem_votes": 22439,
-        "rep_votes": 14221,
-        "other_votes": 2229,
-        "total_votes": 38889,
-        "dem_candidate": "Aaron D. Ford",
-        "rep_candidate": "Jon Frazier",
-        "margin": -8218,
-        "margin_pct": -21.13,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#3182bd"
-        }
-      },
-      "13": {
-        "dem_votes": 27266,
-        "rep_votes": 15791,
-        "other_votes": 2406,
-        "total_votes": 45463,
-        "dem_candidate": "Julia Ratti",
-        "rep_candidate": "Kent Bailey",
-        "margin": -11475,
-        "margin_pct": -25.24,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#3182bd"
-        }
-      },
-      "15": {
-        "dem_votes": 26765,
-        "rep_votes": 33795,
-        "other_votes": 3265,
-        "total_votes": 63825,
-        "dem_candidate": "Devon T. Reese",
-        "rep_candidate": "Heidi S. Gansert",
-        "margin": 7030,
-        "margin_pct": 11.01,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#ef3b2c"
-        }
-      },
-      "18": {
-        "dem_votes": 26849,
-        "rep_votes": 34772,
-        "other_votes": 0,
-        "total_votes": 61621,
-        "dem_candidate": "Alexander Marks",
-        "rep_candidate": "Scott T. Hammond",
-        "margin": 7923,
-        "margin_pct": 12.86,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#ef3b2c"
-        }
-      },
-      "19": {
-        "dem_votes": 0,
-        "rep_votes": 36852,
-        "other_votes": 13661,
-        "total_votes": 50513,
-        "dem_candidate": "",
-        "rep_candidate": "Pete Goicoechea",
-        "margin": 36852,
-        "margin_pct": 72.96,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#67000d"
         }
       },
       "3": {
@@ -160,6 +90,76 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#08306b"
+        }
+      },
+      "11": {
+        "dem_votes": 22439,
+        "rep_votes": 14221,
+        "other_votes": 2229,
+        "total_votes": 38889,
+        "dem_candidate": "Aaron D. Ford",
+        "rep_candidate": "Jon Frazier",
+        "margin": -8218,
+        "margin_pct": -21.13,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "13": {
+        "dem_votes": 27266,
+        "rep_votes": 15791,
+        "other_votes": 2406,
+        "total_votes": 45463,
+        "dem_candidate": "Julia Ratti",
+        "rep_candidate": "Kent Bailey",
+        "margin": -11475,
+        "margin_pct": -25.24,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "15": {
+        "dem_votes": 26765,
+        "rep_votes": 33795,
+        "other_votes": 3265,
+        "total_votes": 63825,
+        "dem_candidate": "Devon T. Reese",
+        "rep_candidate": "Heidi S. Gansert",
+        "margin": 7030,
+        "margin_pct": 11.01,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "18": {
+        "dem_votes": 26849,
+        "rep_votes": 34772,
+        "other_votes": 0,
+        "total_votes": 61621,
+        "dem_candidate": "Alexander Marks",
+        "rep_candidate": "Scott T. Hammond",
+        "margin": 7923,
+        "margin_pct": 12.86,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 36852,
+        "other_votes": 13661,
+        "total_votes": 50513,
+        "dem_candidate": "",
+        "rep_candidate": "Pete Goicoechea",
+        "margin": 36852,
+        "margin_pct": 72.96,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
         }
       }
     }

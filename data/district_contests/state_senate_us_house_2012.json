@@ -1,0 +1,181 @@
+{
+  "year": 2012,
+  "scope": "state_senate",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 15662,
+        "other_votes": 29651,
+        "total_votes": 45313,
+        "dem_candidate": "",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": 15662,
+        "margin_pct": 34.56,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 3239,
+        "other_votes": 31806,
+        "total_votes": 35045,
+        "dem_candidate": "",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": 3239,
+        "margin_pct": 9.24,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 5947,
+        "other_votes": 29166,
+        "total_votes": 35113,
+        "dem_candidate": "",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": 5947,
+        "margin_pct": 16.94,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 24864,
+        "other_votes": 27066,
+        "total_votes": 51930,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 24864,
+        "margin_pct": 47.88,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 21110,
+        "other_votes": 33746,
+        "total_votes": 54856,
+        "dem_candidate": "",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": 21110,
+        "margin_pct": 38.48,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 7168,
+        "other_votes": 33996,
+        "total_votes": 41164,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 7168,
+        "margin_pct": 17.41,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 20463,
+        "other_votes": 23815,
+        "total_votes": 44278,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 20463,
+        "margin_pct": 46.21,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 3610,
+        "other_votes": 33195,
+        "total_votes": 36805,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 3610,
+        "margin_pct": 9.81,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 15776,
+        "other_votes": 24757,
+        "total_votes": 40533,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 15776,
+        "margin_pct": 38.92,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 30609,
+        "other_votes": 27521,
+        "total_votes": 58130,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 30609,
+        "margin_pct": 52.66,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 26652,
+        "other_votes": 27455,
+        "total_votes": 54107,
+        "dem_candidate": "",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": 26652,
+        "margin_pct": 49.26,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 28756,
+        "other_votes": 15827,
+        "total_votes": 44583,
+        "dem_candidate": "",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": 28756,
+        "margin_pct": 64.5,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "year": 2014,
+  "scope": "state_senate",
+  "contest_type": "governor",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 3691,
+        "other_votes": 4207,
+        "total_votes": 7898,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 3691,
+        "margin_pct": 46.73,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 21105,
+        "other_votes": 8002,
+        "total_votes": 29107,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 21105,
+        "margin_pct": 72.51,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 15665,
+        "other_votes": 7287,
+        "total_votes": 22952,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 15665,
+        "margin_pct": 68.25,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 7791,
+        "other_votes": 5937,
+        "total_votes": 13728,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 7791,
+        "margin_pct": 56.75,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 26959,
+        "other_votes": 8452,
+        "total_votes": 35411,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 26959,
+        "margin_pct": 76.13,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 14716,
+        "other_votes": 7340,
+        "total_votes": 22056,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 14716,
+        "margin_pct": 66.72,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 29189,
+        "other_votes": 7450,
+        "total_votes": 36639,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 29189,
+        "margin_pct": 79.67,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 34443,
+        "other_votes": 8908,
+        "total_votes": 43351,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 34443,
+        "margin_pct": 79.45,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 34378,
+        "other_votes": 7169,
+        "total_votes": 41547,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 34378,
+        "margin_pct": 82.74,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 20525,
+        "other_votes": 7971,
+        "total_votes": 28496,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 20525,
+        "margin_pct": 72.03,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 11498,
+        "other_votes": 6944,
+        "total_votes": 18442,
+        "dem_candidate": "",
+        "rep_candidate": "Brian Sandoval",
+        "margin": 11498,
+        "margin_pct": 62.35,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "year": 2014,
+  "scope": "state_senate",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 7854,
+        "total_votes": 7854,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 13697,
+        "other_votes": 15230,
+        "total_votes": 28927,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 13697,
+        "margin_pct": 47.35,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 13020,
+        "other_votes": 9780,
+        "total_votes": 22800,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 13020,
+        "margin_pct": 57.11,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 266,
+        "other_votes": 13331,
+        "total_votes": 13597,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 266,
+        "margin_pct": 1.96,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 18741,
+        "other_votes": 16550,
+        "total_votes": 35291,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 18741,
+        "margin_pct": 53.1,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 10945,
+        "other_votes": 10831,
+        "total_votes": 21776,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 10945,
+        "margin_pct": 50.26,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 22899,
+        "other_votes": 13292,
+        "total_votes": 36191,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 22899,
+        "margin_pct": 63.27,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 28930,
+        "other_votes": 14054,
+        "total_votes": 42984,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 28930,
+        "margin_pct": 67.3,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 27960,
+        "other_votes": 13282,
+        "total_votes": 41242,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 27960,
+        "margin_pct": 67.79,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 17440,
+        "other_votes": 10927,
+        "total_votes": 28367,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 17440,
+        "margin_pct": 61.48,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 1633,
+        "other_votes": 16668,
+        "total_votes": 18301,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 1633,
+        "margin_pct": 8.92,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      }
+    }
+  }
+}

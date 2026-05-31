@@ -1,0 +1,601 @@
+{
+  "year": 2014,
+  "scope": "state_house",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 12496,
+        "total_votes": 12496,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 10231,
+        "other_votes": 6021,
+        "total_votes": 16252,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 10231,
+        "margin_pct": 62.95,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 8030,
+        "total_votes": 8030,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 14689,
+        "total_votes": 14689,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 3466,
+        "other_votes": 9209,
+        "total_votes": 12675,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 3466,
+        "margin_pct": 27.35,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 5898,
+        "total_votes": 5898,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 9216,
+        "total_votes": 9216,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 1962,
+        "other_votes": 6633,
+        "total_votes": 8595,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 1962,
+        "margin_pct": 22.83,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 6311,
+        "other_votes": 4854,
+        "total_votes": 11165,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 6311,
+        "margin_pct": 56.52,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 8255,
+        "total_votes": 8255,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 3729,
+        "total_votes": 3729,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 1633,
+        "other_votes": 10460,
+        "total_votes": 12093,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 1633,
+        "margin_pct": 13.5,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 15532,
+        "total_votes": 15532,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 6208,
+        "total_votes": 6208,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 7899,
+        "total_votes": 7899,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 266,
+        "other_votes": 5432,
+        "total_votes": 5698,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 266,
+        "margin_pct": 4.67,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 9192,
+        "total_votes": 9192,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 1513,
+        "other_votes": 6837,
+        "total_votes": 8350,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 1513,
+        "margin_pct": 18.12,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 4027,
+        "other_votes": 9413,
+        "total_votes": 13440,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 4027,
+        "margin_pct": 29.96,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 2740,
+        "other_votes": 7989,
+        "total_votes": 10729,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 2740,
+        "margin_pct": 25.54,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 6959,
+        "other_votes": 5396,
+        "total_votes": 12355,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 6959,
+        "margin_pct": 56.33,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 11282,
+        "other_votes": 6331,
+        "total_votes": 17613,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 11282,
+        "margin_pct": 64.05,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "23": {
+        "dem_votes": 0,
+        "rep_votes": 14714,
+        "other_votes": 7137,
+        "total_votes": 21851,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 14714,
+        "margin_pct": 67.34,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "24": {
+        "dem_votes": 0,
+        "rep_votes": 4490,
+        "other_votes": 5592,
+        "total_votes": 10082,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 4490,
+        "margin_pct": 44.53,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 15605,
+        "other_votes": 8284,
+        "total_votes": 23889,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 15605,
+        "margin_pct": 65.32,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "26": {
+        "dem_votes": 0,
+        "rep_votes": 15633,
+        "other_votes": 7784,
+        "total_votes": 23417,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 15633,
+        "margin_pct": 66.76,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 8042,
+        "other_votes": 6759,
+        "total_votes": 14801,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 8042,
+        "margin_pct": 54.33,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 4125,
+        "total_votes": 4125,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "29": {
+        "dem_votes": 0,
+        "rep_votes": 8361,
+        "other_votes": 5679,
+        "total_votes": 14040,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 8361,
+        "margin_pct": 59.55,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "30": {
+        "dem_votes": 0,
+        "rep_votes": 6455,
+        "other_votes": 5239,
+        "total_votes": 11694,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 6455,
+        "margin_pct": 55.2,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "31": {
+        "dem_votes": 0,
+        "rep_votes": 11427,
+        "other_votes": 6461,
+        "total_votes": 17888,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 11427,
+        "margin_pct": 63.88,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "32": {
+        "dem_votes": 0,
+        "rep_votes": 11472,
+        "other_votes": 6831,
+        "total_votes": 18303,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 11472,
+        "margin_pct": 62.68,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 7830,
+        "other_votes": 6466,
+        "total_votes": 14296,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 7830,
+        "margin_pct": 54.77,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "34": {
+        "dem_votes": 0,
+        "rep_votes": 588,
+        "other_votes": 11955,
+        "total_votes": 12543,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 588,
+        "margin_pct": 4.69,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "35": {
+        "dem_votes": 0,
+        "rep_votes": 6709,
+        "other_votes": 4926,
+        "total_votes": 11635,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 6709,
+        "margin_pct": 57.66,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "36": {
+        "dem_votes": 0,
+        "rep_votes": 452,
+        "other_votes": 15999,
+        "total_votes": 16451,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 452,
+        "margin_pct": 2.75,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "37": {
+        "dem_votes": 0,
+        "rep_votes": 1082,
+        "other_votes": 17065,
+        "total_votes": 18147,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 1082,
+        "margin_pct": 5.96,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "38": {
+        "dem_votes": 0,
+        "rep_votes": 10755,
+        "other_votes": 6899,
+        "total_votes": 17654,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 10755,
+        "margin_pct": 60.92,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "39": {
+        "dem_votes": 0,
+        "rep_votes": 17205,
+        "other_votes": 6383,
+        "total_votes": 23588,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 17205,
+        "margin_pct": 72.94,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "40": {
+        "dem_votes": 0,
+        "rep_votes": 13297,
+        "other_votes": 6270,
+        "total_votes": 19567,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 13297,
+        "margin_pct": 67.96,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "41": {
+        "dem_votes": 0,
+        "rep_votes": 6158,
+        "other_votes": 4596,
+        "total_votes": 10754,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Heck",
+        "margin": 6158,
+        "margin_pct": 57.26,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "42": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 7443,
+        "total_votes": 7443,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      }
+    }
+  }
+}

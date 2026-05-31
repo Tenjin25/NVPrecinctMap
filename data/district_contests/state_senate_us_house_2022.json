@@ -1,0 +1,167 @@
+{
+  "year": 2022,
+  "scope": "state_senate",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "2": {
+        "dem_votes": 12365,
+        "rep_votes": 5115,
+        "other_votes": 434,
+        "total_votes": 17914,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mark Robertson",
+        "margin": -7250,
+        "margin_pct": -40.47,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "8": {
+        "dem_votes": 27016,
+        "rep_votes": 26142,
+        "other_votes": 0,
+        "total_votes": 53158,
+        "dem_candidate": "Susie Lee",
+        "rep_candidate": "April Becker",
+        "margin": -874,
+        "margin_pct": -1.64,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "9": {
+        "dem_votes": 23511,
+        "rep_votes": 19517,
+        "other_votes": 0,
+        "total_votes": 43028,
+        "dem_candidate": "Susie Lee",
+        "rep_candidate": "April Becker",
+        "margin": -3994,
+        "margin_pct": -9.28,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "10": {
+        "dem_votes": 17383,
+        "rep_votes": 12600,
+        "other_votes": 368,
+        "total_votes": 30351,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "April Becker",
+        "margin": -4783,
+        "margin_pct": -15.76,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "12": {
+        "dem_votes": 26896,
+        "rep_votes": 23865,
+        "other_votes": 420,
+        "total_votes": 51181,
+        "dem_candidate": "Susie Lee",
+        "rep_candidate": "April Becker",
+        "margin": -3031,
+        "margin_pct": -5.92,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "13": {
+        "dem_votes": 21911,
+        "rep_votes": 15559,
+        "other_votes": 1090,
+        "total_votes": 38560,
+        "dem_candidate": "Elizabeth M. Krause",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": -6352,
+        "margin_pct": -16.47,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "14": {
+        "dem_votes": 20530,
+        "rep_votes": 40131,
+        "other_votes": 1507,
+        "total_votes": 62168,
+        "dem_candidate": "Elizabeth M. Krause",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 19601,
+        "margin_pct": 31.53,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "16": {
+        "dem_votes": 27802,
+        "rep_votes": 42976,
+        "other_votes": 1406,
+        "total_votes": 72184,
+        "dem_candidate": "Elizabeth M. Krause",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 15174,
+        "margin_pct": 21.02,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "17": {
+        "dem_votes": 16244,
+        "rep_votes": 47946,
+        "other_votes": 1678,
+        "total_votes": 65868,
+        "dem_candidate": "Elizabeth M. Krause",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 31702,
+        "margin_pct": 48.13,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "20": {
+        "dem_votes": 27802,
+        "rep_votes": 44288,
+        "other_votes": 1131,
+        "total_votes": 73221,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mark Robertson",
+        "margin": 16486,
+        "margin_pct": 22.52,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "21": {
+        "dem_votes": 18718,
+        "rep_votes": 13793,
+        "other_votes": 861,
+        "total_votes": 33372,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mark Robertson",
+        "margin": -4925,
+        "margin_pct": -14.76,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      }
+    }
+  }
+}

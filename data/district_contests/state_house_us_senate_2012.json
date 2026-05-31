@@ -1,0 +1,601 @@
+{
+  "year": 2012,
+  "scope": "state_house",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 13580,
+        "rep_votes": 9529,
+        "other_votes": 2395,
+        "total_votes": 25504,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -4051,
+        "margin_pct": -15.88,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "2": {
+        "dem_votes": 12174,
+        "rep_votes": 15266,
+        "other_votes": 1998,
+        "total_votes": 29438,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 3092,
+        "margin_pct": 10.5,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "3": {
+        "dem_votes": 10693,
+        "rep_votes": 5652,
+        "other_votes": 1967,
+        "total_votes": 18312,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -5041,
+        "margin_pct": -27.53,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "4": {
+        "dem_votes": 11798,
+        "rep_votes": 13499,
+        "other_votes": 2580,
+        "total_votes": 27877,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 1701,
+        "margin_pct": 6.1,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "5": {
+        "dem_votes": 11631,
+        "rep_votes": 11052,
+        "other_votes": 2106,
+        "total_votes": 24789,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -579,
+        "margin_pct": -2.34,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "6": {
+        "dem_votes": 12507,
+        "rep_votes": 1386,
+        "other_votes": 1290,
+        "total_votes": 15183,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -11121,
+        "margin_pct": -73.25,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "7": {
+        "dem_votes": 13478,
+        "rep_votes": 5125,
+        "other_votes": 1934,
+        "total_votes": 20537,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -8353,
+        "margin_pct": -40.67,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "8": {
+        "dem_votes": 10313,
+        "rep_votes": 7888,
+        "other_votes": 1869,
+        "total_votes": 20070,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -2425,
+        "margin_pct": -12.08,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "9": {
+        "dem_votes": 10676,
+        "rep_votes": 9738,
+        "other_votes": 2015,
+        "total_votes": 22429,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -938,
+        "margin_pct": -4.18,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "10": {
+        "dem_votes": 9964,
+        "rep_votes": 5880,
+        "other_votes": 1633,
+        "total_votes": 17477,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -4084,
+        "margin_pct": -23.37,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "11": {
+        "dem_votes": 7354,
+        "rep_votes": 1784,
+        "other_votes": 964,
+        "total_votes": 10102,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -5570,
+        "margin_pct": -55.14,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "12": {
+        "dem_votes": 11714,
+        "rep_votes": 9457,
+        "other_votes": 2160,
+        "total_votes": 23331,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -2257,
+        "margin_pct": -9.67,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "13": {
+        "dem_votes": 10994,
+        "rep_votes": 14279,
+        "other_votes": 2274,
+        "total_votes": 27547,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 3285,
+        "margin_pct": 11.93,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "14": {
+        "dem_votes": 9874,
+        "rep_votes": 4227,
+        "other_votes": 1670,
+        "total_votes": 15771,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -5647,
+        "margin_pct": -35.81,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "15": {
+        "dem_votes": 10616,
+        "rep_votes": 4958,
+        "other_votes": 1692,
+        "total_votes": 17266,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -5658,
+        "margin_pct": -32.77,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "16": {
+        "dem_votes": 8649,
+        "rep_votes": 4216,
+        "other_votes": 1415,
+        "total_votes": 14280,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -4433,
+        "margin_pct": -31.04,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "17": {
+        "dem_votes": 12095,
+        "rep_votes": 6671,
+        "other_votes": 2049,
+        "total_votes": 20815,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -5424,
+        "margin_pct": -26.06,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "18": {
+        "dem_votes": 11232,
+        "rep_votes": 6382,
+        "other_votes": 2252,
+        "total_votes": 19866,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -4850,
+        "margin_pct": -24.41,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "19": {
+        "dem_votes": 9496,
+        "rep_votes": 12427,
+        "other_votes": 2346,
+        "total_votes": 24269,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 2931,
+        "margin_pct": 12.08,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "20": {
+        "dem_votes": 11705,
+        "rep_votes": 8279,
+        "other_votes": 2216,
+        "total_votes": 22200,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -3426,
+        "margin_pct": -15.43,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "21": {
+        "dem_votes": 11993,
+        "rep_votes": 10967,
+        "other_votes": 2267,
+        "total_votes": 25227,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -1026,
+        "margin_pct": -4.07,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "22": {
+        "dem_votes": 12310,
+        "rep_votes": 16615,
+        "other_votes": 2417,
+        "total_votes": 31342,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 4305,
+        "margin_pct": 13.74,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "23": {
+        "dem_votes": 12172,
+        "rep_votes": 19885,
+        "other_votes": 2538,
+        "total_votes": 34595,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 7713,
+        "margin_pct": 22.3,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "24": {
+        "dem_votes": 10883,
+        "rep_votes": 6644,
+        "other_votes": 2613,
+        "total_votes": 20140,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -4239,
+        "margin_pct": -21.05,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "25": {
+        "dem_votes": 12583,
+        "rep_votes": 19174,
+        "other_votes": 2837,
+        "total_votes": 34594,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 6591,
+        "margin_pct": 19.05,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "26": {
+        "dem_votes": 11660,
+        "rep_votes": 20592,
+        "other_votes": 2712,
+        "total_votes": 34964,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 8932,
+        "margin_pct": 25.55,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "27": {
+        "dem_votes": 11535,
+        "rep_votes": 11234,
+        "other_votes": 2950,
+        "total_votes": 25719,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -301,
+        "margin_pct": -1.17,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "28": {
+        "dem_votes": 8284,
+        "rep_votes": 2221,
+        "other_votes": 1168,
+        "total_votes": 11673,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -6063,
+        "margin_pct": -51.94,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "29": {
+        "dem_votes": 12127,
+        "rep_votes": 12979,
+        "other_votes": 2740,
+        "total_votes": 27846,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 852,
+        "margin_pct": 3.06,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "30": {
+        "dem_votes": 10129,
+        "rep_votes": 9185,
+        "other_votes": 2709,
+        "total_votes": 22023,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -944,
+        "margin_pct": -4.29,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "31": {
+        "dem_votes": 10511,
+        "rep_votes": 15389,
+        "other_votes": 2918,
+        "total_votes": 28818,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 4878,
+        "margin_pct": 16.93,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "32": {
+        "dem_votes": 6467,
+        "rep_votes": 16597,
+        "other_votes": 3064,
+        "total_votes": 26128,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 10130,
+        "margin_pct": 38.77,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "33": {
+        "dem_votes": 3839,
+        "rep_votes": 16112,
+        "other_votes": 1929,
+        "total_votes": 21880,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 12273,
+        "margin_pct": 56.09,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "34": {
+        "dem_votes": 13109,
+        "rep_votes": 10228,
+        "other_votes": 2276,
+        "total_votes": 25613,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -2881,
+        "margin_pct": -11.25,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "35": {
+        "dem_votes": 10334,
+        "rep_votes": 10634,
+        "other_votes": 2159,
+        "total_votes": 23127,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 300,
+        "margin_pct": 1.3,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "36": {
+        "dem_votes": 7347,
+        "rep_votes": 13206,
+        "other_votes": 2912,
+        "total_votes": 23465,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 5859,
+        "margin_pct": 24.97,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "37": {
+        "dem_votes": 13234,
+        "rep_votes": 15154,
+        "other_votes": 2228,
+        "total_votes": 30616,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 1920,
+        "margin_pct": 6.27,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "38": {
+        "dem_votes": 5844,
+        "rep_votes": 17034,
+        "other_votes": 2674,
+        "total_votes": 25552,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 11190,
+        "margin_pct": 43.79,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "39": {
+        "dem_votes": 9190,
+        "rep_votes": 21731,
+        "other_votes": 3026,
+        "total_votes": 33947,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 12541,
+        "margin_pct": 36.94,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "40": {
+        "dem_votes": 9252,
+        "rep_votes": 16774,
+        "other_votes": 2570,
+        "total_votes": 28596,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": 7522,
+        "margin_pct": 26.3,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "41": {
+        "dem_votes": 10498,
+        "rep_votes": 10147,
+        "other_votes": 2165,
+        "total_votes": 22810,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -351,
+        "margin_pct": -1.54,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "42": {
+        "dem_votes": 10053,
+        "rep_votes": 5842,
+        "other_votes": 1681,
+        "total_votes": 17576,
+        "dem_candidate": "Shelley Berkley",
+        "rep_candidate": "Dean Heller",
+        "margin": -4211,
+        "margin_pct": -23.96,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      }
+    }
+  }
+}

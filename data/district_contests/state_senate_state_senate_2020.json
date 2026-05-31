@@ -3,8 +3,8 @@
   "scope": "state_senate",
   "contest_type": "state_senate",
   "meta": {
-    "source": "nv_scope_aggregates",
-    "nongeo_allocation_mode": "precomputed"
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
   },
   "general": {
     "results": {
@@ -20,62 +20,6 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#08306b"
-        }
-      },
-      "11": {
-        "dem_votes": 30484,
-        "rep_votes": 21576,
-        "other_votes": 0,
-        "total_votes": 52060,
-        "dem_candidate": "Dallas Harris",
-        "rep_candidate": "Joshua Dowden",
-        "margin": -8908,
-        "margin_pct": -17.11,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#6baed6"
-        }
-      },
-      "15": {
-        "dem_votes": 36591,
-        "rep_votes": 39292,
-        "other_votes": 0,
-        "total_votes": 75883,
-        "dem_candidate": "Wendy Jauregui-Jackins",
-        "rep_candidate": "Heidi S. Gansert",
-        "margin": 2701,
-        "margin_pct": 3.56,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#fcae91"
-        }
-      },
-      "18": {
-        "dem_votes": 34837,
-        "rep_votes": 44520,
-        "other_votes": 0,
-        "total_votes": 79357,
-        "dem_candidate": "Liz Becker",
-        "rep_candidate": "Scott T. Hammond",
-        "margin": 9683,
-        "margin_pct": 12.2,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#ef3b2c"
-        }
-      },
-      "19": {
-        "dem_votes": 0,
-        "rep_votes": 52573,
-        "other_votes": 14381,
-        "total_votes": 66954,
-        "dem_candidate": "",
-        "rep_candidate": "Pete Goicoechea",
-        "margin": 52573,
-        "margin_pct": 78.52,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#67000d"
         }
       },
       "3": {
@@ -146,6 +90,62 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#08306b"
+        }
+      },
+      "11": {
+        "dem_votes": 30484,
+        "rep_votes": 21576,
+        "other_votes": 0,
+        "total_votes": 52060,
+        "dem_candidate": "Dallas Harris",
+        "rep_candidate": "Joshua Dowden",
+        "margin": -8908,
+        "margin_pct": -17.11,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "15": {
+        "dem_votes": 36591,
+        "rep_votes": 39292,
+        "other_votes": 0,
+        "total_votes": 75883,
+        "dem_candidate": "Wendy Jauregui-Jackins",
+        "rep_candidate": "Heidi S. Gansert",
+        "margin": 2701,
+        "margin_pct": 3.56,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "18": {
+        "dem_votes": 34837,
+        "rep_votes": 44520,
+        "other_votes": 0,
+        "total_votes": 79357,
+        "dem_candidate": "Liz Becker",
+        "rep_candidate": "Scott T. Hammond",
+        "margin": 9683,
+        "margin_pct": 12.2,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 52573,
+        "other_votes": 14381,
+        "total_votes": 66954,
+        "dem_candidate": "",
+        "rep_candidate": "Pete Goicoechea",
+        "margin": 52573,
+        "margin_pct": 78.52,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
         }
       }
     }

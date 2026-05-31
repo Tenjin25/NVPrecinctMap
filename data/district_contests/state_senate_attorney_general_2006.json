@@ -1,0 +1,153 @@
+{
+  "year": 2006,
+  "scope": "state_senate",
+  "contest_type": "attorney_general",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 11770,
+        "rep_votes": 3598,
+        "other_votes": 979,
+        "total_votes": 16347,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -8172,
+        "margin_pct": -49.99,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "2": {
+        "dem_votes": 27977,
+        "rep_votes": 12886,
+        "other_votes": 2091,
+        "total_votes": 42954,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -15091,
+        "margin_pct": -35.13,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "4": {
+        "dem_votes": 21160,
+        "rep_votes": 11740,
+        "other_votes": 1653,
+        "total_votes": 34553,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -9420,
+        "margin_pct": -27.26,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "5": {
+        "dem_votes": 36563,
+        "rep_votes": 24309,
+        "other_votes": 3159,
+        "total_votes": 64031,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -12254,
+        "margin_pct": -19.14,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "7": {
+        "dem_votes": 22166,
+        "rep_votes": 10331,
+        "other_votes": 2034,
+        "total_votes": 34531,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -11835,
+        "margin_pct": -34.27,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "8": {
+        "dem_votes": 15741,
+        "rep_votes": 10754,
+        "other_votes": 1308,
+        "total_votes": 27803,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -4987,
+        "margin_pct": -17.94,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "9": {
+        "dem_votes": 33701,
+        "rep_votes": 22996,
+        "other_votes": 2686,
+        "total_votes": 59383,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -10705,
+        "margin_pct": -18.03,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "10": {
+        "dem_votes": 7511,
+        "rep_votes": 2874,
+        "other_votes": 642,
+        "total_votes": 11027,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -4637,
+        "margin_pct": -42.05,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "12": {
+        "dem_votes": 23864,
+        "rep_votes": 18724,
+        "other_votes": 2385,
+        "total_votes": 44973,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -5140,
+        "margin_pct": -11.43,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "rict": {
+        "dem_votes": 21120,
+        "rep_votes": 13796,
+        "other_votes": 1862,
+        "total_votes": 36778,
+        "dem_candidate": "Catherine Cortez  Masto",
+        "rep_candidate": "Don Chairez",
+        "margin": -7324,
+        "margin_pct": -19.91,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,601 @@
+{
+  "year": 2022,
+  "scope": "state_house",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 14553,
+        "rep_votes": 11119,
+        "other_votes": 755,
+        "total_votes": 26427,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -3434,
+        "margin_pct": -12.99,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "2": {
+        "dem_votes": 14825,
+        "rep_votes": 15167,
+        "other_votes": 598,
+        "total_votes": 30590,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 342,
+        "margin_pct": 1.12,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "3": {
+        "dem_votes": 10380,
+        "rep_votes": 7999,
+        "other_votes": 684,
+        "total_votes": 19063,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -2381,
+        "margin_pct": -12.49,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "4": {
+        "dem_votes": 12984,
+        "rep_votes": 14209,
+        "other_votes": 844,
+        "total_votes": 28037,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 1225,
+        "margin_pct": 4.37,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "5": {
+        "dem_votes": 12448,
+        "rep_votes": 10148,
+        "other_votes": 613,
+        "total_votes": 23209,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -2300,
+        "margin_pct": -9.91,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "6": {
+        "dem_votes": 8579,
+        "rep_votes": 1813,
+        "other_votes": 466,
+        "total_votes": 10858,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -6766,
+        "margin_pct": -62.31,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "7": {
+        "dem_votes": 11268,
+        "rep_votes": 5964,
+        "other_votes": 691,
+        "total_votes": 17923,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -5304,
+        "margin_pct": -29.59,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "8": {
+        "dem_votes": 11494,
+        "rep_votes": 8888,
+        "other_votes": 610,
+        "total_votes": 20992,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -2606,
+        "margin_pct": -12.41,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "9": {
+        "dem_votes": 12391,
+        "rep_votes": 10496,
+        "other_votes": 521,
+        "total_votes": 23408,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -1895,
+        "margin_pct": -8.1,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "10": {
+        "dem_votes": 10161,
+        "rep_votes": 6787,
+        "other_votes": 563,
+        "total_votes": 17511,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -3374,
+        "margin_pct": -19.27,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "11": {
+        "dem_votes": 6150,
+        "rep_votes": 2029,
+        "other_votes": 414,
+        "total_votes": 8593,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -4121,
+        "margin_pct": -47.96,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "12": {
+        "dem_votes": 10800,
+        "rep_votes": 9549,
+        "other_votes": 612,
+        "total_votes": 20961,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -1251,
+        "margin_pct": -5.97,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "13": {
+        "dem_votes": 13722,
+        "rep_votes": 15436,
+        "other_votes": 850,
+        "total_votes": 30008,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 1714,
+        "margin_pct": 5.71,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "14": {
+        "dem_votes": 8143,
+        "rep_votes": 4025,
+        "other_votes": 615,
+        "total_votes": 12783,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -4118,
+        "margin_pct": -32.21,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "15": {
+        "dem_votes": 7766,
+        "rep_votes": 4358,
+        "other_votes": 419,
+        "total_votes": 12543,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -3408,
+        "margin_pct": -27.17,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "16": {
+        "dem_votes": 9703,
+        "rep_votes": 7922,
+        "other_votes": 616,
+        "total_votes": 18241,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -1781,
+        "margin_pct": -9.76,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "17": {
+        "dem_votes": 11401,
+        "rep_votes": 5753,
+        "other_votes": 624,
+        "total_votes": 17778,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -5648,
+        "margin_pct": -31.77,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "18": {
+        "dem_votes": 10539,
+        "rep_votes": 6387,
+        "other_votes": 656,
+        "total_votes": 17582,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -4152,
+        "margin_pct": -23.62,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "19": {
+        "dem_votes": 11520,
+        "rep_votes": 20774,
+        "other_votes": 1060,
+        "total_votes": 33354,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 9254,
+        "margin_pct": 27.74,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "20": {
+        "dem_votes": 10717,
+        "rep_votes": 6359,
+        "other_votes": 693,
+        "total_votes": 17769,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -4358,
+        "margin_pct": -24.53,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "21": {
+        "dem_votes": 14395,
+        "rep_votes": 12292,
+        "other_votes": 707,
+        "total_votes": 27394,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -2103,
+        "margin_pct": -7.68,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "22": {
+        "dem_votes": 14648,
+        "rep_votes": 16909,
+        "other_votes": 965,
+        "total_votes": 32522,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 2261,
+        "margin_pct": 6.95,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "23": {
+        "dem_votes": 16829,
+        "rep_votes": 22777,
+        "other_votes": 911,
+        "total_votes": 40517,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 5948,
+        "margin_pct": 14.68,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "24": {
+        "dem_votes": 12613,
+        "rep_votes": 5959,
+        "other_votes": 677,
+        "total_votes": 19249,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -6654,
+        "margin_pct": -34.57,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "25": {
+        "dem_votes": 19082,
+        "rep_votes": 13691,
+        "other_votes": 791,
+        "total_votes": 33564,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -5391,
+        "margin_pct": -16.06,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "26": {
+        "dem_votes": 18193,
+        "rep_votes": 20579,
+        "other_votes": 855,
+        "total_votes": 39627,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 2386,
+        "margin_pct": 6.02,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "27": {
+        "dem_votes": 13138,
+        "rep_votes": 8607,
+        "other_votes": 806,
+        "total_votes": 22551,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -4531,
+        "margin_pct": -20.09,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "28": {
+        "dem_votes": 6305,
+        "rep_votes": 2838,
+        "other_votes": 457,
+        "total_votes": 9600,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -3467,
+        "margin_pct": -36.11,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "29": {
+        "dem_votes": 12867,
+        "rep_votes": 10652,
+        "other_votes": 747,
+        "total_votes": 24266,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -2215,
+        "margin_pct": -9.13,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "30": {
+        "dem_votes": 11239,
+        "rep_votes": 7847,
+        "other_votes": 799,
+        "total_votes": 19885,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -3392,
+        "margin_pct": -17.06,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "31": {
+        "dem_votes": 14191,
+        "rep_votes": 18572,
+        "other_votes": 964,
+        "total_votes": 33727,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 4381,
+        "margin_pct": 12.99,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "32": {
+        "dem_votes": 9610,
+        "rep_votes": 18196,
+        "other_votes": 1166,
+        "total_votes": 28972,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 8586,
+        "margin_pct": 29.64,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "33": {
+        "dem_votes": 5174,
+        "rep_votes": 19230,
+        "other_votes": 1165,
+        "total_votes": 25569,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 14056,
+        "margin_pct": 54.97,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "34": {
+        "dem_votes": 12524,
+        "rep_votes": 9083,
+        "other_votes": 639,
+        "total_votes": 22246,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -3441,
+        "margin_pct": -15.47,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "35": {
+        "dem_votes": 13052,
+        "rep_votes": 11950,
+        "other_votes": 643,
+        "total_votes": 25645,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -1102,
+        "margin_pct": -4.3,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "36": {
+        "dem_votes": 11579,
+        "rep_votes": 18825,
+        "other_votes": 1170,
+        "total_votes": 31574,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 7246,
+        "margin_pct": 22.95,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "37": {
+        "dem_votes": 16173,
+        "rep_votes": 14968,
+        "other_votes": 747,
+        "total_votes": 31888,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -1205,
+        "margin_pct": -3.78,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "38": {
+        "dem_votes": 6993,
+        "rep_votes": 19059,
+        "other_votes": 1303,
+        "total_votes": 27355,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 12066,
+        "margin_pct": 44.11,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "39": {
+        "dem_votes": 12116,
+        "rep_votes": 25662,
+        "other_votes": 1244,
+        "total_votes": 39022,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 13546,
+        "margin_pct": 34.71,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "40": {
+        "dem_votes": 13887,
+        "rep_votes": 18058,
+        "other_votes": 1188,
+        "total_votes": 33133,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 4171,
+        "margin_pct": 12.59,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "41": {
+        "dem_votes": 12778,
+        "rep_votes": 10905,
+        "other_votes": 676,
+        "total_votes": 24359,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -1873,
+        "margin_pct": -7.69,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "42": {
+        "dem_votes": 11258,
+        "rep_votes": 8318,
+        "other_votes": 610,
+        "total_votes": 20186,
+        "dem_candidate": "Catherine Cortez Masto",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -2940,
+        "margin_pct": -14.56,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      }
+    }
+  }
+}

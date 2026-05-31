@@ -1,0 +1,167 @@
+{
+  "year": 2016,
+  "scope": "state_senate",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 30277,
+        "rep_votes": 18811,
+        "other_votes": 3371,
+        "total_votes": 52459,
+        "dem_candidate": "Ruben Kihuen",
+        "rep_candidate": "Cresent Hardy",
+        "margin": -11466,
+        "margin_pct": -21.86,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "3": {
+        "dem_votes": 22151,
+        "rep_votes": 11116,
+        "other_votes": 2912,
+        "total_votes": 36179,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mary Perry",
+        "margin": -11035,
+        "margin_pct": -30.5,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "4": {
+        "dem_votes": 25994,
+        "rep_votes": 7161,
+        "other_votes": 2417,
+        "total_votes": 35572,
+        "dem_candidate": "Ruben Kihuen",
+        "rep_candidate": "Cresent Hardy",
+        "margin": -18833,
+        "margin_pct": -52.94,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "5": {
+        "dem_votes": 27004,
+        "rep_votes": 23825,
+        "other_votes": 4202,
+        "total_votes": 55031,
+        "dem_candidate": "Jacky Rosen",
+        "rep_candidate": "Danny Tarkanian",
+        "margin": -3179,
+        "margin_pct": -5.78,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "6": {
+        "dem_votes": 28028,
+        "rep_votes": 25444,
+        "other_votes": 3640,
+        "total_votes": 57112,
+        "dem_candidate": "Ruben Kihuen",
+        "rep_candidate": "Cresent Hardy",
+        "margin": -2584,
+        "margin_pct": -4.52,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "7": {
+        "dem_votes": 26070,
+        "rep_votes": 14554,
+        "other_votes": 3724,
+        "total_votes": 44348,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mary Perry",
+        "margin": -11516,
+        "margin_pct": -25.97,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "11": {
+        "dem_votes": 23083,
+        "rep_votes": 13937,
+        "other_votes": 2798,
+        "total_votes": 39818,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mary Perry",
+        "margin": -9146,
+        "margin_pct": -22.97,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "13": {
+        "dem_votes": 25631,
+        "rep_votes": 17918,
+        "other_votes": 2585,
+        "total_votes": 46134,
+        "dem_candidate": "H.D. C. Evans",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": -7713,
+        "margin_pct": -16.72,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "15": {
+        "dem_votes": 27923,
+        "rep_votes": 33618,
+        "other_votes": 2660,
+        "total_votes": 64201,
+        "dem_candidate": "H.D. C. Evans",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 5695,
+        "margin_pct": 8.87,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "18": {
+        "dem_votes": 25869,
+        "rep_votes": 32618,
+        "other_votes": 4175,
+        "total_votes": 62662,
+        "dem_candidate": "Ruben Kihuen",
+        "rep_candidate": "Cresent Hardy",
+        "margin": 6749,
+        "margin_pct": 10.77,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "19": {
+        "dem_votes": 12722,
+        "rep_votes": 35428,
+        "other_votes": 4435,
+        "total_votes": 52585,
+        "dem_candidate": "Ruben Kihuen",
+        "rep_candidate": "Cresent Hardy",
+        "margin": 22706,
+        "margin_pct": 43.18,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "year": 2006,
+  "scope": "state_senate",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 7522,
+        "rep_votes": 7071,
+        "other_votes": 1782,
+        "total_votes": 16375,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -451,
+        "margin_pct": -2.75,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "2": {
+        "dem_votes": 15606,
+        "rep_votes": 23799,
+        "other_votes": 3629,
+        "total_votes": 43034,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 8193,
+        "margin_pct": 19.04,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "4": {
+        "dem_votes": 10308,
+        "rep_votes": 22011,
+        "other_votes": 2388,
+        "total_votes": 34707,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 11703,
+        "margin_pct": 33.72,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "5": {
+        "dem_votes": 27555,
+        "rep_votes": 32235,
+        "other_votes": 4461,
+        "total_votes": 64251,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 4680,
+        "margin_pct": 7.28,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "7": {
+        "dem_votes": 18192,
+        "rep_votes": 13430,
+        "other_votes": 2976,
+        "total_votes": 34598,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -4762,
+        "margin_pct": -13.76,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "8": {
+        "dem_votes": 11492,
+        "rep_votes": 14514,
+        "other_votes": 1862,
+        "total_votes": 27868,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 3022,
+        "margin_pct": 10.84,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "9": {
+        "dem_votes": 24550,
+        "rep_votes": 30930,
+        "other_votes": 4060,
+        "total_votes": 59540,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 6380,
+        "margin_pct": 10.72,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "10": {
+        "dem_votes": 6394,
+        "rep_votes": 3568,
+        "other_votes": 1049,
+        "total_votes": 11011,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": -2826,
+        "margin_pct": -25.67,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "12": {
+        "dem_votes": 17941,
+        "rep_votes": 23878,
+        "other_votes": 3357,
+        "total_votes": 45176,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 5937,
+        "margin_pct": 13.14,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "rict": {
+        "dem_votes": 9699,
+        "rep_votes": 24340,
+        "other_votes": 2919,
+        "total_votes": 36958,
+        "dem_candidate": "Robert B. Unger",
+        "rep_candidate": "Brian K. Krolicki",
+        "margin": 14641,
+        "margin_pct": 39.62,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      }
+    }
+  }
+}

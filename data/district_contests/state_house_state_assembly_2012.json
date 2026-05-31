@@ -3,8 +3,8 @@
   "scope": "state_house",
   "contest_type": "state_assembly",
   "meta": {
-    "source": "nv_scope_aggregates",
-    "nongeo_allocation_mode": "precomputed"
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
   },
   "general": {
     "results": {
@@ -13,6 +13,118 @@
         "rep_votes": 0,
         "other_votes": 19816,
         "total_votes": 19816,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 19766,
+        "total_votes": 19766,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 17418,
+        "total_votes": 17418,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 14224,
+        "other_votes": 12571,
+        "total_votes": 26795,
+        "dem_candidate": "",
+        "rep_candidate": "Michele Fiore",
+        "margin": 14224,
+        "margin_pct": 53.08,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 23777,
+        "total_votes": 23777,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 13452,
+        "total_votes": 13452,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 19788,
+        "total_votes": 19788,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 18933,
+        "total_votes": 18933,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 21200,
+        "total_votes": 21200,
         "dem_candidate": "",
         "rep_candidate": "",
         "margin": 0,
@@ -162,20 +274,6 @@
           "color": "#f7f7f7"
         }
       },
-      "2": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 19766,
-        "total_votes": 19766,
-        "dem_candidate": "",
-        "rep_candidate": "",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "TIE",
-        "competitiveness": {
-          "color": "#f7f7f7"
-        }
-      },
       "20": {
         "dem_votes": 0,
         "rep_votes": 0,
@@ -307,20 +405,6 @@
         "rep_votes": 0,
         "other_votes": 26486,
         "total_votes": 26486,
-        "dem_candidate": "",
-        "rep_candidate": "",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "TIE",
-        "competitiveness": {
-          "color": "#f7f7f7"
-        }
-      },
-      "3": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 17418,
-        "total_votes": 17418,
         "dem_candidate": "",
         "rep_candidate": "",
         "margin": 0,
@@ -470,20 +554,6 @@
           "color": "#f7f7f7"
         }
       },
-      "4": {
-        "dem_votes": 0,
-        "rep_votes": 14224,
-        "other_votes": 12571,
-        "total_votes": 26795,
-        "dem_candidate": "",
-        "rep_candidate": "Michele Fiore",
-        "margin": 14224,
-        "margin_pct": 53.08,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#67000d"
-        }
-      },
       "40": {
         "dem_votes": 0,
         "rep_votes": 0,
@@ -517,76 +587,6 @@
         "rep_votes": 0,
         "other_votes": 16675,
         "total_votes": 16675,
-        "dem_candidate": "",
-        "rep_candidate": "",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "TIE",
-        "competitiveness": {
-          "color": "#f7f7f7"
-        }
-      },
-      "5": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 23777,
-        "total_votes": 23777,
-        "dem_candidate": "",
-        "rep_candidate": "",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "TIE",
-        "competitiveness": {
-          "color": "#f7f7f7"
-        }
-      },
-      "6": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 13452,
-        "total_votes": 13452,
-        "dem_candidate": "",
-        "rep_candidate": "",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "TIE",
-        "competitiveness": {
-          "color": "#f7f7f7"
-        }
-      },
-      "7": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 19788,
-        "total_votes": 19788,
-        "dem_candidate": "",
-        "rep_candidate": "",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "TIE",
-        "competitiveness": {
-          "color": "#f7f7f7"
-        }
-      },
-      "8": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 18933,
-        "total_votes": 18933,
-        "dem_candidate": "",
-        "rep_candidate": "",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "TIE",
-        "competitiveness": {
-          "color": "#f7f7f7"
-        }
-      },
-      "9": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 21200,
-        "total_votes": 21200,
         "dem_candidate": "",
         "rep_candidate": "",
         "margin": 0,

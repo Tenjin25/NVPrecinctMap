@@ -1,0 +1,167 @@
+{
+  "year": 2022,
+  "scope": "state_senate",
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "2": {
+        "dem_votes": 11797,
+        "rep_votes": 4819,
+        "other_votes": 19256,
+        "total_votes": 35872,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Michele Fiore",
+        "margin": -6978,
+        "margin_pct": -19.45,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "8": {
+        "dem_votes": 26909,
+        "rep_votes": 23467,
+        "other_votes": 55096,
+        "total_votes": 105472,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Michele Fiore",
+        "margin": -3442,
+        "margin_pct": -3.26,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "9": {
+        "dem_votes": 22993,
+        "rep_votes": 17886,
+        "other_votes": 44843,
+        "total_votes": 85722,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Michele Fiore",
+        "margin": -5107,
+        "margin_pct": -5.96,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "10": {
+        "dem_votes": 16847,
+        "rep_votes": 11711,
+        "other_votes": 31869,
+        "total_votes": 60427,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Michele Fiore",
+        "margin": -5136,
+        "margin_pct": -8.5,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "12": {
+        "dem_votes": 26390,
+        "rep_votes": 22134,
+        "other_votes": 53366,
+        "total_votes": 101890,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Michele Fiore",
+        "margin": -4256,
+        "margin_pct": -4.18,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "13": {
+        "dem_votes": 22581,
+        "rep_votes": 13408,
+        "other_votes": 27663,
+        "total_votes": 63652,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Michele Fiore",
+        "margin": -9173,
+        "margin_pct": -14.41,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "14": {
+        "dem_votes": 22535,
+        "rep_votes": 35649,
+        "other_votes": 51529,
+        "total_votes": 109713,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Michele Fiore",
+        "margin": 13114,
+        "margin_pct": 11.95,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "16": {
+        "dem_votes": 30934,
+        "rep_votes": 37078,
+        "other_votes": 38880,
+        "total_votes": 106892,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Michele Fiore",
+        "margin": 6144,
+        "margin_pct": 5.75,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "17": {
+        "dem_votes": 18097,
+        "rep_votes": 43402,
+        "other_votes": 61849,
+        "total_votes": 123348,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Michele Fiore",
+        "margin": 25305,
+        "margin_pct": 20.52,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "20": {
+        "dem_votes": 28082,
+        "rep_votes": 40815,
+        "other_votes": 76377,
+        "total_votes": 145274,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Michele Fiore",
+        "margin": 12733,
+        "margin_pct": 8.76,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "21": {
+        "dem_votes": 18354,
+        "rep_votes": 12884,
+        "other_votes": 35267,
+        "total_votes": 66505,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Michele Fiore",
+        "margin": -5470,
+        "margin_pct": -8.22,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      }
+    }
+  }
+}

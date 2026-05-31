@@ -3,8 +3,8 @@
   "scope": "state_senate",
   "contest_type": "state_senate",
   "meta": {
-    "source": "nv_scope_aggregates",
-    "nongeo_allocation_mode": "precomputed"
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
   },
   "general": {
     "results": {
@@ -13,76 +13,6 @@
         "rep_votes": 0,
         "other_votes": 42236,
         "total_votes": 42236,
-        "dem_candidate": "",
-        "rep_candidate": "",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "TIE",
-        "competitiveness": {
-          "color": "#f7f7f7"
-        }
-      },
-      "11": {
-        "dem_votes": 22187,
-        "rep_votes": 0,
-        "other_votes": 13453,
-        "total_votes": 35640,
-        "dem_candidate": "Aaron D. Ford",
-        "rep_candidate": "",
-        "margin": -22187,
-        "margin_pct": -62.25,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#08306b"
-        }
-      },
-      "13": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 40084,
-        "total_votes": 40084,
-        "dem_candidate": "",
-        "rep_candidate": "",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "TIE",
-        "competitiveness": {
-          "color": "#f7f7f7"
-        }
-      },
-      "15": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 58384,
-        "total_votes": 58384,
-        "dem_candidate": "",
-        "rep_candidate": "",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "TIE",
-        "competitiveness": {
-          "color": "#f7f7f7"
-        }
-      },
-      "18": {
-        "dem_votes": 0,
-        "rep_votes": 27342,
-        "other_votes": 25874,
-        "total_votes": 53216,
-        "dem_candidate": "",
-        "rep_candidate": "Scott T. Hammond",
-        "margin": 27342,
-        "margin_pct": 51.38,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#67000d"
-        }
-      },
-      "19": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 44371,
-        "total_votes": 44371,
         "dem_candidate": "",
         "rep_candidate": "",
         "margin": 0,
@@ -167,6 +97,76 @@
         "rep_votes": 0,
         "other_votes": 43382,
         "total_votes": 43382,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "11": {
+        "dem_votes": 22187,
+        "rep_votes": 0,
+        "other_votes": 13453,
+        "total_votes": 35640,
+        "dem_candidate": "Aaron D. Ford",
+        "rep_candidate": "",
+        "margin": -22187,
+        "margin_pct": -62.25,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 40084,
+        "total_votes": 40084,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 58384,
+        "total_votes": 58384,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 27342,
+        "other_votes": 25874,
+        "total_votes": 53216,
+        "dem_candidate": "",
+        "rep_candidate": "Scott T. Hammond",
+        "margin": 27342,
+        "margin_pct": 51.38,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 44371,
+        "total_votes": 44371,
         "dem_candidate": "",
         "rep_candidate": "",
         "margin": 0,

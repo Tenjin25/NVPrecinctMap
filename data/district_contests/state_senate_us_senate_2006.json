@@ -1,0 +1,153 @@
+{
+  "year": 2006,
+  "scope": "state_senate",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 8953,
+        "rep_votes": 6783,
+        "other_votes": 844,
+        "total_votes": 16580,
+        "dem_candidate": "Jack Carter",
+        "rep_candidate": "John Ensign",
+        "margin": -2170,
+        "margin_pct": -13.09,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "2": {
+        "dem_votes": 17617,
+        "rep_votes": 24052,
+        "other_votes": 1675,
+        "total_votes": 43344,
+        "dem_candidate": "Jack Carter",
+        "rep_candidate": "John Ensign",
+        "margin": 6435,
+        "margin_pct": 14.85,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "4": {
+        "dem_votes": 12659,
+        "rep_votes": 21123,
+        "other_votes": 1223,
+        "total_votes": 35005,
+        "dem_candidate": "Jack Carter",
+        "rep_candidate": "John Ensign",
+        "margin": 8464,
+        "margin_pct": 24.18,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "5": {
+        "dem_votes": 26887,
+        "rep_votes": 36044,
+        "other_votes": 1985,
+        "total_votes": 64916,
+        "dem_candidate": "Jack Carter",
+        "rep_candidate": "John Ensign",
+        "margin": 9157,
+        "margin_pct": 14.11,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "7": {
+        "dem_votes": 17954,
+        "rep_votes": 15591,
+        "other_votes": 1388,
+        "total_votes": 34933,
+        "dem_candidate": "Jack Carter",
+        "rep_candidate": "John Ensign",
+        "margin": -2363,
+        "margin_pct": -6.76,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "8": {
+        "dem_votes": 11321,
+        "rep_votes": 16051,
+        "other_votes": 813,
+        "total_votes": 28185,
+        "dem_candidate": "Jack Carter",
+        "rep_candidate": "John Ensign",
+        "margin": 4730,
+        "margin_pct": 16.78,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "9": {
+        "dem_votes": 24129,
+        "rep_votes": 34275,
+        "other_votes": 1793,
+        "total_votes": 60197,
+        "dem_candidate": "Jack Carter",
+        "rep_candidate": "John Ensign",
+        "margin": 10146,
+        "margin_pct": 16.85,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "10": {
+        "dem_votes": 6334,
+        "rep_votes": 4332,
+        "other_votes": 485,
+        "total_votes": 11151,
+        "dem_candidate": "Jack Carter",
+        "rep_candidate": "John Ensign",
+        "margin": -2002,
+        "margin_pct": -17.95,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "12": {
+        "dem_votes": 17386,
+        "rep_votes": 26745,
+        "other_votes": 1508,
+        "total_votes": 45639,
+        "dem_candidate": "Jack Carter",
+        "rep_candidate": "John Ensign",
+        "margin": 9359,
+        "margin_pct": 20.51,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "rict": {
+        "dem_votes": 12075,
+        "rep_votes": 23668,
+        "other_votes": 1433,
+        "total_votes": 37176,
+        "dem_candidate": "Jack Carter",
+        "rep_candidate": "John Ensign",
+        "margin": 11593,
+        "margin_pct": 31.18,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      }
+    }
+  }
+}

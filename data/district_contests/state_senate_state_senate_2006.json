@@ -3,8 +3,8 @@
   "scope": "state_senate",
   "contest_type": "state_senate",
   "meta": {
-    "source": "nv_scope_aggregates",
-    "nongeo_allocation_mode": "precomputed"
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
   },
   "general": {
     "results": {
@@ -20,34 +20,6 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#08306b"
-        }
-      },
-      "10": {
-        "dem_votes": 9146,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 9146,
-        "dem_candidate": "Bob Coffin",
-        "rep_candidate": "",
-        "margin": -9146,
-        "margin_pct": -100.0,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#08306b"
-        }
-      },
-      "12": {
-        "dem_votes": 0,
-        "rep_votes": 28270,
-        "other_votes": 13721,
-        "total_votes": 41991,
-        "dem_candidate": "",
-        "rep_candidate": "Warren B. Hardy",
-        "margin": 28270,
-        "margin_pct": 67.32,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#67000d"
         }
       },
       "2": {
@@ -129,6 +101,34 @@
         "rep_candidate": "Dennis Nolan",
         "margin": 35785,
         "margin_pct": 66.16,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "10": {
+        "dem_votes": 9146,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 9146,
+        "dem_candidate": "Bob Coffin",
+        "rep_candidate": "",
+        "margin": -9146,
+        "margin_pct": -100.0,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 28270,
+        "other_votes": 13721,
+        "total_votes": 41991,
+        "dem_candidate": "",
+        "rep_candidate": "Warren B. Hardy",
+        "margin": 28270,
+        "margin_pct": 67.32,
         "winner": "REP",
         "competitiveness": {
           "color": "#67000d"

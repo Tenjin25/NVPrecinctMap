@@ -3,8 +3,8 @@
   "scope": "state_senate",
   "contest_type": "state_senate",
   "meta": {
-    "source": "nv_scope_aggregates",
-    "nongeo_allocation_mode": "precomputed"
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
   },
   "general": {
     "results": {
@@ -20,34 +20,6 @@
         "winner": "REP",
         "competitiveness": {
           "color": "#cb181d"
-        }
-      },
-      "10": {
-        "dem_votes": 0,
-        "rep_votes": 3438,
-        "other_votes": 9205,
-        "total_votes": 12643,
-        "dem_candidate": "",
-        "rep_candidate": "Henry Tyler",
-        "margin": 3438,
-        "margin_pct": 27.19,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#cb181d"
-        }
-      },
-      "12": {
-        "dem_votes": 0,
-        "rep_votes": 35181,
-        "other_votes": 25531,
-        "total_votes": 60712,
-        "dem_candidate": "",
-        "rep_candidate": "Joe Hardy",
-        "margin": 35181,
-        "margin_pct": 57.95,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#67000d"
         }
       },
       "2": {
@@ -129,6 +101,34 @@
         "rep_candidate": "Elizabeth Halseth",
         "margin": 41633,
         "margin_pct": 49.95,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 3438,
+        "other_votes": 9205,
+        "total_votes": 12643,
+        "dem_candidate": "",
+        "rep_candidate": "Henry Tyler",
+        "margin": 3438,
+        "margin_pct": 27.19,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 35181,
+        "other_votes": 25531,
+        "total_votes": 60712,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Hardy",
+        "margin": 35181,
+        "margin_pct": 57.95,
         "winner": "REP",
         "competitiveness": {
           "color": "#67000d"

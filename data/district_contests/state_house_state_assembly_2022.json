@@ -3,8 +3,8 @@
   "scope": "state_house",
   "contest_type": "state_assembly",
   "meta": {
-    "source": "nv_scope_aggregates",
-    "nongeo_allocation_mode": "precomputed"
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
   },
   "general": {
     "results": {
@@ -20,6 +20,118 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
+        }
+      },
+      "2": {
+        "dem_votes": 13216,
+        "rep_votes": 16221,
+        "other_votes": 412,
+        "total_votes": 29849,
+        "dem_candidate": "Nick Christenson",
+        "rep_candidate": "Heidi Kasama",
+        "margin": 3005,
+        "margin_pct": 10.07,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "3": {
+        "dem_votes": 10329,
+        "rep_votes": 8343,
+        "other_votes": 0,
+        "total_votes": 18672,
+        "dem_candidate": "Selena E. Torres",
+        "rep_candidate": "Joshua Lemack",
+        "margin": -1986,
+        "margin_pct": -10.64,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 15807,
+        "other_votes": 9441,
+        "total_votes": 25248,
+        "dem_candidate": "",
+        "rep_candidate": "Richard Mcarthur",
+        "margin": 15807,
+        "margin_pct": 62.61,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "5": {
+        "dem_votes": 12008,
+        "rep_votes": 10330,
+        "other_votes": 372,
+        "total_votes": 22710,
+        "dem_candidate": "Brittney Miller",
+        "rep_candidate": "Kelly Quinn",
+        "margin": -1678,
+        "margin_pct": -7.39,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "6": {
+        "dem_votes": 8082,
+        "rep_votes": 1840,
+        "other_votes": 0,
+        "total_votes": 9922,
+        "dem_candidate": "Shondra Summers-Armstrong",
+        "rep_candidate": "Kathryn K. Rios",
+        "margin": -6242,
+        "margin_pct": -62.91,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "7": {
+        "dem_votes": 11149,
+        "rep_votes": 6421,
+        "other_votes": 0,
+        "total_votes": 17570,
+        "dem_candidate": "Cameron H. Miller",
+        "rep_candidate": "Anthony T. Palmer",
+        "margin": -4728,
+        "margin_pct": -26.91,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "8": {
+        "dem_votes": 11475,
+        "rep_votes": 9042,
+        "other_votes": 0,
+        "total_votes": 20517,
+        "dem_candidate": "Duy Nguyen",
+        "rep_candidate": "Jenann Logan",
+        "margin": -2433,
+        "margin_pct": -11.86,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "9": {
+        "dem_votes": 12181,
+        "rep_votes": 10710,
+        "other_votes": 0,
+        "total_votes": 22891,
+        "dem_candidate": "Steve Yeager",
+        "rep_candidate": "Ryan P. Fleming",
+        "margin": -1471,
+        "margin_pct": -6.43,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
         }
       },
       "10": {
@@ -55,7 +167,7 @@
         "rep_votes": 10066,
         "other_votes": 0,
         "total_votes": 20516,
-        "dem_candidate": "Ii, M. Carter",
+        "dem_candidate": "M. Carter II",
         "rep_candidate": "Flemming Larsen",
         "margin": -384,
         "margin_pct": -1.87,
@@ -126,7 +238,7 @@
         "other_votes": 0,
         "total_votes": 17465,
         "dem_candidate": "Clara C. Thomas",
-        "rep_candidate": "Iii, E. Pawley",
+        "rep_candidate": "E. Pawley III",
         "margin": -5431,
         "margin_pct": -31.1,
         "winner": "DEM",
@@ -160,20 +272,6 @@
         "winner": "REP",
         "competitiveness": {
           "color": "#67000d"
-        }
-      },
-      "2": {
-        "dem_votes": 13216,
-        "rep_votes": 16221,
-        "other_votes": 412,
-        "total_votes": 29849,
-        "dem_candidate": "Nick Christenson",
-        "rep_candidate": "Heidi Kasama",
-        "margin": 3005,
-        "margin_pct": 10.07,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#ef3b2c"
         }
       },
       "20": {
@@ -316,20 +414,6 @@
           "color": "#c6dbef"
         }
       },
-      "3": {
-        "dem_votes": 10329,
-        "rep_votes": 8343,
-        "other_votes": 0,
-        "total_votes": 18672,
-        "dem_candidate": "Selena E. Torres",
-        "rep_candidate": "Joshua Lemack",
-        "margin": -1986,
-        "margin_pct": -10.64,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#6baed6"
-        }
-      },
       "30": {
         "dem_votes": 10662,
         "rep_votes": 7998,
@@ -420,7 +504,7 @@
         "other_votes": 0,
         "total_votes": 24467,
         "dem_candidate": "",
-        "rep_candidate": "Ii, G. Hafen",
+        "rep_candidate": "G. Hafen II",
         "margin": 24467,
         "margin_pct": 100.0,
         "winner": "REP",
@@ -470,20 +554,6 @@
           "color": "#67000d"
         }
       },
-      "4": {
-        "dem_votes": 0,
-        "rep_votes": 15807,
-        "other_votes": 9441,
-        "total_votes": 25248,
-        "dem_candidate": "",
-        "rep_candidate": "Richard Mcarthur",
-        "margin": 15807,
-        "margin_pct": 62.61,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#67000d"
-        }
-      },
       "40": {
         "dem_votes": 12362,
         "rep_votes": 19144,
@@ -524,76 +594,6 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
-        }
-      },
-      "5": {
-        "dem_votes": 12008,
-        "rep_votes": 10330,
-        "other_votes": 372,
-        "total_votes": 22710,
-        "dem_candidate": "Brittney Miller",
-        "rep_candidate": "Kelly Quinn",
-        "margin": -1678,
-        "margin_pct": -7.39,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#c6dbef"
-        }
-      },
-      "6": {
-        "dem_votes": 8082,
-        "rep_votes": 1840,
-        "other_votes": 0,
-        "total_votes": 9922,
-        "dem_candidate": "Shondra Summers-Armstrong",
-        "rep_candidate": "Kathryn K. Rios",
-        "margin": -6242,
-        "margin_pct": -62.91,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#08306b"
-        }
-      },
-      "7": {
-        "dem_votes": 11149,
-        "rep_votes": 6421,
-        "other_votes": 0,
-        "total_votes": 17570,
-        "dem_candidate": "Cameron H. Miller",
-        "rep_candidate": "Anthony T. Palmer",
-        "margin": -4728,
-        "margin_pct": -26.91,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#3182bd"
-        }
-      },
-      "8": {
-        "dem_votes": 11475,
-        "rep_votes": 9042,
-        "other_votes": 0,
-        "total_votes": 20517,
-        "dem_candidate": "Duy Nguyen",
-        "rep_candidate": "Jenann Logan",
-        "margin": -2433,
-        "margin_pct": -11.86,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#6baed6"
-        }
-      },
-      "9": {
-        "dem_votes": 12181,
-        "rep_votes": 10710,
-        "other_votes": 0,
-        "total_votes": 22891,
-        "dem_candidate": "Steve Yeager",
-        "rep_candidate": "Ryan P. Fleming",
-        "margin": -1471,
-        "margin_pct": -6.43,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#c6dbef"
         }
       }
     }

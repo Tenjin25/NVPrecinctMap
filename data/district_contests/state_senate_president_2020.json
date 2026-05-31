@@ -1,0 +1,153 @@
+{
+  "year": 2020,
+  "scope": "state_senate",
+  "contest_type": "president",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 42915,
+        "rep_votes": 26814,
+        "other_votes": 1633,
+        "total_votes": 71362,
+        "dem_candidate": "Joseph R. Biden",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -16101,
+        "margin_pct": -22.56,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "3": {
+        "dem_votes": 26763,
+        "rep_votes": 16090,
+        "other_votes": 1004,
+        "total_votes": 43857,
+        "dem_candidate": "Joseph R. Biden",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -10673,
+        "margin_pct": -24.34,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "4": {
+        "dem_votes": 31662,
+        "rep_votes": 11217,
+        "other_votes": 937,
+        "total_votes": 43816,
+        "dem_candidate": "Joseph R. Biden",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -20445,
+        "margin_pct": -46.66,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "5": {
+        "dem_votes": 35621,
+        "rep_votes": 33103,
+        "other_votes": 1494,
+        "total_votes": 70218,
+        "dem_candidate": "Joseph R. Biden",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -2518,
+        "margin_pct": -3.59,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "6": {
+        "dem_votes": 36670,
+        "rep_votes": 32127,
+        "other_votes": 1283,
+        "total_votes": 70080,
+        "dem_candidate": "Joseph R. Biden",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -4543,
+        "margin_pct": -6.48,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "7": {
+        "dem_votes": 32937,
+        "rep_votes": 21924,
+        "other_votes": 1273,
+        "total_votes": 56134,
+        "dem_candidate": "Joseph R. Biden",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -11013,
+        "margin_pct": -19.62,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "11": {
+        "dem_votes": 31962,
+        "rep_votes": 22356,
+        "other_votes": 1086,
+        "total_votes": 55404,
+        "dem_candidate": "Joseph R. Biden",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -9606,
+        "margin_pct": -17.34,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "15": {
+        "dem_votes": 41119,
+        "rep_votes": 35073,
+        "other_votes": 2339,
+        "total_votes": 78531,
+        "dem_candidate": "Joseph R. Biden",
+        "rep_candidate": "Donald J. Trump",
+        "margin": -6046,
+        "margin_pct": -7.7,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "18": {
+        "dem_votes": 36846,
+        "rep_votes": 44046,
+        "other_votes": 1758,
+        "total_votes": 82650,
+        "dem_candidate": "Joseph R. Biden",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 7200,
+        "margin_pct": 8.71,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "19": {
+        "dem_votes": 20622,
+        "rep_votes": 49620,
+        "other_votes": 1756,
+        "total_votes": 71998,
+        "dem_candidate": "Joseph R. Biden",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 28998,
+        "margin_pct": 40.28,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "year": 2024,
+  "scope": "state_senate",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 41078,
+        "rep_votes": 26187,
+        "other_votes": 1782,
+        "total_votes": 69047,
+        "dem_candidate": "Steven Horsford",
+        "rep_candidate": "John Lee",
+        "margin": -14891,
+        "margin_pct": -21.57,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "3": {
+        "dem_votes": 29762,
+        "rep_votes": 21087,
+        "other_votes": 1473,
+        "total_votes": 52322,
+        "dem_candidate": "Steven Horsford",
+        "rep_candidate": "John Lee",
+        "margin": -8675,
+        "margin_pct": -16.58,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "4": {
+        "dem_votes": 32098,
+        "rep_votes": 12875,
+        "other_votes": 1387,
+        "total_votes": 46360,
+        "dem_candidate": "Steven Horsford",
+        "rep_candidate": "John Lee",
+        "margin": -19223,
+        "margin_pct": -41.46,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "5": {
+        "dem_votes": 38459,
+        "rep_votes": 39068,
+        "other_votes": 2394,
+        "total_votes": 79921,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mark Robertson",
+        "margin": 609,
+        "margin_pct": 0.76,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fee8c8"
+        }
+      },
+      "6": {
+        "dem_votes": 38862,
+        "rep_votes": 33606,
+        "other_votes": 416,
+        "total_votes": 72884,
+        "dem_candidate": "Susie Lee",
+        "rep_candidate": "Drew Johnson",
+        "margin": -5256,
+        "margin_pct": -7.21,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "7": {
+        "dem_votes": 30714,
+        "rep_votes": 19149,
+        "other_votes": 2113,
+        "total_votes": 51976,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mark Robertson",
+        "margin": -11565,
+        "margin_pct": -22.25,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "11": {
+        "dem_votes": 38945,
+        "rep_votes": 36546,
+        "other_votes": 0,
+        "total_votes": 75491,
+        "dem_candidate": "Susie Lee",
+        "rep_candidate": "Drew Johnson",
+        "margin": -2399,
+        "margin_pct": -3.18,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 30873,
+        "other_votes": 39861,
+        "total_votes": 70734,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 30873,
+        "margin_pct": 43.65,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "18": {
+        "dem_votes": 38857,
+        "rep_votes": 41899,
+        "other_votes": 1915,
+        "total_votes": 82671,
+        "dem_candidate": "Steven Horsford",
+        "rep_candidate": "John Lee",
+        "margin": 3042,
+        "margin_pct": 3.68,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "19": {
+        "dem_votes": 20253,
+        "rep_votes": 52305,
+        "other_votes": 7999,
+        "total_votes": 80557,
+        "dem_candidate": "Steven Horsford",
+        "rep_candidate": "John Lee",
+        "margin": 32052,
+        "margin_pct": 39.79,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      }
+    }
+  }
+}

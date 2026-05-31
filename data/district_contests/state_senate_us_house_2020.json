@@ -1,0 +1,153 @@
+{
+  "year": 2020,
+  "scope": "state_senate",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 24763,
+        "other_votes": 44100,
+        "total_votes": 68863,
+        "dem_candidate": "",
+        "rep_candidate": "Jim Marchant",
+        "margin": 24763,
+        "margin_pct": 35.96,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "3": {
+        "dem_votes": 18811,
+        "rep_votes": 4221,
+        "other_votes": 18959,
+        "total_votes": 41991,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Jim Marchant",
+        "margin": -14590,
+        "margin_pct": -34.75,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "4": {
+        "dem_votes": 1801,
+        "rep_votes": 8940,
+        "other_votes": 31733,
+        "total_votes": 42474,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Jim Marchant",
+        "margin": 7139,
+        "margin_pct": 16.81,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 67491,
+        "total_votes": 67491,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "6": {
+        "dem_votes": 7968,
+        "rep_votes": 23040,
+        "other_votes": 36678,
+        "total_votes": 67686,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Jim Marchant",
+        "margin": 15072,
+        "margin_pct": 22.27,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "7": {
+        "dem_votes": 18585,
+        "rep_votes": 0,
+        "other_votes": 35180,
+        "total_votes": 53765,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "",
+        "margin": -18585,
+        "margin_pct": -34.57,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "11": {
+        "dem_votes": 21446,
+        "rep_votes": 0,
+        "other_votes": 31419,
+        "total_votes": 52865,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "",
+        "margin": -21446,
+        "margin_pct": -40.57,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 37292,
+        "other_votes": 39129,
+        "total_votes": 76421,
+        "dem_candidate": "",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 37292,
+        "margin_pct": 48.8,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 42395,
+        "other_votes": 37685,
+        "total_votes": 80080,
+        "dem_candidate": "",
+        "rep_candidate": "Jim Marchant",
+        "margin": 42395,
+        "margin_pct": 52.94,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 45168,
+        "other_votes": 25013,
+        "total_votes": 70181,
+        "dem_candidate": "",
+        "rep_candidate": "Jim Marchant",
+        "margin": 45168,
+        "margin_pct": 64.36,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

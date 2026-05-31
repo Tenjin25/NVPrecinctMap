@@ -1,0 +1,153 @@
+{
+  "year": 2010,
+  "scope": "state_senate",
+  "contest_type": "attorney_general",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 4119,
+        "other_votes": 13899,
+        "total_votes": 18018,
+        "dem_candidate": "",
+        "rep_candidate": "Travis Barrick",
+        "margin": 4119,
+        "margin_pct": 22.86,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 17660,
+        "other_votes": 36052,
+        "total_votes": 53712,
+        "dem_candidate": "",
+        "rep_candidate": "Travis Barrick",
+        "margin": 17660,
+        "margin_pct": 32.88,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 16169,
+        "other_votes": 24441,
+        "total_votes": 40610,
+        "dem_candidate": "",
+        "rep_candidate": "Travis Barrick",
+        "margin": 16169,
+        "margin_pct": 39.82,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 29170,
+        "other_votes": 48349,
+        "total_votes": 77519,
+        "dem_candidate": "",
+        "rep_candidate": "Travis Barrick",
+        "margin": 29170,
+        "margin_pct": 37.63,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 10861,
+        "other_votes": 29552,
+        "total_votes": 40413,
+        "dem_candidate": "",
+        "rep_candidate": "Travis Barrick",
+        "margin": 10861,
+        "margin_pct": 26.88,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 11898,
+        "other_votes": 20183,
+        "total_votes": 32081,
+        "dem_candidate": "",
+        "rep_candidate": "Travis Barrick",
+        "margin": 11898,
+        "margin_pct": 37.09,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 32731,
+        "other_votes": 53995,
+        "total_votes": 86726,
+        "dem_candidate": "",
+        "rep_candidate": "Travis Barrick",
+        "margin": 32731,
+        "margin_pct": 37.74,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 2734,
+        "other_votes": 10941,
+        "total_votes": 13675,
+        "dem_candidate": "",
+        "rep_candidate": "Travis Barrick",
+        "margin": 2734,
+        "margin_pct": 19.99,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 25231,
+        "other_votes": 37521,
+        "total_votes": 62752,
+        "dem_candidate": "",
+        "rep_candidate": "Travis Barrick",
+        "margin": 25231,
+        "margin_pct": 40.21,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "rict": {
+        "dem_votes": 0,
+        "rep_votes": 17429,
+        "other_votes": 23111,
+        "total_votes": 40540,
+        "dem_candidate": "",
+        "rep_candidate": "Travis Barrick",
+        "margin": 17429,
+        "margin_pct": 42.99,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

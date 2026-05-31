@@ -1,0 +1,167 @@
+{
+  "year": 2014,
+  "scope": "state_senate",
+  "contest_type": "attorney_general",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "2": {
+        "dem_votes": 5217,
+        "rep_votes": 1988,
+        "other_votes": 660,
+        "total_votes": 7865,
+        "dem_candidate": "Ross Miller",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -3229,
+        "margin_pct": -41.06,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "8": {
+        "dem_votes": 13406,
+        "rep_votes": 13634,
+        "other_votes": 1845,
+        "total_votes": 28885,
+        "dem_candidate": "Ross Miller",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 228,
+        "margin_pct": 0.79,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fee8c8"
+        }
+      },
+      "9": {
+        "dem_votes": 10965,
+        "rep_votes": 10211,
+        "other_votes": 1574,
+        "total_votes": 22750,
+        "dem_candidate": "Ross Miller",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -754,
+        "margin_pct": -3.31,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "10": {
+        "dem_votes": 7926,
+        "rep_votes": 4654,
+        "other_votes": 1095,
+        "total_votes": 13675,
+        "dem_candidate": "Ross Miller",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -3272,
+        "margin_pct": -23.93,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "12": {
+        "dem_votes": 13199,
+        "rep_votes": 19184,
+        "other_votes": 2707,
+        "total_votes": 35090,
+        "dem_candidate": "Ross Miller",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 5985,
+        "margin_pct": 17.06,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "13": {
+        "dem_votes": 11820,
+        "rep_votes": 7982,
+        "other_votes": 2156,
+        "total_votes": 21958,
+        "dem_candidate": "Ross Miller",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -3838,
+        "margin_pct": -17.48,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "14": {
+        "dem_votes": 13562,
+        "rep_votes": 18855,
+        "other_votes": 4030,
+        "total_votes": 36447,
+        "dem_candidate": "Ross Miller",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 5293,
+        "margin_pct": 14.52,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "16": {
+        "dem_votes": 18402,
+        "rep_votes": 21113,
+        "other_votes": 3588,
+        "total_votes": 43103,
+        "dem_candidate": "Ross Miller",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 2711,
+        "margin_pct": 6.29,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "17": {
+        "dem_votes": 12308,
+        "rep_votes": 24627,
+        "other_votes": 4422,
+        "total_votes": 41357,
+        "dem_candidate": "Ross Miller",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 12319,
+        "margin_pct": 29.79,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "20": {
+        "dem_votes": 12623,
+        "rep_votes": 13728,
+        "other_votes": 1923,
+        "total_votes": 28274,
+        "dem_candidate": "Ross Miller",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": 1105,
+        "margin_pct": 3.91,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "21": {
+        "dem_votes": 9279,
+        "rep_votes": 7581,
+        "other_votes": 1485,
+        "total_votes": 18345,
+        "dem_candidate": "Ross Miller",
+        "rep_candidate": "Adam P. Laxalt",
+        "margin": -1698,
+        "margin_pct": -9.26,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      }
+    }
+  }
+}

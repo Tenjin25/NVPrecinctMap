@@ -1,0 +1,167 @@
+{
+  "year": 2014,
+  "scope": "state_senate",
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "2": {
+        "dem_votes": 5021,
+        "rep_votes": 2187,
+        "other_votes": 8191,
+        "total_votes": 15399,
+        "dem_candidate": "Kim Wallin",
+        "rep_candidate": "Dan Schwartz",
+        "margin": -2834,
+        "margin_pct": -18.4,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "8": {
+        "dem_votes": 11864,
+        "rep_votes": 15309,
+        "other_votes": 29040,
+        "total_votes": 56213,
+        "dem_candidate": "Kim Wallin",
+        "rep_candidate": "Dan Schwartz",
+        "margin": 3445,
+        "margin_pct": 6.13,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "9": {
+        "dem_votes": 9590,
+        "rep_votes": 11581,
+        "other_votes": 23232,
+        "total_votes": 44403,
+        "dem_candidate": "Kim Wallin",
+        "rep_candidate": "Dan Schwartz",
+        "margin": 1991,
+        "margin_pct": 4.48,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "10": {
+        "dem_votes": 7527,
+        "rep_votes": 5114,
+        "other_votes": 14189,
+        "total_votes": 26830,
+        "dem_candidate": "Kim Wallin",
+        "rep_candidate": "Dan Schwartz",
+        "margin": -2413,
+        "margin_pct": -8.99,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "12": {
+        "dem_votes": 12214,
+        "rep_votes": 20625,
+        "other_votes": 35729,
+        "total_votes": 68568,
+        "dem_candidate": "Kim Wallin",
+        "rep_candidate": "Dan Schwartz",
+        "margin": 8411,
+        "margin_pct": 12.27,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "13": {
+        "dem_votes": 10784,
+        "rep_votes": 9036,
+        "other_votes": 18943,
+        "total_votes": 38763,
+        "dem_candidate": "Kim Wallin",
+        "rep_candidate": "Dan Schwartz",
+        "margin": -1748,
+        "margin_pct": -4.51,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "14": {
+        "dem_votes": 11723,
+        "rep_votes": 21065,
+        "other_votes": 35181,
+        "total_votes": 67969,
+        "dem_candidate": "Kim Wallin",
+        "rep_candidate": "Dan Schwartz",
+        "margin": 9342,
+        "margin_pct": 13.74,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "16": {
+        "dem_votes": 15500,
+        "rep_votes": 24140,
+        "other_votes": 25942,
+        "total_votes": 65582,
+        "dem_candidate": "Kim Wallin",
+        "rep_candidate": "Dan Schwartz",
+        "margin": 8640,
+        "margin_pct": 13.17,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "17": {
+        "dem_votes": 10992,
+        "rep_votes": 26198,
+        "other_votes": 39798,
+        "total_votes": 76988,
+        "dem_candidate": "Kim Wallin",
+        "rep_candidate": "Dan Schwartz",
+        "margin": 15206,
+        "margin_pct": 19.75,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "20": {
+        "dem_votes": 11382,
+        "rep_votes": 15127,
+        "other_votes": 28679,
+        "total_votes": 55188,
+        "dem_candidate": "Kim Wallin",
+        "rep_candidate": "Dan Schwartz",
+        "margin": 3745,
+        "margin_pct": 6.79,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "21": {
+        "dem_votes": 8865,
+        "rep_votes": 8176,
+        "other_votes": 18944,
+        "total_votes": 35985,
+        "dem_candidate": "Kim Wallin",
+        "rep_candidate": "Dan Schwartz",
+        "margin": -689,
+        "margin_pct": -1.91,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      }
+    }
+  }
+}

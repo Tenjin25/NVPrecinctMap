@@ -1,0 +1,167 @@
+{
+  "year": 2014,
+  "scope": "state_senate",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "2": {
+        "dem_votes": 4823,
+        "rep_votes": 2489,
+        "other_votes": 604,
+        "total_votes": 7916,
+        "dem_candidate": "Lucy Flores",
+        "rep_candidate": "Mark Hutchison",
+        "margin": -2334,
+        "margin_pct": -29.48,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "8": {
+        "dem_votes": 9516,
+        "rep_votes": 18113,
+        "other_votes": 1375,
+        "total_votes": 29004,
+        "dem_candidate": "Lucy Flores",
+        "rep_candidate": "Mark Hutchison",
+        "margin": 8597,
+        "margin_pct": 29.64,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "9": {
+        "dem_votes": 8355,
+        "rep_votes": 13199,
+        "other_votes": 1291,
+        "total_votes": 22845,
+        "dem_candidate": "Lucy Flores",
+        "rep_candidate": "Mark Hutchison",
+        "margin": 4844,
+        "margin_pct": 21.2,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "10": {
+        "dem_votes": 6732,
+        "rep_votes": 5995,
+        "other_votes": 984,
+        "total_votes": 13711,
+        "dem_candidate": "Lucy Flores",
+        "rep_candidate": "Mark Hutchison",
+        "margin": -737,
+        "margin_pct": -5.38,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "12": {
+        "dem_votes": 9661,
+        "rep_votes": 23722,
+        "other_votes": 1923,
+        "total_votes": 35306,
+        "dem_candidate": "Lucy Flores",
+        "rep_candidate": "Mark Hutchison",
+        "margin": 14061,
+        "margin_pct": 39.83,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "13": {
+        "dem_votes": 8960,
+        "rep_votes": 10934,
+        "other_votes": 2042,
+        "total_votes": 21936,
+        "dem_candidate": "Lucy Flores",
+        "rep_candidate": "Mark Hutchison",
+        "margin": 1974,
+        "margin_pct": 9.0,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "14": {
+        "dem_votes": 8888,
+        "rep_votes": 24334,
+        "other_votes": 3260,
+        "total_votes": 36482,
+        "dem_candidate": "Lucy Flores",
+        "rep_candidate": "Mark Hutchison",
+        "margin": 15446,
+        "margin_pct": 42.34,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "16": {
+        "dem_votes": 11446,
+        "rep_votes": 28765,
+        "other_votes": 2911,
+        "total_votes": 43122,
+        "dem_candidate": "Lucy Flores",
+        "rep_candidate": "Mark Hutchison",
+        "margin": 17319,
+        "margin_pct": 40.16,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "17": {
+        "dem_votes": 7617,
+        "rep_votes": 30253,
+        "other_votes": 3537,
+        "total_votes": 41407,
+        "dem_candidate": "Lucy Flores",
+        "rep_candidate": "Mark Hutchison",
+        "margin": 22636,
+        "margin_pct": 54.67,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "20": {
+        "dem_votes": 9383,
+        "rep_votes": 17565,
+        "other_votes": 1417,
+        "total_votes": 28365,
+        "dem_candidate": "Lucy Flores",
+        "rep_candidate": "Mark Hutchison",
+        "margin": 8182,
+        "margin_pct": 28.85,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "21": {
+        "dem_votes": 7593,
+        "rep_votes": 9624,
+        "other_votes": 1185,
+        "total_votes": 18402,
+        "dem_candidate": "Lucy Flores",
+        "rep_candidate": "Mark Hutchison",
+        "margin": 2031,
+        "margin_pct": 11.04,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      }
+    }
+  }
+}

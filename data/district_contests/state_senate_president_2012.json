@@ -1,0 +1,181 @@
+{
+  "year": 2012,
+  "scope": "state_senate",
+  "contest_type": "president",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 16891,
+        "other_votes": 30255,
+        "total_votes": 47146,
+        "dem_candidate": "",
+        "rep_candidate": "Mitt Romney",
+        "margin": 16891,
+        "margin_pct": 35.83,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 12289,
+        "other_votes": 24330,
+        "total_votes": 36619,
+        "dem_candidate": "",
+        "rep_candidate": "Mitt Romney",
+        "margin": 12289,
+        "margin_pct": 33.56,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 6788,
+        "other_votes": 29954,
+        "total_votes": 36742,
+        "dem_candidate": "",
+        "rep_candidate": "Mitt Romney",
+        "margin": 6788,
+        "margin_pct": 18.47,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 24800,
+        "other_votes": 29104,
+        "total_votes": 53904,
+        "dem_candidate": "",
+        "rep_candidate": "Mitt Romney",
+        "margin": 24800,
+        "margin_pct": 46.01,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 26630,
+        "other_votes": 30433,
+        "total_votes": 57063,
+        "dem_candidate": "",
+        "rep_candidate": "Mitt Romney",
+        "margin": 26630,
+        "margin_pct": 46.67,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 15232,
+        "other_votes": 27691,
+        "total_votes": 42923,
+        "dem_candidate": "",
+        "rep_candidate": "Mitt Romney",
+        "margin": 15232,
+        "margin_pct": 35.49,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 20637,
+        "other_votes": 25841,
+        "total_votes": 46478,
+        "dem_candidate": "",
+        "rep_candidate": "Mitt Romney",
+        "margin": 20637,
+        "margin_pct": 44.4,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 14208,
+        "other_votes": 24426,
+        "total_votes": 38634,
+        "dem_candidate": "",
+        "rep_candidate": "Mitt Romney",
+        "margin": 14208,
+        "margin_pct": 36.78,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 14460,
+        "other_votes": 28442,
+        "total_votes": 42902,
+        "dem_candidate": "",
+        "rep_candidate": "Mitt Romney",
+        "margin": 14460,
+        "margin_pct": 33.7,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 28711,
+        "other_votes": 32287,
+        "total_votes": 60998,
+        "dem_candidate": "",
+        "rep_candidate": "Mitt Romney",
+        "margin": 28711,
+        "margin_pct": 47.07,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 28956,
+        "other_votes": 27201,
+        "total_votes": 56157,
+        "dem_candidate": "",
+        "rep_candidate": "Mitt Romney",
+        "margin": 28956,
+        "margin_pct": 51.56,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 30784,
+        "other_votes": 14994,
+        "total_votes": 45778,
+        "dem_candidate": "",
+        "rep_candidate": "Mitt Romney",
+        "margin": 30784,
+        "margin_pct": 67.25,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

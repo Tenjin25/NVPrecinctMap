@@ -1,0 +1,601 @@
+{
+  "year": 2014,
+  "scope": "state_house",
+  "contest_type": "controller",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 5494,
+        "other_votes": 6944,
+        "total_votes": 12438,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 5494,
+        "margin_pct": 44.17,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 9196,
+        "other_votes": 6717,
+        "total_votes": 15913,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 9196,
+        "margin_pct": 57.79,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 3264,
+        "other_votes": 4726,
+        "total_votes": 7990,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 3264,
+        "margin_pct": 40.85,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 7961,
+        "other_votes": 6609,
+        "total_votes": 14570,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 7961,
+        "margin_pct": 54.64,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 6601,
+        "other_votes": 5937,
+        "total_votes": 12538,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 6601,
+        "margin_pct": 52.65,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 757,
+        "other_votes": 5055,
+        "total_votes": 5812,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 757,
+        "margin_pct": 13.02,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 2940,
+        "other_votes": 6252,
+        "total_votes": 9192,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 2940,
+        "margin_pct": 31.98,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 4115,
+        "other_votes": 4402,
+        "total_votes": 8517,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 4115,
+        "margin_pct": 48.32,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 5551,
+        "other_votes": 5435,
+        "total_votes": 10986,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 5551,
+        "margin_pct": 50.53,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 3535,
+        "other_votes": 4689,
+        "total_votes": 8224,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 3535,
+        "margin_pct": 42.98,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 879,
+        "other_votes": 2809,
+        "total_votes": 3688,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 879,
+        "margin_pct": 23.83,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 6000,
+        "other_votes": 5985,
+        "total_votes": 11985,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 6000,
+        "margin_pct": 50.06,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 8860,
+        "other_votes": 6598,
+        "total_votes": 15458,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 8860,
+        "margin_pct": 57.32,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 2274,
+        "other_votes": 3892,
+        "total_votes": 6166,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 2274,
+        "margin_pct": 36.88,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 2910,
+        "other_votes": 4946,
+        "total_votes": 7856,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 2910,
+        "margin_pct": 37.04,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 2176,
+        "other_votes": 3498,
+        "total_votes": 5674,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 2176,
+        "margin_pct": 38.35,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 3610,
+        "other_votes": 5580,
+        "total_votes": 9190,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 3610,
+        "margin_pct": 39.28,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 3412,
+        "other_votes": 4895,
+        "total_votes": 8307,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 3412,
+        "margin_pct": 41.07,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 7876,
+        "other_votes": 5426,
+        "total_votes": 13302,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 7876,
+        "margin_pct": 59.21,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 4824,
+        "other_votes": 5831,
+        "total_votes": 10655,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 4824,
+        "margin_pct": 45.27,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 6107,
+        "other_votes": 6051,
+        "total_votes": 12158,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 6107,
+        "margin_pct": 50.23,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 10067,
+        "other_votes": 7281,
+        "total_votes": 17348,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 10067,
+        "margin_pct": 58.03,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "23": {
+        "dem_votes": 0,
+        "rep_votes": 13388,
+        "other_votes": 8079,
+        "total_votes": 21467,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 13388,
+        "margin_pct": 62.37,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "24": {
+        "dem_votes": 0,
+        "rep_votes": 3568,
+        "other_votes": 6445,
+        "total_votes": 10013,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 3568,
+        "margin_pct": 35.63,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 13137,
+        "other_votes": 10491,
+        "total_votes": 23628,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 13137,
+        "margin_pct": 55.6,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "26": {
+        "dem_votes": 0,
+        "rep_votes": 13816,
+        "other_votes": 9329,
+        "total_votes": 23145,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 13816,
+        "margin_pct": 59.69,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 6624,
+        "other_votes": 8052,
+        "total_votes": 14676,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 6624,
+        "margin_pct": 45.13,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 1155,
+        "other_votes": 2955,
+        "total_votes": 4110,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 1155,
+        "margin_pct": 28.1,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "29": {
+        "dem_votes": 0,
+        "rep_votes": 7311,
+        "other_votes": 6537,
+        "total_votes": 13848,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 7311,
+        "margin_pct": 52.79,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "30": {
+        "dem_votes": 0,
+        "rep_votes": 5355,
+        "other_votes": 6272,
+        "total_votes": 11627,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 5355,
+        "margin_pct": 46.06,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "31": {
+        "dem_votes": 0,
+        "rep_votes": 9696,
+        "other_votes": 8065,
+        "total_votes": 17761,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 9696,
+        "margin_pct": 54.59,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "32": {
+        "dem_votes": 0,
+        "rep_votes": 11333,
+        "other_votes": 6946,
+        "total_votes": 18279,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 11333,
+        "margin_pct": 62.0,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 9344,
+        "other_votes": 4914,
+        "total_votes": 14258,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 9344,
+        "margin_pct": 65.54,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "34": {
+        "dem_votes": 0,
+        "rep_votes": 5948,
+        "other_votes": 6557,
+        "total_votes": 12505,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 5948,
+        "margin_pct": 47.56,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "35": {
+        "dem_votes": 0,
+        "rep_votes": 5843,
+        "other_votes": 5656,
+        "total_votes": 11499,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 5843,
+        "margin_pct": 50.81,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "36": {
+        "dem_votes": 0,
+        "rep_votes": 9761,
+        "other_votes": 6634,
+        "total_votes": 16395,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 9761,
+        "margin_pct": 59.54,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "37": {
+        "dem_votes": 0,
+        "rep_votes": 10153,
+        "other_votes": 7881,
+        "total_votes": 18034,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 10153,
+        "margin_pct": 56.3,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "38": {
+        "dem_votes": 0,
+        "rep_votes": 11751,
+        "other_votes": 5817,
+        "total_votes": 17568,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 11751,
+        "margin_pct": 66.89,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "39": {
+        "dem_votes": 0,
+        "rep_votes": 15759,
+        "other_votes": 7725,
+        "total_votes": 23484,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 15759,
+        "margin_pct": 67.11,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "40": {
+        "dem_votes": 0,
+        "rep_votes": 11427,
+        "other_votes": 8027,
+        "total_votes": 19454,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 11427,
+        "margin_pct": 58.74,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "41": {
+        "dem_votes": 0,
+        "rep_votes": 5534,
+        "other_votes": 5081,
+        "total_votes": 10615,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 5534,
+        "margin_pct": 52.13,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "42": {
+        "dem_votes": 0,
+        "rep_votes": 3122,
+        "other_votes": 4305,
+        "total_votes": 7427,
+        "dem_candidate": "",
+        "rep_candidate": "Ron Knecht",
+        "margin": 3122,
+        "margin_pct": 42.04,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      }
+    }
+  }
+}

@@ -3,8 +3,8 @@
   "scope": "state_house",
   "contest_type": "state_assembly",
   "meta": {
-    "source": "nv_scope_aggregates",
-    "nongeo_allocation_mode": "precomputed"
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
   },
   "general": {
     "results": {
@@ -20,6 +20,118 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
+        }
+      },
+      "2": {
+        "dem_votes": 17538,
+        "rep_votes": 22200,
+        "other_votes": 0,
+        "total_votes": 39738,
+        "dem_candidate": "Ron Nelsen",
+        "rep_candidate": "Heidi Kasama",
+        "margin": 4662,
+        "margin_pct": 11.73,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "3": {
+        "dem_votes": 15085,
+        "rep_votes": 11833,
+        "other_votes": 0,
+        "total_votes": 26918,
+        "dem_candidate": "Selena E. Torres",
+        "rep_candidate": "Michele Rizza",
+        "margin": -3252,
+        "margin_pct": -12.08,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "4": {
+        "dem_votes": 17948,
+        "rep_votes": 21384,
+        "other_votes": 0,
+        "total_votes": 39332,
+        "dem_candidate": "Ryan Hampton",
+        "rep_candidate": "Lisa Cole",
+        "margin": 3436,
+        "margin_pct": 8.74,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "5": {
+        "dem_votes": 16503,
+        "rep_votes": 15240,
+        "other_votes": 712,
+        "total_votes": 32455,
+        "dem_candidate": "Brittney M. Miller",
+        "rep_candidate": "Kelly Quinn",
+        "margin": -1263,
+        "margin_pct": -3.89,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "6": {
+        "dem_votes": 12418,
+        "rep_votes": 3450,
+        "other_votes": 1894,
+        "total_votes": 17762,
+        "dem_candidate": "Jovan A. Jackson",
+        "rep_candidate": "Nephi K. Oliva",
+        "margin": -8968,
+        "margin_pct": -50.49,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "7": {
+        "dem_votes": 21626,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 21626,
+        "dem_candidate": "Tanya Flanagan",
+        "rep_candidate": "",
+        "margin": -21626,
+        "margin_pct": -100.0,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "8": {
+        "dem_votes": 18787,
+        "rep_votes": 16275,
+        "other_votes": 0,
+        "total_votes": 35062,
+        "dem_candidate": "Duy Nguyen",
+        "rep_candidate": "Kelly Chapman",
+        "margin": -2512,
+        "margin_pct": -7.16,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "9": {
+        "dem_votes": 17801,
+        "rep_votes": 17026,
+        "other_votes": 0,
+        "total_votes": 34827,
+        "dem_candidate": "Steve Yeager",
+        "rep_candidate": "Erica A. Neely",
+        "margin": -775,
+        "margin_pct": -2.23,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
         }
       },
       "10": {
@@ -55,7 +167,7 @@
         "rep_votes": 15481,
         "other_votes": 0,
         "total_votes": 31239,
-        "dem_candidate": "Ii, M. Carter",
+        "dem_candidate": "M. Carter II",
         "rep_candidate": "Nancy S. Roecker",
         "margin": -277,
         "margin_pct": -0.89,
@@ -160,20 +272,6 @@
         "winner": "REP",
         "competitiveness": {
           "color": "#67000d"
-        }
-      },
-      "2": {
-        "dem_votes": 17538,
-        "rep_votes": 22200,
-        "other_votes": 0,
-        "total_votes": 39738,
-        "dem_candidate": "Ron Nelsen",
-        "rep_candidate": "Heidi Kasama",
-        "margin": 4662,
-        "margin_pct": 11.73,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#ef3b2c"
         }
       },
       "20": {
@@ -316,20 +414,6 @@
           "color": "#c6dbef"
         }
       },
-      "3": {
-        "dem_votes": 15085,
-        "rep_votes": 11833,
-        "other_votes": 0,
-        "total_votes": 26918,
-        "dem_candidate": "Selena E. Torres",
-        "rep_candidate": "Michele Rizza",
-        "margin": -3252,
-        "margin_pct": -12.08,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#6baed6"
-        }
-      },
       "30": {
         "dem_votes": 20122,
         "rep_votes": 0,
@@ -420,7 +504,7 @@
         "other_votes": 0,
         "total_votes": 45872,
         "dem_candidate": "Marlene Drake",
-        "rep_candidate": "Ii, G. Hafen",
+        "rep_candidate": "G. Hafen II",
         "margin": 12510,
         "margin_pct": 27.27,
         "winner": "REP",
@@ -470,20 +554,6 @@
           "color": "#67000d"
         }
       },
-      "4": {
-        "dem_votes": 17948,
-        "rep_votes": 21384,
-        "other_votes": 0,
-        "total_votes": 39332,
-        "dem_candidate": "Ryan Hampton",
-        "rep_candidate": "Lisa Cole",
-        "margin": 3436,
-        "margin_pct": 8.74,
-        "winner": "REP",
-        "competitiveness": {
-          "color": "#fcae91"
-        }
-      },
       "40": {
         "dem_votes": 15763,
         "rep_votes": 24949,
@@ -524,76 +594,6 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
-        }
-      },
-      "5": {
-        "dem_votes": 16503,
-        "rep_votes": 15240,
-        "other_votes": 712,
-        "total_votes": 32455,
-        "dem_candidate": "Brittney M. Miller",
-        "rep_candidate": "Kelly Quinn",
-        "margin": -1263,
-        "margin_pct": -3.89,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#c6dbef"
-        }
-      },
-      "6": {
-        "dem_votes": 12418,
-        "rep_votes": 3450,
-        "other_votes": 1894,
-        "total_votes": 17762,
-        "dem_candidate": "Jovan A. Jackson",
-        "rep_candidate": "Nephi K. Oliva",
-        "margin": -8968,
-        "margin_pct": -50.49,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#08306b"
-        }
-      },
-      "7": {
-        "dem_votes": 21626,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 21626,
-        "dem_candidate": "Tanya Flanagan",
-        "rep_candidate": "",
-        "margin": -21626,
-        "margin_pct": -100.0,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#08306b"
-        }
-      },
-      "8": {
-        "dem_votes": 18787,
-        "rep_votes": 16275,
-        "other_votes": 0,
-        "total_votes": 35062,
-        "dem_candidate": "Duy Nguyen",
-        "rep_candidate": "Kelly Chapman",
-        "margin": -2512,
-        "margin_pct": -7.16,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#c6dbef"
-        }
-      },
-      "9": {
-        "dem_votes": 17801,
-        "rep_votes": 17026,
-        "other_votes": 0,
-        "total_votes": 34827,
-        "dem_candidate": "Steve Yeager",
-        "rep_candidate": "Erica A. Neely",
-        "margin": -775,
-        "margin_pct": -2.23,
-        "winner": "DEM",
-        "competitiveness": {
-          "color": "#c6dbef"
         }
       }
     }
