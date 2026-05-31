@@ -12657,6 +12657,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     async function toggleCongressionalNeutralMode() {
+      const contestSelect = document.getElementById('contestSelect');
+      const previousContestValue = (contestSelect?.value || '').toString().trim();
       congressionalNeutralMode = !congressionalNeutralMode;
       districtElectionDataJSON = null;
       districtElectionDataLoadFailed = false;
@@ -12678,14 +12680,28 @@ document.addEventListener('DOMContentLoaded', function() {
         console.warn('Failed to refresh congressional geometry after neutral toggle:', err?.message || err);
       }
 
-      const contestSelect = document.getElementById('contestSelect');
-      const contestValue = (contestSelect?.value || '').toString().trim();
+      // Keep neutral options identical to current congressional-line options.
+      updateContestSelectForCurrentView();
+      const nextContestSelect = document.getElementById('contestSelect');
+      const canPreserveContest = !!(
+        previousContestValue &&
+        nextContestSelect &&
+        Array.from(nextContestSelect.options || []).some(opt => opt && opt.value === previousContestValue)
+      );
+      if (canPreserveContest && nextContestSelect) {
+        nextContestSelect.value = previousContestValue;
+      }
+
+      const contestValue = (nextContestSelect?.value || '').toString().trim();
       if (contestValue && appReady) {
         try {
           await applyContest(contestValue);
         } catch (err) {
           console.warn('Failed to reapply contest after neutral toggle:', err?.message || err);
         }
+      } else if (nextContestSelect) {
+        nextContestSelect.value = '';
+        updateContextBanner();
       }
       setStatus(congressionalNeutralMode ? 'Neutral congressional mode enabled' : 'Neutral congressional mode disabled');
       try { saveUIState(); } catch (_) {}
