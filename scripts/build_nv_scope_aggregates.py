@@ -398,7 +398,8 @@ def main() -> None:
         if year_cong:
             congressional["results_by_year"][year] = year_cong
 
-        # Neutral congressional (map CD -> neutral_id), for same contest set as congressional.
+        # Neutral congressional (map precinct -> VTD20 -> neutral_id) for the same contest set as congressional.
+        # This is intentionally strict to the neutral crosswalk geography (no CD->neutral backfill).
         pkey_to_neutral = {}
         for county, precinct in {(clean(r.get("county", "")), clean(r.get("precinct", ""))) for r in rows}:
             probes = [(county_norm(county), norm(precinct))]
@@ -419,20 +420,29 @@ def main() -> None:
             if not source_rows:
                 continue
             neutral_rows = []
+            total_source = 0
+            matched_source = 0
             for r in source_rows:
                 pkey = (clean(r.get("county", "")), clean(r.get("precinct", "")))
+                total_source += 1
                 nid = pkey_to_neutral.get(pkey, "")
                 if not nid:
-                    # Conservative fallback if a precinct couldn't be matched to VTD20.
-                    cd = pkey_to_cd.get(pkey, "") or clean(r.get("district", "")).zfill(2)
-                    nid = cd_to_neutral.get(cd, "")
-                if not nid:
                     continue
+                matched_source += 1
                 rc = dict(r)
                 rc["neutral_id"] = nid
                 neutral_rows.append(rc)
             if neutral_rows:
-                year_neutral[t] = {"general": {"results": aggregate_rows(neutral_rows, "neutral_id")}}
+                coverage = (matched_source / total_source * 100.0) if total_source else 0.0
+                year_neutral[t] = {
+                    "general": {"results": aggregate_rows(neutral_rows, "neutral_id")},
+                    "meta": {
+                        "match_rows": matched_source,
+                        "total_rows": total_source,
+                        "match_coverage_pct": round(coverage, 2),
+                        "mapping": "precinct -> VTD20 -> neutral_id"
+                    }
+                }
         if year_neutral:
             neutral_congressional["results_by_year"][year] = year_neutral
 
