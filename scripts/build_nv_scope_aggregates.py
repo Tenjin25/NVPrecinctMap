@@ -38,9 +38,9 @@ def parse_year(path: Path) -> str:
 
 def normalize_party(party: str) -> str:
     p = clean(party).lower()
-    if p in ("dem", "democratic"):
+    if p.startswith("dem"):
         return "DEM"
-    if p in ("rep", "republican", "gop"):
+    if p.startswith("rep") or "gop" in p:
         return "REP"
     return ""
 
@@ -58,7 +58,12 @@ def contest_type(office: str) -> str:
     if "attorney general" in o:
         return "attorney_general"
     if "treasurer" in o:
-        return "treasurer"
+        # Keep statewide treasurer only; exclude county/local clerk-treasurer offices.
+        if "county" in o or "clerk" in o:
+            return ""
+        if "state treasurer" in o:
+            return "treasurer"
+        return ""
     if "controller" in o or "comptroller" in o:
         return "controller"
     if "governor" in o:
@@ -317,10 +322,12 @@ def aggregate_rows(rows: list[dict], group_key_name: str) -> dict:
         votes = to_int(row.get("votes", ""))
         if p == "DEM":
             grouped[group_key]["dem"] += votes
-            dem_name[group_key][cand] += votes
+            if cand:
+                dem_name[group_key][cand] += votes
         elif p == "REP":
             grouped[group_key]["rep"] += votes
-            rep_name[group_key][cand] += votes
+            if cand:
+                rep_name[group_key][cand] += votes
         else:
             grouped[group_key]["other"] += votes
 

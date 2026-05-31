@@ -497,69 +497,69 @@
         "general": {
           "results": {
             "1": {
-              "dem_votes": 86451,
-              "rep_votes": 22790,
-              "other_votes": 21065,
-              "total_votes": 130306,
-              "dem_candidate": "Laura Fitzpatrick",
+              "dem_votes": 37155,
+              "rep_votes": 22765,
+              "other_votes": 7512,
+              "total_votes": 67432,
+              "dem_candidate": "Kate Marshall",
               "rep_candidate": "Mark Destefano",
-              "margin": -63661,
-              "margin_pct": -48.86,
+              "margin": -14390,
+              "margin_pct": -21.34,
               "winner": "DEM",
               "competitiveness": {
-                "color": "#08306b"
+                "color": "#3182bd"
               }
             },
             "2": {
-              "dem_votes": 97719,
-              "rep_votes": 229528,
-              "other_votes": 59484,
-              "total_votes": 386731,
+              "dem_votes": 91143,
+              "rep_votes": 178369,
+              "other_votes": 54989,
+              "total_votes": 324501,
               "dem_candidate": "Kate Marshall",
               "rep_candidate": "Mark Destefano",
-              "margin": 131809,
-              "margin_pct": 34.08,
+              "margin": 87226,
+              "margin_pct": 26.88,
               "winner": "REP",
               "competitiveness": {
                 "color": "#cb181d"
               }
             },
             "3": {
-              "dem_votes": 190095,
+              "dem_votes": 80029,
               "rep_votes": 60105,
-              "other_votes": 52799,
-              "total_votes": 302999,
-              "dem_candidate": "Laura Fitzpatrick",
+              "other_votes": 17561,
+              "total_votes": 157695,
+              "dem_candidate": "Kate Marshall",
               "rep_candidate": "Mark Destefano",
-              "margin": -129990,
-              "margin_pct": -42.9,
+              "margin": -19924,
+              "margin_pct": -12.63,
               "winner": "DEM",
               "competitiveness": {
-                "color": "#08306b"
+                "color": "#6baed6"
               }
             },
             "4": {
-              "dem_votes": 154223,
-              "rep_votes": 64550,
-              "other_votes": 44557,
-              "total_votes": 263330,
-              "dem_candidate": "Laura Fitzpatrick",
+              "dem_votes": 63673,
+              "rep_votes": 57767,
+              "other_votes": 15783,
+              "total_votes": 137223,
+              "dem_candidate": "Kate Marshall",
               "rep_candidate": "Mark Destefano",
-              "margin": -89673,
-              "margin_pct": -34.05,
+              "margin": -5906,
+              "margin_pct": -4.3,
               "winner": "DEM",
               "competitiveness": {
-                "color": "#3182bd"
+                "color": "#c6dbef"
               }
             }
           }
         },
         "meta": {
-          "match_rows": 4593,
-          "backfilled_rows": 4923,
-          "total_rows": 11209,
-          "match_coverage_pct": 40.98,
-          "allocated_coverage_pct": 84.9,
+          "match_rows": 3652,
+          "backfilled_rows": 3530,
+          "total_rows": 8682,
+          "match_coverage_pct": 42.06,
+          "allocated_coverage_pct": 82.72,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -709,59 +709,59 @@
         "general": {
           "results": {
             "1": {
-              "dem_votes": 0,
+              "dem_votes": 87484,
               "rep_votes": 44399,
-              "other_votes": 90206,
+              "other_votes": 2722,
               "total_votes": 134605,
-              "dem_candidate": "",
+              "dem_candidate": "Barack Obama",
               "rep_candidate": "John Mccain",
-              "margin": 44399,
-              "margin_pct": 32.98,
-              "winner": "REP",
+              "margin": -43085,
+              "margin_pct": -32.01,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#cb181d"
+                "color": "#3182bd"
               }
             },
             "2": {
-              "dem_votes": 0,
+              "dem_votes": 153127,
               "rep_votes": 149809,
-              "other_votes": 160337,
+              "other_votes": 7210,
               "total_votes": 310146,
-              "dem_candidate": "",
+              "dem_candidate": "Barack Obama",
               "rep_candidate": "John Mccain",
-              "margin": 149809,
-              "margin_pct": 48.3,
-              "winner": "REP",
+              "margin": -3318,
+              "margin_pct": -1.07,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#c6dbef"
               }
             },
             "3": {
-              "dem_votes": 0,
+              "dem_votes": 171324,
               "rep_votes": 112893,
-              "other_votes": 177396,
+              "other_votes": 6072,
               "total_votes": 290289,
-              "dem_candidate": "",
+              "dem_candidate": "Barack Obama",
               "rep_candidate": "John Mccain",
-              "margin": 112893,
-              "margin_pct": 38.89,
-              "winner": "REP",
+              "margin": -58431,
+              "margin_pct": -20.13,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#cb181d"
+                "color": "#3182bd"
               }
             },
             "4": {
-              "dem_votes": 0,
+              "dem_votes": 121389,
               "rep_votes": 105191,
-              "other_votes": 126548,
+              "other_votes": 5159,
               "total_votes": 231739,
-              "dem_candidate": "",
+              "dem_candidate": "Barack Obama",
               "rep_candidate": "John Mccain",
-              "margin": 105191,
-              "margin_pct": 45.39,
-              "winner": "REP",
+              "margin": -16198,
+              "margin_pct": -6.99,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#c6dbef"
               }
             }
           }
@@ -775,91 +775,63 @@
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
-      "treasurer": {
-        "general": {
-          "results": {
-            "2": {
-              "dem_votes": 0,
-              "rep_votes": 2145,
-              "other_votes": 0,
-              "total_votes": 2145,
-              "dem_candidate": "",
-              "rep_candidate": "Vanessa Dixon",
-              "margin": 2145,
-              "margin_pct": 100.0,
-              "winner": "REP",
-              "competitiveness": {
-                "color": "#67000d"
-              }
-            }
-          }
-        },
-        "meta": {
-          "match_rows": 28,
-          "backfilled_rows": 0,
-          "total_rows": 28,
-          "match_coverage_pct": 100.0,
-          "allocated_coverage_pct": 100.0,
-          "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
-        }
-      },
       "us_house": {
         "general": {
           "results": {
             "1": {
-              "dem_votes": 0,
+              "dem_votes": 82350,
               "rep_votes": 35170,
-              "other_votes": 88875,
+              "other_votes": 6525,
               "total_votes": 124045,
-              "dem_candidate": "",
+              "dem_candidate": "Shelley Berkley",
               "rep_candidate": "Kenneth A. Wegner",
-              "margin": 35170,
-              "margin_pct": 28.35,
-              "winner": "REP",
+              "margin": -47180,
+              "margin_pct": -38.03,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#cb181d"
+                "color": "#3182bd"
               }
             },
             "2": {
-              "dem_votes": 0,
+              "dem_votes": 124534,
               "rep_votes": 154006,
-              "other_votes": 144055,
+              "other_votes": 19521,
               "total_votes": 298061,
-              "dem_candidate": "",
+              "dem_candidate": "Jill Derby",
               "rep_candidate": "Dean Heller",
-              "margin": 154006,
-              "margin_pct": 51.67,
+              "margin": 29472,
+              "margin_pct": 9.89,
               "winner": "REP",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#fcae91"
               }
             },
             "3": {
-              "dem_votes": 0,
+              "dem_votes": 148936,
               "rep_votes": 98537,
-              "other_votes": 170278,
+              "other_votes": 21342,
               "total_votes": 268815,
-              "dem_candidate": "",
+              "dem_candidate": "Dina Titus",
               "rep_candidate": "Jon Porter",
-              "margin": 98537,
-              "margin_pct": 36.66,
-              "winner": "REP",
+              "margin": -50399,
+              "margin_pct": -18.75,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#cb181d"
+                "color": "#6baed6"
               }
             },
             "4": {
-              "dem_votes": 0,
+              "dem_votes": 101325,
               "rep_votes": 95567,
-              "other_votes": 121286,
+              "other_votes": 19961,
               "total_votes": 216853,
-              "dem_candidate": "",
+              "dem_candidate": "Dina Titus",
               "rep_candidate": "Jon Porter",
-              "margin": 95567,
-              "margin_pct": 44.07,
-              "winner": "REP",
+              "margin": -5758,
+              "margin_pct": -2.66,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#c6dbef"
               }
             }
           }
@@ -879,59 +851,59 @@
         "general": {
           "results": {
             "1": {
-              "dem_votes": 0,
+              "dem_votes": 57331,
               "rep_votes": 31650,
-              "other_votes": 61236,
+              "other_votes": 3905,
               "total_votes": 92886,
-              "dem_candidate": "",
+              "dem_candidate": "Harry Reid",
               "rep_candidate": "Sharron Angle",
-              "margin": 31650,
-              "margin_pct": 34.07,
-              "winner": "REP",
+              "margin": -25681,
+              "margin_pct": -27.65,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#cb181d"
+                "color": "#3182bd"
               }
             },
             "2": {
-              "dem_votes": 0,
+              "dem_votes": 108683,
               "rep_votes": 123735,
-              "other_votes": 124616,
+              "other_votes": 15933,
               "total_votes": 248351,
-              "dem_candidate": "",
+              "dem_candidate": "Harry Reid",
               "rep_candidate": "Sharron Angle",
-              "margin": 123735,
-              "margin_pct": 49.82,
+              "margin": 15052,
+              "margin_pct": 6.06,
               "winner": "REP",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#fcae91"
               }
             },
             "3": {
-              "dem_votes": 0,
+              "dem_votes": 112605,
               "rep_votes": 83551,
-              "other_votes": 121583,
+              "other_votes": 8978,
               "total_votes": 205134,
-              "dem_candidate": "",
+              "dem_candidate": "Harry Reid",
               "rep_candidate": "Sharron Angle",
-              "margin": 83551,
-              "margin_pct": 40.73,
-              "winner": "REP",
+              "margin": -29054,
+              "margin_pct": -14.16,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#6baed6"
               }
             },
             "4": {
-              "dem_votes": 0,
+              "dem_votes": 83984,
               "rep_votes": 82123,
-              "other_votes": 92342,
+              "other_votes": 8358,
               "total_votes": 174465,
-              "dem_candidate": "",
+              "dem_candidate": "Harry Reid",
               "rep_candidate": "Sharron Angle",
-              "margin": 82123,
-              "margin_pct": 47.07,
-              "winner": "REP",
+              "margin": -1861,
+              "margin_pct": -1.07,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#c6dbef"
               }
             }
           }
@@ -949,59 +921,59 @@
         "general": {
           "results": {
             "1": {
-              "dem_votes": 0,
+              "dem_votes": 50203,
               "rep_votes": 37643,
-              "other_votes": 54502,
+              "other_votes": 4299,
               "total_votes": 92145,
-              "dem_candidate": "",
+              "dem_candidate": "Rory Reid",
               "rep_candidate": "Brian Sandoval",
-              "margin": 37643,
-              "margin_pct": 40.85,
-              "winner": "REP",
+              "margin": -12560,
+              "margin_pct": -13.63,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#6baed6"
               }
             },
             "2": {
-              "dem_votes": 0,
+              "dem_votes": 81105,
               "rep_votes": 151939,
-              "other_votes": 95329,
+              "other_votes": 14224,
               "total_votes": 247268,
-              "dem_candidate": "",
+              "dem_candidate": "Rory Reid",
               "rep_candidate": "Brian Sandoval",
-              "margin": 151939,
-              "margin_pct": 61.45,
+              "margin": 70834,
+              "margin_pct": 28.65,
               "winner": "REP",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#cb181d"
               }
             },
             "3": {
-              "dem_votes": 0,
+              "dem_votes": 96501,
               "rep_votes": 97708,
-              "other_votes": 105684,
+              "other_votes": 9183,
               "total_votes": 203392,
-              "dem_candidate": "",
+              "dem_candidate": "Rory Reid",
               "rep_candidate": "Brian Sandoval",
-              "margin": 97708,
-              "margin_pct": 48.04,
+              "margin": 1207,
+              "margin_pct": 0.59,
               "winner": "REP",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#fee8c8"
               }
             },
             "4": {
-              "dem_votes": 0,
+              "dem_votes": 70211,
               "rep_votes": 94728,
-              "other_votes": 78452,
+              "other_votes": 8241,
               "total_votes": 173180,
-              "dem_candidate": "",
+              "dem_candidate": "Rory Reid",
               "rep_candidate": "Brian Sandoval",
-              "margin": 94728,
-              "margin_pct": 54.7,
+              "margin": 24517,
+              "margin_pct": 14.16,
               "winner": "REP",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#ef3b2c"
               }
             }
           }
@@ -1019,59 +991,59 @@
         "general": {
           "results": {
             "1": {
-              "dem_votes": 0,
+              "dem_votes": 46922,
               "rep_votes": 36466,
-              "other_votes": 53499,
+              "other_votes": 6577,
               "total_votes": 89965,
-              "dem_candidate": "",
+              "dem_candidate": "Jessica Sferrazza",
               "rep_candidate": "Brian K. Krolicki",
-              "margin": 36466,
-              "margin_pct": 40.53,
-              "winner": "REP",
+              "margin": -10456,
+              "margin_pct": -11.62,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#6baed6"
               }
             },
             "2": {
-              "dem_votes": 0,
+              "dem_votes": 92230,
               "rep_votes": 136810,
-              "other_votes": 107331,
+              "other_votes": 15101,
               "total_votes": 244141,
-              "dem_candidate": "",
+              "dem_candidate": "Jessica Sferrazza",
               "rep_candidate": "Brian K. Krolicki",
-              "margin": 136810,
-              "margin_pct": 56.04,
+              "margin": 44580,
+              "margin_pct": 18.26,
               "winner": "REP",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#ef3b2c"
               }
             },
             "3": {
-              "dem_votes": 0,
+              "dem_votes": 89437,
               "rep_votes": 95265,
-              "other_votes": 103717,
+              "other_votes": 14280,
               "total_votes": 198982,
-              "dem_candidate": "",
+              "dem_candidate": "Jessica Sferrazza",
               "rep_candidate": "Brian K. Krolicki",
-              "margin": 95265,
-              "margin_pct": 47.88,
+              "margin": 5828,
+              "margin_pct": 2.93,
               "winner": "REP",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#fcae91"
               }
             },
             "4": {
-              "dem_votes": 0,
+              "dem_votes": 65817,
               "rep_votes": 91754,
-              "other_votes": 78150,
+              "other_votes": 12333,
               "total_votes": 169904,
-              "dem_candidate": "",
+              "dem_candidate": "Jessica Sferrazza",
               "rep_candidate": "Brian K. Krolicki",
-              "margin": 91754,
-              "margin_pct": 54.0,
+              "margin": 25937,
+              "margin_pct": 15.27,
               "winner": "REP",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#ef3b2c"
               }
             }
           }
@@ -1089,59 +1061,59 @@
         "general": {
           "results": {
             "1": {
-              "dem_votes": 0,
+              "dem_votes": 55633,
               "rep_votes": 25402,
-              "other_votes": 65070,
+              "other_votes": 9437,
               "total_votes": 90472,
-              "dem_candidate": "",
+              "dem_candidate": "Catherine Cortez  Masto",
               "rep_candidate": "Travis Barrick",
-              "margin": 25402,
-              "margin_pct": 28.08,
-              "winner": "REP",
+              "margin": -30231,
+              "margin_pct": -33.41,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#cb181d"
+                "color": "#3182bd"
               }
             },
             "2": {
-              "dem_votes": 0,
+              "dem_votes": 119144,
               "rep_votes": 95533,
-              "other_votes": 148106,
+              "other_votes": 28962,
               "total_votes": 243639,
-              "dem_candidate": "",
+              "dem_candidate": "Catherine Cortez  Masto",
               "rep_candidate": "Travis Barrick",
-              "margin": 95533,
-              "margin_pct": 39.21,
-              "winner": "REP",
+              "margin": -23611,
+              "margin_pct": -9.69,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#cb181d"
+                "color": "#c6dbef"
               }
             },
             "3": {
-              "dem_votes": 0,
+              "dem_votes": 111256,
               "rep_votes": 66396,
-              "other_votes": 133213,
+              "other_votes": 21957,
               "total_votes": 199609,
-              "dem_candidate": "",
+              "dem_candidate": "Catherine Cortez  Masto",
               "rep_candidate": "Travis Barrick",
-              "margin": 66396,
-              "margin_pct": 33.26,
-              "winner": "REP",
+              "margin": -44860,
+              "margin_pct": -22.47,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#cb181d"
+                "color": "#3182bd"
               }
             },
             "4": {
-              "dem_votes": 0,
+              "dem_votes": 85782,
               "rep_votes": 63700,
-              "other_votes": 106407,
+              "other_votes": 20625,
               "total_votes": 170107,
-              "dem_candidate": "",
+              "dem_candidate": "Catherine Cortez  Masto",
               "rep_candidate": "Travis Barrick",
-              "margin": 63700,
-              "margin_pct": 37.45,
-              "winner": "REP",
+              "margin": -22082,
+              "margin_pct": -12.98,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#cb181d"
+                "color": "#6baed6"
               }
             }
           }
@@ -1159,69 +1131,69 @@
         "general": {
           "results": {
             "1": {
-              "dem_votes": 0,
-              "rep_votes": 58626,
-              "other_votes": 118677,
-              "total_votes": 177303,
-              "dem_candidate": "",
+              "dem_votes": 52569,
+              "rep_votes": 30874,
+              "other_votes": 6531,
+              "total_votes": 89974,
+              "dem_candidate": "Kate Marshall",
               "rep_candidate": "Steven E. Martin",
-              "margin": 58626,
-              "margin_pct": 33.07,
-              "winner": "REP",
+              "margin": -21695,
+              "margin_pct": -24.11,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#cb181d"
+                "color": "#3182bd"
               }
             },
             "2": {
-              "dem_votes": 0,
-              "rep_votes": 301853,
-              "other_votes": 139025,
-              "total_votes": 440878,
-              "dem_candidate": "",
+              "dem_votes": 104497,
+              "rep_votes": 239470,
+              "other_votes": 20789,
+              "total_votes": 364756,
+              "dem_candidate": "Kate Marshall",
               "rep_candidate": "Steven E. Martin",
-              "margin": 301853,
-              "margin_pct": 68.47,
-              "winner": "REP",
-              "competitiveness": {
-                "color": "#67000d"
-              }
-            },
-            "3": {
-              "dem_votes": 0,
-              "rep_votes": 153489,
-              "other_votes": 236241,
-              "total_votes": 389730,
-              "dem_candidate": "",
-              "rep_candidate": "Steven E. Martin",
-              "margin": 153489,
-              "margin_pct": 39.38,
+              "margin": 134973,
+              "margin_pct": 37.0,
               "winner": "REP",
               "competitiveness": {
                 "color": "#cb181d"
               }
             },
-            "4": {
-              "dem_votes": 0,
-              "rep_votes": 149019,
-              "other_votes": 182945,
-              "total_votes": 331964,
-              "dem_candidate": "",
+            "3": {
+              "dem_votes": 103182,
+              "rep_votes": 80541,
+              "other_votes": 14666,
+              "total_votes": 198389,
+              "dem_candidate": "Kate Marshall",
               "rep_candidate": "Steven E. Martin",
-              "margin": 149019,
-              "margin_pct": 44.89,
-              "winner": "REP",
+              "margin": -22641,
+              "margin_pct": -11.41,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#6baed6"
+              }
+            },
+            "4": {
+              "dem_votes": 78162,
+              "rep_votes": 77845,
+              "other_votes": 13163,
+              "total_votes": 169170,
+              "dem_candidate": "Kate Marshall",
+              "rep_candidate": "Steven E. Martin",
+              "margin": -317,
+              "margin_pct": -0.19,
+              "winner": "DEM",
+              "competitiveness": {
+                "color": "#f7f7f7"
               }
             }
           }
         },
         "meta": {
-          "match_rows": 5807,
-          "backfilled_rows": 4703,
-          "total_rows": 12577,
-          "match_coverage_pct": 46.17,
-          "allocated_coverage_pct": 83.57,
+          "match_rows": 4717,
+          "backfilled_rows": 3241,
+          "total_rows": 9819,
+          "match_coverage_pct": 48.04,
+          "allocated_coverage_pct": 81.05,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -1229,59 +1201,59 @@
         "general": {
           "results": {
             "1": {
-              "dem_votes": 0,
+              "dem_votes": 51654,
               "rep_votes": 29812,
-              "other_votes": 59945,
+              "other_votes": 8291,
               "total_votes": 89757,
-              "dem_candidate": "",
+              "dem_candidate": "Kim R. Wallin",
               "rep_candidate": "Barry Herr",
-              "margin": 29812,
-              "margin_pct": 33.21,
-              "winner": "REP",
+              "margin": -21842,
+              "margin_pct": -24.33,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#cb181d"
+                "color": "#3182bd"
               }
             },
             "2": {
-              "dem_votes": 0,
+              "dem_votes": 101717,
               "rep_votes": 113147,
-              "other_votes": 128143,
+              "other_votes": 26426,
               "total_votes": 241290,
-              "dem_candidate": "",
+              "dem_candidate": "Kim R. Wallin",
               "rep_candidate": "Barry Herr",
-              "margin": 113147,
-              "margin_pct": 46.89,
+              "margin": 11430,
+              "margin_pct": 4.74,
               "winner": "REP",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#fcae91"
               }
             },
             "3": {
-              "dem_votes": 0,
+              "dem_votes": 101189,
               "rep_votes": 78212,
-              "other_votes": 119485,
+              "other_votes": 18296,
               "total_votes": 197697,
-              "dem_candidate": "",
+              "dem_candidate": "Kim R. Wallin",
               "rep_candidate": "Barry Herr",
-              "margin": 78212,
-              "margin_pct": 39.56,
-              "winner": "REP",
+              "margin": -22977,
+              "margin_pct": -11.62,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#cb181d"
+                "color": "#6baed6"
               }
             },
             "4": {
-              "dem_votes": 0,
+              "dem_votes": 76577,
               "rep_votes": 75622,
-              "other_votes": 92724,
+              "other_votes": 16147,
               "total_votes": 168346,
-              "dem_candidate": "",
+              "dem_candidate": "Kim R. Wallin",
               "rep_candidate": "Barry Herr",
-              "margin": 75622,
-              "margin_pct": 44.92,
-              "winner": "REP",
+              "margin": -955,
+              "margin_pct": -0.57,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#e1f5fe"
               }
             }
           }
@@ -1299,59 +1271,59 @@
         "general": {
           "results": {
             "1": {
-              "dem_votes": 0,
+              "dem_votes": 55960,
               "rep_votes": 31456,
-              "other_votes": 58899,
+              "other_votes": 2939,
               "total_votes": 90355,
-              "dem_candidate": "",
+              "dem_candidate": "Shelley Berkley",
               "rep_candidate": "Kenneth A. Wegner",
-              "margin": 31456,
-              "margin_pct": 34.81,
+              "margin": -24504,
+              "margin_pct": -27.12,
+              "winner": "DEM",
+              "competitiveness": {
+                "color": "#3182bd"
+              }
+            },
+            "2": {
+              "dem_votes": 79175,
+              "rep_votes": 152032,
+              "other_votes": 9135,
+              "total_votes": 240342,
+              "dem_candidate": "Nancy Price",
+              "rep_candidate": "Dean Heller",
+              "margin": 72857,
+              "margin_pct": 30.31,
               "winner": "REP",
               "competitiveness": {
                 "color": "#cb181d"
               }
             },
-            "2": {
-              "dem_votes": 0,
-              "rep_votes": 152032,
-              "other_votes": 88310,
-              "total_votes": 240342,
-              "dem_candidate": "",
-              "rep_candidate": "Dean Heller",
-              "margin": 152032,
-              "margin_pct": 63.26,
-              "winner": "REP",
-              "competitiveness": {
-                "color": "#67000d"
-              }
-            },
             "3": {
-              "dem_votes": 0,
+              "dem_votes": 105947,
               "rep_votes": 86659,
-              "other_votes": 113880,
+              "other_votes": 7933,
               "total_votes": 200539,
-              "dem_candidate": "",
+              "dem_candidate": "Dina Titus",
               "rep_candidate": "Joe Heck",
-              "margin": 86659,
-              "margin_pct": 43.21,
-              "winner": "REP",
+              "margin": -19288,
+              "margin_pct": -9.62,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#c6dbef"
               }
             },
             "4": {
-              "dem_votes": 0,
+              "dem_votes": 76603,
               "rep_votes": 86893,
-              "other_votes": 84160,
+              "other_votes": 7557,
               "total_votes": 171053,
-              "dem_candidate": "",
+              "dem_candidate": "Dina Titus",
               "rep_candidate": "Joe Heck",
-              "margin": 86893,
-              "margin_pct": 50.8,
+              "margin": 10290,
+              "margin_pct": 6.02,
               "winner": "REP",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#fcae91"
               }
             }
           }
@@ -1371,59 +1343,59 @@
         "general": {
           "results": {
             "1": {
-              "dem_votes": 0,
+              "dem_votes": 133021,
               "rep_votes": 55036,
-              "other_votes": 136415,
+              "other_votes": 3394,
               "total_votes": 191451,
-              "dem_candidate": "",
+              "dem_candidate": "Barack Obama",
               "rep_candidate": "Mitt Romney",
-              "margin": 55036,
-              "margin_pct": 28.75,
-              "winner": "REP",
+              "margin": -77985,
+              "margin_pct": -40.73,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#cb181d"
+                "color": "#08306b"
               }
             },
             "2": {
-              "dem_votes": 0,
+              "dem_votes": 133647,
               "rep_votes": 160707,
-              "other_votes": 140619,
+              "other_votes": 6972,
               "total_votes": 301326,
-              "dem_candidate": "",
+              "dem_candidate": "Barack Obama",
               "rep_candidate": "Mitt Romney",
-              "margin": 160707,
-              "margin_pct": 53.33,
+              "margin": 27060,
+              "margin_pct": 8.98,
               "winner": "REP",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#fcae91"
               }
             },
             "3": {
-              "dem_votes": 0,
+              "dem_votes": 127704,
               "rep_votes": 115632,
-              "other_votes": 132246,
+              "other_votes": 4542,
               "total_votes": 247878,
-              "dem_candidate": "",
+              "dem_candidate": "Barack Obama",
               "rep_candidate": "Mitt Romney",
-              "margin": 115632,
-              "margin_pct": 46.65,
-              "winner": "REP",
+              "margin": -12072,
+              "margin_pct": -4.87,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#c6dbef"
               }
             },
             "4": {
-              "dem_votes": 0,
+              "dem_votes": 136708,
               "rep_votes": 131790,
-              "other_votes": 141759,
+              "other_votes": 5051,
               "total_votes": 273549,
-              "dem_candidate": "",
+              "dem_candidate": "Barack Obama",
               "rep_candidate": "Mitt Romney",
-              "margin": 131790,
-              "margin_pct": 48.18,
-              "winner": "REP",
+              "margin": -4918,
+              "margin_pct": -1.8,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#c6dbef"
               }
             }
           }
@@ -1507,63 +1479,21 @@
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
-      "treasurer": {
-        "general": {
-          "results": {
-            "1": {
-              "dem_votes": 0,
-              "rep_votes": 0,
-              "other_votes": 541,
-              "total_votes": 541,
-              "dem_candidate": "",
-              "rep_candidate": "",
-              "margin": 0,
-              "margin_pct": 0.0,
-              "winner": "TIE",
-              "competitiveness": {
-                "color": "#f7f7f7"
-              }
-            },
-            "4": {
-              "dem_votes": 0,
-              "rep_votes": 0,
-              "other_votes": 1521,
-              "total_votes": 1521,
-              "dem_candidate": "",
-              "rep_candidate": "",
-              "margin": 0,
-              "margin_pct": 0.0,
-              "winner": "TIE",
-              "competitiveness": {
-                "color": "#f7f7f7"
-              }
-            }
-          }
-        },
-        "meta": {
-          "match_rows": 10,
-          "backfilled_rows": 0,
-          "total_rows": 10,
-          "match_coverage_pct": 100.0,
-          "allocated_coverage_pct": 100.0,
-          "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
-        }
-      },
       "us_house": {
         "general": {
           "results": {
             "1": {
-              "dem_votes": 0,
+              "dem_votes": 62420,
               "rep_votes": 25003,
-              "other_votes": 157993,
+              "other_votes": 95573,
               "total_votes": 182996,
-              "dem_candidate": "",
+              "dem_candidate": "Dina Titus",
               "rep_candidate": "Danny Tarkanian",
-              "margin": 25003,
-              "margin_pct": 13.66,
-              "winner": "REP",
+              "margin": -37417,
+              "margin_pct": -20.45,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#ef3b2c"
+                "color": "#3182bd"
               }
             },
             "2": {
@@ -1581,28 +1511,28 @@
               }
             },
             "3": {
-              "dem_votes": 0,
+              "dem_votes": 16852,
               "rep_votes": 106055,
-              "other_votes": 132285,
+              "other_votes": 115433,
               "total_votes": 238340,
-              "dem_candidate": "",
+              "dem_candidate": "Dina Titus",
               "rep_candidate": "Joe Heck",
-              "margin": 106055,
-              "margin_pct": 44.5,
+              "margin": 89203,
+              "margin_pct": 37.43,
               "winner": "REP",
               "competitiveness": {
-                "color": "#67000d"
+                "color": "#cb181d"
               }
             },
             "4": {
-              "dem_votes": 0,
+              "dem_votes": 34684,
               "rep_votes": 101894,
-              "other_votes": 160880,
+              "other_votes": 126196,
               "total_votes": 262774,
-              "dem_candidate": "",
+              "dem_candidate": "Dina Titus",
               "rep_candidate": "Danny Tarkanian",
-              "margin": 101894,
-              "margin_pct": 38.78,
+              "margin": 67210,
+              "margin_pct": 25.58,
               "winner": "REP",
               "competitiveness": {
                 "color": "#cb181d"
@@ -1837,26 +1767,26 @@
             "1": {
               "dem_votes": 45938,
               "rep_votes": 30133,
-              "other_votes": 84783,
-              "total_votes": 160854,
+              "other_votes": 5288,
+              "total_votes": 81359,
               "dem_candidate": "Kim Wallin",
               "rep_candidate": "Dan Schwartz",
               "margin": -15805,
-              "margin_pct": -9.83,
+              "margin_pct": -19.43,
               "winner": "DEM",
               "competitiveness": {
-                "color": "#c6dbef"
+                "color": "#6baed6"
               }
             },
             "2": {
               "dem_votes": 66631,
               "rep_votes": 106243,
-              "other_votes": 164481,
-              "total_votes": 337355,
+              "other_votes": 114184,
+              "total_votes": 287058,
               "dem_candidate": "Kim Wallin",
               "rep_candidate": "Dan Schwartz",
               "margin": 39612,
-              "margin_pct": 11.74,
+              "margin_pct": 13.8,
               "winner": "REP",
               "competitiveness": {
                 "color": "#ef3b2c"
@@ -1865,12 +1795,12 @@
             "3": {
               "dem_votes": 51579,
               "rep_votes": 63662,
-              "other_votes": 126203,
-              "total_votes": 241444,
+              "other_votes": 7347,
+              "total_votes": 122588,
               "dem_candidate": "Kim Wallin",
               "rep_candidate": "Dan Schwartz",
               "margin": 12083,
-              "margin_pct": 5.0,
+              "margin_pct": 9.86,
               "winner": "REP",
               "competitiveness": {
                 "color": "#fcae91"
@@ -1879,25 +1809,25 @@
             "4": {
               "dem_votes": 59457,
               "rep_votes": 77169,
-              "other_votes": 148717,
-              "total_votes": 285343,
+              "other_votes": 8993,
+              "total_votes": 145619,
               "dem_candidate": "Kim Wallin",
               "rep_candidate": "Dan Schwartz",
               "margin": 17712,
-              "margin_pct": 6.21,
+              "margin_pct": 12.16,
               "winner": "REP",
               "competitiveness": {
-                "color": "#fcae91"
+                "color": "#ef3b2c"
               }
             }
           }
         },
         "meta": {
-          "match_rows": 10606,
-          "backfilled_rows": 113,
-          "total_rows": 11218,
-          "match_coverage_pct": 94.54,
-          "allocated_coverage_pct": 95.55,
+          "match_rows": 8143,
+          "backfilled_rows": 108,
+          "total_rows": 8736,
+          "match_coverage_pct": 93.21,
+          "allocated_coverage_pct": 94.45,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -1975,17 +1905,17 @@
         "general": {
           "results": {
             "1": {
-              "dem_votes": 0,
+              "dem_votes": 24223,
               "rep_votes": 573,
-              "other_votes": 81183,
+              "other_votes": 56960,
               "total_votes": 81756,
-              "dem_candidate": "",
+              "dem_candidate": "Dina Titus",
               "rep_candidate": "Joe Heck",
-              "margin": 573,
-              "margin_pct": 0.7,
-              "winner": "REP",
+              "margin": -23650,
+              "margin_pct": -28.93,
+              "winner": "DEM",
               "competitiveness": {
-                "color": "#fee8c8"
+                "color": "#3182bd"
               }
             },
             "2": {
@@ -2003,31 +1933,31 @@
               }
             },
             "3": {
-              "dem_votes": 0,
+              "dem_votes": 6850,
               "rep_votes": 68020,
-              "other_votes": 56013,
+              "other_votes": 49163,
               "total_votes": 124033,
-              "dem_candidate": "",
+              "dem_candidate": "Dina Titus",
               "rep_candidate": "Joe Heck",
-              "margin": 68020,
-              "margin_pct": 54.84,
+              "margin": 61170,
+              "margin_pct": 49.32,
               "winner": "REP",
               "competitiveness": {
                 "color": "#67000d"
               }
             },
             "4": {
-              "dem_votes": 0,
+              "dem_votes": 14568,
               "rep_votes": 19900,
-              "other_votes": 126570,
+              "other_votes": 112002,
               "total_votes": 146470,
-              "dem_candidate": "",
+              "dem_candidate": "Dina Titus",
               "rep_candidate": "Joe Heck",
-              "margin": 19900,
-              "margin_pct": 13.59,
+              "margin": 5332,
+              "margin_pct": 3.64,
               "winner": "REP",
               "competitiveness": {
-                "color": "#ef3b2c"
+                "color": "#fcae91"
               }
             }
           }
@@ -2180,48 +2110,6 @@
           "total_rows": 13888,
           "match_coverage_pct": 98.08,
           "allocated_coverage_pct": 98.44,
-          "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
-        }
-      },
-      "treasurer": {
-        "general": {
-          "results": {
-            "2": {
-              "dem_votes": 0,
-              "rep_votes": 0,
-              "other_votes": 22070,
-              "total_votes": 22070,
-              "dem_candidate": "",
-              "rep_candidate": "",
-              "margin": 0,
-              "margin_pct": 0.0,
-              "winner": "TIE",
-              "competitiveness": {
-                "color": "#f7f7f7"
-              }
-            },
-            "4": {
-              "dem_votes": 0,
-              "rep_votes": 0,
-              "other_votes": 1651,
-              "total_votes": 1651,
-              "dem_candidate": "",
-              "rep_candidate": "",
-              "margin": 0,
-              "margin_pct": 0.0,
-              "winner": "TIE",
-              "competitiveness": {
-                "color": "#f7f7f7"
-              }
-            }
-          }
-        },
-        "meta": {
-          "match_rows": 53,
-          "backfilled_rows": 0,
-          "total_rows": 53,
-          "match_coverage_pct": 100.0,
-          "allocated_coverage_pct": 100.0,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -2583,26 +2471,26 @@
             "1": {
               "dem_votes": 103975,
               "rep_votes": 0,
-              "other_votes": 220347,
-              "total_votes": 324322,
+              "other_votes": 59269,
+              "total_votes": 163244,
               "dem_candidate": "Zach Conine",
               "rep_candidate": "",
               "margin": -103975,
-              "margin_pct": -32.06,
+              "margin_pct": -63.69,
               "winner": "DEM",
               "competitiveness": {
-                "color": "#3182bd"
+                "color": "#08306b"
               }
             },
             "2": {
               "dem_votes": 115912,
               "rep_votes": 0,
-              "other_votes": 430954,
-              "total_votes": 546866,
+              "other_votes": 176163,
+              "total_votes": 292075,
               "dem_candidate": "Zach Conine",
               "rep_candidate": "",
               "margin": -115912,
-              "margin_pct": -21.2,
+              "margin_pct": -39.69,
               "winner": "DEM",
               "competitiveness": {
                 "color": "#3182bd"
@@ -2611,39 +2499,39 @@
             "3": {
               "dem_votes": 119684,
               "rep_votes": 0,
-              "other_votes": 369495,
-              "total_votes": 489179,
+              "other_votes": 126909,
+              "total_votes": 246593,
               "dem_candidate": "Zach Conine",
               "rep_candidate": "",
               "margin": -119684,
-              "margin_pct": -24.47,
+              "margin_pct": -48.54,
               "winner": "DEM",
               "competitiveness": {
-                "color": "#3182bd"
+                "color": "#08306b"
               }
             },
             "4": {
               "dem_votes": 120303,
               "rep_votes": 0,
-              "other_votes": 399234,
-              "total_votes": 519537,
+              "other_votes": 141984,
+              "total_votes": 262287,
               "dem_candidate": "Zach Conine",
               "rep_candidate": "",
               "margin": -120303,
-              "margin_pct": -23.16,
+              "margin_pct": -45.87,
               "winner": "DEM",
               "competitiveness": {
-                "color": "#3182bd"
+                "color": "#08306b"
               }
             }
           }
         },
         "meta": {
-          "match_rows": 11768,
-          "backfilled_rows": 208,
-          "total_rows": 12018,
-          "match_coverage_pct": 97.92,
-          "allocated_coverage_pct": 99.65,
+          "match_rows": 8052,
+          "backfilled_rows": 163,
+          "total_rows": 8248,
+          "match_coverage_pct": 97.62,
+          "allocated_coverage_pct": 99.6,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -2856,62 +2744,6 @@
           "total_rows": 10060,
           "match_coverage_pct": 92.5,
           "allocated_coverage_pct": 92.5,
-          "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
-        }
-      },
-      "treasurer": {
-        "general": {
-          "results": {
-            "1": {
-              "dem_votes": 0,
-              "rep_votes": 0,
-              "other_votes": 47,
-              "total_votes": 47,
-              "dem_candidate": "",
-              "rep_candidate": "",
-              "margin": 0,
-              "margin_pct": 0.0,
-              "winner": "TIE",
-              "competitiveness": {
-                "color": "#f7f7f7"
-              }
-            },
-            "2": {
-              "dem_votes": 0,
-              "rep_votes": 0,
-              "other_votes": 1547,
-              "total_votes": 1547,
-              "dem_candidate": "",
-              "rep_candidate": "",
-              "margin": 0,
-              "margin_pct": 0.0,
-              "winner": "TIE",
-              "competitiveness": {
-                "color": "#f7f7f7"
-              }
-            },
-            "4": {
-              "dem_votes": 0,
-              "rep_votes": 0,
-              "other_votes": 20328,
-              "total_votes": 20328,
-              "dem_candidate": "",
-              "rep_candidate": "",
-              "margin": 0,
-              "margin_pct": 0.0,
-              "winner": "TIE",
-              "competitiveness": {
-                "color": "#f7f7f7"
-              }
-            }
-          }
-        },
-        "meta": {
-          "match_rows": 37,
-          "backfilled_rows": 0,
-          "total_rows": 37,
-          "match_coverage_pct": 100.0,
-          "allocated_coverage_pct": 100.0,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -3273,40 +3105,40 @@
             "1": {
               "dem_votes": 96706,
               "rep_votes": 51694,
-              "other_votes": 167379,
-              "total_votes": 315779,
+              "other_votes": 11339,
+              "total_votes": 159739,
               "dem_candidate": "Zach Conine",
               "rep_candidate": "Michele Fiore",
               "margin": -45012,
-              "margin_pct": -14.25,
+              "margin_pct": -28.18,
               "winner": "DEM",
               "competitiveness": {
-                "color": "#6baed6"
+                "color": "#3182bd"
               }
             },
             "2": {
               "dem_votes": 131334,
               "rep_votes": 167044,
-              "other_votes": 244921,
-              "total_votes": 543299,
+              "other_votes": 36732,
+              "total_votes": 335110,
               "dem_candidate": "Zach Conine",
               "rep_candidate": "Michele Fiore",
               "margin": 35710,
-              "margin_pct": 6.57,
+              "margin_pct": 10.66,
               "winner": "REP",
               "competitiveness": {
-                "color": "#fcae91"
+                "color": "#ef3b2c"
               }
             },
             "3": {
               "dem_votes": 134928,
               "rep_votes": 125665,
-              "other_votes": 288704,
-              "total_votes": 549297,
+              "other_votes": 16482,
+              "total_votes": 277075,
               "dem_candidate": "Zach Conine",
               "rep_candidate": "Michele Fiore",
               "margin": -9263,
-              "margin_pct": -1.69,
+              "margin_pct": -3.34,
               "winner": "DEM",
               "competitiveness": {
                 "color": "#c6dbef"
@@ -3315,25 +3147,25 @@
             "4": {
               "dem_votes": 119665,
               "rep_votes": 120965,
-              "other_votes": 265644,
-              "total_votes": 506274,
+              "other_votes": 18049,
+              "total_votes": 258679,
               "dem_candidate": "Zach Conine",
               "rep_candidate": "Michele Fiore",
               "margin": 1300,
-              "margin_pct": 0.26,
+              "margin_pct": 0.5,
               "winner": "REP",
               "competitiveness": {
-                "color": "#f7f7f7"
+                "color": "#fee8c8"
               }
             }
           }
         },
         "meta": {
-          "match_rows": 10146,
+          "match_rows": 7804,
           "backfilled_rows": 0,
-          "total_rows": 11064,
-          "match_coverage_pct": 91.7,
-          "allocated_coverage_pct": 91.7,
+          "total_rows": 8505,
+          "match_coverage_pct": 91.76,
+          "allocated_coverage_pct": 91.76,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },

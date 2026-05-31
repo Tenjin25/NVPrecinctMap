@@ -15430,6 +15430,12 @@ document.addEventListener('DOMContentLoaded', function() {
 	      // Aggregate to precinct key "COUNTY - CODE" where CODE is the first token extracted from OpenElections `precinct`.
 	      const byPrecinct = new Map(); // key -> {dem, rep, other, demCand, repCand}
 	      const officeOk = (s) => (s || '').toString().toUpperCase().includes('PRESIDENT');
+        const normalizeParty = (s) => {
+          const p = (s || '').toString().trim().toUpperCase();
+          if (p.startsWith('DEM')) return 'DEM';
+          if (p.startsWith('REP') || p.includes('GOP')) return 'REP';
+          return '';
+        };
 
 	      // Stream-parse in a worker to avoid freezing the UI on large files (notably 2008/2012).
 	      if (typeof Papa !== 'undefined' && Papa && typeof Papa.parse === 'function') {
@@ -15451,7 +15457,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	                const code = extractPrecinctCode(precinctRaw);
 	                if (!code) return;
 	                const key = `${county} - ${code}`.replace(/\s+/g, ' ').trim();
-	                const party = (r.party || '').toString().trim().toUpperCase();
+	                const party = normalizeParty(r.party || '');
 	                const cand = (r.candidate || '').toString().trim();
 	                const votes = Number(r.votes) || 0;
 
@@ -15479,7 +15485,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	          const code = extractPrecinctCode(precinctRaw);
 	          if (!code) return;
 	          const key = `${county} - ${code}`.replace(/\s+/g, ' ').trim();
-	          const party = (r.party || '').toString().trim().toUpperCase();
+	          const party = normalizeParty(r.party || '');
 	          const cand = (r.candidate || '').toString().trim();
 	          const votes = Number(r.votes) || 0;
 
@@ -18962,8 +18968,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Get candidate name from the JSON data (already includes first/last names)
     function getCandidateName(year, office, party) {
-      if (!electionData || electionData.length === 0) return party === 'Democrat' ? 'D' : 'R';
-      
+      const fallback = party === 'Democrat' ? 'D' : 'R';
       // Map office name to office type key (matching flattened data field names)
       const officeMap = {
         'President of the United States': 'president',
@@ -18979,20 +18984,32 @@ document.addEventListener('DOMContentLoaded', function() {
       const partyKey = party === 'Democrat' ? 'dem' : 'rep';
       const candidateField = `${officeType}_${partyKey}_candidate`;
       
-      // Find any county record for this year/office and get the candidate name
-      const record = electionData.find(r => r.year == year && r[candidateField]);
-      
       const cacheKey = `${year}|${officeType}|${partyKey}`;
-      if (candidateNameCache.has(cacheKey)) {
-        return candidateNameCache.get(cacheKey);
+      const cached = candidateNameCache.get(cacheKey);
+      if (cached && cached !== 'D' && cached !== 'R') {
+        return cached;
       }
-      
-      if (record && record[candidateField]) {
-        candidateNameCache.set(cacheKey, record[candidateField]);
-        return record[candidateField];
+
+      // First preference: active contest slice cache (works in manifest mode where electionData may be empty).
+      const slice = contestSliceCache.get(`${officeType}_${year}`);
+      if (Array.isArray(slice) && slice.length) {
+        const row = slice.find(r => (r && r[candidateField])) || null;
+        const name = (row && row[candidateField]) ? String(row[candidateField]).trim() : '';
+        if (name) {
+          candidateNameCache.set(cacheKey, name);
+          return name;
+        }
       }
-      
-      const fallback = party === 'Democrat' ? 'D' : 'R';
+
+      if (Array.isArray(electionData) && electionData.length > 0) {
+        // Fallback to flattened election data when available.
+        const record = electionData.find(r => r.year == year && r[candidateField]);
+        if (record && record[candidateField]) {
+          candidateNameCache.set(cacheKey, record[candidateField]);
+          return record[candidateField];
+        }
+      }
+
       candidateNameCache.set(cacheKey, fallback);
       return fallback;
     }

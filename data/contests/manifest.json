@@ -55,12 +55,6 @@
       "rows": 2052
     },
     {
-      "year": 2008,
-      "contest_type": "treasurer",
-      "file": "treasurer_2008.json",
-      "rows": 14
-    },
-    {
       "year": 2010,
       "contest_type": "attorney_general",
       "file": "attorney_general_2010.json",
@@ -104,12 +98,6 @@
     },
     {
       "year": 2012,
-      "contest_type": "treasurer",
-      "file": "treasurer_2012.json",
-      "rows": 5
-    },
-    {
-      "year": 2012,
       "contest_type": "us_senate",
       "file": "us_senate_2012.json",
       "rows": 2006
@@ -149,12 +137,6 @@
       "contest_type": "president",
       "file": "president_2016.json",
       "rows": 2002
-    },
-    {
-      "year": 2016,
-      "contest_type": "treasurer",
-      "file": "treasurer_2016.json",
-      "rows": 53
     },
     {
       "year": 2016,
@@ -203,12 +185,6 @@
       "contest_type": "president",
       "file": "president_2020.json",
       "rows": 2012
-    },
-    {
-      "year": 2020,
-      "contest_type": "treasurer",
-      "file": "treasurer_2020.json",
-      "rows": 37
     },
     {
       "year": 2022,

@@ -48,7 +48,12 @@ def normalize_contest_type(office: str) -> str:
     if "attorney general" in low:
         return "attorney_general"
     if "treasurer" in low:
-        return "treasurer"
+        # Keep statewide treasurer only; exclude county/local clerk-treasurer offices.
+        if "county" in low or "clerk" in low:
+            return ""
+        if "state treasurer" in low:
+            return "treasurer"
+        return ""
     if "controller" in low or "comptroller" in low:
         return "controller"
     if "governor" in low:
@@ -58,9 +63,9 @@ def normalize_contest_type(office: str) -> str:
 
 def normalize_party(party: str) -> str:
     p = clean(party).lower()
-    if p in ("dem", "democratic"):
+    if p.startswith("dem"):
         return "DEM"
-    if p in ("rep", "republican", "gop"):
+    if p.startswith("rep") or "gop" in p:
         return "REP"
     return ""
 
@@ -164,12 +169,14 @@ def build_contest_results(rows: list[dict], contest_type: str) -> dict:
 
         if party == "DEM":
             by_precinct[precinct_key]["dem_votes"] += votes
-            dem_cand_votes[precinct_key][candidate] += votes
-            statewide_dem[candidate] += votes
+            if candidate:
+                dem_cand_votes[precinct_key][candidate] += votes
+                statewide_dem[candidate] += votes
         elif party == "REP":
             by_precinct[precinct_key]["rep_votes"] += votes
-            rep_cand_votes[precinct_key][candidate] += votes
-            statewide_rep[candidate] += votes
+            if candidate:
+                rep_cand_votes[precinct_key][candidate] += votes
+                statewide_rep[candidate] += votes
         else:
             by_precinct[precinct_key]["other_votes"] += votes
 
