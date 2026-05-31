@@ -1,0 +1,130 @@
+{
+  "state": "NV",
+  "year": "2024",
+  "election_date": "20241105",
+  "election_type": "general",
+  "contest_count": 2,
+  "contests": [
+    {
+      "contest_id": "u_s_house",
+      "office": "U.S. House",
+      "district": "",
+      "total_votes": 1426745,
+      "candidates": [
+        {
+          "candidate": "Amodei, Mark E.",
+          "party": "REP",
+          "votes": 219807
+        },
+        {
+          "candidate": "Lee, Susie",
+          "party": "DEM",
+          "votes": 191292
+        },
+        {
+          "candidate": "JOHNSON, Drew",
+          "party": "REP",
+          "votes": 181063
+        },
+        {
+          "candidate": "Horsford, Steven",
+          "party": "DEM",
+          "votes": 174884
+        },
+        {
+          "candidate": "Titus, Dina",
+          "party": "DEM",
+          "votes": 167874
+        },
+        {
+          "candidate": "Lee, John",
+          "party": "REP",
+          "votes": 148001
+        },
+        {
+          "candidate": "KIDD, Greg",
+          "party": "IND",
+          "votes": 144020
+        },
+        {
+          "candidate": "ROBERTSON, MARK",
+          "party": "REP",
+          "votes": 143638
+        },
+        {
+          "candidate": "CHAPMAN, LYNN",
+          "party": "IAP",
+          "votes": 19780
+        },
+        {
+          "candidate": "Tachiquin, Javi \"Trujillo\"",
+          "party": "LIB",
+          "votes": 15811
+        },
+        {
+          "candidate": "Best, Russell",
+          "party": "IAP",
+          "votes": 4915
+        },
+        {
+          "candidate": "Ferreira, Tim \"TJ\"",
+          "party": "IAP",
+          "votes": 4297
+        },
+        {
+          "candidate": "QUINCE, RON \"Ron Q.\"",
+          "party": "LIB",
+          "votes": 3320
+        },
+        {
+          "candidate": "HOGE, WILLIAM",
+          "party": "IAP",
+          "votes": 2736
+        },
+        {
+          "candidate": "HAVLICEK, DAVID",
+          "party": "LIB",
+          "votes": 2711
+        },
+        {
+          "candidate": "GOOSSEN, DAVID",
+          "party": "LIB",
+          "votes": 2596
+        }
+      ]
+    },
+    {
+      "contest_id": "u_s_senate",
+      "office": "U.S. Senate",
+      "district": "",
+      "total_votes": 1464387,
+      "candidates": [
+        {
+          "candidate": "ROSEN, JACKY S.",
+          "party": "DEM",
+          "votes": 700976
+        },
+        {
+          "candidate": "BROWN, SAM",
+          "party": "REP",
+          "votes": 676852
+        },
+        {
+          "candidate": "None Of These Candidates",
+          "party": "",
+          "votes": 44369
+        },
+        {
+          "candidate": "Hansen, JANINE",
+          "party": "IAP",
+          "votes": 21313
+        },
+        {
+          "candidate": "Cunningham, Chris",
+          "party": "LIB",
+          "votes": 20877
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+year,office,candidate,count_missing_rows
+2004,State Assembly,Gregory R. Miller,97
+2004,State Assembly,Heidi S. Gansert,93
+2004,State Assembly,Roderick R. Shererh,58
+2004,State Assembly,Linwood E. Jr.,57
+2004,State Assembly,Marilyn Kirkpatrick,49
+2004,State Assembly,Cornell Clark,39
+2004,State Assembly,Gary S. Sr.,35
+2004,State Assembly,Morse A. Jr.,35
+2004,State Assembly,Richard G. Jr.,26
+2004,State Assembly,Steven C. Dempseye,26
+2004,State Assembly,Merritt. K. Yochumo,23
+2004,State Assembly,Benjamin J. Sr.,17
+2006,State Assembly,Lynn Stewart,116
+2006,State Assembly,James A. Settelmeyer,50
+2006,State Assembly,Patricia P. Little,43
+2008,State Assembly,Leonard Foster,153
+2008,State Assembly,Gregory R. Miller,140
+2008,State Assembly,Nathan Santucci,138
+2008,State Assembly,Lynn Stewart,138
+2012,U.S. Senate,David L. Vanderbeek,2006
+2012,U.S. House,Samuel Koepnick,863
+2012,U.S. House,Steven A. Horsford,436
+2012,U.S. House,Tom Jones,404
+2012,U.S. House,Jim Murphy,404
+2012,U.S. House,John Oceguera,404
+2012,U.S. House,Stan Vaughan,303
+2012,U.S. House,William B. Pojunis,303
+2012,U.S. House,Chris Edwards,303
+2012,State Senate,Greg Brower,209
+2012,State Senate,Sheila Leslie,209
+2012,State Assembly,Randy Kirner,135
+2012,State Assembly,Rodney R. Petzak,135
+2012,State Assembly,Pat Hickey,127
+2012,State Assembly,Ira Hansen,125
+2012,State Senate,Kathy Martin,122
+2012,State Senate,Debbie Smith,122
+2012,State Senate,Pete Goicoechea,118
+2012,State Senate,Harley Z. Kulkin,118
+2012,State Senate,Kelli Ross,96
+2012,State Senate,Benny Yerushalmi,85
+2012,State Senate,Mark Hutchison,85
+2012,State Assembly,Tom Taber,82
+2012,State Assembly,Teresa Benitez-Thompson,82
+2012,State Assembly,Ken Lightfoot,77
+2012,State Assembly,Michael Sprinkle,77
+2012,State Senate,Ed Gobel,72
+2012,State Senate,Tick Segerblom,72
+2012,State Senate,Steve Kirk,70
+2012,State Senate,Joyce Woodhouse,70
+2012,State Assembly,Jim Wheeler,67
+2012,State Assembly,David Espinosa,67
+2012,State Assembly,Richard S. Daly,67
+2012,State Senate,Trish Marsh,63
+2012,State Senate,David Parks,63
+2012,State Assembly,Michael Joe,61
+2012,State Assembly,Melissa Woodbury,61
+2012,State Assembly,James Oscarson,61
+2012,State Assembly,Anthony Wernicke,61
+2012,State Assembly,Rich Dunn,60
+2012,State Assembly,Pete Livermore,60
+2012,State Senate,Linda West Myers,60
+2012,State Senate,Kelvin Atkinson,60
+2012,State Senate,Justin Jones,59
+2012,State Senate,Mari N. St. Martin,59
+2012,State Assembly,John Ellison,58
+2012,State Senate,John Drake,57
+2012,State Assembly,Paul Anderson,54
+2012,State Assembly,Louis Desalvio,54
+2012,State Senate,Gregory Hughes,53
+2012,State Senate,Patricia Spearman,53
+2012,State Assembly,Wesley Duncan,50
+2012,State Assembly,Marcus Conklin,50
+2012,State Assembly,Tom Grady,48
+2012,State Assembly,Heidi Waterman,45
+2012,State Assembly,David Bobzien,45
+2012,State Assembly,Felipe Rodriguez,44
+2012,State Assembly,Cresent Hardy,44
+2012,State Assembly,Kenneth C. Evans,42
+2012,State Assembly,Lynn Stewart,40
+2012,State Assembly,Randy Spoor,40
+2012,State Assembly,Anthony Blanque,39
+2012,State Assembly,Bob Irwin,39
+2012,State Assembly,April Mastroluca,39
+2012,State Assembly,Bridgette Bryant,38
+2012,State Assembly,James Ohrenschall,38
+2012,State Assembly,Phyllis M. Moilanen,38
+2012,State Assembly,Peggy Pierce,38
+2012,State Assembly,Clark Harrington,35
+2012,State Assembly,William C. Horne,35
+2012,State Assembly,Ben Boarman,34
+2012,State Assembly,Heidi Swank,34
+2012,State Assembly,John Hambrick,34
+2012,State Assembly,Tim Farrell,34
+2012,State Assembly,Joseph M. Hogan,34
+2012,State Assembly,Phil Regeski,33
+2012,State Assembly,Paul Aizley,33
+2012,State Assembly,Jason Reeves,33
+2012,State Assembly,Bill Harrington,33
+2012,State Assembly,Marilyn D. Loop,33
+2012,State Assembly,Richard Carrillo,33
+2012,State Assembly,C. K. Hurst,32
+2012,State Assembly,Andrew Martin,32
+2012,State Assembly,Jason Frierson,31
+2012,State Assembly,Arthur D. Martinez,31
+2012,State Assembly,Les Mckay,31
+2012,State Assembly,Andy Eisen,31
+2012,State Assembly,Becky Harris,31
+2012,State Assembly,Brent Leavitt,31
+2012,State Assembly,Dina Neal,31
+2012,State Assembly,Megan Heryet,30
+2012,State Assembly,Elliot T. Anderson,30
+2012,State Assembly,Eric Mendoza,30
+2012,State Assembly,Ellen Spiegel,30
+2012,State Assembly,Harvey J. Munford,29
+2012,State Assembly,Len Marciano,28
+2012,State Assembly,Steven Brooks,28
+2012,State Assembly,Tom Blanchard,27
+2012,State Assembly,James Healey,27
+2012,State Assembly,Robert Mcentee,26
+2012,State Assembly,Irene Bustamante Adams,26
+2012,State Assembly,Marilyn Kirkpatrick,25
+2012,State Assembly,Olivia Diaz,25
+2012,State Assembly,Amy L. Groves,24
+2012,State Assembly,Maggie Carlton,24
+2012,State Assembly,Lucy Flores,19
+2014,Governor,Robert B. Goodman,2018
+2014,Governor,David L. Vanderbeek,2018
+2014,Lieutenant Governor,Mike Little,2018
+2014,State Controller,Tom Jones,2018
+2014,State Controller,Andrew Martin,2018
+2014,State Treasurer,Kress K. Cave,2018
+2014,U.S. House,Kristen Spees,869
+2014,U.S. House,Steve Brown,451
+2014,U.S. House,Cresent Hardy,451
+2014,U.S. House,Steven A. Horsford,451
+2014,U.S. House,Erin Bilbray,415
+2014,U.S. House,David Goossen,415
+2014,U.S. House,Randy Kimmick,415
+2014,U.S. House,Steven St. John,415
+2014,U.S. House,Kamau Bakari,307
+2014,U.S. House,Richard R. Charles,307
+2014,U.S. House,Annette Teijeiro,307
+2014,State Senate,Don Gustavson,197
+2014,State Senate,Joe Hunt,197
+2014,State Senate,Michael Kelley,195
+2014,State Senate,Ben Kieckhefer,195
+2014,State Assembly,Randy Kirner,135
+2014,State Assembly,Lisa Krasner,135
+2014,State Assembly,Pat Hickey,127
+2014,State Assembly,Niklas Putnam,127
+2014,State Assembly,Louis W. Gabriel,126
+2014,State Assembly,Ira Hansen,126
+2014,State Assembly,John S. Sampaga,126
+2014,State Senate,Thomas Koziol,124
+2014,State Senate,Debbie Smith,124
+2014,State Senate,James A. Settelmeyer,115
+2014,State Senate,Joe Hardy,107
+2014,State Assembly,Teresa Benitez-Thompson,81
+2014,State Assembly,Rex Crouch,81
+2014,State Assembly,Lauren A. Scott,78
+2014,State Assembly,Michael Sprinkle,78
+2014,State Senate,Teresa Lowry,73
+2014,State Senate,Michael Roberson,73
+2014,State Assembly,Richard S. Daly,71
+2014,State Assembly,Jill Dickman,71
+2014,State Senate,Patricia Farley,69
+2014,State Senate,Jon Kamerath,69
+2014,State Senate,Marilyn D. Loop,69
+2014,State Assembly,Al Giordano,67
+2014,State Assembly,Jim Wheeler,67
+2014,State Senate,Becky Harris,65
+2014,State Senate,Justin Jones,65
+2014,State Senate,Ruben Kihuen,64
+2014,State Senate,Ed Uehling,64
+2014,State Assembly,Melissa Woodbury,62
+2014,State Assembly,James Oscarson,62
+2014,State Senate,Mark Manendo,61
+2014,State Senate,Ron L. Mcginnis,61
+2014,State Assembly,Dave Cook,60
+2014,State Assembly,Philip P. O'Neill,60
+2014,State Assembly,John Ellison,58
+2014,State Assembly,Paul Anderson,56
+2014,State Assembly,Christine L. Kramar,56
+2014,State Assembly,Wesley Duncan,51
+2014,State Assembly,Gerald Mackin,51
+2014,State Assembly,Lou Pombo,51
+2014,State Assembly,John O'Connor,48
+2014,State Assembly,Robin L. Titus,48
+2014,State Senate,Louis J. Baker,46
+2014,State Senate,Mo Denis,46
+2014,State Assembly,David Bobzien,46
+2014,State Assembly,Chris Edwards,45
+2014,State Assembly,Donald W. Hendon,45
+2014,State Assembly,James Zygadlo,45
+2014,State Assembly,Jeff Hinton,43
+2014,State Assembly,Leroy T. Lalley,40
+2014,State Assembly,Lynn Stewart,40
+2014,State Assembly,Lesley E. Cohen,39
+2014,State Assembly,Stephen Silberkraus,39
+2014,State Assembly,Nelson Araujo,38
+2014,State Assembly,Jesus Marquez,38
+2014,State Assembly,James Ohrenschall,37
+2014,State Assembly,Troy Warren,37
+2014,State Assembly,Victoria Seaman,36
+2014,State Assembly,Meghan Smith,36
+2014,State Assembly,John Hambrick,36
+2014,State Assembly,A.J. Maimbourg,36
+2014,State Assembly,Jesse J. Holder,36
+2014,State Assembly,Shelly M. Shelton,36
+2014,State Assembly,Amy Beaulieu,35
+2014,State Assembly,Richard Carrillo,35
+2014,State Assembly,David M. Gardner,34
+2014,State Assembly,Steve Yeager,34
+2014,State Assembly,Heidi Swank,34
+2014,State Assembly,Patricia P. Little,34
+2014,State Assembly,Patrick Mendez,34
+2014,State Assembly,Tyrone Thompson,34
+2014,State Assembly,Paul Aizley,33
+2014,State Assembly,Vicki Dooling,33
+2014,State Assembly,Erv Nelson,33
+2014,State Assembly,Jerri D. Strasser,33
+2014,State Assembly,Jason Frierson,32
+2014,State Assembly,John Moore,32
+2014,State Assembly,Derek W. Armstrong,31
+2014,State Assembly,Andy Eisen,31
+2014,State Assembly,Adam-John Sanacore,31
+2014,State Assembly,James Healey,31
+2014,State Assembly,Brent A. Jones,31
+2014,State Assembly,Brent Leavitt,31
+2014,State Assembly,Dina Neal,31
+2014,State Assembly,Harvey J. Munford,30
+2014,State Assembly,Elliot T. Anderson,30
+2014,State Assembly,Benjamin Donlon,30
+2014,State Assembly,Roberto S. Juarez,30
+2014,State Assembly,Carol Linton,30
+2014,State Assembly,Ellen Spiegel,30
+2014,State Assembly,Irene Bustamante Adams,26
+2014,State Assembly,Howard Scheff,26
+2014,State Assembly,Roger O. Baum,26
+2014,State Assembly,Marilyn Kirkpatrick,26
+2014,State Assembly,Olivia Diaz,26
+2014,State Assembly,Maggie Carlton,24
+2014,State Assembly,Matthew Yarbrough,24
+2014,State Assembly,Edgar R. Flores,20
+2016,U.S. Senate,Tony Gumina,1984
+2016,U.S. Senate,Thomas T. Sawyer,1984
+2016,U.S. Senate,Jarrod M. Williams,1984
+2016,U.S. House,Drew Knight,785
+2016,U.S. House,David Goossen,416
+2016,U.S. House,Reuben D'Silva,309
+2016,State Assembly,Wendy R. Cochran,48
+2020,U.S. House,Patricia Ackerman,772
+2020,U.S. House,Jonathan R. Esteban,479
+2020,U.S. House,Steven A. Horsford,479
+2020,U.S. House,Barry Rubinson,479
+2020,U.S. House,Edward Bridges Ii,430
+2020,U.S. House,Suzanne Lee,430
+2020,U.S. House,Dan B. Rodimer,430
+2020,U.S. House,Joyce Bentley,312
+2020,U.S. House,"Jr., R. Strawder",312
+2020,State Assembly,Teresa Benitez-Thompson,78
+2020,State Assembly,Natha C. Anderson,74
+2020,State Assembly,Richard S. Daly,71
+2020,State Assembly,Jill A. Dickman,71
+2020,State Assembly,Jim Wheeler,67
+2020,State Assembly,Thomas Roberts,60
+2020,State Assembly,John C. Ellison,58
+2020,State Assembly,Ann A. Black,46
+2020,State Assembly,Philip P. O'Neill,44
+2020,State Assembly,John C. Gerhardt,42
+2020,State Assembly,Jeremy A. Graves,42
+2020,State Assembly,Susan Martinez,42
+2020,State Assembly,Lesley E. Cohen,40
+2020,State Assembly,Steven E. Delisle,40
+2020,State Assembly,Shannon Bilbray-Axelrod,36
+2020,State Assembly,Jay T. Carlson,36
+2020,State Assembly,Garrett Leduff,36
+2020,State Assembly,Heather A. Florian,36
+2020,State Assembly,Steve Yeager,35
+2020,State Assembly,Cecelia González,34
+2020,State Assembly,Victoria K. Dacosta,33
+2020,State Assembly,Sayed S. Zaidi,26
+2020,State Assembly,Beatrice Duran,26
+2020,State Assembly,Edgar Flores,20

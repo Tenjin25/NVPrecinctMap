@@ -1,0 +1,32 @@
+{
+  "files": [
+    {
+      "year": 2022,
+      "scope": "congressional",
+      "contest_type": "us_house",
+      "file": "congressional_us_house_2022.json",
+      "districts": 4
+    },
+    {
+      "year": 2022,
+      "scope": "congressional",
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2022.json",
+      "districts": 4
+    },
+    {
+      "year": 2024,
+      "scope": "congressional",
+      "contest_type": "us_house",
+      "file": "congressional_us_house_2024.json",
+      "districts": 4
+    },
+    {
+      "year": 2024,
+      "scope": "congressional",
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2024.json",
+      "districts": 4
+    }
+  ]
+}

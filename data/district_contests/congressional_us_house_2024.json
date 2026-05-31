@@ -1,0 +1,73 @@
+{
+  "year": 2024,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "source": "nv_openelections_precinct+house_component_inference",
+    "office": "US HOUSE",
+    "nongeo_allocation_mode": "precinct_component",
+    "match_coverage_pct": 100.0,
+    "matched_precinct_keys": 1636,
+    "total_precinct_keys": 1636
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 167874,
+        "rep_votes": 143638,
+        "other_votes": 11363,
+        "total_votes": 322875,
+        "dem_candidate": "Titus, Dina",
+        "rep_candidate": "ROBERTSON, MARK",
+        "margin": -24236,
+        "margin_pct": -7.51,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "2": {
+        "dem_votes": 111,
+        "rep_votes": 220325,
+        "other_votes": 179625,
+        "total_votes": 400061,
+        "dem_candidate": "Horsford, Steven",
+        "rep_candidate": "Amodei, Mark E.",
+        "margin": 220214,
+        "margin_pct": 55.05,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "3": {
+        "dem_votes": 191292,
+        "rep_votes": 181063,
+        "other_votes": 0,
+        "total_votes": 372355,
+        "dem_candidate": "Lee, Susie",
+        "rep_candidate": "JOHNSON, Drew",
+        "margin": -10229,
+        "margin_pct": -2.75,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#9ecae1"
+        }
+      },
+      "4": {
+        "dem_votes": 174773,
+        "rep_votes": 147483,
+        "other_votes": 9198,
+        "total_votes": 331454,
+        "dem_candidate": "Horsford, Steven",
+        "rep_candidate": "Lee, John",
+        "margin": -27290,
+        "margin_pct": -8.23,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      }
+    }
+  }
+}

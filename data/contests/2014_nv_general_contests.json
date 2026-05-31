@@ -1,0 +1,5418 @@
+{
+  "state": "NV",
+  "year": "2014",
+  "election_date": "20141104",
+  "election_type": "general",
+  "contest_count": 248,
+  "contests": [
+    {
+      "contest_id": "assessor",
+      "office": "Assessor",
+      "district": "",
+      "total_votes": 103336,
+      "candidates": [
+        {
+          "candidate": "Clark, Michael E",
+          "party": "",
+          "votes": 50604
+        },
+        {
+          "candidate": "WILSON, JOSHUA G.",
+          "party": "",
+          "votes": 45376
+        },
+        {
+          "candidate": "JOHNSON, WILLIAM \"JEFF\"",
+          "party": "",
+          "votes": 3982
+        },
+        {
+          "candidate": "CERINI-JONES, LAUREEN",
+          "party": "",
+          "votes": 1394
+        },
+        {
+          "candidate": "FOWLER, DOROTHY J.",
+          "party": "",
+          "votes": 680
+        },
+        {
+          "candidate": "CHISUM, KEVIN",
+          "party": "",
+          "votes": 665
+        },
+        {
+          "candidate": "MEARS, MICHAEL A.",
+          "party": "",
+          "votes": 635
+        }
+      ]
+    },
+    {
+      "contest_id": "attorney_general",
+      "office": "Attorney General",
+      "district": "",
+      "total_votes": 543739,
+      "candidates": [
+        {
+          "candidate": "Laxalt, Adam Paul",
+          "party": "REP",
+          "votes": 251154
+        },
+        {
+          "candidate": "Miller, Ross",
+          "party": "",
+          "votes": 246474
+        },
+        {
+          "candidate": "Hansen, Jonathan J",
+          "party": "",
+          "votes": 30493
+        },
+        {
+          "candidate": "None Of These Candidates",
+          "party": "",
+          "votes": 15618
+        }
+      ]
+    },
+    {
+      "contest_id": "auditor_recorder",
+      "office": "Auditor/Recorder",
+      "district": "",
+      "total_votes": 304,
+      "candidates": [
+        {
+          "candidate": "SCOTT, KAREN",
+          "party": "",
+          "votes": 304
+        }
+      ]
+    },
+    {
+      "contest_id": "big_meadow_conservation_district",
+      "office": "Big Meadow Conservation District",
+      "district": "",
+      "total_votes": 2808,
+      "candidates": [
+        {
+          "candidate": "DEPAOLI, ROBERT R.",
+          "party": "",
+          "votes": 1035
+        },
+        {
+          "candidate": "SHANK, JOHN W.",
+          "party": "",
+          "votes": 896
+        },
+        {
+          "candidate": "CLINGER, CARL F.",
+          "party": "",
+          "votes": 877
+        }
+      ]
+    },
+    {
+      "contest_id": "board_member_moapa_valley_water_dist_loganda",
+      "office": "BOARD MEMBER, MOAPA VALLEY WATER DIST. LOGANDA",
+      "district": "",
+      "total_votes": 1026,
+      "candidates": [
+        {
+          "candidate": "Wheeler, Ryan N.",
+          "party": "",
+          "votes": 529
+        },
+        {
+          "candidate": "Carson, Scott Roy",
+          "party": "",
+          "votes": 497
+        }
+      ]
+    },
+    {
+      "contest_id": "board_member_virgin_valley_water_dist_mesquite_vote_for_3",
+      "office": "BOARD MEMBER, VIRGIN VALLEY WATER DIST. MESQUITE - Vote for 3",
+      "district": "",
+      "total_votes": 9373,
+      "candidates": [
+        {
+          "candidate": "Ellestad, Barbara J.",
+          "party": "",
+          "votes": 2491
+        },
+        {
+          "candidate": "Ramaker, Sandra",
+          "party": "",
+          "votes": 2185
+        },
+        {
+          "candidate": "Smith, Robert \"Bubba\"",
+          "party": "",
+          "votes": 2010
+        },
+        {
+          "candidate": "Miller, Ted",
+          "party": "",
+          "votes": 1554
+        },
+        {
+          "candidate": "Kepler, Larry John",
+          "party": "",
+          "votes": 1133
+        }
+      ]
+    },
+    {
+      "contest_id": "board_of_school_trustees_vote_for_4",
+      "office": "Board of School Trustees - Vote for 4",
+      "district": "",
+      "total_votes": 22905,
+      "candidates": [
+        {
+          "candidate": "SCHANK, CARMEN SORENSEN",
+          "party": "",
+          "votes": 4904
+        },
+        {
+          "candidate": "HYDE, MATT",
+          "party": "",
+          "votes": 4738
+        },
+        {
+          "candidate": "GENT, RICH",
+          "party": "",
+          "votes": 4675
+        },
+        {
+          "candidate": "HENDRIX, CLAY",
+          "party": "",
+          "votes": 4370
+        },
+        {
+          "candidate": "MCFARLANE, NONA KAY",
+          "party": "",
+          "votes": 4218
+        }
+      ]
+    },
+    {
+      "contest_id": "boulder_city_question_no_1",
+      "office": "Boulder City Question No. 1",
+      "district": "",
+      "total_votes": 5279,
+      "candidates": [
+        {
+          "candidate": "Yes",
+          "party": "",
+          "votes": 4102
+        },
+        {
+          "candidate": "No",
+          "party": "",
+          "votes": 1177
+        }
+      ]
+    },
+    {
+      "contest_id": "boulder_city_question_no_2",
+      "office": "Boulder City Question No. 2",
+      "district": "",
+      "total_votes": 5291,
+      "candidates": [
+        {
+          "candidate": "Yes",
+          "party": "",
+          "votes": 3737
+        },
+        {
+          "candidate": "No",
+          "party": "",
+          "votes": 1554
+        }
+      ]
+    },
+    {
+      "contest_id": "carlin_council_2_seats",
+      "office": "CARLIN Council, 2 Seats",
+      "district": "",
+      "total_votes": 863,
+      "candidates": [
+        {
+          "candidate": "GRISWOLD, PATRICIA \"PAM\"",
+          "party": "",
+          "votes": 364
+        },
+        {
+          "candidate": "LITCHFIELD, LINCOLN",
+          "party": "",
+          "votes": 231
+        },
+        {
+          "candidate": "MONTES DE OCA, FRED",
+          "party": "",
+          "votes": 151
+        },
+        {
+          "candidate": "TANGREEN, MICHAEL",
+          "party": "",
+          "votes": 117
+        }
+      ]
+    },
+    {
+      "contest_id": "carson_city_question_no_1",
+      "office": "Carson City Question No. 1",
+      "district": "",
+      "total_votes": 15077,
+      "candidates": [
+        {
+          "candidate": "No",
+          "party": "",
+          "votes": 9634
+        },
+        {
+          "candidate": "Yes",
+          "party": "",
+          "votes": 5443
+        }
+      ]
+    },
+    {
+      "contest_id": "churchill_county_question_no_1",
+      "office": "Churchill County Question No. 1",
+      "district": "",
+      "total_votes": 7412,
+      "candidates": [
+        {
+          "candidate": "Yes",
+          "party": "",
+          "votes": 3750
+        },
+        {
+          "candidate": "No",
+          "party": "",
+          "votes": 3662
+        }
+      ]
+    },
+    {
+      "contest_id": "city_council_ward_1_city_of_fernley",
+      "office": "City Council Ward 1, City of Fernley",
+      "district": "",
+      "total_votes": 821,
+      "candidates": [
+        {
+          "candidate": "WHALEN, SHARI",
+          "party": "",
+          "votes": 446
+        },
+        {
+          "candidate": "CHARTER, STEPHEN L.",
+          "party": "",
+          "votes": 375
+        }
+      ]
+    },
+    {
+      "contest_id": "city_council_ward_3_city_of_fernley",
+      "office": "City Council Ward 3, City of Fernley",
+      "district": "",
+      "total_votes": 635,
+      "candidates": [
+        {
+          "candidate": "LAU, STAN",
+          "party": "",
+          "votes": 350
+        },
+        {
+          "candidate": "SORIANO, KIDDLE \"KASEY\"",
+          "party": "",
+          "votes": 285
+        }
+      ]
+    },
+    {
+      "contest_id": "clerk",
+      "office": "Clerk",
+      "district": "",
+      "total_votes": 112327,
+      "candidates": [
+        {
+          "candidate": "Parent, Nancy",
+          "party": "",
+          "votes": 71763
+        },
+        {
+          "candidate": "Clark, Bobee",
+          "party": "",
+          "votes": 36495
+        },
+        {
+          "candidate": "SPERO, TAMI RAE",
+          "party": "",
+          "votes": 4069
+        }
+      ]
+    },
+    {
+      "contest_id": "clerk_and_treasurer",
+      "office": "Clerk and Treasurer",
+      "district": "",
+      "total_votes": 321,
+      "candidates": [
+        {
+          "candidate": "ELGAN, LACINDA",
+          "party": "",
+          "votes": 321
+        }
+      ]
+    },
+    {
+      "contest_id": "clerk_treasurer",
+      "office": "Clerk/Treasurer",
+      "district": "",
+      "total_votes": 8775,
+      "candidates": [
+        {
+          "candidate": "HELTON, KELLY G.",
+          "party": "",
+          "votes": 6766
+        },
+        {
+          "candidate": "HAIGHT, LORRAINE",
+          "party": "",
+          "votes": 734
+        },
+        {
+          "candidate": "NEPPER, CHRISTOPHER",
+          "party": "",
+          "votes": 647
+        },
+        {
+          "candidate": "CONLEY, BEVERLY",
+          "party": "",
+          "votes": 628
+        }
+      ]
+    },
+    {
+      "contest_id": "constable_east_fork",
+      "office": "Constable East Fork",
+      "district": "",
+      "total_votes": 13301,
+      "candidates": [
+        {
+          "candidate": "GILBERT, PAUL E.",
+          "party": "",
+          "votes": 13301
+        }
+      ]
+    },
+    {
+      "contest_id": "constable_boulder_township",
+      "office": "CONSTABLE, BOULDER TOWNSHIP",
+      "district": "",
+      "total_votes": 4351,
+      "candidates": [
+        {
+          "candidate": "Hampe, Steve",
+          "party": "",
+          "votes": 4351
+        }
+      ]
+    },
+    {
+      "contest_id": "constable_bunkerville_township",
+      "office": "CONSTABLE, BUNKERVILLE TOWNSHIP",
+      "district": "",
+      "total_votes": 270,
+      "candidates": [
+        {
+          "candidate": "Laub, Erik L.",
+          "party": "",
+          "votes": 270
+        }
+      ]
+    },
+    {
+      "contest_id": "constable_goodsprings_township",
+      "office": "CONSTABLE, GOODSPRINGS TOWNSHIP",
+      "district": "",
+      "total_votes": 508,
+      "candidates": [
+        {
+          "candidate": "Rogers, Gary P.",
+          "party": "",
+          "votes": 307
+        },
+        {
+          "candidate": "Derschan, Ken",
+          "party": "",
+          "votes": 201
+        }
+      ]
+    },
+    {
+      "contest_id": "constable_henderson_township",
+      "office": "CONSTABLE, HENDERSON TOWNSHIP",
+      "district": "",
+      "total_votes": 62971,
+      "candidates": [
+        {
+          "candidate": "Mitchell, Earl",
+          "party": "",
+          "votes": 41275
+        },
+        {
+          "candidate": "Watson, Terry",
+          "party": "",
+          "votes": 21696
+        }
+      ]
+    },
+    {
+      "contest_id": "constable_laughlin_township",
+      "office": "CONSTABLE, LAUGHLIN TOWNSHIP",
+      "district": "",
+      "total_votes": 1316,
+      "candidates": [
+        {
+          "candidate": "Ross, Jordan",
+          "party": "",
+          "votes": 1316
+        }
+      ]
+    },
+    {
+      "contest_id": "constable_mesquite_township",
+      "office": "CONSTABLE, MESQUITE TOWNSHIP",
+      "district": "",
+      "total_votes": 3757,
+      "candidates": [
+        {
+          "candidate": "Thurston, Duane L.",
+          "party": "",
+          "votes": 3757
+        }
+      ]
+    },
+    {
+      "contest_id": "constable_moapa_township",
+      "office": "CONSTABLE, MOAPA TOWNSHIP",
+      "district": "",
+      "total_votes": 196,
+      "candidates": [
+        {
+          "candidate": "Leavitt, Gary L.",
+          "party": "",
+          "votes": 196
+        }
+      ]
+    },
+    {
+      "contest_id": "constable_moapa_valley_township",
+      "office": "CONSTABLE, MOAPA VALLEY TOWNSHIP",
+      "district": "",
+      "total_votes": 1889,
+      "candidates": [
+        {
+          "candidate": "Frei, Leon S.",
+          "party": "",
+          "votes": 1889
+        }
+      ]
+    },
+    {
+      "contest_id": "constable_n_las_vegas_township",
+      "office": "CONSTABLE, N. LAS VEGAS TOWNSHIP",
+      "district": "",
+      "total_votes": 32033,
+      "candidates": [
+        {
+          "candidate": "Eliason, Robert L.",
+          "party": "",
+          "votes": 19323
+        },
+        {
+          "candidate": "Martin, Jon",
+          "party": "",
+          "votes": 12710
+        }
+      ]
+    },
+    {
+      "contest_id": "constable_searchlight_township",
+      "office": "CONSTABLE, SEARCHLIGHT TOWNSHIP",
+      "district": "",
+      "total_votes": 179,
+      "candidates": [
+        {
+          "candidate": "Cochran, Jack",
+          "party": "",
+          "votes": 179
+        }
+      ]
+    },
+    {
+      "contest_id": "councilman_seat_no_2",
+      "office": "Councilman, Seat No. 2",
+      "district": "",
+      "total_votes": 1950,
+      "candidates": [
+        {
+          "candidate": "MAVITY, THERESA L.",
+          "party": "",
+          "votes": 804
+        },
+        {
+          "candidate": "MACDONALD, MAUREEN",
+          "party": "",
+          "votes": 677
+        },
+        {
+          "candidate": "HERNANDEZ, LOUIE",
+          "party": "",
+          "votes": 469
+        }
+      ]
+    },
+    {
+      "contest_id": "county_assessor",
+      "office": "COUNTY ASSESSOR",
+      "district": "",
+      "total_votes": 366310,
+      "candidates": [
+        {
+          "candidate": "Shafe, Michele W.",
+          "party": "",
+          "votes": 192775
+        },
+        {
+          "candidate": "Hagan, Tim",
+          "party": "",
+          "votes": 72023
+        },
+        {
+          "candidate": "Barnhill, Brad Lee",
+          "party": "",
+          "votes": 38810
+        },
+        {
+          "candidate": "SONNEMANN, DOUGLAS W. \"Doug\"",
+          "party": "",
+          "votes": 15193
+        },
+        {
+          "candidate": "VILLINES, TROY R",
+          "party": "",
+          "votes": 12203
+        },
+        {
+          "candidate": "RUSSELL, KATRINKA S.",
+          "party": "",
+          "votes": 9225
+        },
+        {
+          "candidate": "STRINGER, SHEREE",
+          "party": "",
+          "votes": 7106
+        },
+        {
+          "candidate": "MONDHINK-FELTON, DENISE L.",
+          "party": "",
+          "votes": 6618
+        },
+        {
+          "candidate": "MATSON, SHIRLEY",
+          "party": "",
+          "votes": 4285
+        },
+        {
+          "candidate": "DUVALL, LURA",
+          "party": "",
+          "votes": 1586
+        },
+        {
+          "candidate": "HILTON, BURTON",
+          "party": "",
+          "votes": 1407
+        },
+        {
+          "candidate": "SEDDON, JANA",
+          "party": "",
+          "votes": 1299
+        },
+        {
+          "candidate": "UNDERWOOD, DEBBIE",
+          "party": "",
+          "votes": 1294
+        },
+        {
+          "candidate": "HOLT, MARK",
+          "party": "",
+          "votes": 1022
+        },
+        {
+          "candidate": "MCBRIDE, MELANIE K.",
+          "party": "",
+          "votes": 590
+        },
+        {
+          "candidate": "GOWEN, CATHERINE \"CAT\"",
+          "party": "",
+          "votes": 519
+        },
+        {
+          "candidate": "LEE, RUTH P.",
+          "party": "",
+          "votes": 289
+        },
+        {
+          "candidate": "MCLEAN, RANDY W.",
+          "party": "",
+          "votes": 66
+        }
+      ]
+    },
+    {
+      "contest_id": "county_clerk",
+      "office": "COUNTY CLERK",
+      "district": "",
+      "total_votes": 346974,
+      "candidates": [
+        {
+          "candidate": "Goya, Lynn",
+          "party": "",
+          "votes": 164996
+        },
+        {
+          "candidate": "Hols, William",
+          "party": "",
+          "votes": 154962
+        },
+        {
+          "candidate": "FOSMO, CAROL",
+          "party": "",
+          "votes": 9145
+        },
+        {
+          "candidate": "MERLINO, SANDRA \"SAM\"",
+          "party": "",
+          "votes": 8650
+        },
+        {
+          "candidate": "WINN, SHEILA",
+          "party": "",
+          "votes": 3341
+        },
+        {
+          "candidate": "BALDWIN, NICHOLE",
+          "party": "",
+          "votes": 1743
+        },
+        {
+          "candidate": "SULLIVAN, SADIE",
+          "party": "",
+          "votes": 1618
+        },
+        {
+          "candidate": "LLOYD, LISA C.",
+          "party": "",
+          "votes": 1503
+        },
+        {
+          "candidate": "RIVERO, DEBRA ANN",
+          "party": "",
+          "votes": 1016
+        }
+      ]
+    },
+    {
+      "contest_id": "county_clerk_treasurer",
+      "office": "County Clerk-Treasurer",
+      "district": "",
+      "total_votes": 15475,
+      "candidates": [
+        {
+          "candidate": "BRYAN, NIKKI",
+          "party": "",
+          "votes": 12540
+        },
+        {
+          "candidate": "STEPHENS, VANESSA",
+          "party": "",
+          "votes": 1647
+        },
+        {
+          "candidate": "DONALDSON, LACEY",
+          "party": "",
+          "votes": 1288
+        }
+      ]
+    },
+    {
+      "contest_id": "county_clerk_treasurer",
+      "office": "County Clerk/Treasurer",
+      "district": "",
+      "total_votes": 14963,
+      "candidates": [
+        {
+          "candidate": "THRAN, TED",
+          "party": "",
+          "votes": 14963
+        }
+      ]
+    },
+    {
+      "contest_id": "county_comm_dist_2_cw",
+      "office": "County Comm Dist. 2 (CW)",
+      "district": "",
+      "total_votes": 23607,
+      "candidates": [
+        {
+          "candidate": "ANDREOZZI, DELMO",
+          "party": "",
+          "votes": 9195
+        },
+        {
+          "candidate": "ALT, DON",
+          "party": "",
+          "votes": 7321
+        },
+        {
+          "candidate": "KELLER, VIDA D.",
+          "party": "",
+          "votes": 5240
+        },
+        {
+          "candidate": "MCGUFFEY, JACK",
+          "party": "",
+          "votes": 1027
+        },
+        {
+          "candidate": "BARDE, NICOLE",
+          "party": "",
+          "votes": 824
+        }
+      ]
+    },
+    {
+      "contest_id": "county_comm_dist_4_cw",
+      "office": "County Comm Dist. 4 (CW)",
+      "district": "",
+      "total_votes": 8922,
+      "candidates": [
+        {
+          "candidate": "EKLUND, CLIFF",
+          "party": "",
+          "votes": 8922
+        }
+      ]
+    },
+    {
+      "contest_id": "county_comm_dist_5_cw",
+      "office": "County Comm Dist. 5 (CW)",
+      "district": "",
+      "total_votes": 13300,
+      "candidates": [
+        {
+          "candidate": "HUNEWILL, GREG A",
+          "party": "",
+          "votes": 9882
+        },
+        {
+          "candidate": "ROEMER, JOHN",
+          "party": "",
+          "votes": 3418
+        }
+      ]
+    },
+    {
+      "contest_id": "county_comm_dist_b_cw",
+      "office": "County Comm Dist. B (CW)",
+      "district": "",
+      "total_votes": 1432,
+      "candidates": [
+        {
+          "candidate": "DONOHUE, A. PAUL",
+          "party": "",
+          "votes": 1432
+        }
+      ]
+    },
+    {
+      "contest_id": "county_comm_dist_d_cw",
+      "office": "County Comm Dist. D (CW)",
+      "district": "",
+      "total_votes": 1270,
+      "candidates": [
+        {
+          "candidate": "PHILLIPS, KEVIN J.",
+          "party": "",
+          "votes": 1270
+        }
+      ]
+    },
+    {
+      "contest_id": "county_comm_dist_no_1_cw",
+      "office": "County Comm Dist. NO. 1 (CW)",
+      "district": "",
+      "total_votes": 1702,
+      "candidates": [
+        {
+          "candidate": "MILLS, DOUG",
+          "party": "",
+          "votes": 1063
+        },
+        {
+          "candidate": "GARNER, BRIAN",
+          "party": "",
+          "votes": 639
+        }
+      ]
+    },
+    {
+      "contest_id": "county_comm_dist_no_2_cw",
+      "office": "County Comm Dist. NO. 2 (CW)",
+      "district": "",
+      "total_votes": 1692,
+      "candidates": [
+        {
+          "candidate": "CLARK III, ART",
+          "party": "",
+          "votes": 919
+        },
+        {
+          "candidate": "BULLOCK, DEAN",
+          "party": "",
+          "votes": 773
+        }
+      ]
+    },
+    {
+      "contest_id": "county_comm_dist_no_5_cw",
+      "office": "County Comm Dist. NO. 5 (CW)",
+      "district": "",
+      "total_votes": 1578,
+      "candidates": [
+        {
+          "candidate": "BAKKER, SEAN",
+          "party": "",
+          "votes": 1578
+        }
+      ]
+    },
+    {
+      "contest_id": "county_commission_district_e__de",
+      "office": "COUNTY COMMISSION DISTRICT E",
+      "district": "E",
+      "total_votes": 35235,
+      "candidates": [
+        {
+          "candidate": "Giunchigliani, Chris",
+          "party": "",
+          "votes": 21639
+        },
+        {
+          "candidate": "Thibodeau, Joe",
+          "party": "",
+          "votes": 13596
+        }
+      ]
+    },
+    {
+      "contest_id": "county_commission_district_f__df",
+      "office": "COUNTY COMMISSION DISTRICT F",
+      "district": "F",
+      "total_votes": 49073,
+      "candidates": [
+        {
+          "candidate": "Brager, Susan C.",
+          "party": "",
+          "votes": 24421
+        },
+        {
+          "candidate": "Tracy, Mitchell T.",
+          "party": "",
+          "votes": 21680
+        },
+        {
+          "candidate": "Smith, Jason G.",
+          "party": "",
+          "votes": 2006
+        },
+        {
+          "candidate": "Darrel, Lyal S.",
+          "party": "",
+          "votes": 966
+        }
+      ]
+    },
+    {
+      "contest_id": "county_commission_district_g__dg",
+      "office": "COUNTY COMMISSION DISTRICT G",
+      "district": "G",
+      "total_votes": 57637,
+      "candidates": [
+        {
+          "candidate": "Scow, Mary Beth",
+          "party": "",
+          "votes": 29333
+        },
+        {
+          "candidate": "Lake, Cindy",
+          "party": "",
+          "votes": 28304
+        }
+      ]
+    },
+    {
+      "contest_id": "county_commissioner_district_1__d1",
+      "office": "County Commissioner District 1",
+      "district": "1",
+      "total_votes": 148,
+      "candidates": [
+        {
+          "candidate": "BATES, MICHELLE \"MICKI\"",
+          "party": "",
+          "votes": 89
+        },
+        {
+          "candidate": "GILLUM, R.J.",
+          "party": "",
+          "votes": 59
+        }
+      ]
+    },
+    {
+      "contest_id": "county_commissioner_district_2__d2",
+      "office": "County Commissioner District 2",
+      "district": "2",
+      "total_votes": 48236,
+      "candidates": [
+        {
+          "candidate": "Lucey, Bob",
+          "party": "",
+          "votes": 16786
+        },
+        {
+          "candidate": "THALER, STEVEN",
+          "party": "",
+          "votes": 14582
+        },
+        {
+          "candidate": "Thomas, Terri",
+          "party": "",
+          "votes": 9435
+        },
+        {
+          "candidate": "OLSEN, PETE",
+          "party": "",
+          "votes": 6739
+        },
+        {
+          "candidate": "ETCHEGARAY, FRED",
+          "party": "",
+          "votes": 378
+        },
+        {
+          "candidate": "REBALEATI, MICHAEL N.",
+          "party": "",
+          "votes": 316
+        }
+      ]
+    },
+    {
+      "contest_id": "county_commissioner_district_3__d3",
+      "office": "County Commissioner District 3",
+      "district": "3",
+      "total_votes": 10423,
+      "candidates": [
+        {
+          "candidate": "JUNG, KITTY KATRINA",
+          "party": "",
+          "votes": 5683
+        },
+        {
+          "candidate": "Gurney, David E",
+          "party": "",
+          "votes": 4057
+        },
+        {
+          "candidate": "SHARKOZY, MIKE",
+          "party": "",
+          "votes": 416
+        },
+        {
+          "candidate": "BAILEY, RAY W.",
+          "party": "",
+          "votes": 267
+        }
+      ]
+    },
+    {
+      "contest_id": "county_commissioner_district_4__d4",
+      "office": "County Commissioner District 4",
+      "district": "4",
+      "total_votes": 14153,
+      "candidates": [
+        {
+          "candidate": "MCDERMID, NANCY",
+          "party": "",
+          "votes": 14153
+        }
+      ]
+    },
+    {
+      "contest_id": "county_commissioner_district_5__d5",
+      "office": "County Commissioner District 5",
+      "district": "5",
+      "total_votes": 19830,
+      "candidates": [
+        {
+          "candidate": "Herman, Jeanne",
+          "party": "",
+          "votes": 11207
+        },
+        {
+          "candidate": "Gavin, John R",
+          "party": "",
+          "votes": 8623
+        }
+      ]
+    },
+    {
+      "contest_id": "county_commissioner_district_iv__div",
+      "office": "County Commissioner District IV",
+      "district": "IV",
+      "total_votes": 2175,
+      "candidates": [
+        {
+          "candidate": "BORASKY, ANDREW \"BUTCH\"",
+          "party": "",
+          "votes": 2175
+        }
+      ]
+    },
+    {
+      "contest_id": "county_commissioner_district_v__dv",
+      "office": "County Commissioner District V",
+      "district": "V",
+      "total_votes": 2679,
+      "candidates": [
+        {
+          "candidate": "SCHINHOFEN, DAN",
+          "party": "",
+          "votes": 1574
+        },
+        {
+          "candidate": "HOWARD, ROBERT \"BOB\"",
+          "party": "",
+          "votes": 643
+        },
+        {
+          "candidate": "OSBORNE, RICK",
+          "party": "",
+          "votes": 462
+        }
+      ]
+    },
+    {
+      "contest_id": "county_commissioner_seat_1",
+      "office": "County Commissioner Seat 1",
+      "district": "",
+      "total_votes": 2734,
+      "candidates": [
+        {
+          "candidate": "MCKENZIE, CAROL O.",
+          "party": "",
+          "votes": 1226
+        },
+        {
+          "candidate": "LAMPROS, JOHN S.",
+          "party": "",
+          "votes": 930
+        },
+        {
+          "candidate": "DAILEY, CHRIS",
+          "party": "",
+          "votes": 578
+        }
+      ]
+    },
+    {
+      "contest_id": "county_commissioner_seat_5",
+      "office": "County Commissioner Seat 5",
+      "district": "",
+      "total_votes": 2656,
+      "candidates": [
+        {
+          "candidate": "PEREA, GARY ALEXANDER",
+          "party": "",
+          "votes": 1656
+        },
+        {
+          "candidate": "LEMICH, MIKE",
+          "party": "",
+          "votes": 1000
+        }
+      ]
+    },
+    {
+      "contest_id": "county_commissioner_seat_c",
+      "office": "County Commissioner Seat C",
+      "district": "",
+      "total_votes": 6512,
+      "candidates": [
+        {
+          "candidate": "CERRI, RON",
+          "party": "",
+          "votes": 2400
+        },
+        {
+          "candidate": "WHITE, JIM",
+          "party": "",
+          "votes": 1755
+        },
+        {
+          "candidate": "SHANK, CAROL A.",
+          "party": "",
+          "votes": 1331
+        },
+        {
+          "candidate": "TIPTON, JERRIE C.",
+          "party": "",
+          "votes": 1026
+        }
+      ]
+    },
+    {
+      "contest_id": "county_commissioner_seat_e",
+      "office": "County Commissioner Seat E",
+      "district": "",
+      "total_votes": 3823,
+      "candidates": [
+        {
+          "candidate": "FRENCH, JIM",
+          "party": "",
+          "votes": 3823
+        }
+      ]
+    },
+    {
+      "contest_id": "county_recorder",
+      "office": "COUNTY RECORDER",
+      "district": "",
+      "total_votes": 383579,
+      "candidates": [
+        {
+          "candidate": "Conway, Debbie",
+          "party": "",
+          "votes": 157712
+        },
+        {
+          "candidate": "Hotchkiss, Don",
+          "party": "",
+          "votes": 144514
+        },
+        {
+          "candidate": "ELLISON, KAREN",
+          "party": "",
+          "votes": 14708
+        },
+        {
+          "candidate": "WARR, DAWNA L",
+          "party": "",
+          "votes": 12041
+        },
+        {
+          "candidate": "Johnson, Douglas  \"Tractor\"",
+          "party": "",
+          "votes": 11774
+        },
+        {
+          "candidate": "BEATTY, DEBORAH",
+          "party": "",
+          "votes": 10484
+        },
+        {
+          "candidate": "Maclean, Shannon C.",
+          "party": "",
+          "votes": 9098
+        },
+        {
+          "candidate": "SMALES, D. MIKE",
+          "party": "",
+          "votes": 7657
+        },
+        {
+          "candidate": "HESSEY, TASHA",
+          "party": "",
+          "votes": 4160
+        },
+        {
+          "candidate": "DELLERA, JAIME",
+          "party": "",
+          "votes": 2896
+        },
+        {
+          "candidate": "SINDELAR, MARTHA RIVERA",
+          "party": "",
+          "votes": 2440
+        },
+        {
+          "candidate": "SMITH, CHERYL A.",
+          "party": "",
+          "votes": 2153
+        },
+        {
+          "candidate": "CHAPMAN, JEN",
+          "party": "",
+          "votes": 1636
+        },
+        {
+          "candidate": "BUNCH, LESLEY",
+          "party": "",
+          "votes": 918
+        },
+        {
+          "candidate": "TREVINO, IDONNA",
+          "party": "",
+          "votes": 803
+        },
+        {
+          "candidate": "SIMMONS, SARA",
+          "party": "",
+          "votes": 585
+        }
+      ]
+    },
+    {
+      "contest_id": "county_recorder",
+      "office": "County Recorder",
+      "district": "",
+      "total_votes": 111936,
+      "candidates": [
+        {
+          "candidate": "Burtness, Lawrence",
+          "party": "",
+          "votes": 57578
+        },
+        {
+          "candidate": "Townsend, Robert",
+          "party": "",
+          "votes": 42116
+        },
+        {
+          "candidate": "Cochran, Don",
+          "party": "",
+          "votes": 8279
+        },
+        {
+          "candidate": "ENGSTROM, DEBORAH A.",
+          "party": "",
+          "votes": 3963
+        }
+      ]
+    },
+    {
+      "contest_id": "county_recorder_auditor",
+      "office": "County Recorder-Auditor",
+      "district": "",
+      "total_votes": 1398,
+      "candidates": [
+        {
+          "candidate": "CHILDS, RENE M.",
+          "party": "",
+          "votes": 1398
+        }
+      ]
+    },
+    {
+      "contest_id": "county_sheriff",
+      "office": "County Sheriff",
+      "district": "",
+      "total_votes": 11468,
+      "candidates": [
+        {
+          "candidate": "PITTS, JIM",
+          "party": "",
+          "votes": 6467
+        },
+        {
+          "candidate": "KAHLE, MELINDA \"MINDY\"",
+          "party": "",
+          "votes": 3460
+        },
+        {
+          "candidate": "ALLEN, JERRY",
+          "party": "",
+          "votes": 819
+        },
+        {
+          "candidate": "CARMICHAEL, NATHAN",
+          "party": "",
+          "votes": 722
+        }
+      ]
+    },
+    {
+      "contest_id": "county_sheriff_nye_nonpartisan",
+      "office": "County Sheriff - NYE - NonPartisan",
+      "district": "",
+      "total_votes": 11861,
+      "candidates": [
+        {
+          "candidate": "WEHRLY, SHARON",
+          "party": "",
+          "votes": 8206
+        },
+        {
+          "candidate": "MARSHALL, RICK",
+          "party": "",
+          "votes": 3655
+        }
+      ]
+    },
+    {
+      "contest_id": "county_treasurer",
+      "office": "COUNTY TREASURER",
+      "district": "",
+      "total_votes": 348838,
+      "candidates": [
+        {
+          "candidate": "Fitzpatrick, Laura",
+          "party": "",
+          "votes": 181558
+        },
+        {
+          "candidate": "Javornicky, Mike \"doc\"",
+          "party": "",
+          "votes": 141412
+        },
+        {
+          "candidate": "BILLMAN, RICHARD",
+          "party": "",
+          "votes": 10405
+        },
+        {
+          "candidate": "ERICKSON, REBECCA \"BECKY\"",
+          "party": "",
+          "votes": 8008
+        },
+        {
+          "candidate": "BAKARIC, CATHERINE M.",
+          "party": "",
+          "votes": 2509
+        },
+        {
+          "candidate": "JENKINS, KAY DAWN",
+          "party": "",
+          "votes": 1749
+        },
+        {
+          "candidate": "FREHNER, SHAWN",
+          "party": "",
+          "votes": 1457
+        },
+        {
+          "candidate": "POWRIE, GRACE",
+          "party": "",
+          "votes": 1109
+        },
+        {
+          "candidate": "DIAS, ELIZABETH",
+          "party": "",
+          "votes": 631
+        }
+      ]
+    },
+    {
+      "contest_id": "district_attorney__dattorney",
+      "office": "DISTRICT ATTORNEY",
+      "district": "ATTORNEY",
+      "total_votes": 488038,
+      "candidates": [
+        {
+          "candidate": "Wolfson, Steve",
+          "party": "",
+          "votes": 224796
+        },
+        {
+          "candidate": "Hicks, Chris",
+          "party": "",
+          "votes": 94222
+        },
+        {
+          "candidate": "Duensing, Jr., Raymond James \"Jim\"",
+          "party": "",
+          "votes": 86318
+        },
+        {
+          "candidate": "JACKSON, MARK",
+          "party": "",
+          "votes": 14673
+        },
+        {
+          "candidate": "RYE, STEPHEN B.",
+          "party": "",
+          "votes": 12247
+        },
+        {
+          "candidate": "TORVINEN, MARK",
+          "party": "",
+          "votes": 8824
+        },
+        {
+          "candidate": "WOODBURY, JASON",
+          "party": "",
+          "votes": 7622
+        },
+        {
+          "candidate": "BELLO, ANGELA A.",
+          "party": "",
+          "votes": 7387
+        },
+        {
+          "candidate": "KRUEGER, MARK",
+          "party": "",
+          "votes": 6676
+        },
+        {
+          "candidate": "MALLORY, ART",
+          "party": "",
+          "votes": 6573
+        },
+        {
+          "candidate": "KUNZI, BRIAN T.",
+          "party": "",
+          "votes": 4612
+        },
+        {
+          "candidate": "MACDONALD, MICHAEL",
+          "party": "",
+          "votes": 3662
+        },
+        {
+          "candidate": "WHEABLE, MIKE",
+          "party": "",
+          "votes": 1928
+        },
+        {
+          "candidate": "LANGER, ANNE",
+          "party": "",
+          "votes": 1605
+        },
+        {
+          "candidate": "HERRERA, THEODORE C.",
+          "party": "",
+          "votes": 1530
+        },
+        {
+          "candidate": "SHIELDS, BRYCE",
+          "party": "",
+          "votes": 1321
+        },
+        {
+          "candidate": "HOOGE, DANIEL M.",
+          "party": "",
+          "votes": 1313
+        },
+        {
+          "candidate": "ROWE, SEAN",
+          "party": "",
+          "votes": 1114
+        },
+        {
+          "candidate": "BROWN, KELLY",
+          "party": "",
+          "votes": 742
+        },
+        {
+          "candidate": "BEUTEL, THEODORE \"TED\"",
+          "party": "",
+          "votes": 577
+        },
+        {
+          "candidate": "GLENNEN, ROBERT E. III",
+          "party": "",
+          "votes": 296
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_2_department_5_family_division__dcourt",
+      "office": "District Court Judge, District 2, Department  5 Family Division",
+      "district": "Court",
+      "total_votes": 101930,
+      "candidates": [
+        {
+          "candidate": "Lu, Cynthia",
+          "party": "",
+          "votes": 63418
+        },
+        {
+          "candidate": "Young, Cliff J",
+          "party": "",
+          "votes": 38512
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_2_department_6__dcourt",
+      "office": "District Court Judge, District 2, Department  6",
+      "district": "Court",
+      "total_votes": 97706,
+      "candidates": [
+        {
+          "candidate": "Simons, Lynne",
+          "party": "",
+          "votes": 56712
+        },
+        {
+          "candidate": "Rands, Doug",
+          "party": "",
+          "votes": 40994
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_2_department_8__dcourt",
+      "office": "District Court Judge, District 2, Department  8",
+      "district": "Court",
+      "total_votes": 97972,
+      "candidates": [
+        {
+          "candidate": "Stiglich, Lidia S",
+          "party": "",
+          "votes": 66653
+        },
+        {
+          "candidate": "Tierney, Keith J",
+          "party": "",
+          "votes": 31319
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_2_department_11_family_division__dcourt",
+      "office": "District Court Judge, District 2, Department 11 Family Division",
+      "district": "Court",
+      "total_votes": 103120,
+      "candidates": [
+        {
+          "candidate": "CHUCK WELLER",
+          "party": "",
+          "votes": 59393
+        },
+        {
+          "candidate": "Cafferata-Jenkins, Caren",
+          "party": "",
+          "votes": 43727
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_2_department_14_family_division__dcourt",
+      "office": "District Court Judge, District 2, Department 14 Family Division",
+      "district": "Court",
+      "total_votes": 97244,
+      "candidates": [
+        {
+          "candidate": "Humke, David",
+          "party": "",
+          "votes": 49097
+        },
+        {
+          "candidate": "Springgate, John P",
+          "party": "",
+          "votes": 48147
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_3_department_1__dcourt",
+      "office": "District Court Judge, District 3, Department  1",
+      "district": "Court",
+      "total_votes": 12811,
+      "candidates": [
+        {
+          "candidate": "SCHLEGELMILCH, JOHN \"JP\"",
+          "party": "",
+          "votes": 6727
+        },
+        {
+          "candidate": "KENNEDY, JACK",
+          "party": "",
+          "votes": 6084
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_5_department_2__dcourt",
+      "office": "District Court Judge, District 5, Department  2",
+      "district": "Court",
+      "total_votes": 12953,
+      "candidates": [
+        {
+          "candidate": "LANE, ROBERT W.",
+          "party": "",
+          "votes": 8776
+        },
+        {
+          "candidate": "DONOHUE, LILLIAN JO \"LIL\"",
+          "party": "",
+          "votes": 4177
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_6_department_1__dcourt",
+      "office": "District Court Judge, District 6, Department  1",
+      "district": "Court",
+      "total_votes": 7431,
+      "candidates": [
+        {
+          "candidate": "SHIRLEY, JIM C.",
+          "party": "",
+          "votes": 3959
+        },
+        {
+          "candidate": "PLIMPTON, TODD",
+          "party": "",
+          "votes": 3472
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_department_2__dcourt",
+      "office": "District Court Judge, District 8, Department  2",
+      "district": "Court",
+      "total_votes": 265838,
+      "candidates": [
+        {
+          "candidate": "Scotti, Richard",
+          "party": "",
+          "votes": 142340
+        },
+        {
+          "candidate": "Watkins, John G.",
+          "party": "",
+          "votes": 123498
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_department_3__dcourt",
+      "office": "District Court Judge, District 8, Department  3",
+      "district": "Court",
+      "total_votes": 269401,
+      "candidates": [
+        {
+          "candidate": "Herndon, Douglas W.",
+          "party": "",
+          "votes": 166360
+        },
+        {
+          "candidate": "Davidson, Michael D.",
+          "party": "",
+          "votes": 103041
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_department_4__dcourt",
+      "office": "District Court Judge, District 8, Department  4",
+      "district": "Court",
+      "total_votes": 263838,
+      "candidates": [
+        {
+          "candidate": "Earley, Kerry Louise",
+          "party": "",
+          "votes": 173095
+        },
+        {
+          "candidate": "Smith, Steve",
+          "party": "",
+          "votes": 90743
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_department_5__dcourt",
+      "office": "District Court Judge, District 8, Department  5",
+      "district": "Court",
+      "total_votes": 269416,
+      "candidates": [
+        {
+          "candidate": "Ellsworth, Carolyn",
+          "party": "",
+          "votes": 183280
+        },
+        {
+          "candidate": "Horne, William C.",
+          "party": "",
+          "votes": 86136
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_department_8__dcourt",
+      "office": "District Court Judge, District 8, Department  8",
+      "district": "Court",
+      "total_votes": 265006,
+      "candidates": [
+        {
+          "candidate": "Smith, Doug",
+          "party": "",
+          "votes": 148474
+        },
+        {
+          "candidate": "Guerci-Nyhus, Christine",
+          "party": "",
+          "votes": 116532
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_department_14__dcourt",
+      "office": "District Court Judge, District 8, Department 14",
+      "district": "Court",
+      "total_votes": 267571,
+      "candidates": [
+        {
+          "candidate": "Escobar, Adriana",
+          "party": "",
+          "votes": 189194
+        },
+        {
+          "candidate": "Root, Michael",
+          "party": "",
+          "votes": 78377
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_department_19__dcourt",
+      "office": "District Court Judge, District 8, Department 19",
+      "district": "Court",
+      "total_votes": 264398,
+      "candidates": [
+        {
+          "candidate": "Kephart, William \"Bill\"",
+          "party": "",
+          "votes": 187521
+        },
+        {
+          "candidate": "Marcek, Cliff",
+          "party": "",
+          "votes": 76877
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_department_20__dcourt",
+      "office": "District Court Judge, District 8, Department 20",
+      "district": "Court",
+      "total_votes": 267548,
+      "candidates": [
+        {
+          "candidate": "Tao, Jerry",
+          "party": "",
+          "votes": 180432
+        },
+        {
+          "candidate": "Perrino, Nicholas Anthony",
+          "party": "",
+          "votes": 87116
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_department_22__dcourt",
+      "office": "District Court Judge, District 8, Department 22",
+      "district": "Court",
+      "total_votes": 266748,
+      "candidates": [
+        {
+          "candidate": "Johnson, Susan",
+          "party": "",
+          "votes": 200734
+        },
+        {
+          "candidate": "Hafter, Jacob",
+          "party": "",
+          "votes": 66014
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_department_23__dcourt",
+      "office": "District Court Judge, District 8, Department 23",
+      "district": "Court",
+      "total_votes": 264833,
+      "candidates": [
+        {
+          "candidate": "Miley, Stefany",
+          "party": "",
+          "votes": 190025
+        },
+        {
+          "candidate": "Friedberg, Craig",
+          "party": "",
+          "votes": 74808
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_department_24__dcourt",
+      "office": "District Court Judge, District 8, Department 24",
+      "district": "Court",
+      "total_votes": 267029,
+      "candidates": [
+        {
+          "candidate": "Crockett, Jim",
+          "party": "",
+          "votes": 142126
+        },
+        {
+          "candidate": "Hardy, Jr., Joe",
+          "party": "",
+          "votes": 124903
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_department_25__dcourt",
+      "office": "District Court Judge, District 8, Department 25",
+      "district": "Court",
+      "total_votes": 261813,
+      "candidates": [
+        {
+          "candidate": "Delaney, Kathleen E.",
+          "party": "",
+          "votes": 165630
+        },
+        {
+          "candidate": "Connell, Sean P.",
+          "party": "",
+          "votes": 96183
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_department_28__dcourt",
+      "office": "District Court Judge, District 8, Department 28",
+      "district": "Court",
+      "total_votes": 274526,
+      "candidates": [
+        {
+          "candidate": "Israel, Ron",
+          "party": "",
+          "votes": 147113
+        },
+        {
+          "candidate": "Bush, Susan",
+          "party": "",
+          "votes": 127413
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_department_30__dcourt",
+      "office": "District Court Judge, District 8, Department 30",
+      "district": "Court",
+      "total_votes": 261173,
+      "candidates": [
+        {
+          "candidate": "Wiese, Jerry A.",
+          "party": "",
+          "votes": 189169
+        },
+        {
+          "candidate": "Rugg, Jeffrey S.",
+          "party": "",
+          "votes": 72004
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_department_32__dcourt",
+      "office": "District Court Judge, District 8, Department 32",
+      "district": "Court",
+      "total_votes": 255793,
+      "candidates": [
+        {
+          "candidate": "Bare, Rob",
+          "party": "",
+          "votes": 155641
+        },
+        {
+          "candidate": "Tindall, Randall",
+          "party": "",
+          "votes": 100152
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_family_division_department_b__dcourt",
+      "office": "District Court Judge, District 8, Family Division, Department B",
+      "district": "Court",
+      "total_votes": 259171,
+      "candidates": [
+        {
+          "candidate": "Marquis, Linda",
+          "party": "",
+          "votes": 162550
+        },
+        {
+          "candidate": "Scalia, II, Joseph A.",
+          "party": "",
+          "votes": 96621
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_family_division_department_c__dcourt",
+      "office": "District Court Judge, District 8, Family Division, Department C",
+      "district": "Court",
+      "total_votes": 256080,
+      "candidates": [
+        {
+          "candidate": "Burton, Rebecca",
+          "party": "",
+          "votes": 167426
+        },
+        {
+          "candidate": "Howard, Jr., John Hall \"Jack\"",
+          "party": "",
+          "votes": 88654
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_family_division_department_d__dcourt",
+      "office": "District Court Judge, District 8, Family Division, Department D",
+      "district": "Court",
+      "total_votes": 253165,
+      "candidates": [
+        {
+          "candidate": "Teuton, Robert W. \"Bob\"",
+          "party": "",
+          "votes": 138039
+        },
+        {
+          "candidate": "Kurth Jr., Robert",
+          "party": "",
+          "votes": 115126
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_family_division_department_f__dcourt",
+      "office": "District Court Judge, District 8, Family Division, Department F",
+      "district": "Court",
+      "total_votes": 264537,
+      "candidates": [
+        {
+          "candidate": "Gentile, Denise L.",
+          "party": "",
+          "votes": 144416
+        },
+        {
+          "candidate": "Gonzalez, William \"Bill\"",
+          "party": "",
+          "votes": 120121
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_family_division_department_h__dcourt",
+      "office": "District Court Judge, District 8, Family Division, Department H",
+      "district": "Court",
+      "total_votes": 253542,
+      "candidates": [
+        {
+          "candidate": "Ritchie, Art",
+          "party": "",
+          "votes": 143930
+        },
+        {
+          "candidate": "Lyons, Keith",
+          "party": "",
+          "votes": 109612
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_family_division_department_i__dcourt",
+      "office": "District Court Judge, District 8, Family Division, Department I",
+      "district": "Court",
+      "total_votes": 259477,
+      "candidates": [
+        {
+          "candidate": "Moss, Cheryl",
+          "party": "",
+          "votes": 164572
+        },
+        {
+          "candidate": "Shetler, Travis",
+          "party": "",
+          "votes": 94905
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_family_division_department_j__dcourt",
+      "office": "District Court Judge, District 8, Family Division, Department J",
+      "district": "Court",
+      "total_votes": 258183,
+      "candidates": [
+        {
+          "candidate": "Hughes, Rena G.",
+          "party": "",
+          "votes": 149245
+        },
+        {
+          "candidate": "Pollock, Kenneth E.",
+          "party": "",
+          "votes": 108938
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_family_division_department_l__dcourt",
+      "office": "District Court Judge, District 8, Family Division, Department L",
+      "district": "Court",
+      "total_votes": 256733,
+      "candidates": [
+        {
+          "candidate": "Elliott, Jennifer L.",
+          "party": "",
+          "votes": 157038
+        },
+        {
+          "candidate": "Gaudet, Paul \"Mitch\"",
+          "party": "",
+          "votes": 99695
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_family_division_department_m__dcourt",
+      "office": "District Court Judge, District 8, Family Division, Department M",
+      "district": "Court",
+      "total_votes": 252606,
+      "candidates": [
+        {
+          "candidate": "Potter, William",
+          "party": "",
+          "votes": 165024
+        },
+        {
+          "candidate": "Stuart, James",
+          "party": "",
+          "votes": 87582
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_family_division_department_n__dcourt",
+      "office": "District Court Judge, District 8, Family Division, Department N",
+      "district": "Court",
+      "total_votes": 255718,
+      "candidates": [
+        {
+          "candidate": "Harter, Mathew",
+          "party": "",
+          "votes": 164181
+        },
+        {
+          "candidate": "Levy, Monti Jordana",
+          "party": "",
+          "votes": 91537
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_family_division_department_p__dcourt",
+      "office": "District Court Judge, District 8, Family Division, Department P",
+      "district": "Court",
+      "total_votes": 259488,
+      "candidates": [
+        {
+          "candidate": "Pomrenze, Sandra L.",
+          "party": "",
+          "votes": 136598
+        },
+        {
+          "candidate": "Gibbs, Nathan",
+          "party": "",
+          "votes": 122890
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_family_division_department_s__dcourt",
+      "office": "District Court Judge, District 8, Family Division, Department S",
+      "district": "Court",
+      "total_votes": 258628,
+      "candidates": [
+        {
+          "candidate": "Ochoa, Vincent",
+          "party": "",
+          "votes": 167701
+        },
+        {
+          "candidate": "Stoffel, Jason Patrick",
+          "party": "",
+          "votes": 90927
+        }
+      ]
+    },
+    {
+      "contest_id": "district_court_judge_district_8_family_division_department_t__dcourt",
+      "office": "District Court Judge, District 8, Family Division, Department T",
+      "district": "Court",
+      "total_votes": 259293,
+      "candidates": [
+        {
+          "candidate": "Brown, Lisa M.",
+          "party": "",
+          "votes": 143087
+        },
+        {
+          "candidate": "Maskall, Maria",
+          "party": "",
+          "votes": 116206
+        }
+      ]
+    },
+    {
+      "contest_id": "east_fork_swimming_pool_district_2_seats__dunknown",
+      "office": "EAST FORK Swimming Pool District - 2 Seats",
+      "district": "-",
+      "total_votes": 19422,
+      "candidates": [
+        {
+          "candidate": "MCCORMICK, MICHAEL",
+          "party": "",
+          "votes": 5811
+        },
+        {
+          "candidate": "ELLISON, DAVE",
+          "party": "",
+          "votes": 5693
+        },
+        {
+          "candidate": "TAYLOR, GREG",
+          "party": "",
+          "votes": 4720
+        },
+        {
+          "candidate": "INGHAM, THOMAS",
+          "party": "",
+          "votes": 3198
+        }
+      ]
+    },
+    {
+      "contest_id": "elko_council_2_seats",
+      "office": "ELKO Council, 2 Seats",
+      "district": "",
+      "total_votes": 6207,
+      "candidates": [
+        {
+          "candidate": "KEENER, REECE",
+          "party": "",
+          "votes": 1917
+        },
+        {
+          "candidate": "RICE, JOHN PATRICK",
+          "party": "",
+          "votes": 1686
+        },
+        {
+          "candidate": "OWEN, KIMBERLY",
+          "party": "",
+          "votes": 1677
+        },
+        {
+          "candidate": "HANCE, BILL",
+          "party": "",
+          "votes": 927
+        }
+      ]
+    },
+    {
+      "contest_id": "elko_tv_seat_b",
+      "office": "ELKO TV Seat B",
+      "district": "",
+      "total_votes": 7148,
+      "candidates": [
+        {
+          "candidate": "JIMENEZ, RICK",
+          "party": "",
+          "votes": 3756
+        },
+        {
+          "candidate": "GREER, NORY KAY",
+          "party": "",
+          "votes": 3392
+        }
+      ]
+    },
+    {
+      "contest_id": "elko_tv_seat_c",
+      "office": "ELKO TV Seat C",
+      "district": "",
+      "total_votes": 7307,
+      "candidates": [
+        {
+          "candidate": "MCLEOD, CHRIS",
+          "party": "",
+          "votes": 3765
+        },
+        {
+          "candidate": "WAHRENBROCK, JON A.",
+          "party": "",
+          "votes": 3542
+        }
+      ]
+    },
+    {
+      "contest_id": "esmeralda_county_question_no_1",
+      "office": "Esmeralda County Question No. 1",
+      "district": "",
+      "total_votes": 352,
+      "candidates": [
+        {
+          "candidate": "No",
+          "party": "",
+          "votes": 253
+        },
+        {
+          "candidate": "Yes",
+          "party": "",
+          "votes": 99
+        }
+      ]
+    },
+    {
+      "contest_id": "fernley_swimming_pool_gid_district_trustees__dtrustees",
+      "office": "Fernley Swimming Pool GID District Trustees",
+      "district": "Trustees",
+      "total_votes": 6219,
+      "candidates": [
+        {
+          "candidate": "MURPHY, PAUL C.",
+          "party": "",
+          "votes": 1760
+        },
+        {
+          "candidate": "HANNA, MARTY",
+          "party": "",
+          "votes": 1568
+        },
+        {
+          "candidate": "CLEGG, WILLIAM B.",
+          "party": "",
+          "votes": 1488
+        },
+        {
+          "candidate": "DARLING-ZECH, JANICE",
+          "party": "",
+          "votes": 1403
+        }
+      ]
+    },
+    {
+      "contest_id": "gardnerville_ranchos_g_i_d_3_seats",
+      "office": "Gardnerville Ranchos G I D - 3 Seats",
+      "district": "",
+      "total_votes": 5864,
+      "candidates": [
+        {
+          "candidate": "NEWLON, BRAD",
+          "party": "",
+          "votes": 1760
+        },
+        {
+          "candidate": "JAMES, SHARI",
+          "party": "",
+          "votes": 1494
+        },
+        {
+          "candidate": "JAMES, JEFF",
+          "party": "",
+          "votes": 1420
+        },
+        {
+          "candidate": "TETER, LEANN M.",
+          "party": "",
+          "votes": 1190
+        }
+      ]
+    },
+    {
+      "contest_id": "governor",
+      "office": "Governor",
+      "district": "",
+      "total_votes": 546935,
+      "candidates": [
+        {
+          "candidate": "Sandoval, Brian",
+          "party": "REP",
+          "votes": 386028
+        },
+        {
+          "candidate": "Goodman, Robert \"Bob\"",
+          "party": "",
+          "votes": 130658
+        },
+        {
+          "candidate": "None Of These Candidates",
+          "party": "",
+          "votes": 15740
+        },
+        {
+          "candidate": "VanDerBeek, David Lory",
+          "party": "",
+          "votes": 14509
+        }
+      ]
+    },
+    {
+      "contest_id": "hawthorne_township_constable",
+      "office": "HAWTHORNE Township Constable",
+      "district": "",
+      "total_votes": 1310,
+      "candidates": [
+        {
+          "candidate": "SCHAAF, GARY",
+          "party": "",
+          "votes": 814
+        },
+        {
+          "candidate": "MCINTOSH, OLLIE",
+          "party": "",
+          "votes": 496
+        }
+      ]
+    },
+    {
+      "contest_id": "hospital_district_pershing__dpershing",
+      "office": "Hospital District PERSHING",
+      "district": "PERSHING",
+      "total_votes": 2810,
+      "candidates": [
+        {
+          "candidate": "SAFFORD, CHARLES M.",
+          "party": "",
+          "votes": 1076
+        },
+        {
+          "candidate": "TUELLER, DANA",
+          "party": "",
+          "votes": 885
+        },
+        {
+          "candidate": "HULTGREN, J. CAROLYN",
+          "party": "",
+          "votes": 849
+        }
+      ]
+    },
+    {
+      "contest_id": "humboldt_county_hospital_dist_trustee_seat_b",
+      "office": "Humboldt County Hospital Dist Trustee, Seat B",
+      "district": "",
+      "total_votes": 4055,
+      "candidates": [
+        {
+          "candidate": "COOK, RICHARD G.",
+          "party": "",
+          "votes": 2226
+        },
+        {
+          "candidate": "HANZLIK, MAURICE J. \"MOE\"",
+          "party": "",
+          "votes": 1829
+        }
+      ]
+    },
+    {
+      "contest_id": "humboldt_county_hospital_dist_trustee_seat_e",
+      "office": "Humboldt County Hospital Dist Trustee, Seat E",
+      "district": "",
+      "total_votes": 4129,
+      "candidates": [
+        {
+          "candidate": "MILLER, MICHELLE",
+          "party": "",
+          "votes": 2211
+        },
+        {
+          "candidate": "AMOS, GARTH",
+          "party": "",
+          "votes": 1918
+        }
+      ]
+    },
+    {
+      "contest_id": "humboldt_county_question_no_1",
+      "office": "Humboldt County Question No. 1",
+      "district": "",
+      "total_votes": 4273,
+      "candidates": [
+        {
+          "candidate": "No",
+          "party": "",
+          "votes": 2802
+        },
+        {
+          "candidate": "Yes",
+          "party": "",
+          "votes": 1471
+        }
+      ]
+    },
+    {
+      "contest_id": "humboldt_county_question_no_2",
+      "office": "Humboldt County Question No. 2",
+      "district": "",
+      "total_votes": 4321,
+      "candidates": [
+        {
+          "candidate": "No",
+          "party": "",
+          "votes": 2771
+        },
+        {
+          "candidate": "Yes",
+          "party": "",
+          "votes": 1550
+        }
+      ]
+    },
+    {
+      "contest_id": "incline_village_constable",
+      "office": "INCLINE VILLAGE Constable",
+      "district": "",
+      "total_votes": 2524,
+      "candidates": [
+        {
+          "candidate": "Keller, Hans",
+          "party": "",
+          "votes": 2524
+        }
+      ]
+    },
+    {
+      "contest_id": "incline_village_gid_vote_for_2",
+      "office": "INCLINE VILLAGE GID - vote for 2",
+      "district": "",
+      "total_votes": 6184,
+      "candidates": [
+        {
+          "candidate": "Wong, Kendra",
+          "party": "",
+          "votes": 1848
+        },
+        {
+          "candidate": "Callicrate, Timothy G",
+          "party": "",
+          "votes": 1778
+        },
+        {
+          "candidate": "Leijon, Sheila",
+          "party": "",
+          "votes": 1660
+        },
+        {
+          "candidate": "Olmer, Robert J",
+          "party": "",
+          "votes": 898
+        }
+      ]
+    },
+    {
+      "contest_id": "justice_of_the_peace_las_vegas_township_dept_12",
+      "office": "JUSTICE OF THE PEACE LAS VEGAS TOWNSHIP DEPT. 12",
+      "district": "",
+      "total_votes": 173371,
+      "candidates": [
+        {
+          "candidate": "Sullivan, Diana L.",
+          "party": "",
+          "votes": 133826
+        },
+        {
+          "candidate": "Kamalani, Marian Kahoiwai",
+          "party": "",
+          "votes": 39545
+        }
+      ]
+    },
+    {
+      "contest_id": "justice_of_the_peace_pahrump_dept_2",
+      "office": "Justice of the Peace, PAHRUMP, Dept. 2",
+      "district": "",
+      "total_votes": 9819,
+      "candidates": [
+        {
+          "candidate": "JASPERSON, KENT",
+          "party": "",
+          "votes": 6666
+        },
+        {
+          "candidate": "SPRINGS, ANITA M.",
+          "party": "",
+          "votes": 3153
+        }
+      ]
+    },
+    {
+      "contest_id": "kingsbury_g_i_d_2_seats",
+      "office": "KINGSBURY G I D - 2 Seats",
+      "district": "",
+      "total_votes": 1169,
+      "candidates": [
+        {
+          "candidate": "VOGT, DARYA",
+          "party": "",
+          "votes": 329
+        },
+        {
+          "candidate": "NORMAN, DANIEL A.",
+          "party": "",
+          "votes": 289
+        },
+        {
+          "candidate": "SCHORR, CRAIG B.",
+          "party": "",
+          "votes": 263
+        },
+        {
+          "candidate": "KIRSCHNER, WILLIAM \"BILL\"",
+          "party": "",
+          "votes": 203
+        },
+        {
+          "candidate": "HASKINS, OOLI",
+          "party": "",
+          "votes": 85
+        }
+      ]
+    },
+    {
+      "contest_id": "lander_county_school_trustee_area_4",
+      "office": "LANDER COUNTY School Trustee, Area 4",
+      "district": "",
+      "total_votes": 1670,
+      "candidates": [
+        {
+          "candidate": "THOMPSON, TODD W.",
+          "party": "",
+          "votes": 1008
+        },
+        {
+          "candidate": "GANDOLFO, BILLY",
+          "party": "",
+          "votes": 662
+        }
+      ]
+    },
+    {
+      "contest_id": "lieutenant_governor",
+      "office": "Lieutenant Governor",
+      "district": "",
+      "total_votes": 545123,
+      "candidates": [
+        {
+          "candidate": "Hutchison, Mark",
+          "party": "REP",
+          "votes": 324177
+        },
+        {
+          "candidate": "Flores, Lucy",
+          "party": "DEM",
+          "votes": 183459
+        },
+        {
+          "candidate": "Little, Mike",
+          "party": "",
+          "votes": 21199
+        },
+        {
+          "candidate": "None Of These Candidates",
+          "party": "",
+          "votes": 16288
+        }
+      ]
+    },
+    {
+      "contest_id": "lovelock_council_member_seat_c",
+      "office": "LOVELOCK Council Member Seat C",
+      "district": "",
+      "total_votes": 522,
+      "candidates": [
+        {
+          "candidate": "ROWE, PAT",
+          "party": "",
+          "votes": 324
+        },
+        {
+          "candidate": "WILCOX, RODNEY J.",
+          "party": "",
+          "votes": 198
+        }
+      ]
+    },
+    {
+      "contest_id": "lyon_county_question_no_1",
+      "office": "Lyon County Question No. 1",
+      "district": "",
+      "total_votes": 13916,
+      "candidates": [
+        {
+          "candidate": "No",
+          "party": "",
+          "votes": 8293
+        },
+        {
+          "candidate": "Yes",
+          "party": "",
+          "votes": 5623
+        }
+      ]
+    },
+    {
+      "contest_id": "lyon_county_question_no_2",
+      "office": "Lyon County Question No. 2",
+      "district": "",
+      "total_votes": 4339,
+      "candidates": [
+        {
+          "candidate": "No",
+          "party": "",
+          "votes": 2874
+        },
+        {
+          "candidate": "Yes",
+          "party": "",
+          "votes": 1465
+        }
+      ]
+    },
+    {
+      "contest_id": "mayor_carlin",
+      "office": "Mayor Carlin",
+      "district": "",
+      "total_votes": 482,
+      "candidates": [
+        {
+          "candidate": "SKINNER, DONNETTA",
+          "party": "",
+          "votes": 265
+        },
+        {
+          "candidate": "HOLBROOK, DANA D.",
+          "party": "",
+          "votes": 217
+        }
+      ]
+    },
+    {
+      "contest_id": "mayor_elko",
+      "office": "Mayor Elko",
+      "district": "",
+      "total_votes": 3513,
+      "candidates": [
+        {
+          "candidate": "JOHNSON, CHRIS J.",
+          "party": "",
+          "votes": 1989
+        },
+        {
+          "candidate": "MYERS, CHARLIE",
+          "party": "",
+          "votes": 1524
+        }
+      ]
+    },
+    {
+      "contest_id": "mayor_fernley",
+      "office": "Mayor FERNLEY",
+      "district": "",
+      "total_votes": 4134,
+      "candidates": [
+        {
+          "candidate": "EDGINGTON, ROY",
+          "party": "",
+          "votes": 2115
+        },
+        {
+          "candidate": "BORSO, MARGARET",
+          "party": "",
+          "votes": 2019
+        }
+      ]
+    },
+    {
+      "contest_id": "mayor_wells",
+      "office": "Mayor Wells",
+      "district": "",
+      "total_votes": 306,
+      "candidates": [
+        {
+          "candidate": "WELSH-WALZ, LAYLA",
+          "party": "",
+          "votes": 203
+        },
+        {
+          "candidate": "ROBINSON, JAYRON \"JAKE\"",
+          "party": "",
+          "votes": 54
+        },
+        {
+          "candidate": "SHAMBLIN, VINCE",
+          "party": "",
+          "votes": 49
+        }
+      ]
+    },
+    {
+      "contest_id": "mcdermitt_fire_district_seat_b__dseat",
+      "office": "McDermitt Fire District Seat B",
+      "district": "Seat",
+      "total_votes": 77,
+      "candidates": [
+        {
+          "candidate": "NEGUS, CASEY",
+          "party": "",
+          "votes": 63
+        },
+        {
+          "candidate": "HARTLEY, DALE",
+          "party": "",
+          "votes": 14
+        }
+      ]
+    },
+    {
+      "contest_id": "mcdermitt_gid_board_seat_d",
+      "office": "McDermitt GID Board Seat D",
+      "district": "",
+      "total_votes": 42,
+      "candidates": [
+        {
+          "candidate": "ALBISU, DARLENE",
+          "party": "",
+          "votes": 35
+        },
+        {
+          "candidate": "HARTLEY, DALE",
+          "party": "",
+          "votes": 7
+        }
+      ]
+    },
+    {
+      "contest_id": "mcgill_ruth_gen_imp_dist_seat_d",
+      "office": "MCGILL/RUTH Gen Imp Dist, Seat D",
+      "district": "",
+      "total_votes": 2378,
+      "candidates": [
+        {
+          "candidate": "BLACKHAM, ELAINE",
+          "party": "",
+          "votes": 1677
+        },
+        {
+          "candidate": "TEFFT, MARK",
+          "party": "",
+          "votes": 701
+        }
+      ]
+    },
+    {
+      "contest_id": "mineral_county_question_no_1",
+      "office": "Mineral County Question No. 1",
+      "district": "",
+      "total_votes": 1374,
+      "candidates": [
+        {
+          "candidate": "No",
+          "party": "",
+          "votes": 853
+        },
+        {
+          "candidate": "Yes",
+          "party": "",
+          "votes": 521
+        }
+      ]
+    },
+    {
+      "contest_id": "mineral_county_question_no_2",
+      "office": "Mineral County Question No. 2",
+      "district": "",
+      "total_votes": 1374,
+      "candidates": [
+        {
+          "candidate": "Yes",
+          "party": "",
+          "votes": 742
+        },
+        {
+          "candidate": "No",
+          "party": "",
+          "votes": 632
+        }
+      ]
+    },
+    {
+      "contest_id": "mosquito_abatement_district_vote_for_3__dunknown",
+      "office": "Mosquito Abatement District - Vote for 3",
+      "district": "-",
+      "total_votes": 16443,
+      "candidates": [
+        {
+          "candidate": "LATTIN, CHRISTY",
+          "party": "",
+          "votes": 5134
+        },
+        {
+          "candidate": "SPENCER, MICHAEL",
+          "party": "",
+          "votes": 4028
+        },
+        {
+          "candidate": "LINGENFELTER, JAY",
+          "party": "",
+          "votes": 3969
+        },
+        {
+          "candidate": "JORDAN, JOE",
+          "party": "",
+          "votes": 3312
+        }
+      ]
+    },
+    {
+      "contest_id": "north_lake_tahoe_fpd_vote_for_2",
+      "office": "NORTH LAKE TAHOE FPD - vote for 2",
+      "district": "",
+      "total_votes": 4977,
+      "candidates": [
+        {
+          "candidate": "Perry, Dennis",
+          "party": "",
+          "votes": 1774
+        },
+        {
+          "candidate": "Warner, Jeff",
+          "party": "",
+          "votes": 1687
+        },
+        {
+          "candidate": "Herron, Susan A",
+          "party": "",
+          "votes": 1516
+        }
+      ]
+    },
+    {
+      "contest_id": "north_lyon_co_fire_pro_district_directors__ddirectors",
+      "office": "North Lyon Co Fire Pro District Directors",
+      "district": "Directors",
+      "total_votes": 5898,
+      "candidates": [
+        {
+          "candidate": "WALKER, SCOTT",
+          "party": "",
+          "votes": 2364
+        },
+        {
+          "candidate": "OSBORN, JON K",
+          "party": "",
+          "votes": 1938
+        },
+        {
+          "candidate": "JENNE, JIM",
+          "party": "",
+          "votes": 1596
+        }
+      ]
+    },
+    {
+      "contest_id": "nye_county_question_no_1",
+      "office": "Nye County Question No. 1",
+      "district": "",
+      "total_votes": 11956,
+      "candidates": [
+        {
+          "candidate": "No",
+          "party": "",
+          "votes": 6730
+        },
+        {
+          "candidate": "Yes",
+          "party": "",
+          "votes": 5226
+        }
+      ]
+    },
+    {
+      "contest_id": "public_administrator",
+      "office": "PUBLIC ADMINISTRATOR",
+      "district": "",
+      "total_votes": 486331,
+      "candidates": [
+        {
+          "candidate": "Cahill, John J.",
+          "party": "",
+          "votes": 170532
+        },
+        {
+          "candidate": "Klapproth, Ed",
+          "party": "",
+          "votes": 150362
+        },
+        {
+          "candidate": "CAVALLO, DON",
+          "party": "",
+          "votes": 69692
+        },
+        {
+          "candidate": "McKenna, Chase D",
+          "party": "",
+          "votes": 38984
+        },
+        {
+          "candidate": "SPRINGMEYER, CLAUDETTE",
+          "party": "",
+          "votes": 14791
+        },
+        {
+          "candidate": "PELLEGRINI, AARON A",
+          "party": "",
+          "votes": 7355
+        },
+        {
+          "candidate": "JENKINS, JANYCE",
+          "party": "",
+          "votes": 7132
+        },
+        {
+          "candidate": "GETTO, BOB JR.",
+          "party": "",
+          "votes": 5877
+        },
+        {
+          "candidate": "DORAND-RUDOLF, ROBIN",
+          "party": "",
+          "votes": 5702
+        },
+        {
+          "candidate": "PILKINGTON, ROBERT R.",
+          "party": "",
+          "votes": 4935
+        },
+        {
+          "candidate": "MUNRO, DELORES A",
+          "party": "",
+          "votes": 4648
+        },
+        {
+          "candidate": "SMITH, MICHAEL L.",
+          "party": "",
+          "votes": 2501
+        },
+        {
+          "candidate": "MACKIE, STUART JAMES",
+          "party": "",
+          "votes": 1415
+        },
+        {
+          "candidate": "KEARNS, JEFFREY",
+          "party": "",
+          "votes": 1337
+        },
+        {
+          "candidate": "CICHOWLAZ, BETH",
+          "party": "",
+          "votes": 1068
+        }
+      ]
+    },
+    {
+      "contest_id": "recorder_auditor",
+      "office": "Recorder/Auditor",
+      "district": "",
+      "total_votes": 2693,
+      "candidates": [
+        {
+          "candidate": "HOFERER, CHRISTINE",
+          "party": "",
+          "votes": 1163
+        },
+        {
+          "candidate": "BOUCHER, LESLIE",
+          "party": "",
+          "votes": 917
+        },
+        {
+          "candidate": "SEVERNS, DAVID J.",
+          "party": "",
+          "votes": 613
+        }
+      ]
+    },
+    {
+      "contest_id": "reno_city_attorney",
+      "office": "RENO City Attorney",
+      "district": "",
+      "total_votes": 45722,
+      "candidates": [
+        {
+          "candidate": "Hall, Karl S",
+          "party": "",
+          "votes": 23330
+        },
+        {
+          "candidate": "KANDT, BRETT",
+          "party": "",
+          "votes": 22392
+        }
+      ]
+    },
+    {
+      "contest_id": "reno_council_ward_2",
+      "office": "RENO Council Ward 2",
+      "district": "",
+      "total_votes": 48495,
+      "candidates": [
+        {
+          "candidate": "Duerr, Naomi",
+          "party": "",
+          "votes": 27555
+        },
+        {
+          "candidate": "Cafferata, Elisa",
+          "party": "",
+          "votes": 20940
+        }
+      ]
+    },
+    {
+      "contest_id": "reno_council_ward_4",
+      "office": "RENO Council Ward 4",
+      "district": "",
+      "total_votes": 47450,
+      "candidates": [
+        {
+          "candidate": "McKenzie, Paul",
+          "party": "",
+          "votes": 24563
+        },
+        {
+          "candidate": "Weber, Bonnie",
+          "party": "",
+          "votes": 22887
+        }
+      ]
+    },
+    {
+      "contest_id": "reno_mayor",
+      "office": "RENO Mayor",
+      "district": "",
+      "total_votes": 53180,
+      "candidates": [
+        {
+          "candidate": "Schieve, Hillary",
+          "party": "",
+          "votes": 32411
+        },
+        {
+          "candidate": "Pezonella, Raymond \"Pez\"",
+          "party": "",
+          "votes": 20769
+        }
+      ]
+    },
+    {
+      "contest_id": "reno_municipal_court_judge_dept_1",
+      "office": "RENO Municipal Court Judge Dept. 1",
+      "district": "",
+      "total_votes": 40515,
+      "candidates": [
+        {
+          "candidate": "Drakulich, Gene S",
+          "party": "",
+          "votes": 40515
+        }
+      ]
+    },
+    {
+      "contest_id": "school_board_trustee_area_i",
+      "office": "School Board Trustee Area I",
+      "district": "",
+      "total_votes": 1275,
+      "candidates": [
+        {
+          "candidate": "FORSGREN, EDNA JEAN",
+          "party": "",
+          "votes": 706
+        },
+        {
+          "candidate": "OTERO, TAMMY",
+          "party": "",
+          "votes": 569
+        }
+      ]
+    },
+    {
+      "contest_id": "school_board_trustee_area_v",
+      "office": "School Board Trustee Area V",
+      "district": "",
+      "total_votes": 1722,
+      "candidates": [
+        {
+          "candidate": "HILER, PAMELA LEWIS",
+          "party": "",
+          "votes": 979
+        },
+        {
+          "candidate": "ALBERTI, ANDY",
+          "party": "",
+          "votes": 743
+        }
+      ]
+    },
+    {
+      "contest_id": "school_board_trustee_district_c__dc",
+      "office": "School Board Trustee District C",
+      "district": "C",
+      "total_votes": 19964,
+      "candidates": [
+        {
+          "candidate": "Smith, Nick",
+          "party": "",
+          "votes": 12823
+        },
+        {
+          "candidate": "CLARK, BARBARA",
+          "party": "",
+          "votes": 7141
+        }
+      ]
+    },
+    {
+      "contest_id": "school_board_trustee_district_f_al__df_al",
+      "office": "School Board Trustee District F-AL",
+      "district": "F-AL",
+      "total_votes": 42994,
+      "candidates": [
+        {
+          "candidate": "Frenkel, Veronica",
+          "party": "",
+          "votes": 21590
+        },
+        {
+          "candidate": "Shaw, Jim",
+          "party": "",
+          "votes": 21404
+        }
+      ]
+    },
+    {
+      "contest_id": "school_board_trustee_seat_1a",
+      "office": "School Board Trustee Seat 1A",
+      "district": "",
+      "total_votes": 1684,
+      "candidates": [
+        {
+          "candidate": "SNELL, SHARON",
+          "party": "",
+          "votes": 598
+        },
+        {
+          "candidate": "GLADDING, GIL",
+          "party": "",
+          "votes": 572
+        },
+        {
+          "candidate": "HALL, DAN",
+          "party": "",
+          "votes": 514
+        }
+      ]
+    },
+    {
+      "contest_id": "school_board_trustee_seat_2a",
+      "office": "School Board Trustee Seat 2A",
+      "district": "",
+      "total_votes": 680,
+      "candidates": [
+        {
+          "candidate": "HICKS, ROBIN",
+          "party": "",
+          "votes": 511
+        },
+        {
+          "candidate": "BICE, V. CHUCK",
+          "party": "",
+          "votes": 169
+        }
+      ]
+    },
+    {
+      "contest_id": "school_board_trustee_seat_2b",
+      "office": "School Board Trustee Seat 2B",
+      "district": "",
+      "total_votes": 2305,
+      "candidates": [
+        {
+          "candidate": "MILLER, DAWN",
+          "party": "",
+          "votes": 862
+        },
+        {
+          "candidate": "FIELD, RONALD",
+          "party": "",
+          "votes": 775
+        },
+        {
+          "candidate": "BAUMANN, DARLA R.",
+          "party": "",
+          "votes": 464
+        },
+        {
+          "candidate": "OSBURN, JAMIE",
+          "party": "",
+          "votes": 204
+        }
+      ]
+    },
+    {
+      "contest_id": "school_board_trustee_seat_a",
+      "office": "School Board Trustee Seat A",
+      "district": "",
+      "total_votes": 145,
+      "candidates": [
+        {
+          "candidate": "BROWNFIELD, CARL",
+          "party": "",
+          "votes": 89
+        },
+        {
+          "candidate": "STIDHAM, EDDIE E.",
+          "party": "",
+          "votes": 56
+        }
+      ]
+    },
+    {
+      "contest_id": "school_board_trustee_seat_g",
+      "office": "School Board Trustee Seat G",
+      "district": "",
+      "total_votes": 4140,
+      "candidates": [
+        {
+          "candidate": "BENGOCHEA, NICOLE H.",
+          "party": "",
+          "votes": 2879
+        },
+        {
+          "candidate": "BUMGARTNER, MICHAEL",
+          "party": "",
+          "votes": 1261
+        }
+      ]
+    },
+    {
+      "contest_id": "school_dist_trustee_district_vi_dayton_2__dvi",
+      "office": "School Dist Trustee District VI Dayton #2",
+      "district": "VI",
+      "total_votes": 11417,
+      "candidates": [
+        {
+          "candidate": "PETERSON, BRIDGET",
+          "party": "",
+          "votes": 6530
+        },
+        {
+          "candidate": "COOPER, MELANIE \"SNIDER\"",
+          "party": "",
+          "votes": 4887
+        }
+      ]
+    },
+    {
+      "contest_id": "school_dist_board_of_trustees_seat_a",
+      "office": "School Dist. Board of Trustees Seat A",
+      "district": "",
+      "total_votes": 1447,
+      "candidates": [
+        {
+          "candidate": "EVANS, JAMES",
+          "party": "",
+          "votes": 836
+        },
+        {
+          "candidate": "LUSBY-ANGVICK, HEIDI",
+          "party": "",
+          "votes": 611
+        }
+      ]
+    },
+    {
+      "contest_id": "school_trustee_district_1__d1",
+      "office": "School Trustee District 1",
+      "district": "1",
+      "total_votes": 13462,
+      "candidates": [
+        {
+          "candidate": "SWIRCZEK, RON",
+          "party": "",
+          "votes": 8072
+        },
+        {
+          "candidate": "BATHGATE, JIM",
+          "party": "",
+          "votes": 5390
+        }
+      ]
+    },
+    {
+      "contest_id": "school_trustee_district_3__d3",
+      "office": "School Trustee District 3",
+      "district": "3",
+      "total_votes": 13142,
+      "candidates": [
+        {
+          "candidate": "WILKE, STACIE",
+          "party": "",
+          "votes": 7495
+        },
+        {
+          "candidate": "CARTER, DAVID W.",
+          "party": "",
+          "votes": 5647
+        }
+      ]
+    },
+    {
+      "contest_id": "school_trustee_district_4__d4",
+      "office": "School Trustee District 4",
+      "district": "4",
+      "total_votes": 12665,
+      "candidates": [
+        {
+          "candidate": "GREEN, RYAN",
+          "party": "",
+          "votes": 8254
+        },
+        {
+          "candidate": "CHERPESKI, JEFFREY P.",
+          "party": "",
+          "votes": 4411
+        }
+      ]
+    },
+    {
+      "contest_id": "secretary_of_state",
+      "office": "Secretary Of State",
+      "district": "",
+      "total_votes": 542698,
+      "candidates": [
+        {
+          "candidate": "Cegavske, Barbara K",
+          "party": "REP",
+          "votes": 273484
+        },
+        {
+          "candidate": "Marshall, Kate",
+          "party": "DEM",
+          "votes": 250445
+        },
+        {
+          "candidate": "None Of These Candidates",
+          "party": "",
+          "votes": 18769
+        }
+      ]
+    },
+    {
+      "contest_id": "sheriff",
+      "office": "Sheriff",
+      "district": "",
+      "total_votes": 473532,
+      "candidates": [
+        {
+          "candidate": "Lombardo, Joe",
+          "party": "REP",
+          "votes": 153961
+        },
+        {
+          "candidate": "Burns, Larry",
+          "party": "",
+          "votes": 146982
+        },
+        {
+          "candidate": "Allen, Chuck",
+          "party": "",
+          "votes": 54350
+        },
+        {
+          "candidate": "Kuzanek, Tim",
+          "party": "",
+          "votes": 53532
+        },
+        {
+          "candidate": "FURLONG, KENNETH",
+          "party": "",
+          "votes": 13833
+        },
+        {
+          "candidate": "PIERINI, RONALD \"RON\"",
+          "party": "",
+          "votes": 11675
+        },
+        {
+          "candidate": "MCNEIL, AL",
+          "party": "",
+          "votes": 7146
+        },
+        {
+          "candidate": "TROTTER, BEN",
+          "party": "",
+          "votes": 6364
+        },
+        {
+          "candidate": "TORRES, ALBERT D.",
+          "party": "",
+          "votes": 6332
+        },
+        {
+          "candidate": "BRADY, DAVID J.",
+          "party": "",
+          "votes": 5265
+        },
+        {
+          "candidate": "ALLEN, MICHAEL \"MIKE\"",
+          "party": "",
+          "votes": 2316
+        },
+        {
+          "candidate": "KILGORE, ED",
+          "party": "",
+          "votes": 1971
+        },
+        {
+          "candidate": "WATTS, DAN",
+          "party": "",
+          "votes": 1382
+        },
+        {
+          "candidate": "ROBISON, PENNY JO",
+          "party": "",
+          "votes": 1378
+        },
+        {
+          "candidate": "UNGER, RON",
+          "party": "",
+          "votes": 1033
+        },
+        {
+          "candidate": "HORSLEY, JAY",
+          "party": "",
+          "votes": 999
+        },
+        {
+          "candidate": "ANTINORO, GERALD",
+          "party": "",
+          "votes": 995
+        },
+        {
+          "candidate": "MAHAN, SHAWN P.",
+          "party": "",
+          "votes": 883
+        },
+        {
+          "candidate": "ADAMS, RANDALL \"RANDY\"",
+          "party": "",
+          "votes": 726
+        },
+        {
+          "candidate": "SCHOORL, REESE",
+          "party": "",
+          "votes": 720
+        },
+        {
+          "candidate": "HANDTE, STEWART",
+          "party": "",
+          "votes": 652
+        },
+        {
+          "candidate": "LOGAN, KEITH A., II",
+          "party": "",
+          "votes": 463
+        },
+        {
+          "candidate": "ELGAN, KEN",
+          "party": "",
+          "votes": 246
+        },
+        {
+          "candidate": "CANTRELL, SHANE",
+          "party": "",
+          "votes": 225
+        },
+        {
+          "candidate": "BETH, DAVID R.",
+          "party": "",
+          "votes": 103
+        }
+      ]
+    },
+    {
+      "contest_id": "sparks_council_ward_2",
+      "office": "SPARKS Council Ward 2",
+      "district": "",
+      "total_votes": 18917,
+      "candidates": [
+        {
+          "candidate": "Lawson, Ed",
+          "party": "",
+          "votes": 12098
+        },
+        {
+          "candidate": "Goodrich, Edward \"Ed\"",
+          "party": "",
+          "votes": 6819
+        }
+      ]
+    },
+    {
+      "contest_id": "sparks_council_ward_4",
+      "office": "SPARKS Council Ward 4",
+      "district": "",
+      "total_votes": 19971,
+      "candidates": [
+        {
+          "candidate": "Bybee, Charlene",
+          "party": "",
+          "votes": 11613
+        },
+        {
+          "candidate": "Dahir, Kristopher Allen",
+          "party": "",
+          "votes": 8358
+        }
+      ]
+    },
+    {
+      "contest_id": "sparks_justice_of_the_peace_dept_1",
+      "office": "SPARKS Justice of the Peace Dept. 1",
+      "district": "",
+      "total_votes": 28706,
+      "candidates": [
+        {
+          "candidate": "Wilson, Chris",
+          "party": "",
+          "votes": 15906
+        },
+        {
+          "candidate": "Adams, Chet",
+          "party": "",
+          "votes": 12800
+        }
+      ]
+    },
+    {
+      "contest_id": "sparks_mayor",
+      "office": "SPARKS Mayor",
+      "district": "",
+      "total_votes": 21433,
+      "candidates": [
+        {
+          "candidate": "MARTINI, GENO",
+          "party": "",
+          "votes": 16780
+        },
+        {
+          "candidate": "Newhall, Gene",
+          "party": "",
+          "votes": 4653
+        }
+      ]
+    },
+    {
+      "contest_id": "sparks_municipal_court_judge_dept_1",
+      "office": "SPARKS Municipal Court Judge Dept. 1",
+      "district": "",
+      "total_votes": 18301,
+      "candidates": [
+        {
+          "candidate": "McCarthy, Barbara S",
+          "party": "",
+          "votes": 18301
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_1__d1",
+      "office": "State Assembly, District  1",
+      "district": "1",
+      "total_votes": 12311,
+      "candidates": [
+        {
+          "candidate": "Kirkpatrick, Marilyn",
+          "party": "",
+          "votes": 7325
+        },
+        {
+          "candidate": "Baum, Roger \"OZ\"",
+          "party": "",
+          "votes": 4986
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_2__d2",
+      "office": "State Assembly, District  2",
+      "district": "2",
+      "total_votes": 14206,
+      "candidates": [
+        {
+          "candidate": "Hambrick, John",
+          "party": "",
+          "votes": 11247
+        },
+        {
+          "candidate": "Maimbourg, A.J.",
+          "party": "",
+          "votes": 2959
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_3__d3",
+      "office": "State Assembly, District  3",
+      "district": "3",
+      "total_votes": 7833,
+      "candidates": [
+        {
+          "candidate": "Araujo, Nelson",
+          "party": "",
+          "votes": 4379
+        },
+        {
+          "candidate": "Marquez, Jesus",
+          "party": "",
+          "votes": 3454
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_4__d4",
+      "office": "State Assembly, District  4",
+      "district": "4",
+      "total_votes": 14568,
+      "candidates": [
+        {
+          "candidate": "Fiore, Michele",
+          "party": "REP",
+          "votes": 9086
+        },
+        {
+          "candidate": "Hinton, Jeff",
+          "party": "",
+          "votes": 5482
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_5__d5",
+      "office": "State Assembly, District  5",
+      "district": "5",
+      "total_votes": 12292,
+      "candidates": [
+        {
+          "candidate": "Nelson, Erv",
+          "party": "",
+          "votes": 6988
+        },
+        {
+          "candidate": "Strasser, Jerri D.",
+          "party": "",
+          "votes": 5304
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_6__d6",
+      "office": "State Assembly, District  6",
+      "district": "6",
+      "total_votes": 5292,
+      "candidates": [
+        {
+          "candidate": "Munford, Harvey J.",
+          "party": "",
+          "votes": 5292
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_7__d7",
+      "office": "State Assembly, District  7",
+      "district": "7",
+      "total_votes": 9078,
+      "candidates": [
+        {
+          "candidate": "Neal, Dina",
+          "party": "",
+          "votes": 6049
+        },
+        {
+          "candidate": "Leavitt, Brent",
+          "party": "",
+          "votes": 3029
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_8__d8",
+      "office": "State Assembly, District  8",
+      "district": "8",
+      "total_votes": 8334,
+      "candidates": [
+        {
+          "candidate": "Moore, John",
+          "party": "",
+          "votes": 4187
+        },
+        {
+          "candidate": "Frierson, Jason",
+          "party": "",
+          "votes": 4147
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_9__d9",
+      "office": "State Assembly, District  9",
+      "district": "9",
+      "total_votes": 10802,
+      "candidates": [
+        {
+          "candidate": "Gardner, David M.",
+          "party": "",
+          "votes": 5630
+        },
+        {
+          "candidate": "Yeager, Steve",
+          "party": "",
+          "votes": 5172
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_10__d10",
+      "office": "State Assembly, District 10",
+      "district": "10",
+      "total_votes": 7918,
+      "candidates": [
+        {
+          "candidate": "Shelton, Shelly M.",
+          "party": "",
+          "votes": 3994
+        },
+        {
+          "candidate": "Holder, Jesse \"Jake\"",
+          "party": "",
+          "votes": 3924
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_11__d11",
+      "office": "State Assembly, District 11",
+      "district": "11",
+      "total_votes": 3176,
+      "candidates": [
+        {
+          "candidate": "Diaz, Olivia",
+          "party": "",
+          "votes": 3176
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_12__d12",
+      "office": "State Assembly, District 12",
+      "district": "12",
+      "total_votes": 11073,
+      "candidates": [
+        {
+          "candidate": "Ohrenschall, James",
+          "party": "",
+          "votes": 6698
+        },
+        {
+          "candidate": "Warren, Troy",
+          "party": "",
+          "votes": 4375
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_13__d13",
+      "office": "State Assembly, District 13",
+      "district": "13",
+      "total_votes": 15188,
+      "candidates": [
+        {
+          "candidate": "Anderson, Paul",
+          "party": "",
+          "votes": 9475
+        },
+        {
+          "candidate": "Kramar, Christine Lynn",
+          "party": "",
+          "votes": 5713
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_14__d14",
+      "office": "State Assembly, District 14",
+      "district": "14",
+      "total_votes": 6093,
+      "candidates": [
+        {
+          "candidate": "Carlton, Maggie",
+          "party": "",
+          "votes": 3685
+        },
+        {
+          "candidate": "Yarbrough, Matthew",
+          "party": "",
+          "votes": 2408
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_15__d15",
+      "office": "State Assembly, District 15",
+      "district": "15",
+      "total_votes": 7761,
+      "candidates": [
+        {
+          "candidate": "Anderson, Elliot T.",
+          "party": "",
+          "votes": 4691
+        },
+        {
+          "candidate": "Donlon, Benjamin",
+          "party": "",
+          "votes": 2620
+        },
+        {
+          "candidate": "Juarez, Roberto S.",
+          "party": "",
+          "votes": 450
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_16__d16",
+      "office": "State Assembly, District 16",
+      "district": "16",
+      "total_votes": 4188,
+      "candidates": [
+        {
+          "candidate": "Swank, Heidi",
+          "party": "",
+          "votes": 4188
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_17__d17",
+      "office": "State Assembly, District 17",
+      "district": "17",
+      "total_votes": 9063,
+      "candidates": [
+        {
+          "candidate": "Thompson, Tyrone",
+          "party": "",
+          "votes": 4980
+        },
+        {
+          "candidate": "Mendez, Patrick",
+          "party": "",
+          "votes": 3506
+        },
+        {
+          "candidate": "Little, Patricia Pat",
+          "party": "",
+          "votes": 577
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_18__d18",
+      "office": "State Assembly, District 18",
+      "district": "18",
+      "total_votes": 7194,
+      "candidates": [
+        {
+          "candidate": "Carrillo, Richard",
+          "party": "",
+          "votes": 3950
+        },
+        {
+          "candidate": "Beaulieu, Amy",
+          "party": "",
+          "votes": 3244
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_19__d19",
+      "office": "State Assembly, District 19",
+      "district": "19",
+      "total_votes": 13043,
+      "candidates": [
+        {
+          "candidate": "Edwards, Chris",
+          "party": "",
+          "votes": 8490
+        },
+        {
+          "candidate": "Zygadlo, James",
+          "party": "",
+          "votes": 3898
+        },
+        {
+          "candidate": "Hendon, Donald Wayne",
+          "party": "",
+          "votes": 655
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_20__d20",
+      "office": "State Assembly, District 20",
+      "district": "20",
+      "total_votes": 10438,
+      "candidates": [
+        {
+          "candidate": "Spiegel, Ellen",
+          "party": "",
+          "votes": 5664
+        },
+        {
+          "candidate": "Linton, Carol",
+          "party": "",
+          "votes": 4774
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_21__d21",
+      "office": "State Assembly, District 21",
+      "district": "21",
+      "total_votes": 12013,
+      "candidates": [
+        {
+          "candidate": "Armstrong, Derek W.",
+          "party": "",
+          "votes": 6033
+        },
+        {
+          "candidate": "Eisen, Andy",
+          "party": "",
+          "votes": 5582
+        },
+        {
+          "candidate": "Sanacore, Adam-John",
+          "party": "",
+          "votes": 398
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_22__d22",
+      "office": "State Assembly, District 22",
+      "district": "22",
+      "total_votes": 15883,
+      "candidates": [
+        {
+          "candidate": "Stewart, Lynn",
+          "party": "",
+          "votes": 12527
+        },
+        {
+          "candidate": "Lalley, Leroy T.",
+          "party": "",
+          "votes": 3356
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_23__d23",
+      "office": "State Assembly, District 23",
+      "district": "23",
+      "total_votes": 17608,
+      "candidates": [
+        {
+          "candidate": "Woodbury, Melissa",
+          "party": "",
+          "votes": 17608
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_24__d24",
+      "office": "State Assembly, District 24",
+      "district": "24",
+      "total_votes": 8016,
+      "candidates": [
+        {
+          "candidate": "Bobzien, David",
+          "party": "",
+          "votes": 8016
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_25__d25",
+      "office": "State Assembly, District 25",
+      "district": "25",
+      "total_votes": 22470,
+      "candidates": [
+        {
+          "candidate": "Hickey, Pat",
+          "party": "",
+          "votes": 16855
+        },
+        {
+          "candidate": "Putnam, Niklas",
+          "party": "",
+          "votes": 5615
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_26__d26",
+      "office": "State Assembly, District 26",
+      "district": "26",
+      "total_votes": 20606,
+      "candidates": [
+        {
+          "candidate": "Kirner, Randy",
+          "party": "",
+          "votes": 10305
+        },
+        {
+          "candidate": "Krasner, Lisa",
+          "party": "",
+          "votes": 10301
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_27__d27",
+      "office": "State Assembly, District 27",
+      "district": "27",
+      "total_votes": 14537,
+      "candidates": [
+        {
+          "candidate": "Benitez-Thompson, Teresa",
+          "party": "",
+          "votes": 7780
+        },
+        {
+          "candidate": "Crouch, Rex",
+          "party": "",
+          "votes": 6757
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_28__d28",
+      "office": "State Assembly, District 28",
+      "district": "28",
+      "total_votes": 3383,
+      "candidates": [
+        {
+          "candidate": "Flores, Edgar R.",
+          "party": "",
+          "votes": 3383
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_29__d29",
+      "office": "State Assembly, District 29",
+      "district": "29",
+      "total_votes": 13645,
+      "candidates": [
+        {
+          "candidate": "Silberkraus, Stephen",
+          "party": "",
+          "votes": 7474
+        },
+        {
+          "candidate": "Cohen, Lesley E.",
+          "party": "",
+          "votes": 6171
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_30__d30",
+      "office": "State Assembly, District 30",
+      "district": "30",
+      "total_votes": 11454,
+      "candidates": [
+        {
+          "candidate": "Sprinkle, Michael",
+          "party": "",
+          "votes": 6173
+        },
+        {
+          "candidate": "Scott, Lauren A",
+          "party": "",
+          "votes": 5281
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_31__d31",
+      "office": "State Assembly, District 31",
+      "district": "31",
+      "total_votes": 17761,
+      "candidates": [
+        {
+          "candidate": "Dickman, Jill",
+          "party": "",
+          "votes": 9820
+        },
+        {
+          "candidate": "Daly, Richard \"Skip\"",
+          "party": "",
+          "votes": 7941
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_32__d32",
+      "office": "State Assembly, District 32",
+      "district": "32",
+      "total_votes": 17988,
+      "candidates": [
+        {
+          "candidate": "Hansen, Ira",
+          "party": "",
+          "votes": 12943
+        },
+        {
+          "candidate": "Sampaga, John Sharp",
+          "party": "",
+          "votes": 4009
+        },
+        {
+          "candidate": "Gabriel, Louis \"Wedge\"",
+          "party": "",
+          "votes": 1036
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_33__d33",
+      "office": "State Assembly, District 33",
+      "district": "33",
+      "total_votes": 13057,
+      "candidates": [
+        {
+          "candidate": "Ellison, John",
+          "party": "",
+          "votes": 13057
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_34__d34",
+      "office": "State Assembly, District 34",
+      "district": "34",
+      "total_votes": 12164,
+      "candidates": [
+        {
+          "candidate": "Seaman, Victoria",
+          "party": "",
+          "votes": 6840
+        },
+        {
+          "candidate": "Smith, Meghan",
+          "party": "",
+          "votes": 5324
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_35__d35",
+      "office": "State Assembly, District 35",
+      "district": "35",
+      "total_votes": 11401,
+      "candidates": [
+        {
+          "candidate": "Jones, Brent A.",
+          "party": "",
+          "votes": 6073
+        },
+        {
+          "candidate": "Healey, James",
+          "party": "",
+          "votes": 5328
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_36__d36",
+      "office": "State Assembly, District 36",
+      "district": "36",
+      "total_votes": 13625,
+      "candidates": [
+        {
+          "candidate": "Oscarson, James",
+          "party": "",
+          "votes": 13625
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_37__d37",
+      "office": "State Assembly, District 37",
+      "district": "37",
+      "total_votes": 17678,
+      "candidates": [
+        {
+          "candidate": "Duncan, Wesley",
+          "party": "",
+          "votes": 10849
+        },
+        {
+          "candidate": "Mackin, Gerald",
+          "party": "",
+          "votes": 6360
+        },
+        {
+          "candidate": "Pombo, Lou",
+          "party": "",
+          "votes": 469
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_38__d38",
+      "office": "State Assembly, District 38",
+      "district": "38",
+      "total_votes": 17034,
+      "candidates": [
+        {
+          "candidate": "TITUS, ROBIN L.",
+          "party": "",
+          "votes": 13440
+        },
+        {
+          "candidate": "FASANO, TIM",
+          "party": "",
+          "votes": 2080
+        },
+        {
+          "candidate": "O'CONNOR, JOHN",
+          "party": "",
+          "votes": 1514
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_39__d39",
+      "office": "State Assembly, District 39",
+      "district": "39",
+      "total_votes": 21969,
+      "candidates": [
+        {
+          "candidate": "Wheeler, Jim",
+          "party": "",
+          "votes": 16923
+        },
+        {
+          "candidate": "GIORDANO, AL",
+          "party": "",
+          "votes": 5046
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_40__d40",
+      "office": "State Assembly, District 40",
+      "district": "40",
+      "total_votes": 19193,
+      "candidates": [
+        {
+          "candidate": "O'Neill, Philip \"PK\"",
+          "party": "",
+          "votes": 11890
+        },
+        {
+          "candidate": "Cook, Dave",
+          "party": "",
+          "votes": 5858
+        },
+        {
+          "candidate": "WAGNER, JOHN",
+          "party": "",
+          "votes": 1445
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_41__d41",
+      "office": "State Assembly, District 41",
+      "district": "41",
+      "total_votes": 10461,
+      "candidates": [
+        {
+          "candidate": "Dooling, Vicki",
+          "party": "",
+          "votes": 5829
+        },
+        {
+          "candidate": "Aizley, Paul",
+          "party": "",
+          "votes": 4632
+        }
+      ]
+    },
+    {
+      "contest_id": "state_assembly_district_42__d42",
+      "office": "State Assembly, District 42",
+      "district": "42",
+      "total_votes": 6932,
+      "candidates": [
+        {
+          "candidate": "Bustamante Adams, Irene",
+          "party": "",
+          "votes": 4417
+        },
+        {
+          "candidate": "Scheff, Howard",
+          "party": "",
+          "votes": 2515
+        }
+      ]
+    },
+    {
+      "contest_id": "state_controller",
+      "office": "State Controller",
+      "district": "",
+      "total_votes": 537760,
+      "candidates": [
+        {
+          "candidate": "Knecht, Ron",
+          "party": "",
+          "votes": 282434
+        },
+        {
+          "candidate": "Martin, Andrew",
+          "party": "",
+          "votes": 202449
+        },
+        {
+          "candidate": "Jones, Tom",
+          "party": "",
+          "votes": 29077
+        },
+        {
+          "candidate": "None Of These Candidates",
+          "party": "",
+          "votes": 23800
+        }
+      ]
+    },
+    {
+      "contest_id": "state_question_no_1",
+      "office": "State Question No. 1",
+      "district": "",
+      "total_votes": 533611,
+      "candidates": [
+        {
+          "candidate": "Yes",
+          "party": "",
+          "votes": 287010
+        },
+        {
+          "candidate": "No",
+          "party": "",
+          "votes": 246601
+        }
+      ]
+    },
+    {
+      "contest_id": "state_question_no_2",
+      "office": "State Question No. 2",
+      "district": "",
+      "total_votes": 534451,
+      "candidates": [
+        {
+          "candidate": "No",
+          "party": "",
+          "votes": 268818
+        },
+        {
+          "candidate": "Yes",
+          "party": "",
+          "votes": 265633
+        }
+      ]
+    },
+    {
+      "contest_id": "state_question_no_3",
+      "office": "State Question No. 3",
+      "district": "",
+      "total_votes": 544812,
+      "candidates": [
+        {
+          "candidate": "No",
+          "party": "",
+          "votes": 428979
+        },
+        {
+          "candidate": "Yes",
+          "party": "",
+          "votes": 115833
+        }
+      ]
+    },
+    {
+      "contest_id": "state_senate_district_10__d10",
+      "office": "State Senate, District 10",
+      "district": "10",
+      "total_votes": 12548,
+      "candidates": [
+        {
+          "candidate": "Kihuen, Ruben",
+          "party": "",
+          "votes": 8140
+        },
+        {
+          "candidate": "Uehling, Ed",
+          "party": "",
+          "votes": 4408
+        }
+      ]
+    },
+    {
+      "contest_id": "state_senate_district_12__d12",
+      "office": "State Senate, District 12",
+      "district": "12",
+      "total_votes": 28612,
+      "candidates": [
+        {
+          "candidate": "Hardy, Joe",
+          "party": "",
+          "votes": 28612
+        }
+      ]
+    },
+    {
+      "contest_id": "state_senate_district_13__d13",
+      "office": "State Senate, District 13",
+      "district": "13",
+      "total_votes": 21338,
+      "candidates": [
+        {
+          "candidate": "Smith, Debbie",
+          "party": "",
+          "votes": 12921
+        },
+        {
+          "candidate": "Koziol, Thomas",
+          "party": "",
+          "votes": 8417
+        }
+      ]
+    },
+    {
+      "contest_id": "state_senate_district_14__d14",
+      "office": "State Senate, District 14",
+      "district": "14",
+      "total_votes": 35609,
+      "candidates": [
+        {
+          "candidate": "Gustavson, Don",
+          "party": "",
+          "votes": 24937
+        },
+        {
+          "candidate": "Hunt, Joe",
+          "party": "",
+          "votes": 10672
+        }
+      ]
+    },
+    {
+      "contest_id": "state_senate_district_16__d16",
+      "office": "State Senate, District 16",
+      "district": "16",
+      "total_votes": 41879,
+      "candidates": [
+        {
+          "candidate": "Kieckhefer, Ben",
+          "party": "",
+          "votes": 27186
+        },
+        {
+          "candidate": "Kelley, Michael",
+          "party": "",
+          "votes": 12009
+        },
+        {
+          "candidate": "Everhart, John H",
+          "party": "",
+          "votes": 2684
+        }
+      ]
+    },
+    {
+      "contest_id": "state_senate_district_17__d17",
+      "office": "State Senate, District 17",
+      "district": "17",
+      "total_votes": 35961,
+      "candidates": [
+        {
+          "candidate": "SETTELMEYER, JAMES A.",
+          "party": "",
+          "votes": 35961
+        }
+      ]
+    },
+    {
+      "contest_id": "state_senate_district_2__d2",
+      "office": "State Senate, District 2",
+      "district": "2",
+      "total_votes": 7426,
+      "candidates": [
+        {
+          "candidate": "Denis, Mo",
+          "party": "",
+          "votes": 5674
+        },
+        {
+          "candidate": "Baker, Louis J.",
+          "party": "",
+          "votes": 1752
+        }
+      ]
+    },
+    {
+      "contest_id": "state_senate_district_20__d20",
+      "office": "State Senate, District 20",
+      "district": "20",
+      "total_votes": 27674,
+      "candidates": [
+        {
+          "candidate": "Roberson, Michael",
+          "party": "",
+          "votes": 16715
+        },
+        {
+          "candidate": "Lowry, Teresa",
+          "party": "",
+          "votes": 10959
+        }
+      ]
+    },
+    {
+      "contest_id": "state_senate_district_21__d21",
+      "office": "State Senate, District 21",
+      "district": "21",
+      "total_votes": 17925,
+      "candidates": [
+        {
+          "candidate": "Manendo, Mark",
+          "party": "",
+          "votes": 9597
+        },
+        {
+          "candidate": "McGinnis, Ron L.",
+          "party": "",
+          "votes": 8328
+        }
+      ]
+    },
+    {
+      "contest_id": "state_senate_district_8__d8",
+      "office": "State Senate, District 8",
+      "district": "8",
+      "total_votes": 28416,
+      "candidates": [
+        {
+          "candidate": "Farley, Patricia",
+          "party": "",
+          "votes": 16205
+        },
+        {
+          "candidate": "Loop, Marilyn Dondero",
+          "party": "",
+          "votes": 11092
+        },
+        {
+          "candidate": "Kamerath, Jon",
+          "party": "",
+          "votes": 1119
+        }
+      ]
+    },
+    {
+      "contest_id": "state_senate_district_9__d9",
+      "office": "State Senate, District 9",
+      "district": "9",
+      "total_votes": 22579,
+      "candidates": [
+        {
+          "candidate": "Harris, Becky",
+          "party": "",
+          "votes": 12468
+        },
+        {
+          "candidate": "Jones, Justin",
+          "party": "",
+          "votes": 10111
+        }
+      ]
+    },
+    {
+      "contest_id": "state_treasurer",
+      "office": "State Treasurer",
+      "district": "",
+      "total_votes": 538797,
+      "candidates": [
+        {
+          "candidate": "Schwartz, Dan",
+          "party": "REP",
+          "votes": 277207
+        },
+        {
+          "candidate": "Wallin, Kim",
+          "party": "",
+          "votes": 223605
+        },
+        {
+          "candidate": "Cave, Kress K",
+          "party": "",
+          "votes": 19329
+        },
+        {
+          "candidate": "None Of These Candidates",
+          "party": "",
+          "votes": 18656
+        }
+      ]
+    },
+    {
+      "contest_id": "sun_valley_gid_vote_for_3",
+      "office": "SUN VALLEY GID - vote for 3",
+      "district": "",
+      "total_votes": 6281,
+      "candidates": [
+        {
+          "candidate": "Ainsworth, Sandra L",
+          "party": "",
+          "votes": 1309
+        },
+        {
+          "candidate": "Severt, Susan",
+          "party": "",
+          "votes": 1152
+        },
+        {
+          "candidate": "Elliott, Garth",
+          "party": "",
+          "votes": 1136
+        },
+        {
+          "candidate": "Rider, Michael",
+          "party": "",
+          "votes": 971
+        },
+        {
+          "candidate": "McCarthy, Dawn",
+          "party": "",
+          "votes": 861
+        },
+        {
+          "candidate": "Maltman, Vicky",
+          "party": "",
+          "votes": 852
+        }
+      ]
+    },
+    {
+      "contest_id": "supervisor_ward_1",
+      "office": "Supervisor, Ward 1",
+      "district": "",
+      "total_votes": 14578,
+      "candidates": [
+        {
+          "candidate": "ABOWD, KAREN",
+          "party": "",
+          "votes": 8068
+        },
+        {
+          "candidate": "HELGET, LISA",
+          "party": "",
+          "votes": 6510
+        }
+      ]
+    },
+    {
+      "contest_id": "supervisor_ward_3",
+      "office": "Supervisor, Ward 3",
+      "district": "",
+      "total_votes": 14411,
+      "candidates": [
+        {
+          "candidate": "BAGWELL, LORI",
+          "party": "",
+          "votes": 7508
+        },
+        {
+          "candidate": "MCKENNA, JOHN",
+          "party": "",
+          "votes": 6903
+        }
+      ]
+    },
+    {
+      "contest_id": "supreme_court_justice_seat_b",
+      "office": "Supreme Court Justice, Seat B",
+      "district": "",
+      "total_votes": 465627,
+      "candidates": [
+        {
+          "candidate": "Pickering, Kristina",
+          "party": "",
+          "votes": 360631
+        },
+        {
+          "candidate": "None Of These Candidates",
+          "party": "",
+          "votes": 104996
+        }
+      ]
+    },
+    {
+      "contest_id": "supreme_court_justice_seat_d",
+      "office": "Supreme Court Justice, Seat D",
+      "district": "",
+      "total_votes": 466827,
+      "candidates": [
+        {
+          "candidate": "Gibbons, Mark",
+          "party": "",
+          "votes": 374280
+        },
+        {
+          "candidate": "None Of These Candidates",
+          "party": "",
+          "votes": 92547
+        }
+      ]
+    },
+    {
+      "contest_id": "tahoe_douglas_fire_protection_district_2_seats__dunknown",
+      "office": "TAHOE - DOUGLAS Fire Protection District - 2 Seats",
+      "district": "-",
+      "total_votes": 2657,
+      "candidates": [
+        {
+          "candidate": "KJER, KEVIN",
+          "party": "",
+          "votes": 1023
+        },
+        {
+          "candidate": "KIRSCHNER, WILLIAM \"BILL\"",
+          "party": "",
+          "votes": 877
+        },
+        {
+          "candidate": "VOGT, DARYA",
+          "party": "",
+          "votes": 757
+        }
+      ]
+    },
+    {
+      "contest_id": "topaz_ranch_estates_g_i_d_3_seats",
+      "office": "TOPAZ RANCH ESTATES G I D - 3 Seats",
+      "district": "",
+      "total_votes": 1059,
+      "candidates": [
+        {
+          "candidate": "BRADSHAW, MARK G.",
+          "party": "",
+          "votes": 248
+        },
+        {
+          "candidate": "FRANCIS, WENDY",
+          "party": "",
+          "votes": 225
+        },
+        {
+          "candidate": "CHAVEZ, OLE",
+          "party": "",
+          "votes": 224
+        },
+        {
+          "candidate": "MILLER, PHILIP",
+          "party": "",
+          "votes": 218
+        },
+        {
+          "candidate": "NIELSEN, STEVEN HASLAM",
+          "party": "",
+          "votes": 144
+        }
+      ]
+    },
+    {
+      "contest_id": "town_of_gardnerville_3_seats",
+      "office": "Town of Gardnerville - 3 Seats",
+      "district": "",
+      "total_votes": 3275,
+      "candidates": [
+        {
+          "candidate": "SLATER, LINDA",
+          "party": "",
+          "votes": 933
+        },
+        {
+          "candidate": "MILLER, KEN",
+          "party": "",
+          "votes": 855
+        },
+        {
+          "candidate": "JONES, CASSANDRA G.",
+          "party": "",
+          "votes": 771
+        },
+        {
+          "candidate": "PHILIPS, ANNETTE",
+          "party": "",
+          "votes": 716
+        }
+      ]
+    },
+    {
+      "contest_id": "treasurer",
+      "office": "Treasurer",
+      "district": "",
+      "total_votes": 97827,
+      "candidates": [
+        {
+          "candidate": "DAVIS, TAMMI",
+          "party": "",
+          "votes": 93864
+        },
+        {
+          "candidate": "RACKLEY, GINA",
+          "party": "",
+          "votes": 3963
+        }
+      ]
+    },
+    {
+      "contest_id": "trustee_clark_county_school_dist_d",
+      "office": "TRUSTEE, CLARK COUNTY SCHOOL DIST. D",
+      "district": "",
+      "total_votes": 18968,
+      "candidates": [
+        {
+          "candidate": "Child, Kevin L.",
+          "party": "",
+          "votes": 9913
+        },
+        {
+          "candidate": "Corbett, Steven \"Stavan\"",
+          "party": "",
+          "votes": 9055
+        }
+      ]
+    },
+    {
+      "contest_id": "trustee_clark_county_school_dist_f",
+      "office": "TRUSTEE, CLARK COUNTY SCHOOL DIST. F",
+      "district": "",
+      "total_votes": 39168,
+      "candidates": [
+        {
+          "candidate": "Edwards, Carolyn",
+          "party": "",
+          "votes": 24821
+        },
+        {
+          "candidate": "Krauss, Ralph",
+          "party": "",
+          "votes": 14347
+        }
+      ]
+    },
+    {
+      "contest_id": "trustee_clark_county_school_dist_g",
+      "office": "TRUSTEE, CLARK COUNTY SCHOOL DIST. G",
+      "district": "",
+      "total_votes": 34653,
+      "candidates": [
+        {
+          "candidate": "Cranor, Erin Earlene",
+          "party": "",
+          "votes": 18218
+        },
+        {
+          "candidate": "Spencer, Joe",
+          "party": "",
+          "votes": 16435
+        }
+      ]
+    },
+    {
+      "contest_id": "trustee_overton_power_dist_4_bunkerville",
+      "office": "TRUSTEE, OVERTON POWER DIST. 4, BUNKERVILLE",
+      "district": "",
+      "total_votes": 289,
+      "candidates": [
+        {
+          "candidate": "Bunker, Robert",
+          "party": "",
+          "votes": 196
+        },
+        {
+          "candidate": "Wilson, Michael F.",
+          "party": "",
+          "votes": 93
+        }
+      ]
+    },
+    {
+      "contest_id": "trustee_overton_power_dist_5_mesquite",
+      "office": "TRUSTEE, OVERTON POWER DIST. 5, MESQUITE",
+      "district": "",
+      "total_votes": 3594,
+      "candidates": [
+        {
+          "candidate": "Young, Mike",
+          "party": "",
+          "votes": 2500
+        },
+        {
+          "candidate": "Pugh, Jim",
+          "party": "",
+          "votes": 1094
+        }
+      ]
+    },
+    {
+      "contest_id": "trustee_overton_power_dist_6_mesquite",
+      "office": "TRUSTEE, OVERTON POWER DIST. 6, MESQUITE",
+      "district": "",
+      "total_votes": 3603,
+      "candidates": [
+        {
+          "candidate": "Waite, Douglas P.",
+          "party": "",
+          "votes": 1852
+        },
+        {
+          "candidate": "Ballweg, David P.",
+          "party": "",
+          "votes": 1751
+        }
+      ]
+    },
+    {
+      "contest_id": "trustee_overton_power_dist_7_at_large",
+      "office": "TRUSTEE, OVERTON POWER DIST. 7, AT LARGE",
+      "district": "",
+      "total_votes": 6241,
+      "candidates": [
+        {
+          "candidate": "Metz, Judy",
+          "party": "",
+          "votes": 2140
+        },
+        {
+          "candidate": "Hurd, Bill",
+          "party": "",
+          "votes": 2093
+        },
+        {
+          "candidate": "Hughes, Shawn Lyle",
+          "party": "",
+          "votes": 1252
+        },
+        {
+          "candidate": "Miller, Steven",
+          "party": "",
+          "votes": 756
+        }
+      ]
+    },
+    {
+      "contest_id": "u_s_house",
+      "office": "U.S. House",
+      "district": "",
+      "total_votes": 542574,
+      "candidates": [
+        {
+          "candidate": "Amodei, Mark E.",
+          "party": "",
+          "votes": 122233
+        },
+        {
+          "candidate": "Heck, Joe",
+          "party": "",
+          "votes": 88493
+        },
+        {
+          "candidate": "Hardy, Cresent",
+          "party": "",
+          "votes": 63394
+        },
+        {
+          "candidate": "Horsford, Steven A.",
+          "party": "",
+          "votes": 59803
+        },
+        {
+          "candidate": "Bilbray, Erin",
+          "party": "",
+          "votes": 52624
+        },
+        {
+          "candidate": "Spees, Kristen",
+          "party": "",
+          "votes": 51945
+        },
+        {
+          "candidate": "Titus, Dina",
+          "party": "",
+          "votes": 45641
+        },
+        {
+          "candidate": "Teijeiro, Annette",
+          "party": "",
+          "votes": 30413
+        },
+        {
+          "candidate": "JANINE HANSEN",
+          "party": "",
+          "votes": 11775
+        },
+        {
+          "candidate": "Brown, Steve",
+          "party": "",
+          "votes": 4116
+        },
+        {
+          "candidate": "Best, Russell",
+          "party": "",
+          "votes": 3350
+        },
+        {
+          "candidate": "Charles, Richard \"Ricardo Carlos\"",
+          "party": "",
+          "votes": 2617
+        },
+        {
+          "candidate": "Goossen, David",
+          "party": "",
+          "votes": 1636
+        },
+        {
+          "candidate": "Bakari, Kamau",
+          "party": "",
+          "votes": 1626
+        },
+        {
+          "candidate": "Kimmick, Randy",
+          "party": "",
+          "votes": 1565
+        },
+        {
+          "candidate": "St. John, Steven",
+          "party": "",
+          "votes": 1343
+        }
+      ]
+    },
+    {
+      "contest_id": "university_board_of_regents_district_2__d2",
+      "office": "University Board of Regents, District  2",
+      "district": "2",
+      "total_votes": 27607,
+      "candidates": [
+        {
+          "candidate": "Hayes, Trevor",
+          "party": "",
+          "votes": 14591
+        },
+        {
+          "candidate": "Blakely, Robert J.",
+          "party": "",
+          "votes": 13016
+        }
+      ]
+    },
+    {
+      "contest_id": "university_board_of_regents_district_3__d3",
+      "office": "University Board of Regents, District  3",
+      "district": "3",
+      "total_votes": 27671,
+      "candidates": [
+        {
+          "candidate": "Page, Kevin J.",
+          "party": "",
+          "votes": 16425
+        },
+        {
+          "candidate": "Hurst, Tom",
+          "party": "",
+          "votes": 11246
+        }
+      ]
+    },
+    {
+      "contest_id": "university_board_of_regents_district_5__d5",
+      "office": "University Board of Regents, District  5",
+      "district": "5",
+      "total_votes": 12782,
+      "candidates": [
+        {
+          "candidate": "Lieberman, Sam",
+          "party": "",
+          "votes": 8026
+        },
+        {
+          "candidate": "Spirtos, Nick M.",
+          "party": "",
+          "votes": 4756
+        }
+      ]
+    },
+    {
+      "contest_id": "wells_council_seat",
+      "office": "WELLS Council Seat",
+      "district": "",
+      "total_votes": 303,
+      "candidates": [
+        {
+          "candidate": "STUART, YVONNE",
+          "party": "",
+          "votes": 92
+        },
+        {
+          "candidate": "FULLER, CINDY",
+          "party": "",
+          "votes": 83
+        },
+        {
+          "candidate": "BRODSHO, RICK",
+          "party": "",
+          "votes": 77
+        },
+        {
+          "candidate": "BANKS, ALAN",
+          "party": "",
+          "votes": 51
+        }
+      ]
+    },
+    {
+      "contest_id": "west_wendover_council_seat_4",
+      "office": "WEST WENDOVER Council Seat 4",
+      "district": "",
+      "total_votes": 395,
+      "candidates": [
+        {
+          "candidate": "ANDERSON, GERALD \"JERRY\"",
+          "party": "",
+          "votes": 199
+        },
+        {
+          "candidate": "HANSEN, PETER \"PETE\"",
+          "party": "",
+          "votes": 101
+        },
+        {
+          "candidate": "ANDERSEN, KRIS",
+          "party": "",
+          "votes": 95
+        }
+      ]
+    },
+    {
+      "contest_id": "west_wendover_council_seats_1_2_5",
+      "office": "WEST WENDOVER Council Seats 1, 2, 5",
+      "district": "",
+      "total_votes": 1170,
+      "candidates": [
+        {
+          "candidate": "HANSON, JOHN B.",
+          "party": "",
+          "votes": 152
+        },
+        {
+          "candidate": "GUTIERREZ, ISMAEL \"IZZY\"",
+          "party": "",
+          "votes": 147
+        },
+        {
+          "candidate": "HOLM, JASIE",
+          "party": "",
+          "votes": 132
+        },
+        {
+          "candidate": "ANDERSEN, DONALD \"DONNIE\"",
+          "party": "",
+          "votes": 123
+        },
+        {
+          "candidate": "GORUM, JUAN \"JOHNNY\"",
+          "party": "",
+          "votes": 94
+        },
+        {
+          "candidate": "FLORES, NICOLAS \"NICK\"",
+          "party": "",
+          "votes": 91
+        },
+        {
+          "candidate": "TRUJILLO, ROBERTO \"ROBERT\"",
+          "party": "",
+          "votes": 87
+        },
+        {
+          "candidate": "SNYDER, CASEY",
+          "party": "",
+          "votes": 74
+        },
+        {
+          "candidate": "WISKERCHEN, DAVID",
+          "party": "",
+          "votes": 70
+        },
+        {
+          "candidate": "MIERA, MICHAEL \"MIKE\"",
+          "party": "",
+          "votes": 66
+        },
+        {
+          "candidate": "DURHAM, JEFF",
+          "party": "",
+          "votes": 62
+        },
+        {
+          "candidate": "SERAFINI, DAVID",
+          "party": "",
+          "votes": 55
+        },
+        {
+          "candidate": "CHAVEZ, MATTHEW",
+          "party": "",
+          "votes": 17
+        }
+      ]
+    },
+    {
+      "contest_id": "west_wendover_rec_seat_2",
+      "office": "WEST WENDOVER REC SEAT 2",
+      "district": "",
+      "total_votes": 389,
+      "candidates": [
+        {
+          "candidate": "CORONA, GARY",
+          "party": "",
+          "votes": 215
+        },
+        {
+          "candidate": "ISAACS, STEVEN",
+          "party": "",
+          "votes": 174
+        }
+      ]
+    },
+    {
+      "contest_id": "west_wendover_rec_seat_3",
+      "office": "WEST WENDOVER REC SEAT 3",
+      "district": "",
+      "total_votes": 390,
+      "candidates": [
+        {
+          "candidate": "LONCAR, ROBERT P.",
+          "party": "",
+          "votes": 235
+        },
+        {
+          "candidate": "CROZIER, ARONN",
+          "party": "",
+          "votes": 155
+        }
+      ]
+    },
+    {
+      "contest_id": "white_pine_hospital_dst_trustee_district_2__d2",
+      "office": "WHITE PINE Hospital Dst, Trustee District 2",
+      "district": "2",
+      "total_votes": 2625,
+      "candidates": [
+        {
+          "candidate": "HILTON, BURTON",
+          "party": "",
+          "votes": 1817
+        },
+        {
+          "candidate": "O\"DELL-FLANNERY, VALERIE",
+          "party": "",
+          "votes": 808
+        }
+      ]
+    },
+    {
+      "contest_id": "white_pine_hospital_dst_trustee_district_4__d4",
+      "office": "WHITE PINE Hospital Dst, Trustee District 4",
+      "district": "4",
+      "total_votes": 2515,
+      "candidates": [
+        {
+          "candidate": "ROWLEY, RICHARD F.",
+          "party": "",
+          "votes": 1377
+        },
+        {
+          "candidate": "PATRAS, GLADINE",
+          "party": "",
+          "votes": 1138
+        }
+      ]
+    }
+  ]
+}

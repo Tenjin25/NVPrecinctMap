@@ -1,0 +1,86 @@
+{
+  "year": 2012,
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "office": "TREASURER",
+    "nongeo_allocation_mode": "none",
+    "dem_total": 0,
+    "rep_total": 0,
+    "other_total": 2062,
+    "total_votes": 2062,
+    "major_party_contested": false
+  },
+  "rows": [
+    {
+      "year": 2012,
+      "county": "Lincoln - 1 - ALAMO",
+      "dem_votes": 0,
+      "rep_votes": 0,
+      "other_votes": 528,
+      "total_votes": 528,
+      "dem_candidate": "",
+      "rep_candidate": "",
+      "margin": 0,
+      "margin_pct": 0.0,
+      "winner": "TIE",
+      "color": "#f7f7f7"
+    },
+    {
+      "year": 2012,
+      "county": "Lincoln - 2 - CALIENTE",
+      "dem_votes": 0,
+      "rep_votes": 0,
+      "other_votes": 541,
+      "total_votes": 541,
+      "dem_candidate": "",
+      "rep_candidate": "",
+      "margin": 0,
+      "margin_pct": 0.0,
+      "winner": "TIE",
+      "color": "#f7f7f7"
+    },
+    {
+      "year": 2012,
+      "county": "Lincoln - 3 - PANACA",
+      "dem_votes": 0,
+      "rep_votes": 0,
+      "other_votes": 442,
+      "total_votes": 442,
+      "dem_candidate": "",
+      "rep_candidate": "",
+      "margin": 0,
+      "margin_pct": 0.0,
+      "winner": "TIE",
+      "color": "#f7f7f7"
+    },
+    {
+      "year": 2012,
+      "county": "Lincoln - 4 - PIOCHE",
+      "dem_votes": 0,
+      "rep_votes": 0,
+      "other_votes": 519,
+      "total_votes": 519,
+      "dem_candidate": "",
+      "rep_candidate": "",
+      "margin": 0,
+      "margin_pct": 0.0,
+      "winner": "TIE",
+      "color": "#f7f7f7"
+    },
+    {
+      "year": 2012,
+      "county": "Lincoln - 5 - RACHEL",
+      "dem_votes": 0,
+      "rep_votes": 0,
+      "other_votes": 32,
+      "total_votes": 32,
+      "dem_candidate": "",
+      "rep_candidate": "",
+      "margin": 0,
+      "margin_pct": 0.0,
+      "winner": "TIE",
+      "color": "#f7f7f7"
+    }
+  ]
+}

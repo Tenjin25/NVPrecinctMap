@@ -1,0 +1,73 @@
+{
+  "year": 2024,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "nv_openelections_precinct+house_component_inference",
+    "office": "US SENATE",
+    "nongeo_allocation_mode": "precinct_component",
+    "match_coverage_pct": 100.0,
+    "matched_precinct_keys": 1636,
+    "total_precinct_keys": 1636
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 166581,
+        "rep_votes": 143414,
+        "other_votes": 20049,
+        "total_votes": 330044,
+        "dem_candidate": "ROSEN, JACKY S.",
+        "rep_candidate": "BROWN, SAM",
+        "margin": -23167,
+        "margin_pct": -7.02,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "2": {
+        "dem_votes": 177644,
+        "rep_votes": 215355,
+        "other_votes": 25105,
+        "total_votes": 418104,
+        "dem_candidate": "ROSEN, JACKY S.",
+        "rep_candidate": "BROWN, SAM",
+        "margin": 37711,
+        "margin_pct": 9.02,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fdbb84"
+        }
+      },
+      "3": {
+        "dem_votes": 187010,
+        "rep_votes": 171782,
+        "other_votes": 19552,
+        "total_votes": 378344,
+        "dem_candidate": "ROSEN, JACKY S.",
+        "rep_candidate": "BROWN, SAM",
+        "margin": -15228,
+        "margin_pct": -4.02,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#9ecae1"
+        }
+      },
+      "4": {
+        "dem_votes": 169730,
+        "rep_votes": 146270,
+        "other_votes": 21848,
+        "total_votes": 337848,
+        "dem_candidate": "ROSEN, JACKY S.",
+        "rep_candidate": "BROWN, SAM",
+        "margin": -23460,
+        "margin_pct": -6.94,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      }
+    }
+  }
+}

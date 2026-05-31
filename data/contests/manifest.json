@@ -1,0 +1,262 @@
+{
+  "files": [
+    {
+      "year": 2004,
+      "contest_type": "president",
+      "file": "president_2004.json",
+      "rows": 1828
+    },
+    {
+      "year": 2004,
+      "contest_type": "us_senate",
+      "file": "us_senate_2004.json",
+      "rows": 1811
+    },
+    {
+      "year": 2006,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2006.json",
+      "rows": 1897
+    },
+    {
+      "year": 2006,
+      "contest_type": "controller",
+      "file": "controller_2006.json",
+      "rows": 1897
+    },
+    {
+      "year": 2006,
+      "contest_type": "governor",
+      "file": "governor_2006.json",
+      "rows": 1897
+    },
+    {
+      "year": 2006,
+      "contest_type": "lieutenant_governor",
+      "file": "lieutenant_governor_2006.json",
+      "rows": 1897
+    },
+    {
+      "year": 2006,
+      "contest_type": "treasurer",
+      "file": "treasurer_2006.json",
+      "rows": 1897
+    },
+    {
+      "year": 2006,
+      "contest_type": "us_senate",
+      "file": "us_senate_2006.json",
+      "rows": 1917
+    },
+    {
+      "year": 2008,
+      "contest_type": "president",
+      "file": "president_2008.json",
+      "rows": 2052
+    },
+    {
+      "year": 2008,
+      "contest_type": "treasurer",
+      "file": "treasurer_2008.json",
+      "rows": 14
+    },
+    {
+      "year": 2010,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2010.json",
+      "rows": 2120
+    },
+    {
+      "year": 2010,
+      "contest_type": "controller",
+      "file": "controller_2010.json",
+      "rows": 2120
+    },
+    {
+      "year": 2010,
+      "contest_type": "governor",
+      "file": "governor_2010.json",
+      "rows": 2120
+    },
+    {
+      "year": 2010,
+      "contest_type": "lieutenant_governor",
+      "file": "lieutenant_governor_2010.json",
+      "rows": 2120
+    },
+    {
+      "year": 2010,
+      "contest_type": "treasurer",
+      "file": "treasurer_2010.json",
+      "rows": 2120
+    },
+    {
+      "year": 2010,
+      "contest_type": "us_senate",
+      "file": "us_senate_2010.json",
+      "rows": 2143
+    },
+    {
+      "year": 2012,
+      "contest_type": "president",
+      "file": "president_2012.json",
+      "rows": 2023
+    },
+    {
+      "year": 2012,
+      "contest_type": "treasurer",
+      "file": "treasurer_2012.json",
+      "rows": 5
+    },
+    {
+      "year": 2012,
+      "contest_type": "us_senate",
+      "file": "us_senate_2012.json",
+      "rows": 2006
+    },
+    {
+      "year": 2014,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2014.json",
+      "rows": 2018
+    },
+    {
+      "year": 2014,
+      "contest_type": "controller",
+      "file": "controller_2014.json",
+      "rows": 2018
+    },
+    {
+      "year": 2014,
+      "contest_type": "governor",
+      "file": "governor_2014.json",
+      "rows": 2018
+    },
+    {
+      "year": 2014,
+      "contest_type": "lieutenant_governor",
+      "file": "lieutenant_governor_2014.json",
+      "rows": 2018
+    },
+    {
+      "year": 2014,
+      "contest_type": "treasurer",
+      "file": "treasurer_2014.json",
+      "rows": 2018
+    },
+    {
+      "year": 2016,
+      "contest_type": "president",
+      "file": "president_2016.json",
+      "rows": 2002
+    },
+    {
+      "year": 2016,
+      "contest_type": "treasurer",
+      "file": "treasurer_2016.json",
+      "rows": 53
+    },
+    {
+      "year": 2016,
+      "contest_type": "us_senate",
+      "file": "us_senate_2016.json",
+      "rows": 1984
+    },
+    {
+      "year": 2020,
+      "contest_type": "president",
+      "file": "president_2020.json",
+      "rows": 2012
+    },
+    {
+      "year": 2020,
+      "contest_type": "treasurer",
+      "file": "treasurer_2020.json",
+      "rows": 37
+    },
+    {
+      "year": 2022,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2022.json",
+      "rows": 1689
+    },
+    {
+      "year": 2022,
+      "contest_type": "controller",
+      "file": "controller_2022.json",
+      "rows": 1689
+    },
+    {
+      "year": 2022,
+      "contest_type": "governor",
+      "file": "governor_2022.json",
+      "rows": 1689
+    },
+    {
+      "year": 2022,
+      "contest_type": "lieutenant_governor",
+      "file": "lieutenant_governor_2022.json",
+      "rows": 1689
+    },
+    {
+      "year": 2022,
+      "contest_type": "state_assembly",
+      "file": "state_assembly_2022.json",
+      "rows": 1687
+    },
+    {
+      "year": 2022,
+      "contest_type": "state_senate",
+      "file": "state_senate_2022.json",
+      "rows": 903
+    },
+    {
+      "year": 2022,
+      "contest_type": "treasurer",
+      "file": "treasurer_2022.json",
+      "rows": 1689
+    },
+    {
+      "year": 2022,
+      "contest_type": "us_house",
+      "file": "us_house_2022.json",
+      "rows": 1689
+    },
+    {
+      "year": 2022,
+      "contest_type": "us_senate",
+      "file": "us_senate_2022.json",
+      "rows": 1691
+    },
+    {
+      "year": 2024,
+      "contest_type": "president",
+      "file": "president_2024.json",
+      "rows": 1671
+    },
+    {
+      "year": 2024,
+      "contest_type": "state_assembly",
+      "file": "state_assembly_2024.json",
+      "rows": 1637
+    },
+    {
+      "year": 2024,
+      "contest_type": "state_senate",
+      "file": "state_senate_2024.json",
+      "rows": 767
+    },
+    {
+      "year": 2024,
+      "contest_type": "us_house",
+      "file": "us_house_2024.json",
+      "rows": 1636
+    },
+    {
+      "year": 2024,
+      "contest_type": "us_senate",
+      "file": "us_senate_2024.json",
+      "rows": 1640
+    }
+  ]
+}

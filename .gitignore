@@ -1,0 +1,8 @@
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Large tabblock source geometry archives and extracted shapefiles
+/data/tl_*_tabblock*.zip
+/data/census/tl_*_tabblock*/

@@ -1,0 +1,110 @@
+{
+  "state": "NV",
+  "year": "2022",
+  "election_date": "20221108",
+  "election_type": "general",
+  "contest_count": 2,
+  "contests": [
+    {
+      "contest_id": "u_s_house",
+      "office": "U.S. House",
+      "district": "",
+      "total_votes": 1009145,
+      "candidates": [
+        {
+          "candidate": "Amodei, Mark E.",
+          "party": "",
+          "votes": 185355
+        },
+        {
+          "candidate": "Lee, Susie",
+          "party": "",
+          "votes": 131078
+        },
+        {
+          "candidate": "Becker, April",
+          "party": "",
+          "votes": 121057
+        },
+        {
+          "candidate": "Krause, Elizabeth Mercedes",
+          "party": "",
+          "votes": 117327
+        },
+        {
+          "candidate": "Horsford, Steven A.",
+          "party": "",
+          "votes": 116563
+        },
+        {
+          "candidate": "Titus, Dina",
+          "party": "",
+          "votes": 115689
+        },
+        {
+          "candidate": "Peters, Sam",
+          "party": "",
+          "votes": 105790
+        },
+        {
+          "candidate": "Robertson, Mark",
+          "party": "",
+          "votes": 103099
+        },
+        {
+          "candidate": "Cavanaugh, Ken",
+          "party": "",
+          "votes": 5533
+        },
+        {
+          "candidate": "Best, Russell",
+          "party": "",
+          "votes": 4192
+        },
+        {
+          "candidate": "Baber, Darryl",
+          "party": "",
+          "votes": 3462
+        }
+      ]
+    },
+    {
+      "contest_id": "u_s_senate",
+      "office": "U.S. Senate",
+      "district": "",
+      "total_votes": 1020481,
+      "candidates": [
+        {
+          "candidate": "Cortez Masto, Catherine",
+          "party": "DEM",
+          "votes": 498188
+        },
+        {
+          "candidate": "Laxalt, Adam Paul",
+          "party": "REP",
+          "votes": 490159
+        },
+        {
+          "candidate": "None Of These Candidates",
+          "party": "",
+          "votes": 12439
+        },
+        {
+          "candidate": "Lindemann, Barry",
+          "party": "",
+          "votes": 8071
+        },
+        {
+          "candidate": "Scott, Neil",
+          "party": "",
+          "votes": 6418
+        },
+        {
+          "candidate": "RUBINSON, BARRY",
+          "party": "",
+          "votes": 5206
+        }
+      ]
+    }
+  ]
+}
