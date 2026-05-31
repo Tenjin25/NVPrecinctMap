@@ -275,10 +275,10 @@
           }
         },
         "meta": {
-          "match_rows": 3960,
-          "backfilled_rows": 3738,
+          "match_rows": 3970,
+          "backfilled_rows": 3728,
           "total_rows": 9585,
-          "match_coverage_pct": 41.31,
+          "match_coverage_pct": 41.42,
           "allocated_coverage_pct": 80.31,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
@@ -345,10 +345,10 @@
           }
         },
         "meta": {
-          "match_rows": 3955,
-          "backfilled_rows": 3928,
+          "match_rows": 3965,
+          "backfilled_rows": 3918,
           "total_rows": 9485,
-          "match_coverage_pct": 41.7,
+          "match_coverage_pct": 41.8,
           "allocated_coverage_pct": 83.11,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
@@ -415,10 +415,10 @@
           }
         },
         "meta": {
-          "match_rows": 3164,
-          "backfilled_rows": 3248,
+          "match_rows": 3172,
+          "backfilled_rows": 3240,
           "total_rows": 7588,
-          "match_coverage_pct": 41.7,
+          "match_coverage_pct": 41.8,
           "allocated_coverage_pct": 84.5,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
@@ -485,10 +485,10 @@
           }
         },
         "meta": {
-          "match_rows": 2373,
-          "backfilled_rows": 2484,
+          "match_rows": 2379,
+          "backfilled_rows": 2478,
           "total_rows": 5691,
-          "match_coverage_pct": 41.7,
+          "match_coverage_pct": 41.8,
           "allocated_coverage_pct": 85.35,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
@@ -555,10 +555,10 @@
           }
         },
         "meta": {
-          "match_rows": 4581,
-          "backfilled_rows": 4935,
+          "match_rows": 4593,
+          "backfilled_rows": 4923,
           "total_rows": 11209,
-          "match_coverage_pct": 40.87,
+          "match_coverage_pct": 40.98,
           "allocated_coverage_pct": 84.9,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
@@ -625,10 +625,10 @@
           }
         },
         "meta": {
-          "match_rows": 3164,
-          "backfilled_rows": 3284,
+          "match_rows": 3172,
+          "backfilled_rows": 3276,
           "total_rows": 7588,
-          "match_coverage_pct": 41.7,
+          "match_coverage_pct": 41.8,
           "allocated_coverage_pct": 84.98,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
@@ -695,10 +695,10 @@
           }
         },
         "meta": {
-          "match_rows": 3168,
-          "backfilled_rows": 3161,
+          "match_rows": 3176,
+          "backfilled_rows": 3153,
           "total_rows": 7664,
-          "match_coverage_pct": 41.34,
+          "match_coverage_pct": 41.44,
           "allocated_coverage_pct": 82.58,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
@@ -767,11 +767,11 @@
           }
         },
         "meta": {
-          "match_rows": 6573,
-          "backfilled_rows": 4451,
+          "match_rows": 6769,
+          "backfilled_rows": 4432,
           "total_rows": 14364,
-          "match_coverage_pct": 45.76,
-          "allocated_coverage_pct": 76.75,
+          "match_coverage_pct": 47.12,
+          "allocated_coverage_pct": 77.98,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -865,11 +865,11 @@
           }
         },
         "meta": {
-          "match_rows": 4779,
-          "backfilled_rows": 3903,
+          "match_rows": 4919,
+          "backfilled_rows": 3877,
           "total_rows": 10272,
-          "match_coverage_pct": 46.52,
-          "allocated_coverage_pct": 84.52,
+          "match_coverage_pct": 47.89,
+          "allocated_coverage_pct": 85.63,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       }
@@ -937,11 +937,11 @@
           }
         },
         "meta": {
-          "match_rows": 8640,
-          "backfilled_rows": 5524,
+          "match_rows": 8919,
+          "backfilled_rows": 5497,
           "total_rows": 19287,
-          "match_coverage_pct": 44.8,
-          "allocated_coverage_pct": 73.44,
+          "match_coverage_pct": 46.24,
+          "allocated_coverage_pct": 74.74,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -1007,11 +1007,11 @@
           }
         },
         "meta": {
-          "match_rows": 7680,
-          "backfilled_rows": 5328,
+          "match_rows": 7928,
+          "backfilled_rows": 5305,
           "total_rows": 16960,
-          "match_coverage_pct": 45.28,
-          "allocated_coverage_pct": 76.7,
+          "match_coverage_pct": 46.75,
+          "allocated_coverage_pct": 78.02,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -1077,11 +1077,11 @@
           }
         },
         "meta": {
-          "match_rows": 3840,
-          "backfilled_rows": 3118,
+          "match_rows": 3964,
+          "backfilled_rows": 3099,
           "total_rows": 8480,
-          "match_coverage_pct": 45.28,
-          "allocated_coverage_pct": 82.05,
+          "match_coverage_pct": 46.75,
+          "allocated_coverage_pct": 83.29,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -1147,11 +1147,11 @@
           }
         },
         "meta": {
-          "match_rows": 3840,
-          "backfilled_rows": 3149,
+          "match_rows": 3964,
+          "backfilled_rows": 3132,
           "total_rows": 8480,
-          "match_coverage_pct": 45.28,
-          "allocated_coverage_pct": 82.42,
+          "match_coverage_pct": 46.75,
+          "allocated_coverage_pct": 83.68,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -1217,11 +1217,11 @@
           }
         },
         "meta": {
-          "match_rows": 5621,
-          "backfilled_rows": 4731,
+          "match_rows": 5807,
+          "backfilled_rows": 4703,
           "total_rows": 12577,
-          "match_coverage_pct": 44.69,
-          "allocated_coverage_pct": 82.31,
+          "match_coverage_pct": 46.17,
+          "allocated_coverage_pct": 83.57,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -1287,11 +1287,11 @@
           }
         },
         "meta": {
-          "match_rows": 3840,
-          "backfilled_rows": 3153,
+          "match_rows": 3964,
+          "backfilled_rows": 3134,
           "total_rows": 8480,
-          "match_coverage_pct": 45.28,
-          "allocated_coverage_pct": 82.46,
+          "match_coverage_pct": 46.75,
+          "allocated_coverage_pct": 83.7,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -1357,11 +1357,11 @@
           }
         },
         "meta": {
-          "match_rows": 3382,
-          "backfilled_rows": 3275,
+          "match_rows": 3475,
+          "backfilled_rows": 3261,
           "total_rows": 8130,
-          "match_coverage_pct": 41.6,
-          "allocated_coverage_pct": 81.88,
+          "match_coverage_pct": 42.74,
+          "allocated_coverage_pct": 82.85,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       }
@@ -1429,11 +1429,11 @@
           }
         },
         "meta": {
-          "match_rows": 6645,
-          "backfilled_rows": 1708,
+          "match_rows": 9305,
+          "backfilled_rows": 112,
           "total_rows": 10115,
-          "match_coverage_pct": 65.69,
-          "allocated_coverage_pct": 82.58,
+          "match_coverage_pct": 91.99,
+          "allocated_coverage_pct": 93.1,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -1499,11 +1499,11 @@
           }
         },
         "meta": {
-          "match_rows": 5316,
-          "backfilled_rows": 1584,
+          "match_rows": 7444,
+          "backfilled_rows": 117,
           "total_rows": 8024,
-          "match_coverage_pct": 66.25,
-          "allocated_coverage_pct": 85.99,
+          "match_coverage_pct": 92.77,
+          "allocated_coverage_pct": 94.23,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -1611,11 +1611,11 @@
           }
         },
         "meta": {
-          "match_rows": 5316,
-          "backfilled_rows": 1545,
+          "match_rows": 7444,
+          "backfilled_rows": 116,
           "total_rows": 8024,
-          "match_coverage_pct": 66.25,
-          "allocated_coverage_pct": 85.51,
+          "match_coverage_pct": 92.77,
+          "allocated_coverage_pct": 94.22,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       }
@@ -2359,11 +2359,11 @@
           }
         },
         "meta": {
-          "match_rows": 8757,
-          "backfilled_rows": 2343,
+          "match_rows": 12075,
+          "backfilled_rows": 250,
           "total_rows": 12501,
-          "match_coverage_pct": 70.05,
-          "allocated_coverage_pct": 88.79,
+          "match_coverage_pct": 96.59,
+          "allocated_coverage_pct": 98.59,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -2429,11 +2429,11 @@
           }
         },
         "meta": {
-          "match_rows": 8758,
-          "backfilled_rows": 2368,
+          "match_rows": 12076,
+          "backfilled_rows": 226,
           "total_rows": 12370,
-          "match_coverage_pct": 70.8,
-          "allocated_coverage_pct": 89.94,
+          "match_coverage_pct": 97.62,
+          "allocated_coverage_pct": 99.45,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -2499,11 +2499,11 @@
           }
         },
         "meta": {
-          "match_rows": 7299,
-          "backfilled_rows": 2038,
+          "match_rows": 10064,
+          "backfilled_rows": 198,
           "total_rows": 10309,
-          "match_coverage_pct": 70.8,
-          "allocated_coverage_pct": 90.57,
+          "match_coverage_pct": 97.62,
+          "allocated_coverage_pct": 99.54,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -2569,11 +2569,11 @@
           }
         },
         "meta": {
-          "match_rows": 5840,
-          "backfilled_rows": 1707,
+          "match_rows": 8052,
+          "backfilled_rows": 163,
           "total_rows": 8248,
-          "match_coverage_pct": 70.81,
-          "allocated_coverage_pct": 91.5,
+          "match_coverage_pct": 97.62,
+          "allocated_coverage_pct": 99.6,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -2639,11 +2639,11 @@
           }
         },
         "meta": {
-          "match_rows": 8450,
-          "backfilled_rows": 2578,
+          "match_rows": 11768,
+          "backfilled_rows": 208,
           "total_rows": 12018,
-          "match_coverage_pct": 70.31,
-          "allocated_coverage_pct": 91.76,
+          "match_coverage_pct": 97.92,
+          "allocated_coverage_pct": 99.65,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -2709,11 +2709,11 @@
           }
         },
         "meta": {
-          "match_rows": 4380,
-          "backfilled_rows": 1318,
+          "match_rows": 6039,
+          "backfilled_rows": 128,
           "total_rows": 6186,
-          "match_coverage_pct": 70.81,
-          "allocated_coverage_pct": 92.11,
+          "match_coverage_pct": 97.62,
+          "allocated_coverage_pct": 99.69,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -2779,11 +2779,11 @@
           }
         },
         "meta": {
-          "match_rows": 7514,
-          "backfilled_rows": 976,
+          "match_rows": 8620,
+          "backfilled_rows": 146,
           "total_rows": 8846,
-          "match_coverage_pct": 84.94,
-          "allocated_coverage_pct": 95.98,
+          "match_coverage_pct": 97.45,
+          "allocated_coverage_pct": 99.1,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       }
@@ -2851,11 +2851,11 @@
           }
         },
         "meta": {
-          "match_rows": 9095,
+          "match_rows": 9305,
           "backfilled_rows": 0,
           "total_rows": 10060,
-          "match_coverage_pct": 90.41,
-          "allocated_coverage_pct": 90.41,
+          "match_coverage_pct": 92.5,
+          "allocated_coverage_pct": 92.5,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -2977,11 +2977,11 @@
           }
         },
         "meta": {
-          "match_rows": 6676,
+          "match_rows": 6802,
           "backfilled_rows": 0,
           "total_rows": 7200,
-          "match_coverage_pct": 92.72,
-          "allocated_coverage_pct": 92.72,
+          "match_coverage_pct": 94.47,
+          "allocated_coverage_pct": 94.47,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       }
@@ -3049,11 +3049,11 @@
           }
         },
         "meta": {
-          "match_rows": 8574,
+          "match_rows": 9300,
           "backfilled_rows": 0,
           "total_rows": 10146,
-          "match_coverage_pct": 84.51,
-          "allocated_coverage_pct": 84.51,
+          "match_coverage_pct": 91.66,
+          "allocated_coverage_pct": 91.66,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -3119,11 +3119,11 @@
           }
         },
         "meta": {
-          "match_rows": 7140,
+          "match_rows": 7745,
           "backfilled_rows": 0,
           "total_rows": 8445,
-          "match_coverage_pct": 84.55,
-          "allocated_coverage_pct": 84.55,
+          "match_coverage_pct": 91.71,
+          "allocated_coverage_pct": 91.71,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -3189,11 +3189,11 @@
           }
         },
         "meta": {
-          "match_rows": 8568,
+          "match_rows": 9294,
           "backfilled_rows": 0,
           "total_rows": 10134,
-          "match_coverage_pct": 84.55,
-          "allocated_coverage_pct": 84.55,
+          "match_coverage_pct": 91.71,
+          "allocated_coverage_pct": 91.71,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -3259,11 +3259,11 @@
           }
         },
         "meta": {
-          "match_rows": 4284,
+          "match_rows": 4647,
           "backfilled_rows": 0,
           "total_rows": 5067,
-          "match_coverage_pct": 84.55,
-          "allocated_coverage_pct": 84.55,
+          "match_coverage_pct": 91.71,
+          "allocated_coverage_pct": 91.71,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -3329,11 +3329,11 @@
           }
         },
         "meta": {
-          "match_rows": 9420,
+          "match_rows": 10146,
           "backfilled_rows": 0,
           "total_rows": 11064,
-          "match_coverage_pct": 85.14,
-          "allocated_coverage_pct": 85.14,
+          "match_coverage_pct": 91.7,
+          "allocated_coverage_pct": 91.7,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -3399,11 +3399,11 @@
           }
         },
         "meta": {
-          "match_rows": 5712,
+          "match_rows": 6196,
           "backfilled_rows": 0,
           "total_rows": 6756,
-          "match_coverage_pct": 84.55,
-          "allocated_coverage_pct": 84.55,
+          "match_coverage_pct": 91.71,
+          "allocated_coverage_pct": 91.71,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -3469,11 +3469,11 @@
           }
         },
         "meta": {
-          "match_rows": 4191,
+          "match_rows": 4675,
           "backfilled_rows": 0,
           "total_rows": 5115,
-          "match_coverage_pct": 81.94,
-          "allocated_coverage_pct": 81.94,
+          "match_coverage_pct": 91.4,
+          "allocated_coverage_pct": 91.4,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       }
@@ -3541,11 +3541,11 @@
           }
         },
         "meta": {
-          "match_rows": 6890,
+          "match_rows": 7480,
           "backfilled_rows": 0,
           "total_rows": 8355,
-          "match_coverage_pct": 82.47,
-          "allocated_coverage_pct": 82.47,
+          "match_coverage_pct": 89.53,
+          "allocated_coverage_pct": 89.53,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -3611,11 +3611,11 @@
           }
         },
         "meta": {
-          "match_rows": 6885,
+          "match_rows": 7475,
           "backfilled_rows": 0,
           "total_rows": 8200,
-          "match_coverage_pct": 83.96,
-          "allocated_coverage_pct": 83.96,
+          "match_coverage_pct": 91.16,
+          "allocated_coverage_pct": 91.16,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       },
@@ -3681,11 +3681,11 @@
           }
         },
         "meta": {
-          "match_rows": 5496,
+          "match_rows": 5968,
           "backfilled_rows": 0,
           "total_rows": 6608,
-          "match_coverage_pct": 83.17,
-          "allocated_coverage_pct": 83.17,
+          "match_coverage_pct": 90.31,
+          "allocated_coverage_pct": 90.31,
           "mapping": "precinct -> VTD20 -> neutral_id (+ CD->neutral overlap-share backfill)"
         }
       }

@@ -16,14 +16,6 @@ OUT_OVERRIDES = CROSSWALKS_DIR / "precinct_to_neutral_overrides.csv"
 COUNTY20_SHP = ROOT / "data" / "census" / "tl_2020_32_county20" / "tl_2020_32_county20.shp"
 VTD20_SHP = ROOT / "data" / "census" / "tl_2020_32_vtd20" / "tl_2020_32_vtd20.shp"
 
-CAL_FILES = [
-    ("district-statistics 2020 pres.csv", "2020", "president"),
-    ("district-statistics 2022 us senate.csv", "2022", "us_senate"),
-    ("district-statistics 2024 pres.csv", "2024", "president"),
-    ("district-statistics 2024 us senate.csv", "2024", "us_senate"),
-]
-
-
 def clean(v: str) -> str:
     return (v or "").strip()
 
@@ -62,6 +54,50 @@ def clean_vtd_name(name20: str) -> str:
     s = clean(name20)
     s = re.sub(r"(?i)^precinct\s*(no\.?\s*)?", "", s).strip(" -")
     return s
+
+
+def build_precinct_match_probes(county: str, precinct: str) -> list[tuple[str, str]]:
+    c = county_norm(county)
+    p_raw = clean(precinct)
+    p_norm = norm(p_raw)
+    probes = []
+
+    def add(v: str):
+        nv = norm(v)
+        if nv:
+            probes.append((c, nv))
+
+    # full token
+    add(p_raw)
+    # leading numeric token (e.g., "5046 WARD")
+    m_lead = re.match(r"^(\d+[A-Za-z0-9\-]*)", p_raw)
+    if m_lead:
+        add(m_lead.group(1))
+    # trailing numeric token (e.g., "RENO-VERDI 5022")
+    m_tail = re.search(r"(\d{3,8})\s*$", p_raw)
+    if m_tail:
+        tail = m_tail.group(1)
+        add(tail)
+        # trim common "00" suffix artifacts from legacy exports (e.g., 504600 -> 5046)
+        if len(tail) > 4 and tail.endswith("00"):
+            add(tail[:-2])
+        # also try first 4 digits for long numeric tokens
+        if len(tail) >= 5:
+            add(tail[:4])
+    # remove separators and retry (e.g., 50-22)
+    compact = re.sub(r"[^0-9A-Za-z]", "", p_raw)
+    if compact and compact != p_raw:
+        add(compact)
+
+    # de-duplicate while preserving order
+    out = []
+    seen = set()
+    for pr in probes:
+        if pr in seen:
+            continue
+        seen.add(pr)
+        out.append(pr)
+    return out
 
 
 def party_bucket(party: str) -> str:
@@ -174,11 +210,29 @@ def load_cd_to_neutral_shares() -> dict[str, list[tuple[str, float]]]:
     return out
 
 
+def detect_dra_contest_from_filename(name: str) -> str:
+    n = name.lower()
+    if "pres" in n or "president" in n:
+        return "president"
+    if "senate" in n:
+        return "us_senate"
+    if "house" in n or "congress" in n:
+        return "us_house"
+    return ""
+
+
+def detect_dra_year_from_filename(name: str) -> str:
+    m = re.search(r"(20\d{2})", name)
+    return m.group(1) if m else ""
+
+
 def load_dra_targets() -> dict[tuple[str, str], dict[str, tuple[float, float, float]]]:
     out = {}
-    for fname, year, contest in CAL_FILES:
-        path = CAL_DIR / fname
-        if not path.exists():
+    for path in sorted(CAL_DIR.glob("district-statistics*.csv")):
+        fname = path.name
+        year = detect_dra_year_from_filename(fname)
+        contest = detect_dra_contest_from_filename(fname)
+        if not year or not contest:
             continue
         targets = {}
         with path.open("r", encoding="utf-8", newline="") as f:
@@ -252,10 +306,7 @@ def build_scenarios():
             b = party_bucket(r.get("party", ""))
 
             geoid = ""
-            probes = [(county_norm(pkey[0]), norm(pkey[1]))]
-            m = re.match(r"^(\d+[A-Za-z0-9\-]*)", clean(pkey[1]))
-            if m:
-                probes.append((county_norm(pkey[0]), norm(m.group(1))))
+            probes = build_precinct_match_probes(pkey[0], pkey[1])
             for pr in probes:
                 if pr in precinct_to_geoid20:
                     geoid = precinct_to_geoid20[pr]

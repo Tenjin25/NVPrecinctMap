@@ -140,6 +140,45 @@ def clean_vtd_name(name20: str) -> str:
     return s
 
 
+def build_precinct_match_probes(county: str, precinct: str) -> list[tuple[str, str]]:
+    c = county_norm(county)
+    p_raw = clean(precinct)
+    probes = []
+
+    def add(v: str):
+        nv = norm(v)
+        if nv:
+            probes.append((c, nv))
+
+    add(p_raw)
+
+    m_lead = re.match(r"^(\d+[A-Za-z0-9\-]*)", p_raw)
+    if m_lead:
+        add(m_lead.group(1))
+
+    m_tail = re.search(r"(\d{3,8})\s*$", p_raw)
+    if m_tail:
+        tail = m_tail.group(1)
+        add(tail)
+        if len(tail) > 4 and tail.endswith("00"):
+            add(tail[:-2])
+        if len(tail) >= 5:
+            add(tail[:4])
+
+    compact = re.sub(r"[^0-9A-Za-z]", "", p_raw)
+    if compact and compact != p_raw:
+        add(compact)
+
+    out = []
+    seen = set()
+    for pr in probes:
+        if pr in seen:
+            continue
+        seen.add(pr)
+        out.append(pr)
+    return out
+
+
 def load_precinct_to_geoid20() -> dict[tuple[str, str], str]:
     cr = shapefile.Reader(str(COUNTY20_SHP))
     cfields = [f[0] for f in cr.fields[1:]]
@@ -348,10 +387,7 @@ def main() -> None:
             pkey = (county, precinct)
             if pkey in pkey_to_cd:
                 continue
-            probes = [(county_norm(county), norm(precinct))]
-            m = re.match(r"^(\d+[A-Za-z0-9\-]*)", clean(precinct))
-            if m:
-                probes.append((county_norm(county), norm(m.group(1))))
+            probes = build_precinct_match_probes(county, precinct)
             geoid = ""
             for pr in probes:
                 if pr in precinct_to_geoid20:
@@ -422,10 +458,7 @@ def main() -> None:
             if (county, precinct) in precinct_to_neutral_overrides:
                 pkey_to_neutral[(county, precinct)] = precinct_to_neutral_overrides[(county, precinct)]
                 continue
-            probes = [(county_norm(county), norm(precinct))]
-            m = re.match(r"^(\d+[A-Za-z0-9\-]*)", clean(precinct))
-            if m:
-                probes.append((county_norm(county), norm(m.group(1))))
+            probes = build_precinct_match_probes(county, precinct)
             geoid = ""
             for pr in probes:
                 if pr in precinct_to_geoid20:
@@ -517,10 +550,7 @@ def main() -> None:
             if (county, precinct) in precinct_to_neutral_overrides:
                 continue
             matched = False
-            probes = [(county_norm(county), norm(precinct))]
-            m = re.match(r"^(\d+[A-Za-z0-9\-]*)", clean(precinct))
-            if m:
-                probes.append((county_norm(county), norm(m.group(1))))
+            probes = build_precinct_match_probes(county, precinct)
             for pr in probes:
                 geoid = precinct_to_geoid20.get(pr, "")
                 if geoid and geoid in vtd20_to_neutral:
