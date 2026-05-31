@@ -10236,7 +10236,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-05-31-06';
+    const DATA_CACHE_BUSTER = '2026-05-31-07';
     const APP_BUILD_ID = '2026-05-25-11';
 
     function withCacheBuster(path) {
@@ -15107,9 +15107,10 @@ document.addEventListener('DOMContentLoaded', function() {
       const repVotes = Number(row[`${contestType}_rep`] || 0);
       const otherVotes = Number(row[`${contestType}_other`] || 0);
       const countyDisplay = displayCountyName(row.county || meta.county || countyNorm);
+      const countyJurisdictionLabel = formatCountyJurisdiction(row.county || meta.county || countyNorm);
 
       pinVoteCounterState(
-        `Selected: ${countyDisplay} County`,
+        `Selected: ${countyJurisdictionLabel}`,
         `${formatContestLabel(contestType, year)}`,
         demVotes,
         repVotes,
@@ -25854,6 +25855,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const props = e.features[0].properties || {};
       const countyName = props.NAME20 || props.CountyName || props.COUNTYNAME || props.county_nam || props.NAME || props.name || 'Unknown County';
       const countyDisplay = displayCountyName(countyName);
+      const countyJurisdictionLabel = formatCountyJurisdiction(countyName);
       setCountyHoverOutline(countyName);
       const norm = (countyName || '').toString().replace(/[^a-z0-9 .\-]/gi, '').replace(/\s+/g, ' ').trim().toUpperCase();
       let row = currentElectionResults ? currentElectionResults[norm] : null;
@@ -25885,9 +25887,9 @@ document.addEventListener('DOMContentLoaded', function() {
       } catch (_) {}
 
       if (!contestValue || !row) {
-        const hoverTitle = buildTooltipTitleWithTier(`${countyDisplay} County`);
+        const hoverTitle = buildTooltipTitleWithTier(countyJurisdictionLabel);
         const pinnedShell = !!(tooltipPinned || (forceTooltip && isTouchInteractionMode()));
-        const copyText = `${countyDisplay} County`;
+        const copyText = countyJurisdictionLabel;
         if (isDesktopTooltipMode()) {
           showHoverTooltip(
             e.point.x,
@@ -25922,9 +25924,9 @@ document.addEventListener('DOMContentLoaded', function() {
       const otherVotes = Number(row[`${contestType}_other`] || 0);
       const totalVotes = Number(row[`${contestType}_total`] || 0);
       if (totalVotes <= 0) {
-        const hoverTitle = buildTooltipTitleWithTier(`${countyDisplay} County`);
+        const hoverTitle = buildTooltipTitleWithTier(countyJurisdictionLabel);
         const pinnedShell = !!(tooltipPinned || (forceTooltip && isTouchInteractionMode()));
-        const copyText = `${countyDisplay} County`;
+        const copyText = countyJurisdictionLabel;
         if (isDesktopTooltipMode()) {
           showHoverTooltip(
             e.point.x,
@@ -25947,7 +25949,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const demCandidate = row[`${contestType}_dem_candidate`] || getCandidateName(year, formatContestName(contestType, year), 'Democrat');
       const repCandidate = row[`${contestType}_rep_candidate`] || getCandidateName(year, formatContestName(contestType, year), 'Republican');
       setVoteCounterHoverState(
-        `Hover: ${countyDisplay} County`,
+        `Hover: ${countyJurisdictionLabel}`,
         `${formatContestLabel(contestType, year)}`,
         demVotes,
         repVotes,
@@ -26067,7 +26069,7 @@ document.addEventListener('DOMContentLoaded', function() {
         : (winner === 'D' ? shortCandidateLabel(demCandidate, 'Democratic') : 'Tie');
       const winnerParty = winner === 'R' ? 'rep' : (winner === 'D' ? 'dem' : 'tie');
       const votehubCore = buildVotehubResultsTooltip({
-        title: `${countyDisplay} County`,
+        title: countyJurisdictionLabel,
         subtitle: 'County',
         demName: demCandidate,
         repName: repCandidate,
@@ -26107,7 +26109,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </details>
       `.trim();
 
-      const copyText = `${countyDisplay} County`;
+      const copyText = countyJurisdictionLabel;
       showHoverTooltip(
         e.point.x,
         e.point.y,
@@ -27433,7 +27435,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const modeledCountyCandidateEffectDemPts = Number.isFinite(modeledCountyCandidateEffectDemPtsRaw)
         ? modeledCountyCandidateEffectDemPtsRaw
         : (Number.isFinite(modeledCountyBaselineSigned) ? (modeledCountyBaselineSigned - modeledCountyWithCandidatesSigned) : NaN);
-      if (countyNameElement) setFocusNameWithTierBadge(countyNameElement, `${countyDisplay} County`, tierMeta);
+      if (countyNameElement) setFocusNameWithTierBadge(countyNameElement, countyJurisdictionLabel, tierMeta);
       // Accessibility palette for winner color
       function cbColorForMargin(marginPct, winner) {
         if (marginPct >= 40) {
