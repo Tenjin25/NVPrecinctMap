@@ -21098,9 +21098,13 @@ document.addEventListener('DOMContentLoaded', function() {
       const marginPct = useCountyPrecision
         ? countyMarginPctDisplayValue(repVotes, demVotes, totalVotes)
         : marginPctDisplayValue(repVotes, demVotes, totalVotes);
-      const marginLabel = useCountyPrecision
-        ? formatCountyMarginPctForDisplay(marginPct)
-        : formatMarginPctForDisplay(marginPct);
+      const fixedDecimalsRaw = Number(options?.fixedDecimals);
+      const hasFixedDecimals = Number.isFinite(fixedDecimalsRaw) && fixedDecimalsRaw >= 0;
+      const marginLabel = hasFixedDecimals
+        ? toFixedForDisplay(marginPct, Math.floor(fixedDecimalsRaw))
+        : (useCountyPrecision
+          ? formatCountyMarginPctForDisplay(marginPct)
+          : formatMarginPctForDisplay(marginPct));
 
       if (signed > 0 && demMissingAny) {
         return {
@@ -30921,7 +30925,15 @@ document.addEventListener('DOMContentLoaded', function() {
         : signedMarginPctFromVotes(demVotes, repVotes, totalVotes);
       const marginPct = Math.abs(signedMarginPct);
       const winnerParty = signedMarginPct > 0 ? 'R' : (signedMarginPct < 0 ? 'D' : 'TIE');
-      const winnerCall = winnerMarginCall(repVotes, demVotes, totalVotes, repCandidate, demCandidate, signedMarginPct);
+      const winnerCall = winnerMarginCall(
+        repVotes,
+        demVotes,
+        totalVotes,
+        repCandidate,
+        demCandidate,
+        signedMarginPct,
+        contestType === 'president' ? { fixedDecimals: 2 } : {}
+      );
 
       let compLabel = '';
       let compColor = '#6b7280';
