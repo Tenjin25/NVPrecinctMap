@@ -10280,6 +10280,7 @@ document.addEventListener('DOMContentLoaded', function() {
         precinct_friendly_names: withBase('./data/precinct_friendly_names.json'),
         precinct_variant_overrides: withBase('./data/mappings/precinct_variant_overrides.json'),
         districts: withBase('./data/census/tl_2022_32_cd118/tl_2022_32_cd118.geojson'),
+        neutral_congressional_districts: withBase('./data/neutral NV.geojson'),
         districts_2022: withBase('./data/census/tl_2022_32_cd118/tl_2022_32_cd118.geojson'),
         districts_2024: withBase('./data/census/tl_2022_32_cd118/tl_2022_32_cd118.geojson'),
         districts_2026: withBase('./data/census/tl_2022_32_cd118/tl_2022_32_cd118.geojson'),
@@ -12449,6 +12450,9 @@ document.addEventListener('DOMContentLoaded', function() {
     function getDistrictGeometryPath(scope, linesYear = currentDistrictLinesYear) {
       const y = normalizeDistrictLinesYear(linesYear);
       if (scope === 'congressional') {
+        if (congressionalNeutralMode && CONFIG.paths.neutral_congressional_districts) {
+          return CONFIG.paths.neutral_congressional_districts;
+        }
         if (y === 2026) {
           return CONFIG.paths.districts_2026 || CONFIG.paths.districts_2024 || CONFIG.paths.districts;
         }
@@ -13052,7 +13056,7 @@ document.addEventListener('DOMContentLoaded', function() {
       entries.forEach(([districtId, totalVotes]) => {
         const districtNum = Number(districtId);
         if (!Number.isFinite(districtNum)) return;
-        expr.push(['==', ['to-number', ['coalesce', ['get', 'DISTRICT'], ['get', 'CD118FP'], ['get', 'CD119FP'], ['get', 'SLDLST'], ['get', 'SLDUST'], ['get', 'district_id'], ['get', 'district']]], districtNum]);
+        expr.push(['==', ['to-number', ['coalesce', ['get', 'DISTRICT'], ['get', 'CD118FP'], ['get', 'CD119FP'], ['get', 'SLDLST'], ['get', 'SLDUST'], ['get', 'district_id'], ['get', 'district'], ['get', 'id'], ['get', 'NAME']]], districtNum]);
         expr.push(opacityFromTurnout(totalVotes, meta, baseOpacity));
       });
       expr.push(Math.max(0.18, baseOpacity - 0.20));
@@ -30050,7 +30054,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function getDistrictNumberFromPropsNumeric(props) {
       const p = props || {};
-      const raw = p.DISTRICT || p.SLDLST || p.SLDUST || p.district_id || p.district || p.DIST || p.CD118FP || p.CD119FP || p.CD || p.cd || null;
+      const raw = p.DISTRICT || p.SLDLST || p.SLDUST || p.district_id || p.district || p.DIST || p.CD118FP || p.CD119FP || p.CD || p.cd || p.id || p.NAME || null;
       const n = Number(String(raw || '').replace(/[^0-9]/g, ''));
       return Number.isFinite(n) ? n : null;
     }
@@ -33169,7 +33173,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         expr.push([
           '==',
-          ['to-number', ['coalesce', ['get', 'DISTRICT'], ['get', 'CD118FP'], ['get', 'CD119FP'], ['get', 'district_id'], ['get', 'district']]],
+          ['to-number', ['coalesce', ['get', 'DISTRICT'], ['get', 'CD118FP'], ['get', 'CD119FP'], ['get', 'district_id'], ['get', 'district'], ['get', 'id'], ['get', 'NAME']]],
           Number(district)
         ]);
         expr.push(color);
@@ -33332,7 +33336,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             if (!isNaN(districtNum)) {
-              expr.push(['==', ['to-number', ['coalesce', ['get', 'DISTRICT'], ['get', 'CD118FP'], ['get', 'CD119FP'], ['get', 'SLDLST'], ['get', 'SLDUST'], ['get', 'district_id'], ['get', 'district']]], districtNum]);
+              expr.push(['==', ['to-number', ['coalesce', ['get', 'DISTRICT'], ['get', 'CD118FP'], ['get', 'CD119FP'], ['get', 'SLDLST'], ['get', 'SLDUST'], ['get', 'district_id'], ['get', 'district'], ['get', 'id'], ['get', 'NAME']]], districtNum]);
               expr.push(color);
             }
           });
@@ -33428,7 +33432,7 @@ document.addEventListener('DOMContentLoaded', function() {
             row?.pacific_vap_pct ?? row?.pacific_pct ?? row?.Pacific,
             row?.multiracial_vap_pct ?? row?.multiracial_pct ?? row?.Multiracial
           );
-          expr.push(['==', ['to-number', ['coalesce', ['get', 'DISTRICT'], ['get', 'CD118FP'], ['get', 'CD119FP'], ['get', 'SLDLST'], ['get', 'SLDUST'], ['get', 'district_id'], ['get', 'district']]], districtNum]);
+          expr.push(['==', ['to-number', ['coalesce', ['get', 'DISTRICT'], ['get', 'CD118FP'], ['get', 'CD119FP'], ['get', 'SLDLST'], ['get', 'SLDUST'], ['get', 'district_id'], ['get', 'district'], ['get', 'id'], ['get', 'NAME']]], districtNum]);
           expr.push(color);
           mapped += 1;
         });

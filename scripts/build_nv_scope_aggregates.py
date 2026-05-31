@@ -68,8 +68,21 @@ def contest_type(office: str) -> str:
         return "state_assembly"
     return ""
 
-def normalize_candidate_name(contest: str, candidate: str) -> str:
+def normalize_person_name(candidate: str) -> str:
     cand = clean(candidate)
+    if not cand:
+        return ""
+    # Handle "Last, First" and malformed suffix-first forms like "Ii, G. Hafen".
+    if "," in cand:
+        left, right = [x.strip() for x in cand.split(",", 1)]
+        left_up = left.upper().replace(".", "")
+        if left_up in {"II", "III", "IV", "V"}:
+            return f"{right} {left_up}".strip()
+        return f"{right} {left}".strip()
+    return cand
+
+def normalize_candidate_name(contest: str, candidate: str) -> str:
+    cand = normalize_person_name(candidate)
     if contest != "president":
         return cand
     # Strip running mate from ticket labels:

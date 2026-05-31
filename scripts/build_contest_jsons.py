@@ -64,8 +64,20 @@ def normalize_party(party: str) -> str:
         return "REP"
     return ""
 
-def normalize_candidate_name(contest_type: str, candidate: str) -> str:
+def normalize_person_name(candidate: str) -> str:
     cand = clean(candidate)
+    if not cand:
+        return ""
+    if "," in cand:
+        left, right = [x.strip() for x in cand.split(",", 1)]
+        left_up = left.upper().replace(".", "")
+        if left_up in {"II", "III", "IV", "V"}:
+            return f"{right} {left_up}".strip()
+        return f"{right} {left}".strip()
+    return cand
+
+def normalize_candidate_name(contest_type: str, candidate: str) -> str:
+    cand = normalize_person_name(candidate)
     if contest_type != "president":
         return cand
     return re.split(r"\s+(?:and|&)\s+|/|;", cand, maxsplit=1, flags=re.IGNORECASE)[0].strip()
