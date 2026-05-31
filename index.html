@@ -27303,9 +27303,10 @@ document.addEventListener('DOMContentLoaded', function() {
       const countyNameElement = document.getElementById('county-name');
       const countySubheadElement = document.getElementById('county-subhead');
       const countyDisplay = displayCountyName(countyName);
+      const countyJurisdictionLabel = formatCountyJurisdiction(countyName);
       window.lastSelectedCounty = countyDisplay;
       updateContextBanner();
-      if (countyNameElement) setFocusNameWithTierBadge(countyNameElement, `${countyDisplay} County`);
+      if (countyNameElement) setFocusNameWithTierBadge(countyNameElement, countyJurisdictionLabel);
       if (countySubheadElement) countySubheadElement.textContent = '';
       // focusContent already declared above
       // Guard: election results must exist
@@ -27361,7 +27362,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const totalVotes = countyData[`${contestType}_total`] || 0;
       if (totalVotes === 0) {
         if (sidebarReady) {
-          contentEl.innerHTML = `<p>No ${formatContestName(contestType, year)} data available for ${countyDisplay} County in ${year}.</p>`;
+          contentEl.innerHTML = `<p>No ${formatContestName(contestType, year)} data available for ${countyJurisdictionLabel} in ${year}.</p>`;
           detailsDiv.style.display = 'block';
         }
         return;
@@ -27375,9 +27376,9 @@ document.addEventListener('DOMContentLoaded', function() {
   let demCandidate = (countyData[`${contestType}_dem_candidate`] || '').toString().trim() || getCandidateName(year, formatContestName(contestType, year), 'Democrat');
   let repCandidate = (countyData[`${contestType}_rep_candidate`] || '').toString().trim() || getCandidateName(year, formatContestName(contestType, year), 'Republican');
   demCandidate = stripRunningMateName(demCandidate);
-  repCandidate = stripRunningMateName(repCandidate);
+      repCandidate = stripRunningMateName(repCandidate);
       pinVoteCounterState(
-        `Selected: ${countyDisplay} County`,
+        `Selected: ${countyJurisdictionLabel}`,
         `${formatContestLabel(contestType, year)}`,
         demVotes,
         repVotes,
