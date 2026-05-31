@@ -12,6 +12,7 @@ CROSSWALKS_DIR = Path("data/crosswalks")
 VTD20_SHP = Path("data/census/tl_2020_32_vtd20/tl_2020_32_vtd20.shp")
 COUNTY20_SHP = Path("data/census/tl_2020_32_county20/tl_2020_32_county20.shp")
 OUT_DIR = Path("data")
+NEUTRAL_PRECINCT_OVERRIDES = Path("data/crosswalks/precinct_to_neutral_overrides.csv")
 
 
 def clean(v: str) -> str:
@@ -185,6 +186,20 @@ def load_vtd20_to_neutral() -> dict[str, str]:
                 out[geoid] = nid
     return out
 
+
+def load_precinct_to_neutral_overrides() -> dict[tuple[str, str], str]:
+    out = {}
+    if not NEUTRAL_PRECINCT_OVERRIDES.exists():
+        return out
+    with NEUTRAL_PRECINCT_OVERRIDES.open("r", encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f):
+            county = clean(r.get("county", ""))
+            precinct = clean(r.get("precinct", ""))
+            neutral_id = clean(r.get("neutral_id", ""))
+            if county and precinct and neutral_id:
+                out[(county, precinct)] = neutral_id
+    return out
+
 def load_vtd20_to_cd() -> dict[str, str]:
     out = {}
     with (CROSSWALKS_DIR / "vtd20_to_cd118.csv").open("r", encoding="utf-8", newline="") as f:
@@ -271,6 +286,7 @@ def main() -> None:
     precinct_to_geoid20 = load_precinct_to_geoid20()
     vtd20_to_cd = load_vtd20_to_cd()
     vtd20_to_neutral = load_vtd20_to_neutral()
+    precinct_to_neutral_overrides = load_precinct_to_neutral_overrides()
     legislative = {"results_by_year": {}}
     congressional = {"results_by_year": {}}
     neutral_congressional = {
@@ -376,6 +392,9 @@ def main() -> None:
         # Backfill path: unmatched precinct rows are allocated by CD->neutral overlap shares (crosswalk-derived).
         pkey_to_neutral = {}
         for county, precinct in {(clean(r.get("county", "")), clean(r.get("precinct", ""))) for r in rows}:
+            if (county, precinct) in precinct_to_neutral_overrides:
+                pkey_to_neutral[(county, precinct)] = precinct_to_neutral_overrides[(county, precinct)]
+                continue
             probes = [(county_norm(county), norm(precinct))]
             m = re.match(r"^(\d+[A-Za-z0-9\-]*)", clean(precinct))
             if m:
@@ -456,6 +475,39 @@ def main() -> None:
     print(f"Wrote {leg_path}")
     print(f"Wrote {cong_path}")
     print(f"Wrote {neutral_cong_path}")
+
+    # Write high-impact unmatched precinct rows report for targeted override cleanup.
+    report_rows = []
+    for path in sorted(OE_DIR.glob("*__nv__general__precinct.csv")):
+        year = parse_year(path)
+        with path.open("r", encoding="utf-8", newline="") as f:
+            rows = list(csv.DictReader(f))
+        vote_by_pkey = defaultdict(int)
+        for r in rows:
+            pkey = (clean(r.get("county", "")), clean(r.get("precinct", "")))
+            vote_by_pkey[pkey] += to_int(r.get("votes", ""))
+        for (county, precinct), votes in vote_by_pkey.items():
+            if (county, precinct) in precinct_to_neutral_overrides:
+                continue
+            matched = False
+            probes = [(county_norm(county), norm(precinct))]
+            m = re.match(r"^(\d+[A-Za-z0-9\-]*)", clean(precinct))
+            if m:
+                probes.append((county_norm(county), norm(m.group(1))))
+            for pr in probes:
+                geoid = precinct_to_geoid20.get(pr, "")
+                if geoid and geoid in vtd20_to_neutral:
+                    matched = True
+                    break
+            if not matched:
+                report_rows.append({"year": int(year), "county": county, "precinct": precinct, "votes": votes})
+    report_rows.sort(key=lambda r: (r["year"], -r["votes"], r["county"], r["precinct"]))
+    report_path = OUT_DIR / "openelections" / "_neutral_unmatched_precinct_rows.csv"
+    with report_path.open("w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=["year", "county", "precinct", "votes"])
+        w.writeheader()
+        w.writerows(report_rows)
+    print(f"Wrote {report_path} rows={len(report_rows)}")
 
 
 if __name__ == "__main__":
