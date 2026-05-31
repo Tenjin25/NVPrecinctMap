@@ -3752,6 +3752,6 @@
         ]
       ]
     },
-    "neutral_source": "neutral_to_vtd20 (from DRA neutral geometry)"
+    "neutral_source": "neutral_to_vtd20_weighted (block-derived)"
   }
 }

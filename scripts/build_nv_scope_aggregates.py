@@ -177,6 +177,27 @@ def load_precinct_to_geoid20() -> dict[tuple[str, str], str]:
 
 
 def load_vtd20_to_neutral() -> dict[str, str]:
+    # Prefer block-derived weighted assignment when available.
+    weighted_path = CROSSWALKS_DIR / "neutral_to_vtd20_weighted.csv"
+    if weighted_path.exists():
+        best = {}
+        with weighted_path.open("r", encoding="utf-8", newline="") as f:
+            for r in csv.DictReader(f):
+                geoid = clean(r.get("geoid20"))
+                nid = clean(r.get("neutral_id"))
+                w_raw = clean(r.get("alloc_weight"))
+                try:
+                    w = float(w_raw) if w_raw else 0.0
+                except Exception:
+                    w = 0.0
+                if not geoid or not nid:
+                    continue
+                prev = best.get(geoid)
+                if not prev or w > prev[1]:
+                    best[geoid] = (nid, w)
+        if best:
+            return {g: v[0] for g, v in best.items()}
+
     out = {}
     with (CROSSWALKS_DIR / "neutral_to_vtd20.csv").open("r", encoding="utf-8", newline="") as f:
         for r in csv.DictReader(f):
@@ -185,6 +206,12 @@ def load_vtd20_to_neutral() -> dict[str, str]:
             if geoid and nid:
                 out[geoid] = nid
     return out
+
+
+def neutral_vtd20_source_label() -> str:
+    if (CROSSWALKS_DIR / "neutral_to_vtd20_weighted.csv").exists():
+        return "neutral_to_vtd20_weighted (block-derived)"
+    return "neutral_to_vtd20 (direct)"
 
 
 def load_precinct_to_neutral_overrides() -> dict[tuple[str, str], str]:
@@ -291,7 +318,7 @@ def main() -> None:
     congressional = {"results_by_year": {}}
     neutral_congressional = {
         "results_by_year": {},
-        "meta": {"cd_to_neutral_shares": cd_to_neutral_shares, "neutral_source": "neutral_to_vtd20 (from DRA neutral geometry)"},
+        "meta": {"cd_to_neutral_shares": cd_to_neutral_shares, "neutral_source": neutral_vtd20_source_label()},
     }
 
     for path in sorted(OE_DIR.glob("*__nv__general__precinct.csv")):
