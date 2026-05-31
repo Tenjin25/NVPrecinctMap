@@ -4,9 +4,13 @@ import re
 from collections import defaultdict
 from pathlib import Path
 
+import shapefile
+
 
 OE_DIR = Path("data/openelections")
 CROSSWALKS_DIR = Path("data/crosswalks")
+VTD20_SHP = Path("data/census/tl_2020_32_vtd20/tl_2020_32_vtd20.shp")
+COUNTY20_SHP = Path("data/census/tl_2020_32_county20/tl_2020_32_county20.shp")
 OUT_DIR = Path("data")
 
 
@@ -94,6 +98,69 @@ def pick_top_name(counter: dict[str, int]) -> str:
     if not counter:
         return ""
     return sorted(counter.items(), key=lambda kv: (-kv[1], kv[0].lower()))[0][0]
+
+
+def norm(s: str) -> str:
+    s = clean(s).lower().replace("&", " and ")
+    s = re.sub(r"[^a-z0-9]+", " ", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def county_norm(s: str) -> str:
+    return norm(s).replace(" county", "")
+
+
+def clean_vtd_name(name20: str) -> str:
+    s = clean(name20)
+    s = re.sub(r"(?i)^precinct\s*(no\.?\s*)?", "", s).strip(" -")
+    return s
+
+
+def load_precinct_to_geoid20() -> dict[tuple[str, str], str]:
+    cr = shapefile.Reader(str(COUNTY20_SHP))
+    cfields = [f[0] for f in cr.fields[1:]]
+    cfp_to_name = {}
+    for rec in cr.records():
+        d = {cfields[i]: rec[i] for i in range(len(cfields))}
+        cfp_to_name[str(d["COUNTYFP20"]).zfill(3)] = d["NAMELSAD20"]
+
+    vr = shapefile.Reader(str(VTD20_SHP))
+    vfields = [f[0] for f in vr.fields[1:]]
+    idx = defaultdict(set)
+    for rec in vr.records():
+        d = {vfields[i]: rec[i] for i in range(len(vfields))}
+        cfp = str(d["COUNTYFP20"]).zfill(3)
+        county = county_norm(cfp_to_name.get(cfp, ""))
+        geoid = clean(str(d["GEOID20"]))
+        vtdst = clean(str(d["VTDST20"]))
+        name20 = clean(str(d["NAME20"]))
+        keys = {
+            (county, norm(vtdst.lstrip("0") or "0")),
+            (county, norm(name20)),
+            (county, norm(clean_vtd_name(name20))),
+        }
+        m = re.match(r"^(\d+[A-Za-z0-9\-]*)", clean_vtd_name(name20))
+        if m:
+            keys.add((county, norm(m.group(1))))
+        for k in keys:
+            idx[k].add(geoid)
+
+    out = {}
+    for k, vals in idx.items():
+        if len(vals) == 1:
+            out[k] = next(iter(vals))
+    return out
+
+
+def load_vtd20_to_neutral() -> dict[str, str]:
+    out = {}
+    with (CROSSWALKS_DIR / "neutral_to_vtd20.csv").open("r", encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f):
+            geoid = clean(r.get("geoid20"))
+            nid = clean(r.get("neutral_id"))
+            if geoid and nid:
+                out[geoid] = nid
+    return out
 
 
 def load_cd_to_neutral() -> dict[str, str]:
@@ -195,9 +262,14 @@ def aggregate_rows(rows: list[dict], group_key_name: str) -> dict:
 
 def main() -> None:
     cd_to_neutral = load_cd_to_neutral()
+    precinct_to_geoid20 = load_precinct_to_geoid20()
+    vtd20_to_neutral = load_vtd20_to_neutral()
     legislative = {"results_by_year": {}}
     congressional = {"results_by_year": {}}
-    neutral_congressional = {"results_by_year": {}, "meta": {"cd_to_neutral": cd_to_neutral}}
+    neutral_congressional = {
+        "results_by_year": {},
+        "meta": {"cd_to_neutral_fallback": cd_to_neutral, "neutral_source": "neutral_to_vtd20 (from DRA neutral geometry)"},
+    }
 
     for path in sorted(OE_DIR.glob("*__nv__general__precinct.csv")):
         year = parse_year(path)
@@ -274,31 +346,38 @@ def main() -> None:
             congressional["results_by_year"][year] = year_cong
 
         # Neutral congressional (map CD -> neutral_id), for same contest set as congressional.
+        pkey_to_neutral = {}
+        for county, precinct in {(clean(r.get("county", "")), clean(r.get("precinct", ""))) for r in rows}:
+            probes = [(county_norm(county), norm(precinct))]
+            m = re.match(r"^(\d+[A-Za-z0-9\-]*)", clean(precinct))
+            if m:
+                probes.append((county_norm(county), norm(m.group(1))))
+            geoid = ""
+            for pr in probes:
+                if pr in precinct_to_geoid20:
+                    geoid = precinct_to_geoid20[pr]
+                    break
+            if geoid and geoid in vtd20_to_neutral:
+                pkey_to_neutral[(county, precinct)] = vtd20_to_neutral[geoid]
+
         year_neutral = {}
         for t in congressional_types:
             source_rows = by_type.get(t, [])
             if not source_rows:
                 continue
             neutral_rows = []
-            if t == "us_house":
-                for r in source_rows:
-                    cd = clean(r.get("district", "")).zfill(2)
+            for r in source_rows:
+                pkey = (clean(r.get("county", "")), clean(r.get("precinct", "")))
+                nid = pkey_to_neutral.get(pkey, "")
+                if not nid:
+                    # Conservative fallback if a precinct couldn't be matched to VTD20.
+                    cd = pkey_to_cd.get(pkey, "") or clean(r.get("district", "")).zfill(2)
                     nid = cd_to_neutral.get(cd, "")
-                    if not nid:
-                        continue
-                    rc = dict(r)
-                    rc["neutral_id"] = nid
-                    neutral_rows.append(rc)
-            else:
-                for r in source_rows:
-                    pkey = (clean(r.get("county", "")), clean(r.get("precinct", "")))
-                    cd = pkey_to_cd.get(pkey, "")
-                    nid = cd_to_neutral.get(cd, "")
-                    if not nid:
-                        continue
-                    rc = dict(r)
-                    rc["neutral_id"] = nid
-                    neutral_rows.append(rc)
+                if not nid:
+                    continue
+                rc = dict(r)
+                rc["neutral_id"] = nid
+                neutral_rows.append(rc)
             if neutral_rows:
                 year_neutral[t] = {"general": {"results": aggregate_rows(neutral_rows, "neutral_id")}}
         if year_neutral:

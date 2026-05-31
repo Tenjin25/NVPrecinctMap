@@ -10,6 +10,7 @@ ROOT = Path("data")
 CROSS = ROOT / "crosswalks"
 CROSS.mkdir(parents=True, exist_ok=True)
 
+NEUTRAL_SHP_PATH = ROOT / "district-shapes" / "POLYGON.shp"
 NEUTRAL_PATH = ROOT / "neutral NV.geojson"
 
 
@@ -39,24 +40,46 @@ def normalize_polygon_coords(geom):
     return []
 
 
+def _bbox_for_polys(polys):
+    xmin = ymin = float("inf")
+    xmax = ymax = float("-inf")
+    for poly in polys:
+        for ring in poly:
+            for x, y in ring:
+                xmin = min(xmin, x)
+                ymin = min(ymin, y)
+                xmax = max(xmax, x)
+                ymax = max(ymax, y)
+    return (xmin, ymin, xmax, ymax)
+
+
 def load_neutral():
+    # Prefer the user-provided DRA shapefile when available.
+    if NEUTRAL_SHP_PATH.exists():
+        r = shapefile.Reader(str(NEUTRAL_SHP_PATH))
+        fields = [f[0] for f in r.fields[1:]]
+        out = []
+        for sr in r.iterShapeRecords():
+            rec = sr.record.as_dict() if hasattr(sr.record, "as_dict") else {fields[i]: sr.record[i] for i in range(len(fields))}
+            did_raw = rec.get("id", rec.get("NAME", ""))
+            did = str(int(float(did_raw))) if str(did_raw).strip() else ""
+            if not did:
+                continue
+            points = sr.shape.points
+            parts = list(sr.shape.parts) + [len(points)]
+            rings = [points[parts[i]:parts[i + 1]] for i in range(len(parts) - 1)]
+            polys = [[ring] for ring in rings if ring]
+            out.append({"neutral_id": did, "name": str(rec.get("NAME", did)), "polys": polys, "bbox": _bbox_for_polys(polys)})
+        return out
+
+    # Fallback to existing GeoJSON path.
     d = json.loads(NEUTRAL_PATH.read_text(encoding="utf-8"))
     out = []
     for f in d.get("features", []):
         p = f.get("properties", {})
         did = str(p.get("id", p.get("NAME", ""))).strip()
         polys = normalize_polygon_coords(f.get("geometry", {}))
-        # bbox prefilter
-        xmin = ymin = float("inf")
-        xmax = ymax = float("-inf")
-        for poly in polys:
-            for ring in poly:
-                for x, y in ring:
-                    xmin = min(xmin, x)
-                    ymin = min(ymin, y)
-                    xmax = max(xmax, x)
-                    ymax = max(ymax, y)
-        out.append({"neutral_id": did, "name": str(p.get("NAME", did)), "polys": polys, "bbox": (xmin, ymin, xmax, ymax)})
+        out.append({"neutral_id": did, "name": str(p.get("NAME", did)), "polys": polys, "bbox": _bbox_for_polys(polys)})
     return out
 
 
