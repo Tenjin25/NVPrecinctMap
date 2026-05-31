@@ -8,6 +8,20 @@
   },
   "general": {
     "results": {
+      "001": {
+        "dem_votes": 9757,
+        "rep_votes": 6534,
+        "other_votes": 0,
+        "total_votes": 16291,
+        "dem_candidate": "Steven A. Horsford",
+        "rep_candidate": "Sam Peters",
+        "margin": -3223,
+        "margin_pct": -19.78,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
       "2": {
         "dem_votes": 12365,
         "rep_votes": 5115,
@@ -20,6 +34,76 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#08306b"
+        }
+      },
+      "003": {
+        "dem_votes": 7260,
+        "rep_votes": 6516,
+        "other_votes": 0,
+        "total_votes": 13776,
+        "dem_candidate": "Steven A. Horsford",
+        "rep_candidate": "Sam Peters",
+        "margin": -744,
+        "margin_pct": -5.4,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "004": {
+        "dem_votes": 18297,
+        "rep_votes": 7476,
+        "other_votes": 0,
+        "total_votes": 25773,
+        "dem_candidate": "Steven A. Horsford",
+        "rep_candidate": "Sam Peters",
+        "margin": -10821,
+        "margin_pct": -41.99,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "005": {
+        "dem_votes": 23146,
+        "rep_votes": 23923,
+        "other_votes": 1086,
+        "total_votes": 48155,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mark Robertson",
+        "margin": 777,
+        "margin_pct": 1.61,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "006": {
+        "dem_votes": 21939,
+        "rep_votes": 20602,
+        "other_votes": 0,
+        "total_votes": 42541,
+        "dem_candidate": "Susie Lee",
+        "rep_candidate": "April Becker",
+        "margin": -1337,
+        "margin_pct": -3.14,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "007": {
+        "dem_votes": 14010,
+        "rep_votes": 8219,
+        "other_votes": 656,
+        "total_votes": 22885,
+        "dem_candidate": "Dina Titus",
+        "rep_candidate": "Mark Robertson",
+        "margin": -5791,
+        "margin_pct": -25.3,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
         }
       },
       "8": {
@@ -36,6 +120,20 @@
           "color": "#c6dbef"
         }
       },
+      "008": {
+        "dem_votes": 18,
+        "rep_votes": 30,
+        "other_votes": 0,
+        "total_votes": 48,
+        "dem_candidate": "Susie Lee",
+        "rep_candidate": "April Becker",
+        "margin": 12,
+        "margin_pct": 25.0,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
       "9": {
         "dem_votes": 23511,
         "rep_votes": 19517,
@@ -50,6 +148,20 @@
           "color": "#c6dbef"
         }
       },
+      "009": {
+        "dem_votes": 323,
+        "rep_votes": 429,
+        "other_votes": 0,
+        "total_votes": 752,
+        "dem_candidate": "Susie Lee",
+        "rep_candidate": "April Becker",
+        "margin": 106,
+        "margin_pct": 14.1,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
       "10": {
         "dem_votes": 17383,
         "rep_votes": 12600,
@@ -62,6 +174,20 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
+        }
+      },
+      "011": {
+        "dem_votes": 20215,
+        "rep_votes": 18336,
+        "other_votes": 0,
+        "total_votes": 38551,
+        "dem_candidate": "Susie Lee",
+        "rep_candidate": "April Becker",
+        "margin": -1879,
+        "margin_pct": -4.87,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
         }
       },
       "12": {
@@ -92,6 +218,20 @@
           "color": "#6baed6"
         }
       },
+      "013": {
+        "dem_votes": 3,
+        "rep_votes": 21,
+        "other_votes": 1,
+        "total_votes": 25,
+        "dem_candidate": "Elizabeth M. Krause",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": 18,
+        "margin_pct": 72.0,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
       "14": {
         "dem_votes": 20530,
         "rep_votes": 40131,
@@ -104,6 +244,34 @@
         "winner": "REP",
         "competitiveness": {
           "color": "#cb181d"
+        }
+      },
+      "014": {
+        "dem_votes": 324,
+        "rep_votes": 286,
+        "other_votes": 17,
+        "total_votes": 627,
+        "dem_candidate": "Elizabeth M. Krause",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": -38,
+        "margin_pct": -6.06,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "015": {
+        "dem_votes": 25842,
+        "rep_votes": 22921,
+        "other_votes": 1081,
+        "total_votes": 49844,
+        "dem_candidate": "Elizabeth M. Krause",
+        "rep_candidate": "Mark E. Amodei",
+        "margin": -2921,
+        "margin_pct": -5.86,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
         }
       },
       "16": {
@@ -129,6 +297,34 @@
         "rep_candidate": "Mark E. Amodei",
         "margin": 31702,
         "margin_pct": 48.13,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "018": {
+        "dem_votes": 19870,
+        "rep_votes": 22597,
+        "other_votes": 0,
+        "total_votes": 42467,
+        "dem_candidate": "Steven A. Horsford",
+        "rep_candidate": "Sam Peters",
+        "margin": 2727,
+        "margin_pct": 6.42,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "019": {
+        "dem_votes": 14738,
+        "rep_votes": 35292,
+        "other_votes": 655,
+        "total_votes": 50685,
+        "dem_candidate": "Steven A. Horsford",
+        "rep_candidate": "Sam Peters",
+        "margin": 20554,
+        "margin_pct": 40.55,
         "winner": "REP",
         "competitiveness": {
           "color": "#67000d"

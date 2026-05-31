@@ -10,9 +10,86 @@
     {
       "year": 2022,
       "scope": "state_house",
+      "contest_type": "attorney_general",
+      "file": "state_house_attorney_general_2022.json",
+      "districts": 42
+    },
+    {
+      "year": 2022,
+      "scope": "state_house",
+      "contest_type": "controller",
+      "file": "state_house_controller_2022.json",
+      "districts": 42
+    },
+    {
+      "year": 2022,
+      "scope": "state_house",
+      "contest_type": "governor",
+      "file": "state_house_governor_2022.json",
+      "districts": 42
+    },
+    {
+      "year": 2022,
+      "scope": "state_house",
+      "contest_type": "lieutenant_governor",
+      "file": "state_house_lieutenant_governor_2022.json",
+      "districts": 42
+    },
+    {
+      "year": 2022,
+      "scope": "state_house",
       "contest_type": "state_assembly",
       "file": "state_house_state_assembly_2022.json",
       "districts": 42
+    },
+    {
+      "year": 2022,
+      "scope": "state_house",
+      "contest_type": "treasurer",
+      "file": "state_house_treasurer_2022.json",
+      "districts": 42
+    },
+    {
+      "year": 2022,
+      "scope": "state_house",
+      "contest_type": "us_house",
+      "file": "state_house_us_house_2022.json",
+      "districts": 42
+    },
+    {
+      "year": 2022,
+      "scope": "state_house",
+      "contest_type": "us_senate",
+      "file": "state_house_us_senate_2022.json",
+      "districts": 42
+    },
+    {
+      "year": 2022,
+      "scope": "state_senate",
+      "contest_type": "attorney_general",
+      "file": "state_senate_attorney_general_2022.json",
+      "districts": 25
+    },
+    {
+      "year": 2022,
+      "scope": "state_senate",
+      "contest_type": "controller",
+      "file": "state_senate_controller_2022.json",
+      "districts": 25
+    },
+    {
+      "year": 2022,
+      "scope": "state_senate",
+      "contest_type": "governor",
+      "file": "state_senate_governor_2022.json",
+      "districts": 25
+    },
+    {
+      "year": 2022,
+      "scope": "state_senate",
+      "contest_type": "lieutenant_governor",
+      "file": "state_senate_lieutenant_governor_2022.json",
+      "districts": 25
     },
     {
       "year": 2022,
@@ -20,6 +97,27 @@
       "contest_type": "state_senate",
       "file": "state_senate_state_senate_2022.json",
       "districts": 11
+    },
+    {
+      "year": 2022,
+      "scope": "state_senate",
+      "contest_type": "treasurer",
+      "file": "state_senate_treasurer_2022.json",
+      "districts": 25
+    },
+    {
+      "year": 2022,
+      "scope": "state_senate",
+      "contest_type": "us_house",
+      "file": "state_senate_us_house_2022.json",
+      "districts": 25
+    },
+    {
+      "year": 2022,
+      "scope": "state_senate",
+      "contest_type": "us_senate",
+      "file": "state_senate_us_senate_2022.json",
+      "districts": 25
     },
     {
       "year": 2024,
@@ -31,9 +129,37 @@
     {
       "year": 2024,
       "scope": "state_house",
+      "contest_type": "president",
+      "file": "state_house_president_2024.json",
+      "districts": 42
+    },
+    {
+      "year": 2024,
+      "scope": "state_house",
       "contest_type": "state_assembly",
       "file": "state_house_state_assembly_2024.json",
       "districts": 42
+    },
+    {
+      "year": 2024,
+      "scope": "state_house",
+      "contest_type": "us_house",
+      "file": "state_house_us_house_2024.json",
+      "districts": 42
+    },
+    {
+      "year": 2024,
+      "scope": "state_house",
+      "contest_type": "us_senate",
+      "file": "state_house_us_senate_2024.json",
+      "districts": 42
+    },
+    {
+      "year": 2024,
+      "scope": "state_senate",
+      "contest_type": "president",
+      "file": "state_senate_president_2024.json",
+      "districts": 27
     },
     {
       "year": 2024,
@@ -41,6 +167,20 @@
       "contest_type": "state_senate",
       "file": "state_senate_state_senate_2024.json",
       "districts": 10
+    },
+    {
+      "year": 2024,
+      "scope": "state_senate",
+      "contest_type": "us_house",
+      "file": "state_senate_us_house_2024.json",
+      "districts": 27
+    },
+    {
+      "year": 2024,
+      "scope": "state_senate",
+      "contest_type": "us_senate",
+      "file": "state_senate_us_senate_2024.json",
+      "districts": 27
     }
   ]
 }

@@ -4,9 +4,12 @@ import re
 from collections import defaultdict
 from pathlib import Path
 
+from build_nv_scope_aggregates import build_precinct_match_probes, load_precinct_to_geoid20
+
 
 OE_DIR = Path("data/openelections")
 OUT_DIR = Path("data/district_contests")
+CROSSWALKS_DIR = Path("data/crosswalks")
 
 
 def clean(v: str) -> str:
@@ -120,6 +123,17 @@ def pick_top_name(counter: dict[str, int]) -> str:
     return sorted(counter.items(), key=lambda kv: (-kv[1], kv[0].lower()))[0][0]
 
 
+def load_vtd20_to_district(path: Path) -> dict[str, str]:
+    out = {}
+    with path.open("r", encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f):
+            geoid = clean(r.get("geoid20"))
+            d = clean(r.get("district_id"))
+            if geoid and d:
+                out[geoid] = d
+    return out
+
+
 def aggregate_rows(rows: list[dict], group_key_name: str, ctype: str) -> dict:
     grouped = defaultdict(lambda: {"dem": 0, "rep": 0, "other": 0})
     dem_name = defaultdict(lambda: defaultdict(int))
@@ -177,6 +191,11 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
         if t:
             by_type[t].append(row)
 
+    precinct_to_geoid20 = load_precinct_to_geoid20()
+    vtd20_to_cd = load_vtd20_to_district(CROSSWALKS_DIR / "vtd20_to_cd118.csv")
+    vtd20_to_sldl = load_vtd20_to_district(CROSSWALKS_DIR / "vtd20_to_sldl.csv")
+    vtd20_to_sldu = load_vtd20_to_district(CROSSWALKS_DIR / "vtd20_to_sldu.csv")
+
     pkey_to_cd = {}
     for r in by_type.get("us_house", []):
         pkey = (clean(r.get("county", "")), clean(r.get("precinct", "")))
@@ -197,6 +216,24 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
         d = clean(r.get("district", ""))
         if pkey[0] and pkey[1] and d:
             pkey_to_sldu[pkey] = d
+
+    all_pkeys = {(clean(r.get("county", "")), clean(r.get("precinct", ""))) for r in rows}
+    for county, precinct in all_pkeys:
+        pkey = (county, precinct)
+        probes = build_precinct_match_probes(county, precinct)
+        geoid = ""
+        for pr in probes:
+            if pr in precinct_to_geoid20:
+                geoid = precinct_to_geoid20[pr]
+                break
+        if not geoid:
+            continue
+        if pkey not in pkey_to_cd and geoid in vtd20_to_cd:
+            pkey_to_cd[pkey] = clean(vtd20_to_cd[geoid]).zfill(2)
+        if pkey not in pkey_to_sldl and geoid in vtd20_to_sldl:
+            pkey_to_sldl[pkey] = clean(vtd20_to_sldl[geoid])
+        if pkey not in pkey_to_sldu and geoid in vtd20_to_sldu:
+            pkey_to_sldu[pkey] = clean(vtd20_to_sldu[geoid])
 
     common_types = (
         "president",
@@ -325,8 +362,8 @@ def main() -> None:
             ctype = payload["contest_type"]
             keep = (
                 (scope == "congressional" and ctype == "us_house") or
-                (scope == "state_house" and ctype == "state_assembly") or
-                (scope == "state_senate" and ctype == "state_senate")
+                (scope == "state_house") or
+                (scope == "state_senate")
             )
             if not keep:
                 continue

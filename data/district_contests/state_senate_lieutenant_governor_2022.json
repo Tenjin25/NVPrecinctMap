@@ -8,6 +8,20 @@
   },
   "general": {
     "results": {
+      "001": {
+        "dem_votes": 9129,
+        "rep_votes": 6546,
+        "other_votes": 755,
+        "total_votes": 16430,
+        "dem_candidate": "Elizabeth L. Cano Burkhead",
+        "rep_candidate": "Stavros Anthony",
+        "margin": -2583,
+        "margin_pct": -15.72,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
       "2": {
         "dem_votes": 11679,
         "rep_votes": 5052,
@@ -17,6 +31,76 @@
         "rep_candidate": "Stavros Anthony",
         "margin": -6627,
         "margin_pct": -36.63,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "003": {
+        "dem_votes": 6738,
+        "rep_votes": 6614,
+        "other_votes": 557,
+        "total_votes": 13909,
+        "dem_candidate": "Elizabeth L. Cano Burkhead",
+        "rep_candidate": "Stavros Anthony",
+        "margin": -124,
+        "margin_pct": -0.89,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#e1f5fe"
+        }
+      },
+      "004": {
+        "dem_votes": 16948,
+        "rep_votes": 7478,
+        "other_votes": 1592,
+        "total_votes": 26018,
+        "dem_candidate": "Elizabeth L. Cano Burkhead",
+        "rep_candidate": "Stavros Anthony",
+        "margin": -9470,
+        "margin_pct": -36.4,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "005": {
+        "dem_votes": 22358,
+        "rep_votes": 23926,
+        "other_votes": 2083,
+        "total_votes": 48367,
+        "dem_candidate": "Elizabeth L. Cano Burkhead",
+        "rep_candidate": "Stavros Anthony",
+        "margin": 1568,
+        "margin_pct": 3.24,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "006": {
+        "dem_votes": 20373,
+        "rep_votes": 21148,
+        "other_votes": 1389,
+        "total_votes": 42910,
+        "dem_candidate": "Elizabeth L. Cano Burkhead",
+        "rep_candidate": "Stavros Anthony",
+        "margin": 775,
+        "margin_pct": 1.81,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "007": {
+        "dem_votes": 13336,
+        "rep_votes": 8336,
+        "other_votes": 1350,
+        "total_votes": 23022,
+        "dem_candidate": "Elizabeth L. Cano Burkhead",
+        "rep_candidate": "Stavros Anthony",
+        "margin": -5000,
+        "margin_pct": -21.72,
         "winner": "DEM",
         "competitiveness": {
           "color": "#3182bd"
@@ -36,6 +120,20 @@
           "color": "#fcae91"
         }
       },
+      "008": {
+        "dem_votes": 17,
+        "rep_votes": 30,
+        "other_votes": 1,
+        "total_votes": 48,
+        "dem_candidate": "Elizabeth L. Cano Burkhead",
+        "rep_candidate": "Stavros Anthony",
+        "margin": 13,
+        "margin_pct": 27.08,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
       "9": {
         "dem_votes": 22204,
         "rep_votes": 19299,
@@ -50,6 +148,20 @@
           "color": "#c6dbef"
         }
       },
+      "009": {
+        "dem_votes": 295,
+        "rep_votes": 438,
+        "other_votes": 27,
+        "total_votes": 760,
+        "dem_candidate": "Elizabeth L. Cano Burkhead",
+        "rep_candidate": "Stavros Anthony",
+        "margin": 143,
+        "margin_pct": 18.82,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
       "10": {
         "dem_votes": 16462,
         "rep_votes": 12530,
@@ -62,6 +174,20 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
+        }
+      },
+      "011": {
+        "dem_votes": 19098,
+        "rep_votes": 17995,
+        "other_votes": 1643,
+        "total_votes": 38736,
+        "dem_candidate": "Elizabeth L. Cano Burkhead",
+        "rep_candidate": "Stavros Anthony",
+        "margin": -1103,
+        "margin_pct": -2.85,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
         }
       },
       "12": {
@@ -92,6 +218,20 @@
           "color": "#3182bd"
         }
       },
+      "013": {
+        "dem_votes": 5,
+        "rep_votes": 19,
+        "other_votes": 0,
+        "total_votes": 24,
+        "dem_candidate": "Elizabeth L. Cano Burkhead",
+        "rep_candidate": "Stavros Anthony",
+        "margin": 14,
+        "margin_pct": 58.33,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
       "14": {
         "dem_votes": 21602,
         "rep_votes": 37237,
@@ -104,6 +244,34 @@
         "winner": "REP",
         "competitiveness": {
           "color": "#cb181d"
+        }
+      },
+      "014": {
+        "dem_votes": 341,
+        "rep_votes": 249,
+        "other_votes": 39,
+        "total_votes": 629,
+        "dem_candidate": "Elizabeth L. Cano Burkhead",
+        "rep_candidate": "Stavros Anthony",
+        "margin": -92,
+        "margin_pct": -14.63,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "015": {
+        "dem_votes": 26666,
+        "rep_votes": 20565,
+        "other_votes": 2594,
+        "total_votes": 49825,
+        "dem_candidate": "Elizabeth L. Cano Burkhead",
+        "rep_candidate": "Stavros Anthony",
+        "margin": -6101,
+        "margin_pct": -12.24,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
         }
       },
       "16": {
@@ -129,6 +297,34 @@
         "rep_candidate": "Stavros Anthony",
         "margin": 28001,
         "margin_pct": 42.58,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "018": {
+        "dem_votes": 18269,
+        "rep_votes": 22814,
+        "other_votes": 1638,
+        "total_votes": 42721,
+        "dem_candidate": "Elizabeth L. Cano Burkhead",
+        "rep_candidate": "Stavros Anthony",
+        "margin": 4545,
+        "margin_pct": 10.64,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "019": {
+        "dem_votes": 13688,
+        "rep_votes": 34308,
+        "other_votes": 2847,
+        "total_votes": 50843,
+        "dem_candidate": "Elizabeth L. Cano Burkhead",
+        "rep_candidate": "Stavros Anthony",
+        "margin": 20620,
+        "margin_pct": 40.56,
         "winner": "REP",
         "competitiveness": {
           "color": "#67000d"

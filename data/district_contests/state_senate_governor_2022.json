@@ -8,6 +8,20 @@
   },
   "general": {
     "results": {
+      "001": {
+        "dem_votes": 9337,
+        "rep_votes": 6474,
+        "other_votes": 653,
+        "total_votes": 16464,
+        "dem_candidate": "Steve Sisolak",
+        "rep_candidate": "Joe Lombardo",
+        "margin": -2863,
+        "margin_pct": -17.39,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
       "2": {
         "dem_votes": 11995,
         "rep_votes": 5107,
@@ -17,6 +31,76 @@
         "rep_candidate": "Joe Lombardo",
         "margin": -6888,
         "margin_pct": -37.96,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "003": {
+        "dem_votes": 7022,
+        "rep_votes": 6449,
+        "other_votes": 481,
+        "total_votes": 13952,
+        "dem_candidate": "Steve Sisolak",
+        "rep_candidate": "Joe Lombardo",
+        "margin": -573,
+        "margin_pct": -4.11,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "004": {
+        "dem_votes": 17453,
+        "rep_votes": 7413,
+        "other_votes": 1201,
+        "total_votes": 26067,
+        "dem_candidate": "Steve Sisolak",
+        "rep_candidate": "Joe Lombardo",
+        "margin": -10040,
+        "margin_pct": -38.52,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "005": {
+        "dem_votes": 23029,
+        "rep_votes": 23876,
+        "other_votes": 1605,
+        "total_votes": 48510,
+        "dem_candidate": "Steve Sisolak",
+        "rep_candidate": "Joe Lombardo",
+        "margin": 847,
+        "margin_pct": 1.75,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "006": {
+        "dem_votes": 21602,
+        "rep_votes": 20239,
+        "other_votes": 1189,
+        "total_votes": 43030,
+        "dem_candidate": "Steve Sisolak",
+        "rep_candidate": "Joe Lombardo",
+        "margin": -1363,
+        "margin_pct": -3.17,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "007": {
+        "dem_votes": 13782,
+        "rep_votes": 8243,
+        "other_votes": 1068,
+        "total_votes": 23093,
+        "dem_candidate": "Steve Sisolak",
+        "rep_candidate": "Joe Lombardo",
+        "margin": -5539,
+        "margin_pct": -23.99,
         "winner": "DEM",
         "competitiveness": {
           "color": "#3182bd"
@@ -36,6 +120,20 @@
           "color": "#c6dbef"
         }
       },
+      "008": {
+        "dem_votes": 19,
+        "rep_votes": 28,
+        "other_votes": 0,
+        "total_votes": 47,
+        "dem_candidate": "Steve Sisolak",
+        "rep_candidate": "Joe Lombardo",
+        "margin": 9,
+        "margin_pct": 19.15,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
       "9": {
         "dem_votes": 23174,
         "rep_votes": 18984,
@@ -50,6 +148,20 @@
           "color": "#c6dbef"
         }
       },
+      "009": {
+        "dem_votes": 313,
+        "rep_votes": 426,
+        "other_votes": 26,
+        "total_votes": 765,
+        "dem_candidate": "Steve Sisolak",
+        "rep_candidate": "Joe Lombardo",
+        "margin": 113,
+        "margin_pct": 14.77,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
       "10": {
         "dem_votes": 16961,
         "rep_votes": 12410,
@@ -62,6 +174,20 @@
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
+        }
+      },
+      "011": {
+        "dem_votes": 19737,
+        "rep_votes": 17965,
+        "other_votes": 1214,
+        "total_votes": 38916,
+        "dem_candidate": "Steve Sisolak",
+        "rep_candidate": "Joe Lombardo",
+        "margin": -1772,
+        "margin_pct": -4.55,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
         }
       },
       "12": {
@@ -92,6 +218,20 @@
           "color": "#3182bd"
         }
       },
+      "013": {
+        "dem_votes": 9,
+        "rep_votes": 16,
+        "other_votes": 0,
+        "total_votes": 25,
+        "dem_candidate": "Steve Sisolak",
+        "rep_candidate": "Joe Lombardo",
+        "margin": 7,
+        "margin_pct": 28.0,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
       "14": {
         "dem_votes": 22559,
         "rep_votes": 37299,
@@ -104,6 +244,34 @@
         "winner": "REP",
         "competitiveness": {
           "color": "#cb181d"
+        }
+      },
+      "014": {
+        "dem_votes": 351,
+        "rep_votes": 258,
+        "other_votes": 26,
+        "total_votes": 635,
+        "dem_candidate": "Steve Sisolak",
+        "rep_candidate": "Joe Lombardo",
+        "margin": -93,
+        "margin_pct": -14.65,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "015": {
+        "dem_votes": 27918,
+        "rep_votes": 20495,
+        "other_votes": 1956,
+        "total_votes": 50369,
+        "dem_candidate": "Steve Sisolak",
+        "rep_candidate": "Joe Lombardo",
+        "margin": -7423,
+        "margin_pct": -14.74,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
         }
       },
       "16": {
@@ -132,6 +300,34 @@
         "winner": "REP",
         "competitiveness": {
           "color": "#67000d"
+        }
+      },
+      "018": {
+        "dem_votes": 18975,
+        "rep_votes": 22405,
+        "other_votes": 1470,
+        "total_votes": 42850,
+        "dem_candidate": "Steve Sisolak",
+        "rep_candidate": "Joe Lombardo",
+        "margin": 3430,
+        "margin_pct": 8.0,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "019": {
+        "dem_votes": 14253,
+        "rep_votes": 34118,
+        "other_votes": 2695,
+        "total_votes": 51066,
+        "dem_candidate": "Steve Sisolak",
+        "rep_candidate": "Joe Lombardo",
+        "margin": 19865,
+        "margin_pct": 38.9,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
         }
       },
       "20": {
