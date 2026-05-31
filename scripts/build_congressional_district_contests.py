@@ -307,17 +307,30 @@ def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     manifest = []
 
+    allowed_years = {2022, 2024}
     for p in sorted(OE_DIR.glob("*__nv__general__precinct.csv")):
+        if parse_year(p) not in allowed_years:
+            continue
         generated = build_for_year(p)
         for fname, payload in generated:
+            y = int(payload["year"])
+            scope = payload["scope"]
+            ctype = payload["contest_type"]
+            keep = (
+                (scope == "congressional" and ctype == "us_house") or
+                (scope == "state_house" and ctype == "state_assembly") or
+                (scope == "state_senate" and ctype == "state_senate")
+            )
+            if not keep:
+                continue
             out = OUT_DIR / fname
             out.write_text(json.dumps(payload, indent=2), encoding="utf-8")
             districts = len((payload.get("general", {}).get("results", {}) or {}))
             manifest.append(
                 {
-                    "year": int(payload["year"]),
-                    "scope": payload["scope"],
-                    "contest_type": payload["contest_type"],
+                    "year": y,
+                    "scope": scope,
+                    "contest_type": ctype,
                     "file": fname,
                     "districts": districts,
                 }
