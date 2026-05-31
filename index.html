@@ -32135,6 +32135,14 @@ document.addEventListener('DOMContentLoaded', function() {
           return await loadJSON(path);
         } catch (_) {}
       }
+      if (scope === 'congressional' && congressionalNeutralMode) {
+        try { await ensureDistrictElectionDataLoaded(); } catch (_) {}
+        return districtElectionDataJSON?.results_by_year?.[year]?.[contestType] || null;
+      }
+      if (normalizeDistrictLinesYear(linesYear) === 2022) {
+        try { await ensureDistrictElectionDataLoaded(); } catch (_) {}
+        return districtElectionDataJSON?.results_by_year?.[year]?.[scope]?.[contestType] || null;
+      }
       return null;
     }
 
