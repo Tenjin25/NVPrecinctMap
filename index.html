@@ -10240,6 +10240,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
     const DATA_CACHE_BUSTER = '2026-05-31-07';
+    const COUNTY_POP_CACHE_BUSTER = '2026-05-31-02';
     const APP_BUILD_ID = '2026-05-25-11';
 
     function withCacheBuster(path) {
@@ -10294,7 +10295,7 @@ document.addEventListener('DOMContentLoaded', function() {
         state_senate_2022: withBase('./data/census/tl_2022_32_sldu/tl_2022_32_sldu.geojson'),
         state_senate_2024: withBase('./data/census/tl_2022_32_sldu/tl_2022_32_sldu.geojson'),
         county_demographics: withBase('./data/county_demographics_2020_dp1.json'),
-        county_population_estimates: withBase('./data/CO-EST2025-POP-32-clean.csv'),
+        county_population_estimates: withBase(`./data/CO-EST2025-POP-32-clean.csv?pv=${encodeURIComponent(COUNTY_POP_CACHE_BUSTER)}`),
         precinct_demographics: withBase('./data/precinct_demographics_2020_vap.csv'),
         cvap_aggregates: {
           county_2020: withBase('./data/cvap_aggregates/county_2020__cvap24.csv'),
@@ -11940,7 +11941,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!c) return null;
       if (modeledCensusContextMemo.has(c)) return modeledCensusContextMemo.get(c) || null;
       let ctx = null;
-      try { ctx = getNcCensusContext(c); } catch (_) { ctx = null; }
+      try { ctx = getNevadaCensusContext(c); } catch (_) { ctx = null; }
       try { modeledCensusContextMemo.set(c, ctx); } catch (_) {}
       return ctx;
     }
@@ -14939,7 +14940,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if ((meta.kind === 'county' || meta.kind === 'precinct') && meta.county) {
           try {
-            censusContext = getNcCensusContext(meta.county);
+            censusContext = getNevadaCensusContext(meta.county);
             trendOptions.censusContext = censusContext;
             trendOptions.censusContextTitle = meta.kind === 'precinct'
               ? `${displayCountyName(meta.county)} County Census Insight`
@@ -15734,7 +15735,7 @@ document.addEventListener('DOMContentLoaded', function() {
           const pop = Number(countyPopulationEstimatesByNorm?.get(county)?.population2025 || 0);
           if (/urban anchor|urban county/.test(pattern) || pop >= 550000) return 'urban';
           if (/metro spillover|outer-suburban|suburban/.test(pattern) || pop >= 180000) return 'suburban';
-          if (/small-metro|transition|coastal growth/.test(pattern) || pop >= 90000) return 'exurban';
+          if (/small-metro|transition|amenity/.test(pattern) || pop >= 90000) return 'exurban';
           return 'rural';
         };
 
@@ -16344,7 +16345,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const out = new Map();
             baseAgg.forEach((totals, county) => {
               const ctx = (() => {
-                try { return getNcCensusContext(county); } catch (_) { return null; }
+                try { return getNevadaCensusContext(county); } catch (_) { return null; }
               })();
               const pattern = String(ctx?.patternLabel || '');
               const note = String(ctx?.noteLabel || '');
@@ -22216,7 +22217,7 @@ document.addEventListener('DOMContentLoaded', function() {
           changePct2023To2024: Number.isFinite(changePct2023To2024) ? changePct2023To2024 : NaN
         };
 
-        if (countyNorm === 'NORTH CAROLINA') statewide = entry;
+        if (countyNorm === 'NEVADA') statewide = entry;
         else byNorm.set(countyNorm, entry);
       });
       return { byNorm, statewide };
@@ -22229,14 +22230,14 @@ document.addEventListener('DOMContentLoaded', function() {
       return `${value > 0 ? 'up' : 'down'} ${Math.abs(value).toFixed(1)}%`;
     }
 
-    function getNcCensusContext(countyNorm) {
+    function getNevadaCensusContext(countyNorm) {
       const norm = String(countyNorm || '').trim().toUpperCase();
-      const urbanAnchor = new Set(['CLARK', 'MECKLENBURG', 'DURHAM', 'ORANGE', 'GUILFORD', 'FORSYTH', 'BUNCOMBE']);
-      const metroSpillover = new Set(['JOHNSTON', 'UNION', 'CABARRUS', 'IREDELL', 'HARNETT', 'CHATHAM', 'PENDER', 'FRANKLIN', 'GASTON', 'CLEVELAND']);
-      const coastalGrowth = new Set(['BRUNSWICK', 'NEW HANOVER', 'PENDER', 'ONSLOW', 'CURRITUCK', 'CARTERET']);
-      const ruralSlowdown = new Set(['ROBESON', 'BLADEN', 'RICHMOND', 'ANSON', 'MARTIN', 'GATES', 'HALIFAX', 'SCOTLAND', 'WASHINGTON', 'BERTIE', 'NORTHAMPTON']);
-      const mixedTransition = new Set(['PASQUOTANK', 'ALAMANCE', 'DAVIDSON', 'ROWAN', 'NASH', 'PITT', 'CUMBERLAND', 'RANDOLPH', 'CATAWBA', 'WAYNE', 'CRAVEN']);
-      const institutionalHub = new Set(['CUMBERLAND', 'HOKE', 'ONSLOW', 'WAYNE', 'CRAVEN']);
+      const urbanAnchor = new Set(['CLARK', 'WASHOE']);
+      const metroSpillover = new Set(['CARSON CITY', 'DOUGLAS', 'LYON', 'STOREY']);
+      const amenityGrowth = new Set(['DOUGLAS', 'LYON', 'NYE']);
+      const ruralSlowdown = new Set(['ESMERALDA', 'EUREKA', 'MINERAL', 'PERSHING', 'WHITE PINE']);
+      const mixedTransition = new Set(['CHURCHILL', 'ELKO', 'HUMBOLDT', 'LANDER', 'LINCOLN']);
+      const institutionalHub = new Set(['CHURCHILL', 'CLARK', 'WASHOE']);
 
       let signalEmoji = '📊';
       let signalLabel = 'Steady population signal';
@@ -22271,19 +22272,19 @@ document.addEventListener('DOMContentLoaded', function() {
             ? 'Urban anchor with slower 2025 growth'
             : 'Urban anchor with continued growth';
           noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Growth since 2020 is ${formatPopulationChangePct(totalPct)}, versus ${formatPopulationChangePct(stateTotalPct)} statewide. ${slowedIn2025 ? 'Growth cooled compared with 2023 to 2024.' : 'The county is still adding residents at a steady clip.'}`;
-        } else if (coastalGrowth.has(norm) && !belowStatewide) {
-          signalEmoji = '🌊';
-          patternEmoji = '🏖️';
+        } else if (amenityGrowth.has(norm) && !belowStatewide) {
+          signalEmoji = '🏜️';
+          patternEmoji = '🌄';
           patternLabel = slowedIn2025
-            ? 'Coastal growth still positive but cooling in 2025'
-            : 'Coastal growth running above the statewide pace';
+            ? 'Amenity-driven growth still positive but cooling in 2025'
+            : 'Amenity-driven growth running above the statewide pace';
           noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Since 2020, this county is ${formatPopulationChangePct(totalPct)}${aboveStatewide ? ', faster than the statewide pace.' : '.'}`;
         } else if (metroSpillover.has(norm) && (aboveStatewide || Number(totalPct) >= 8)) {
           signalEmoji = '📈';
           patternEmoji = '🌆';
           patternLabel = slowedIn2025
-            ? 'Metro spillover growth with a slower 2025 pace'
-            : 'Metro spillover / outer-suburban expansion';
+            ? 'Northern metro spillover growth with a slower 2025 pace'
+            : 'Northern metro spillover / exurban expansion';
           noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. The county is ${formatPopulationChangePct(totalPct)} since 2020 and ${formatPopulationChangePct(recentPct)} from 2024 to 2025.`;
         } else if (mixedTransition.has(norm) && !isFlatOrDeclining) {
           signalEmoji = aboveStatewide ? '📈' : '⚖️';
@@ -22295,7 +22296,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ? ` versus ${formatPopulationChangePct(stateTotalPct)} statewide`
             : '';
           const slowdownClause = slowedIn2025 ? ' Growth cooled compared with 2023 to 2024.' : '';
-          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Growth since 2020 is ${formatPopulationChangePct(totalPct)}${statewideClause}. 2024 to 2025 change: ${formatPopulationChangePct(recentPct)}.${slowdownClause} Counties in this bucket often sit between metro growth and rural stability, so partisan change can be gradual.`;
+          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Growth since 2020 is ${formatPopulationChangePct(totalPct)}${statewideClause}. 2024 to 2025 change: ${formatPopulationChangePct(recentPct)}.${slowdownClause} Counties in this bucket often sit between metro growth and rural stability, so partisan change can be gradual in Nevada.`;
         } else if (isUrbanish && (belowStatewide || slowedIn2025) && !isFlatOrDeclining) {
           signalEmoji = '🏙️';
           patternEmoji = '🧭';
@@ -22335,12 +22336,12 @@ document.addEventListener('DOMContentLoaded', function() {
         patternEmoji = '🧲';
         patternLabel = 'Jobs and institutions pull in growth';
         noteLabel = 'Large urban counties often absorb new voters first, which can reshape both county margins and nearby suburbs.';
-      } else if (!estimate && coastalGrowth.has(norm)) {
+      } else if (!estimate && amenityGrowth.has(norm)) {
         signalEmoji = '📈';
-        signalLabel = 'High-growth coastal county';
-        patternEmoji = '🏖️';
-        patternLabel = 'Coastal migration and retirement growth';
-        noteLabel = 'Coastal growth can boost raw turnout quickly and may either strengthen or soften the existing partisan lean depending on who is moving in.';
+        signalLabel = 'High-growth amenity county';
+        patternEmoji = '🌄';
+        patternLabel = 'Amenity migration and retirement growth';
+        noteLabel = 'Amenity growth can boost raw turnout quickly and may either strengthen or soften the existing partisan lean depending on who is moving in.';
       } else if (!estimate && metroSpillover.has(norm)) {
         signalEmoji = '📈';
         signalLabel = 'High-growth county';
@@ -22351,7 +22352,7 @@ document.addEventListener('DOMContentLoaded', function() {
         signalEmoji = '🌾';
         signalLabel = 'Slow-growth or declining county';
         patternEmoji = '⬇️';
-        patternLabel = 'Rural slowdown / Black Belt population loss';
+        patternLabel = 'Rural slowdown / low-growth interior county';
         noteLabel = 'Places with slower growth or population loss can still shift sharply when the electorate changes composition rather than simply adding new residents.';
       } else if (!estimate && mixedTransition.has(norm)) {
         signalEmoji = '⚖️';
@@ -22398,12 +22399,12 @@ document.addEventListener('DOMContentLoaded', function() {
         (Number.isFinite(stateTotalPct) && totalPct > stateTotalPct + 1.25)
       );
       const slowGrowth = (Number.isFinite(totalPct) && totalPct < 1) || (Number.isFinite(recentPct) && recentPct < 0);
-      const demGrowthPattern = /Urban anchor|Metro spillover|outer-suburban|Above-state growth county|Coastal growth/i.test(patternLabel);
+      const demGrowthPattern = /Urban anchor|Metro spillover|Northern metro spillover|exurban|Above-state growth county|Amenity-driven growth|Amenity migration/i.test(patternLabel);
       const repGrowthPattern = /Slow-growth|declining county|Rural slowdown/i.test(patternLabel);
       const growthLabel = (() => {
-        if (/Metro spillover|outer-suburban expansion/i.test(patternLabel)) return 'fast outer-suburban growth';
+        if (/Metro spillover|Northern metro spillover|exurban expansion/i.test(patternLabel)) return 'fast outer-suburban growth';
         if (/Urban anchor/i.test(patternLabel)) return 'continued urban growth';
-        if (/Coastal growth/i.test(patternLabel)) return 'fast coastal growth';
+        if (/Amenity-driven growth|Amenity migration/i.test(patternLabel)) return 'fast amenity-corridor growth';
         if (/Above-state growth county/i.test(patternLabel)) return 'above-average growth';
         return 'fast county growth';
       })();
@@ -22638,7 +22639,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (/Urban anchor/i.test(raw)) return 'Urban anchor county';
         if (/Metro spillover/i.test(raw)) return 'Metro spillover county';
         if (/outer-suburban/i.test(raw)) return 'Outer-suburban county';
-        if (/Coastal/i.test(raw)) return 'Coastal growth county';
+        if (/Amenity/i.test(raw)) return 'Amenity growth county';
         if (/Above-state/i.test(raw)) return 'Fast-growth county';
         return raw.replace(/\s+or\s+declining\b/i, '').trim();
       }
@@ -22654,7 +22655,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (/outer-suburban/i.test(raw)) return 'outer-suburban growth';
         if (/metro spillover/i.test(raw)) return 'metro spillover growth';
         if (/urban anchor/i.test(raw)) return 'urban anchor growth';
-        if (/coastal growth/i.test(raw)) return 'coastal growth';
+        if (/amenity/i.test(raw)) return 'amenity growth';
         return raw.replace(/\s+county$/i, '').trim().toLowerCase();
       }
 
@@ -22665,7 +22666,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const toneLocal = String(directionTone || '').trim().toLowerCase();
         const g = String(growthText || '').trim().toLowerCase();
         if (!g || g === '—') return { effect: 'neutral', line: '' };
-        const fast = /fast-growth|metro|outer-suburban|urban anchor|coastal growth/.test(g);
+        const fast = /fast-growth|metro|outer-suburban|urban anchor|amenity/.test(g);
         const slow = /slow-growth|declin/.test(g);
         if (toneLocal === 'rep') {
           if (slow) return { effect: 'reinforces', line: 'Slow growth can make margins feel stickier (less churn), even when the mood shifts.' };
@@ -22789,7 +22790,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const glanceMeaning = (() => {
         const tag = `${String(growthHeadline || '').toLowerCase()} ${String(contextBullet || '').toLowerCase()}`;
-        const fast = /fast growth|metro spillover|outer-suburban|urban anchor|coastal growth/.test(tag);
+        const fast = /fast growth|metro spillover|outer-suburban|urban anchor|amenity/.test(tag);
         const slow = /slow growth|declin/.test(tag);
         if (fast) return 'Growth could keep margins moving';
         if (slow) return 'Stable electorate, margins can be sticky';
@@ -22888,7 +22889,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const absMargin = Math.abs(Number(selectedSigned) || 0);
         const accel = Number.isFinite(recentShiftSince2020) && Math.abs(recentShiftSince2020) >= 4;
         const growthTag = `${String(growthHeadline || '').toLowerCase()} ${String(contextBullet || '').toLowerCase()}`;
-        const fastGrowth = /fast growth|metro spillover|outer-suburban|urban anchor|coastal growth/.test(growthTag);
+        const fastGrowth = /fast growth|metro spillover|outer-suburban|urban anchor|amenity/.test(growthTag);
         const slowGrowth = /slow growth|declin/.test(growthTag);
         if (!isRecentFlip && electionCount > 0 && electionCount < 4) {
           return compact ? 'Early read: watch for confirmation next cycle.' : 'Early read: watch for confirmation in the next comparable cycle.';
@@ -23035,23 +23036,13 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const norm = String(countyName || '').trim().toUpperCase();
 	      if (!norm) return '🏭 Stable / Local Growth';
 
-	      const coastal = new Set([
-	        'BRUNSWICK', 'NEW HANOVER', 'PENDER', 'ONSLOW', 'CARTERET', 'CRAVEN',
-	        'PAMLICO', 'BEAUFORT', 'HYDE', 'DARE', 'TYRRELL', 'CURRITUCK',
-	        'PASQUOTANK', 'CAMDEN', 'CHOWAN', 'PERQUIMANS'
-	      ]);
-	      const charlotteMetro = new Set([
-	        'MECKLENBURG', 'UNION', 'CABARRUS', 'GASTON', 'IREDELL', 'ROWAN',
-	        'LINCOLN', 'STANLY', 'CLEVELAND', 'CATAWBA'
-	      ]);
-	      const i95Corridor = new Set([
-	        'NORTHAMPTON', 'HALIFAX', 'EDGECOMBE', 'NASH', 'WILSON', 'JOHNSTON',
-	        'HARNETT', 'CUMBERLAND', 'ROBESON', 'SAMPSON', 'WAYNE', 'DUPLIN'
-	      ]);
+	      const amenityGrowth = new Set(['DOUGLAS', 'LYON', 'NYE']);
+	      const northernMetro = new Set(['WASHOE', 'CARSON CITY', 'STOREY']);
+	      const i80Corridor = new Set(['ELKO', 'EUREKA', 'HUMBOLDT', 'LANDER', 'PERSHING']);
 
-	      if (coastal.has(norm)) return '🌊 Coastal Growth';
-	      if (charlotteMetro.has(norm)) return '🌆 Metro Spillover';
-	      if (i95Corridor.has(norm)) return '🛣️ Corridor Growth';
+	      if (amenityGrowth.has(norm)) return '🌄 Amenity Growth';
+	      if (northernMetro.has(norm)) return '🌆 Northern Metro Spillover';
+	      if (i80Corridor.has(norm)) return '🛣️ I-80 Corridor Growth';
 
 	      void growthRate;
 	      return '🏭 Stable / Local Growth';
@@ -26060,7 +26051,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const deltaBlock = buildCountyDeltaBlockHTML(norm, contestType, { presentation: 'desktop-expanded' });
       const censusDetailLine = (() => {
         try {
-          const ctx = getNcCensusContext(norm);
+          const ctx = getNevadaCensusContext(norm);
           const signal = String(ctx?.signalLabel || '').trim();
           if (!signal) return '';
           return `<div class="tooltip-insight">Census insight: ${escapeHtml(signal)}.</div>`;
@@ -27554,8 +27545,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const censusContext = (() => {
         try {
-          if (typeof getNcCensusContext !== 'function') return null;
-          return getNcCensusContext(norm);
+          if (typeof getNevadaCensusContext !== 'function') return null;
+          return getNevadaCensusContext(norm);
         } catch (_) {
           return null;
         }
@@ -28089,7 +28080,7 @@ document.addEventListener('DOMContentLoaded', function() {
           const growthDriver = (() => {
             if (/metro spillover|outer-suburban/.test(pat)) return 'Suburban growth';
             if (/urban anchor/.test(pat)) return 'Urban growth';
-            if (/coastal growth|coastal migration/.test(pat)) return 'Coastal in‑migration';
+            if (/amenity/.test(pat)) return 'Amenity in‑migration';
             if (/slow-growth|declin/.test(pat)) return 'Slow growth';
             if (/small-metro/.test(pat)) return 'Small‑metro growth';
             if (patRaw) return patRaw.replace(/\s+with\s+.*$/i, '').replace(/\s+county$/i, '').trim();
