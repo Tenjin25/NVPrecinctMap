@@ -12699,7 +12699,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const contestValue = (nextContestSelect?.value || '').toString().trim();
       if (contestValue && appReady) {
         try {
-          await applyContest(contestValue);
+          await applyContest(contestValue, { force: true });
         } catch (err) {
           console.warn('Failed to reapply contest after neutral toggle:', err?.message || err);
         }
@@ -19160,10 +19160,11 @@ document.addEventListener('DOMContentLoaded', function() {
       const view = String(currentView || '').trim().toLowerCase();
       const mode = String(currentVizMode || 'margins').trim().toLowerCase();
       const linesYear = normalizeDistrictLinesYear(currentDistrictLinesYear);
+      const neutralCongress = (view === 'districts') ? (congressionalNeutralMode ? 1 : 0) : 0;
       const precinctGeom = (typeof getDesiredPrecinctGeometryMode === 'function') ? String(getDesiredPrecinctGeometryMode() || '') : '';
       const overlays = `split:${splitTicketOverlayEnabled ? 1 : 0}|baro:${barometerOverlayEnabled ? 1 : 0}|turnout:${turnoutBivariateEnabled ? 1 : 0}|opacity:${String(overlayOpacityPreset || '')}`;
       const precinct = `precincts:${precinctsEnabled ? 1 : 0}|geom:${precinctGeom}`;
-      return `k:${key}|ct:${ct}|y:${Number.isFinite(y) ? y : ''}|v:${view}|m:${mode}|lines:${linesYear}|${precinct}|${overlays}|scenario:${scenarioSignature()}`;
+      return `k:${key}|ct:${ct}|y:${Number.isFinite(y) ? y : ''}|v:${view}|m:${mode}|lines:${linesYear}|neutral:${neutralCongress}|${precinct}|${overlays}|scenario:${scenarioSignature()}`;
     }
 
     function wireContestSelectHandlers(sel) {
