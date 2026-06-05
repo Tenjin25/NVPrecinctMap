@@ -9901,7 +9901,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <label for="model-bonus">Candidate overperformance</label>
                 <input id="model-bonus" type="range" min="0" max="1.5" step="0.1" value="1" data-testid="model-bonus" aria-label="Model candidate bonus scale" />
                 <span class="scenario-value" id="model-bonus-value">1.0x</span>
-                <div class="scenario-help">Scales county-level overperformance effects (for example, Cooper crossover strength) with guardrails.</div>
+                <div class="scenario-help">Scales county-level overperformance effects with Nevada-specific guardrails.</div>
               </div>
               <div class="scenario-row scenario-row-actions" id="model-reset-row" style="display:none;">
                 <span></span>
@@ -9929,7 +9929,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 High contrast demographics
               </label>
               <div class="controls-panel-note">
-                Positive swing shifts margins toward Democrats. Negative values shift toward Republicans. Modeled 2026 Senate and Court entries inherit this swing.
+                Positive swing shifts margins toward Democrats. Negative values shift toward Republicans. Modeled 2026 entries inherit this swing.
                 <span id="modeled-context-badge" class="modeled-context-badge" style="display:none;">Modeled Scenario</span>
               </div>
             </details>
@@ -11220,23 +11220,22 @@ document.addEventListener('DOMContentLoaded', function() {
       'governor_model_2026': {
         contestType: 'governor_model',
         year: 2026,
-        displayName: 'Governor Model',
-        optionLabel: 'Governor (2026) model',
+        displayName: 'Ford vs Lombardo Governor Model',
+        optionLabel: 'Governor (2026) Ford vs Lombardo model',
         groupLabel: 'Governor',
-       baseContestType: 'governor',
-       baseYear: 2022,
-       // Secondary Senate anchor: presidential-year Senate is a better same-environment reference than a pure midterm-only anchor.
-       // The weights below are applied inside the Senate anchor, before the (separate) climate blend.
-       secondaryBaseContestType: 'governor',
-       secondaryBaseYear: 2020,
-       senateAnchorSecondWeight: 0.34, // 0..1 share for 2020 inside the Senate anchor (rest is 2022)
-       climateContestType: 'president',
-       climateYear: 2024,
-        // Calibration refinement (2026-04): keep a Senate-first baseline (2022 + 2020) with a lighter climate blend,
-        // and tighter caps on county-specific ticket-splitting and "trend nudge" noise.
-        blendWeight: 0.72, // 0 => pure climate (2024 Pres), 1 => pure Senate anchors (2022 + 2020)
-        presidentialBaselineWeight: 0.60,
-        senateBaselineWeight: 0.40,
+        baseContestType: 'governor',
+        baseYear: 2022,
+        // Nevada model: 2022 Governor is the concrete downballot anchor and 2024 President supplies
+        // the current partisan climate. 2018 Governor is kept as a valid prior-cycle context for preload
+        // and future extension, but the generic governor model does not use Senate-only deviation logic.
+        secondaryBaseContestType: 'governor',
+        secondaryBaseYear: 2018,
+        senateAnchorSecondWeight: 0.22,
+        climateContestType: 'president',
+        climateYear: 2024,
+        blendWeight: 0.70, // 0 => pure 2024 President climate, 1 => pure 2022 Governor baseline
+        presidentialBaselineWeight: 0.62,
+        senateBaselineWeight: 0.38,
         baselineRecentWeight: 0.60,
         baselineSecondWeight: 0.25,
         baselineLongRunWeight: 0.15,
@@ -11264,7 +11263,7 @@ document.addEventListener('DOMContentLoaded', function() {
         federalizationBrakeMargin: 20,
         federalizationDeepMargin: 34,
         federalizationFloor: 0.62,
-        // Senate-first blend brake: in counties with durable Senate-vs-Pres divergence, reduce the share
+        // Blend brake: in counties with durable downballot-vs-presidential divergence, reduce the share
         // coming from the presidential climate baseline (capped).
         distinctSenateBehaviorPresWeightBrakeMax: 0.10,
         // Realignment adjustment: subtle rightward nudge in counties with unusually strong federal movement
@@ -11285,48 +11284,33 @@ document.addEventListener('DOMContentLoaded', function() {
         positiveDeviationRealignmentFloor: 0.50, // strongest brake keeps ~50% of positive (R>Pres) deviation
         positiveDeviationRealignmentMinTrendPts: 1.0,
         positiveDeviationRealignmentMaxTrendPts: 9.0,
-        // Guardrail: in strongly realigning counties, a generic R Senate candidate usually shouldn't outrun
-        // the top-of-ticket presidential baseline (Trump) by much. Apply as an upper-bound (more R) cap.
-        senateMaxOverPresEnabled: true,
-        senateMaxOverPresCapPts: 0.60, // generic Senate-over-Pres ceiling
-        senateMaxOverPresMinRealignmentScore: 0.30,
-        senateMaxOverPresRobesonCapPts: 0.20,
-        senateMaxOverPresBladenCapPts: 0.30,
-        senateMaxOverPresScotlandCapPts: 0.35,
-        // Outlier-cycle brake: shrink unusual 2022 Senate behavior toward the blended climate baseline.
-        senateDeviationOutlierBrakeEnabled: true,
-        senateDeviationHistoryYears: [2016, 2020, 2022],
-        // Candidate effect: Cooper tends to run slightly stronger than a generic D (or 2022 Senate baseline)
-        // in some county types; apply as a small additional D swing on top of the blended baseline.
+        // Guardrail fields are inert for the generic governor model unless the Senate-deviation path is enabled.
+        senateMaxOverPresEnabled: false,
+        senateDeviationOutlierBrakeEnabled: false,
+        // Candidate effect: keep a modest generic overperformance dial for gubernatorial nominee quality.
         candidateBonusEnabled: true,
-        candidateBonusMode: 'historical', // historical | heuristic
-        candidateBonusContestType: 'governor', // for historical mode
-        candidateBonusBaselineContestType: 'president', // for historical mode
-        candidateBonusYears: [2016, 2020], // Cooper vs President same-year delta
-        candidateBonusWeight: 0.27,
-        candidateBonusMinTwoPartyVotes: 20000, // damp small counties
+        candidateBonusMode: 'heuristic', // historical | heuristic
+        candidateBonusWeight: 0.20,
+        candidateBonusMinTwoPartyVotes: 8000, // damp very small county/precinct clusters
         candidateBonusFallbackToHeuristic: true,
-        candidateBonusConsistencyBoost: 1.20,
-        candidateBonusConsistencyFloor: 0.60,
-        // Separate "durable crossover" vs "Cooper-personal" components so the bonus does not over-travel
-        // into highly federalized counties or one-cycle outliers.
-        candidateBonusDurableShare: 0.70,
-        candidateBonusPersonalShare: 0.30,
+        candidateBonusConsistencyBoost: 1.08,
+        candidateBonusConsistencyFloor: 0.58,
+        // Separate durable downballot crossover from candidate-personal effects so the bonus stays portable.
+        candidateBonusDurableShare: 0.62,
+        candidateBonusPersonalShare: 0.38,
         candidateBonusDurableRealignmentFloor: 0.68,
         candidateBonusDurableAdjustmentFadeMax: 0.22,
         candidateBonusDurableGeneralFloor: 0.28,
         candidateBonusDurablePriorityFloor: 0.42,
         candidateBonusPersonalFederalizationFloor: 0.24,
         // Realignment-aware fade: treat more of the bonus as non-portable in counties that have continued
-        // moving right at the federal level (e.g., Robeson, Bladen).
+        // moving right at the federal level.
         candidateBonusPersonalRealignmentEnabled: true,
         candidateBonusPersonalRealignmentFloor: 0.34, // strongest fade keeps more personal portability than prior over-fade
         candidateBonusPersonalRealignmentMinTrendPts: 0.9,
         candidateBonusPersonalRealignmentMaxTrendPts: 8.5,
-        // Distinct class: former-D federal counties that realigned hard in the Trump era.
-        // Keep crossover reduced but not eliminated; treat as durable+personal blend, not a hard anomaly override.
-        // Scotland replaces Hoke in this residual ancestral-D/federalized class.
-        candidateBonusRealignedFormerDemFederalCounties: ['ROBESON', 'BLADEN', 'SCOTLAND'],
+        // Distinct class: rural/mining counties that have become sharply more federalized.
+        candidateBonusRealignedFormerDemFederalCounties: ['ELKO', 'LANDER', 'EUREKA', 'HUMBOLDT', 'WHITE PINE'],
         candidateBonusRealignedFormerDemFederalDurableFloor: 0.44,
         candidateBonusRealignedFormerDemFederalPersonalFloor: 0.18,
         candidateBonusRealignedFormerDemFederalPersonalCapPts: 0.26,
@@ -11375,9 +11359,9 @@ document.addEventListener('DOMContentLoaded', function() {
         turnoutContestType: 'president',
         turnoutYear: 2024,
         turnoutFactor: 0.575,
-        demCandidate: 'Democratic Nominee',
-        repCandidate: 'Republican Nominee',
-        description: 'Blended 2022 + 2020 Governor anchors with a 2024 President climate and calibrated 55–60% turnout'
+        demCandidate: 'Aaron Ford',
+        repCandidate: 'Joe Lombardo',
+        description: 'Blended 2022 Governor baseline with a 2024 President climate and calibrated midterm turnout'
       }
     };
     const MODELED_SENATE_UX_FEATURES = {
@@ -12283,6 +12267,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="modeled-flag">Modeled</span>
         </div>
         <div class="model-summary-list">
+          <span><strong>Race:</strong> ${escapeHtml(String(modeled?.demCandidate || 'Democratic nominee'))} vs ${escapeHtml(String(modeled?.repCandidate || 'Republican nominee'))}</span>
           <span><strong>Baseline:</strong> Weighted county baseline anchored to statewide environment</span>
           ${
             (String(modeled?.contestType || '').trim() === 'us_senate_model' && modeled?.secondaryBaseContestType && Number.isFinite(Number(modeled?.secondaryBaseYear)))
@@ -16905,7 +16890,7 @@ document.addEventListener('DOMContentLoaded', function() {
               ? clusterCalibrationStrength
               : (isJudicialModel ? 0.35 : 0);
             if (clusterStrength > 0) {
-              const clusterCal = getClusterCalibration(cluster, isJudicialModel ? 'judicial' : 'senate');
+              const clusterCal = getClusterCalibration(cluster, modelKind);
               const eMul = Number(clusterCal?.elasticityMul ?? 1);
               const tDelta = Number(clusterCal?.turnoutBiasDelta ?? 0);
               if (Number.isFinite(eMul)) elasticity *= lerp(1, eMul, clusterStrength);
@@ -20377,13 +20362,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (isGovernor) {
           const map = {
-            2024: { dem: 'Josh Stein', rep: 'Mark Robinson' },
-            2020: { dem: 'Roy Cooper', rep: 'Dan Forest' },
-            2016: { dem: 'Roy Cooper', rep: 'Pat McCrory' },
-            2012: { dem: 'Walter Dalton', rep: 'Pat McCrory' },
-            2008: { dem: 'Bev Perdue', rep: 'Pat McCrory' },
-            2004: { dem: 'Mike Easley', rep: 'Patrick Ballantine' },
-            2000: { dem: 'Mike Easley', rep: 'Richard Vinson' }
+            2026: { dem: 'Aaron Ford', rep: 'Joe Lombardo' },
+            2022: { dem: 'Steve Sisolak', rep: 'Joe Lombardo' },
+            2018: { dem: 'Steve Sisolak', rep: 'Adam Laxalt' },
+            2014: { dem: 'Bob Goodman', rep: 'Brian Sandoval' },
+            2010: { dem: 'Rory Reid', rep: 'Brian Sandoval' },
+            2006: { dem: 'Dina Titus', rep: 'Jim Gibbons' }
           };
           const entry = map[year];
           return entry ? (partyNorm === 'dem' ? entry.dem : (partyNorm === 'rep' ? entry.rep : '')) : '';
