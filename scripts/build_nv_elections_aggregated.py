@@ -9,6 +9,17 @@ OE_DIR = Path("data/openelections")
 OUT_PATH = Path("data/nv_elections_aggregated.json")
 CROSSWALKS_DIR = Path("data/crosswalks")
 
+# A handful of 2018 statewide OpenElections rows omit the party field for
+# major-party candidates. Keep those candidates out of `other` while leaving
+# true third-party and NOTC rows untouched.
+BLANK_PARTY_CANDIDATE_OVERRIDES: dict[tuple[str, str, str], str] = {
+    ("2018", "attorney_general", "aaron ford"): "DEM",
+    ("2018", "attorney_general", "wes duncan"): "REP",
+    ("2018", "controller", "catherine byrne"): "DEM",
+    ("2018", "lieutenant_governor", "michael roberson"): "REP",
+    ("2018", "treasurer", "bob beers"): "REP",
+}
+
 
 def clean(value: str) -> str:
     return (value or "").strip()
@@ -68,6 +79,16 @@ def normalize_party(party: str) -> str:
     if p.startswith("rep") or "gop" in p:
         return "REP"
     return ""
+
+
+def resolve_party(year: str, contest_type: str, party: str, candidate: str) -> str:
+    normalized = normalize_party(party)
+    if normalized:
+        return normalized
+    return BLANK_PARTY_CANDIDATE_OVERRIDES.get(
+        (str(year), contest_type, normalize_person_name(candidate).lower()),
+        "",
+    )
 
 
 def competitiveness_color(margin_pct: float) -> str:
@@ -151,7 +172,7 @@ def load_crosswalk_context() -> dict:
     }
 
 
-def build_contest_results(rows: list[dict], contest_type: str) -> dict:
+def build_contest_results(rows: list[dict], contest_type: str, year: str) -> dict:
     by_precinct = defaultdict(lambda: {"dem_votes": 0, "rep_votes": 0, "other_votes": 0})
     dem_cand_votes = defaultdict(lambda: defaultdict(int))
     rep_cand_votes = defaultdict(lambda: defaultdict(int))
@@ -163,7 +184,7 @@ def build_contest_results(rows: list[dict], contest_type: str) -> dict:
         county = clean(row.get("county", ""))
         precinct = clean(row.get("precinct", ""))
         precinct_key = f"{county} - {precinct}" if county else precinct
-        party = normalize_party(row.get("party", ""))
+        party = resolve_party(year, contest_type, row.get("party", ""), row.get("candidate", ""))
         candidate = normalize_candidate_name(contest_type, row.get("candidate", ""))
         votes = to_int(row.get("votes", ""))
 
@@ -274,7 +295,7 @@ def main() -> None:
             rows = by_contest.get(contest, [])
             if not rows:
                 continue
-            year_data[contest] = {"general": {"results": build_contest_results(rows, contest)}}
+            year_data[contest] = {"general": {"results": build_contest_results(rows, contest, year)}}
 
         if year_data:
             aggregated["results_by_year"][year] = year_data
