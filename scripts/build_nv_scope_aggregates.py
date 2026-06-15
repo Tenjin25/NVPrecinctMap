@@ -15,6 +15,17 @@ COUNTY20_SHP = Path("data/census/tl_2020_32_county20/tl_2020_32_county20.shp")
 OUT_DIR = Path("data")
 NEUTRAL_PRECINCT_OVERRIDES = Path("data/crosswalks/precinct_to_neutral_overrides.csv")
 
+# A handful of 2018 statewide OpenElections rows omit the party field for
+# major-party candidates. Keep those candidates out of `other` while leaving
+# true third-party and NOTC rows untouched.
+BLANK_PARTY_CANDIDATE_OVERRIDES: dict[tuple[str, str, str], str] = {
+    ("2018", "attorney_general", "aaron ford"): "DEM",
+    ("2018", "attorney_general", "wes duncan"): "REP",
+    ("2018", "controller", "catherine byrne"): "DEM",
+    ("2018", "lieutenant_governor", "michael roberson"): "REP",
+    ("2018", "treasurer", "bob beers"): "REP",
+}
+
 
 def clean(v: str) -> str:
     return (v or "").strip()
@@ -44,6 +55,16 @@ def normalize_party(party: str) -> str:
     if p.startswith("rep") or "gop" in p:
         return "REP"
     return ""
+
+
+def resolve_party(year: str, contest: str, party: str, candidate: str) -> str:
+    normalized = normalize_party(party)
+    if normalized:
+        return normalized
+    return BLANK_PARTY_CANDIDATE_OVERRIDES.get(
+        (str(year), contest, normalize_person_name(candidate).lower()),
+        "",
+    )
 
 
 def contest_type(office: str) -> str:
@@ -309,7 +330,7 @@ def load_cd_to_neutral_shares() -> dict[str, list[tuple[str, float]]]:
     return cd_to_neutral_shares
 
 
-def aggregate_rows(rows: list[dict], group_key_name: str) -> dict:
+def aggregate_rows(rows: list[dict], group_key_name: str, year: str) -> dict:
     grouped = defaultdict(lambda: {"dem": 0, "rep": 0, "other": 0})
     dem_name = defaultdict(lambda: defaultdict(int))
     rep_name = defaultdict(lambda: defaultdict(int))
@@ -318,8 +339,9 @@ def aggregate_rows(rows: list[dict], group_key_name: str) -> dict:
         group_key = clean(row.get(group_key_name, ""))
         if not group_key:
             continue
-        p = normalize_party(row.get("party", ""))
-        cand = normalize_candidate_name(contest_type(clean(row.get("office", ""))), row.get("candidate", ""))
+        contest = contest_type(clean(row.get("office", "")))
+        p = resolve_party(year, contest, row.get("party", ""), row.get("candidate", ""))
+        cand = normalize_candidate_name(contest, row.get("candidate", ""))
         votes = to_int(row.get("votes", ""))
         if p == "DEM":
             grouped[group_key]["dem"] += votes
@@ -418,7 +440,7 @@ def main() -> None:
         for t in ("state_senate", "state_assembly"):
             trows = [r for r in by_type.get(t, []) if clean(r.get("district", ""))]
             if trows:
-                year_leg[t] = {"general": {"results": aggregate_rows(trows, "district")}}
+                year_leg[t] = {"general": {"results": aggregate_rows(trows, "district", year)}}
         if year_leg:
             legislative["results_by_year"][year] = year_leg
 
@@ -448,7 +470,7 @@ def main() -> None:
                     rc["district"] = d.zfill(2)
                     trows.append(rc)
                 if trows:
-                    year_cong[t] = {"general": {"results": aggregate_rows(trows, "district")}}
+                    year_cong[t] = {"general": {"results": aggregate_rows(trows, "district", year)}}
                 continue
 
             # For non-house contests, allocate precincts to CDs via same-year House district map.
@@ -462,7 +484,7 @@ def main() -> None:
                 rc["district"] = cd
                 trows.append(rc)
             if trows:
-                year_cong[t] = {"general": {"results": aggregate_rows(trows, "district")}}
+                year_cong[t] = {"general": {"results": aggregate_rows(trows, "district", year)}}
         if year_cong:
             congressional["results_by_year"][year] = year_cong
 
@@ -529,7 +551,7 @@ def main() -> None:
                     coverage = (matched_source / total_source * 100.0) if total_source else 0.0
                     allocated_coverage = ((matched_source + backfilled_source) / total_source * 100.0) if total_source else 0.0
                     year_neutral[t] = {
-                        "general": {"results": aggregate_rows(neutral_rows, "neutral_id")},
+                        "general": {"results": aggregate_rows(neutral_rows, "neutral_id", year)},
                         "meta": {
                             "match_rows": matched_source,
                             "backfilled_rows": backfilled_source,

@@ -10239,7 +10239,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-05-31-07';
+    const DATA_CACHE_BUSTER = '2026-06-14-01';
     const COUNTY_POP_CACHE_BUSTER = '2026-05-31-02';
     const APP_BUILD_ID = '2026-05-25-11';
 
@@ -10307,14 +10307,14 @@ document.addEventListener('DOMContentLoaded', function() {
           state_senate_2022: withBase('./data/cvap_aggregates/state_senate_2022_lines__cvap24.csv'),
           state_senate_2024: withBase('./data/cvap_aggregates/state_senate_2024_lines__cvap24.csv')
         },
-        election: withBase('./data/nv_elections_aggregated.json'),
-        district_election: withBase('./data/nv_congressional_aggregated.json'),
-        district_contests_dir: withBase('./data/district_contests'),
-        district_contests_2020_2024_dir: withBase('./data/district_contests'),
+        election: withBase(withCacheBuster('./data/nv_elections_aggregated.json')),
+        district_election: withBase(withCacheBuster('./data/nv_congressional_aggregated.json')),
+        district_contests_dir: withBase(withCacheBuster('./data/district_contests')),
+        district_contests_2020_2024_dir: withBase(withCacheBuster('./data/district_contests')),
         district_contests_dirs: {
-          '2022': withBase('./data/district_contests'),
-          '2024': withBase('./data/district_contests'),
-          '2026': withBase('./data/district_contests')
+          '2022': withBase(withCacheBuster('./data/district_contests')),
+          '2024': withBase(withCacheBuster('./data/district_contests')),
+          '2026': withBase(withCacheBuster('./data/district_contests'))
         },
         districts_info: withBase('./data/nv_congressional_districts.csv'),
         state_house_info: withBase('./data/nv_state_house_districts.csv'),

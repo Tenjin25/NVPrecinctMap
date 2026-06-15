@@ -11,9 +11,9 @@ from build_nv_scope_aggregates import (
     load_precinct_to_geoid20,
     load_vtd20_to_cd,
     normalize_candidate_name,
-    normalize_party,
     parse_year,
     pick_top_name,
+    resolve_party,
     to_int,
     competitiveness_color,
 )
@@ -23,7 +23,7 @@ OE_DIR = Path("data/openelections")
 OUT_PATH = Path("data/nv_congressional_aggregated.json")
 
 
-def aggregate_rows(rows: list[dict], group_key_name: str) -> dict:
+def aggregate_rows(rows: list[dict], group_key_name: str, year: str) -> dict:
     grouped = defaultdict(lambda: {"dem": 0, "rep": 0, "other": 0})
     dem_name = defaultdict(lambda: defaultdict(int))
     rep_name = defaultdict(lambda: defaultdict(int))
@@ -32,8 +32,9 @@ def aggregate_rows(rows: list[dict], group_key_name: str) -> dict:
         group_key = clean(row.get(group_key_name, ""))
         if not group_key:
             continue
-        p = normalize_party(row.get("party", ""))
-        cand = normalize_candidate_name(contest_type(clean(row.get("office", ""))), row.get("candidate", ""))
+        contest = contest_type(clean(row.get("office", "")))
+        p = resolve_party(year, contest, row.get("party", ""), row.get("candidate", ""))
+        cand = normalize_candidate_name(contest, row.get("candidate", ""))
         votes = to_int(row.get("votes", ""))
         if p == "DEM":
             grouped[group_key]["dem"] += votes
@@ -132,7 +133,7 @@ def main() -> None:
                     rc["district"] = d.zfill(2)
                     trows.append(rc)
                 if trows:
-                    year_cong[t] = {"general": {"results": aggregate_rows(trows, "district")}}
+                    year_cong[t] = {"general": {"results": aggregate_rows(trows, "district", year)}}
                 continue
 
             trows = []
@@ -145,7 +146,7 @@ def main() -> None:
                 rc["district"] = cd
                 trows.append(rc)
             if trows:
-                year_cong[t] = {"general": {"results": aggregate_rows(trows, "district")}}
+                year_cong[t] = {"general": {"results": aggregate_rows(trows, "district", year)}}
 
         if year_cong:
             congressional["results_by_year"][year] = year_cong
