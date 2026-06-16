@@ -9,6 +9,17 @@ from pathlib import Path
 OE_DIR = Path("data/openelections")
 OUT_DIR = Path("data/contests")
 
+# A handful of 2018 statewide OpenElections rows omit the party field for
+# major-party candidates. Keep those candidates out of `other` while leaving
+# true third-party and NOTC rows untouched.
+BLANK_PARTY_CANDIDATE_OVERRIDES: dict[tuple[str, str, str], str] = {
+    ("2018", "attorney_general", "aaron ford"): "DEM",
+    ("2018", "attorney_general", "wes duncan"): "REP",
+    ("2018", "controller", "catherine byrne"): "DEM",
+    ("2018", "lieutenant_governor", "michael roberson"): "REP",
+    ("2018", "treasurer", "bob beers"): "REP",
+}
+
 
 def clean(value: str) -> str:
     return (value or "").strip()
@@ -68,6 +79,16 @@ def normalize_party(party: str) -> str:
     if p.startswith("rep") or "gop" in p:
         return "REP"
     return ""
+
+
+def resolve_party(year: int, contest_type: str, party: str, candidate: str) -> str:
+    normalized = normalize_party(party)
+    if normalized:
+        return normalized
+    return BLANK_PARTY_CANDIDATE_OVERRIDES.get(
+        (str(year), contest_type, normalize_person_name(candidate).lower()),
+        "",
+    )
 
 def normalize_person_name(candidate: str) -> str:
     cand = clean(candidate)
@@ -134,7 +155,7 @@ def build_rows_for_contest(rows: list[dict], year: int, contest_type: str) -> di
         county = clean(row.get("county", ""))
         precinct = clean(row.get("precinct", ""))
         key = f"{county} - {precinct}" if county else precinct
-        party = normalize_party(row.get("party", ""))
+        party = resolve_party(year, contest_type, row.get("party", ""), row.get("candidate", ""))
         candidate = normalize_candidate_name(contest_type, row.get("candidate", ""))
         votes = to_int(row.get("votes", ""))
 
