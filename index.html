@@ -10239,7 +10239,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-06-14-01';
+    const DATA_CACHE_BUSTER = '2026-06-15-01';
     const COUNTY_POP_CACHE_BUSTER = '2026-05-31-02';
     const APP_BUILD_ID = '2026-05-25-11';
 
@@ -18747,7 +18747,11 @@ document.addEventListener('DOMContentLoaded', function() {
           try { await ensureDistrictElectionDataLoaded(); } catch (_) {}
         }
         const fallback = linesYear === 2022
-          ? (districtElectionDataJSON?.results_by_year?.[year]?.[scope]?.[contestType] || null)
+          ? (
+              scope === 'congressional'
+                ? (districtElectionDataJSON?.results_by_year?.[year]?.[contestType] || null)
+                : (districtElectionDataJSON?.results_by_year?.[year]?.[scope]?.[contestType] || null)
+            )
           : null;
         districtSliceCache.set(cacheKey, fallback);
         return fallback;
@@ -32141,7 +32145,9 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       if (normalizeDistrictLinesYear(linesYear) === 2022) {
         try { await ensureDistrictElectionDataLoaded(); } catch (_) {}
-        return districtElectionDataJSON?.results_by_year?.[year]?.[scope]?.[contestType] || null;
+        return scope === 'congressional'
+          ? (districtElectionDataJSON?.results_by_year?.[year]?.[contestType] || null)
+          : (districtElectionDataJSON?.results_by_year?.[year]?.[scope]?.[contestType] || null);
       }
       return null;
     }
