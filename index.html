@@ -10239,9 +10239,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-26-focus-pill-type-v1';
+    const DATA_CACHE_BUSTER = '2026-08-26-desktop-details-removed-v1';
     const COUNTY_POP_CACHE_BUSTER = '2026-05-31-02';
-    const APP_BUILD_ID = '2026-08-26-focus-pill-type-v1';
+    const APP_BUILD_ID = '2026-08-26-desktop-details-removed-v1';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -26076,9 +26076,9 @@ document.addEventListener('DOMContentLoaded', function() {
         shiftYearLabel: (vizShiftCache?.prevYear && vizShiftCache?.year) ? `${vizShiftCache.prevYear}→${vizShiftCache.year}` : '',
         showShiftLine: currentVizMode === 'shift' && Number.isFinite(shiftDelta) && !!vizShiftCache?.prevYear
       });
-      const detailLines = isDesktopTooltipMode()
-        ? ''
-        : `
+      const mobileTooltip = isMobileTooltipMode();
+      const detailLines = mobileTooltip
+        ? `
             ${finalInsight ? `<div class="tooltip-insight">${escapeHtml(finalInsight)}</div>` : ''}
             ${censusDetailLine}
             ${(currentVizMode === 'shift' && Number.isFinite(shiftDelta) && vizShiftCache?.prevYear) ? '' : shiftLine}
@@ -26086,16 +26086,17 @@ document.addEventListener('DOMContentLoaded', function() {
             ${deltaBlock}
             ${splitInsightLine}
             ${demoLine}
-          `.trim();
-      const inner = isDesktopTooltipMode()
-        ? `${votehubCore}`.trim()
-        : `
+          `.trim()
+        : '';
+      const inner = mobileTooltip
+        ? `
             ${votehubCore}
             <details class="tooltip-more" aria-label="More details">
               <summary>More details</summary>
               <div class="tooltip-more-body">${detailLines}</div>
             </details>
-          `.trim();
+          `.trim()
+        : `${votehubCore}`.trim();
 
       const copyText = countyJurisdictionLabel;
       showHoverTooltip(
