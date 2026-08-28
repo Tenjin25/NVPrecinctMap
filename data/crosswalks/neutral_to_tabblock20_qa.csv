@@ -1,0 +1,13 @@
+metric,value
+source_shapefile,data\census\tl_2022_32_tabblock20\tl_2022_32_tabblock20.shp
+source_units,57409
+matched_units,57409
+unmatched_units,0
+unmatched_rate,0.0000000000
+full_match_units,56918
+split_units,491
+split_rate,0.0085526660
+avg_top_share,0.9999756760
+avg_entropy,0.0001005700
+assign_method_overlap_full,56918
+assign_method_overlap_split,491

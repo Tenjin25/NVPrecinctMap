@@ -1,0 +1,13 @@
+metric,value
+source_shapefile,data\census\tl_2012_32_vtd10\tl_2012_32_vtd10.shp
+source_units,2126
+matched_units,2126
+unmatched_units,0
+unmatched_rate,0.0000000000
+full_match_units,1988
+split_units,138
+split_rate,0.0649106303
+avg_top_share,0.9984150348
+avg_entropy,0.0033363433
+assign_method_overlap_full,1988
+assign_method_overlap_split,138

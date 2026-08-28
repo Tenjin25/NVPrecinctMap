@@ -1,0 +1,13 @@
+metric,value
+source_shapefile,data\census\tl_2010_32_tabblock00\tl_2010_32_tabblock00.shp
+source_units,60831
+matched_units,60831
+unmatched_units,0
+unmatched_rate,0.0000000000
+full_match_units,60293
+split_units,538
+split_rate,0.0088441748
+avg_top_share,0.9998224679
+avg_entropy,0.0004529663
+assign_method_overlap_full,60293
+assign_method_overlap_split,538

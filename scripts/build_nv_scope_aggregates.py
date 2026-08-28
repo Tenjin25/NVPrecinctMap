@@ -330,10 +330,18 @@ def load_cd_to_neutral_shares() -> dict[str, list[tuple[str, float]]]:
     return cd_to_neutral_shares
 
 
-def aggregate_rows(rows: list[dict], group_key_name: str, year: str) -> dict:
+def aggregate_rows(
+    rows: list[dict],
+    group_key_name: str,
+    year: str,
+    candidate_pair_key_name: str = "",
+) -> dict:
     grouped = defaultdict(lambda: {"dem": 0, "rep": 0, "other": 0})
     dem_name = defaultdict(lambda: defaultdict(int))
     rep_name = defaultdict(lambda: defaultdict(int))
+    pair_votes = defaultdict(lambda: defaultdict(int))
+    pair_dem_name = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
+    pair_rep_name = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
 
     for row in rows:
         group_key = clean(row.get(group_key_name, ""))
@@ -343,14 +351,23 @@ def aggregate_rows(rows: list[dict], group_key_name: str, year: str) -> dict:
         p = resolve_party(year, contest, row.get("party", ""), row.get("candidate", ""))
         cand = normalize_candidate_name(contest, row.get("candidate", ""))
         votes = to_int(row.get("votes", ""))
+        pair_key = clean(row.get(candidate_pair_key_name, "")) if candidate_pair_key_name else ""
         if p == "DEM":
             grouped[group_key]["dem"] += votes
             if cand:
                 dem_name[group_key][cand] += votes
+            if pair_key:
+                pair_votes[group_key][pair_key] += votes
+                if cand:
+                    pair_dem_name[group_key][pair_key][cand] += votes
         elif p == "REP":
             grouped[group_key]["rep"] += votes
             if cand:
                 rep_name[group_key][cand] += votes
+            if pair_key:
+                pair_votes[group_key][pair_key] += votes
+                if cand:
+                    pair_rep_name[group_key][pair_key][cand] += votes
         else:
             grouped[group_key]["other"] += votes
 
@@ -362,13 +379,25 @@ def aggregate_rows(rows: list[dict], group_key_name: str, year: str) -> dict:
         total = dem + rep + other
         margin = rep - dem
         margin_pct = (margin / total * 100.0) if total else 0.0
+        dem_candidate = pick_top_name(dem_name[key])
+        rep_candidate = pick_top_name(rep_name[key])
+        if candidate_pair_key_name and pair_votes[key]:
+            # A neutral district can contain precincts from several enacted House
+            # races. Select both labels from the same, largest-contributing source
+            # district so we never display a candidate matchup that did not exist.
+            pair_key = sorted(
+                pair_votes[key].items(),
+                key=lambda kv: (-kv[1], kv[0].lower()),
+            )[0][0]
+            dem_candidate = pick_top_name(pair_dem_name[key][pair_key])
+            rep_candidate = pick_top_name(pair_rep_name[key][pair_key])
         out[key] = {
             "dem_votes": dem,
             "rep_votes": rep,
             "other_votes": other,
             "total_votes": total,
-            "dem_candidate": pick_top_name(dem_name[key]),
-            "rep_candidate": pick_top_name(rep_name[key]),
+            "dem_candidate": dem_candidate,
+            "rep_candidate": rep_candidate,
             "margin": margin,
             "margin_pct": round(margin_pct, 2),
             "winner": "REP" if margin > 0 else "DEM" if margin < 0 else "TIE",
@@ -551,7 +580,14 @@ def main() -> None:
                     coverage = (matched_source / total_source * 100.0) if total_source else 0.0
                     allocated_coverage = ((matched_source + backfilled_source) / total_source * 100.0) if total_source else 0.0
                     year_neutral[t] = {
-                        "general": {"results": aggregate_rows(neutral_rows, "neutral_id", year)},
+                        "general": {
+                            "results": aggregate_rows(
+                                neutral_rows,
+                                "neutral_id",
+                                year,
+                                candidate_pair_key_name="district",
+                            )
+                        },
                         "meta": {
                             "match_rows": matched_source,
                             "backfilled_rows": backfilled_source,
