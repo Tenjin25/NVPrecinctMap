@@ -10239,9 +10239,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-28-flips-timeline-v4';
+    const DATA_CACHE_BUSTER = '2026-08-28-nv-district-focus-v7';
     const COUNTY_POP_CACHE_BUSTER = '2026-05-31-02';
-    const APP_BUILD_ID = '2026-08-28-flips-timeline-v4';
+    const APP_BUILD_ID = '2026-08-28-nv-district-focus-v7';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -12113,6 +12113,17 @@ document.addEventListener('DOMContentLoaded', function() {
       };
     }
 
+    function getActiveContestValue(preferredValue = '') {
+      const preferred = String(preferredValue || '').trim();
+      if (preferred) return preferred;
+      const selected = String(document.getElementById('contestSelect')?.value || '').trim();
+      if (selected) return selected;
+      const metaContestType = String(currentContestMeta?.contestType || '').trim();
+      const metaYear = String(currentContestMeta?.year || '').trim();
+      if (metaContestType && metaYear) return `${metaContestType}_${metaYear}`;
+      return '';
+    }
+
     function updateModeledInputsInline() {
       const el = document.getElementById('model-inputs-inline');
       if (!el) return;
@@ -12664,10 +12675,8 @@ document.addEventListener('DOMContentLoaded', function() {
       updateDistrictLinesToggleUI();
 
       try {
-        const districtsGeoJSON = await loadDistrictGeometry('congressional', currentDistrictLinesYear);
-        if (map?.getSource('districts')) {
-          map.getSource('districts').setData(districtsGeoJSON);
-        }
+        await ensureDistrictViewResources('districts', { refreshGeometry: true });
+        if (currentView === 'districts') addDistrictLayers();
       } catch (err) {
         console.warn('Failed to refresh congressional geometry after neutral toggle:', err?.message || err);
       }
@@ -14888,7 +14897,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     async function refreshFocusTrend(state) {
       const reqId = ++voteCounterTrendRequestId;
-      const contestValue = document.getElementById('contestSelect')?.value || '';
+      const stateContestValue = (state?.meta?.contestType && state?.meta?.year)
+        ? `${state.meta.contestType}_${state.meta.year}`
+        : '';
+      const contestValue = getActiveContestValue(stateContestValue);
       const [contestType, year] = parseContestValue(contestValue);
       if (!contestType || !year) {
         renderFocusTrendEmpty('Pick a contest to load trend history.<br><span style="color:#94a3b8;">Tip: click a county/district/precinct to switch from statewide.</span>', 'Trends');
@@ -15405,10 +15417,11 @@ document.addEventListener('DOMContentLoaded', function() {
 	    }
 
 	    const PRESIDENT_OPEN_ELECTIONS_CSV = {
-	      2000: withBase('./data/2000/20001107__nv__general__precinct.csv'),
-	      2004: withBase('./data/2004/20041102__nv__general__precinct.csv'),
-	      2012: withBase('./data/2012/20121106__nv__general__precinct.csv'),
-	      2008: withBase('./data/2008/20081104__nv__general__precinct.csv')
+	      // Nevada OpenElections exports live in ./data/openelections/.
+	      // There is no 2000 OpenElections precinct CSV in this repo.
+	      2004: withBase('./data/openelections/20041102__nv__general__precinct.csv'),
+	      2008: withBase('./data/openelections/20081104__nv__general__precinct.csv'),
+	      2012: withBase('./data/openelections/20121106__nv__general__precinct.csv')
 	    };
 
 	    async function loadPresidentSliceFromOpenElectionsCSV(year) {
@@ -20046,6 +20059,63 @@ document.addEventListener('DOMContentLoaded', function() {
       return `District ${d}`;
     }
 
+    async function ensureDistrictViewResources(view = currentView, { refreshGeometry = false } = {}) {
+      const scope = getDistrictScopeForView(view);
+      if (!scope || !map) return true;
+
+      const linesYear = normalizeDistrictLinesYear(currentDistrictLinesYear);
+      const sourceId = scope === 'congressional'
+        ? 'districts'
+        : (scope === 'state_house' ? 'state-house' : 'state-senate');
+
+      // District layers are deferred at startup. Hydrate the requested view
+      // immediately when the user clicks Congress/Assembly/Senate.
+      if (!Array.isArray(contestManifest) || contestManifest.length === 0) {
+        try {
+          const manifest = await loadJSON(`${CONFIG.paths.contests_dir}/manifest.json`);
+          contestManifest = Array.isArray(manifest?.files) ? manifest.files : [];
+          try { contestYearsByTypeCache.clear(); } catch (_) {}
+        } catch (err) {
+          console.warn('Contest manifest on-demand load failed:', err?.message || err);
+        }
+      }
+
+      const manifestKey = String(linesYear);
+      const existingDistrictManifest = districtManifestByLines?.[manifestKey];
+      if (!Array.isArray(existingDistrictManifest) || existingDistrictManifest.length === 0) {
+        try {
+          const dir = getActiveDistrictContestsDir(linesYear, scope);
+          const dManifest = dir ? await loadJSON(`${dir}/manifest.json`) : null;
+          districtManifestByLines[manifestKey] = Array.isArray(dManifest?.files) ? dManifest.files : [];
+        } catch (err) {
+          if (!Array.isArray(districtManifestByLines?.[manifestKey])) {
+            districtManifestByLines[manifestKey] = [];
+          }
+          console.warn('District manifest on-demand load failed:', err?.message || err);
+        }
+      }
+      districtManifest = getActiveDistrictManifest(linesYear);
+
+      let source = map.getSource(sourceId);
+      if (!source || refreshGeometry) {
+        const geometry = await loadDistrictGeometry(scope, linesYear);
+        if (!geometry || !Array.isArray(geometry.features)) {
+          throw new Error(`${scope} geometry did not load`);
+        }
+
+        source = map.getSource(sourceId);
+        if (source && source.type === 'geojson' && typeof source.setData === 'function') {
+          source.setData(geometry);
+        } else if (!source) {
+          map.addSource(sourceId, { type: 'geojson', data: geometry });
+        }
+        window[`${sourceId}__search_geojson`] = geometry;
+      }
+
+      try { setContestSelectDeferredLoading(false); } catch (_) {}
+      return !!map.getSource(sourceId);
+    }
+
     function formatDistrictHoverTag(scope, districtNum) {
       const d = Number(districtNum);
       if (!Number.isFinite(d)) return '';
@@ -20084,7 +20154,7 @@ document.addEventListener('DOMContentLoaded', function() {
       window.lastSelectedCounty = title;
       try { setDistrictHoverOutline(scope, districtId); } catch (_) {}
 
-      const selectedContest = (contestValue || document.getElementById('contestSelect')?.value || '').toString().trim();
+      const selectedContest = getActiveContestValue(contestValue);
       const [contestType, year] = parseContestValue(selectedContest);
       if (!contestType || !year) return true;
 
@@ -20153,11 +20223,25 @@ document.addEventListener('DOMContentLoaded', function() {
         meta: voteCounterPinned.meta ? { ...voteCounterPinned.meta } : null,
         candidates: voteCounterPinned.candidates ? { ...voteCounterPinned.candidates } : null
       } : null;
+      const previousView = currentView;
       currentView = view;
       if (normalizeDistrictLinesYear(currentDistrictLinesYear) !== 2022) {
         currentDistrictLinesYear = 2022;
       }
       updateDistrictLinesToggleUI();
+
+      if (getDistrictScopeForView(view)) {
+        try {
+          const ready = await ensureDistrictViewResources(view);
+          if (!ready) throw new Error('district source unavailable');
+        } catch (err) {
+          console.warn('Failed to prepare requested district view:', err?.message || err);
+          currentView = previousView || 'counties';
+          updateDistrictLinesToggleUI();
+          setStatus(`Unable to load ${getReadableViewLabel(view)} right now.`);
+          return;
+        }
+      }
       
       // Update button states
       const viewButtonStates = [
@@ -22104,9 +22188,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const payload = bundle?.payload || null;
         const results = payload?.general?.results || null;
         if (!results) continue;
-        const keyA = String(districtNum);
-        const keyB = String(Number(districtNum));
-        const r = results[keyA] || results[keyB] || null;
+        const r = pickDistrictResultRow(results, districtNum);
         if (!r) continue;
         const demVotes = Number(r.dem_votes) || 0;
         const repVotes = Number(r.rep_votes) || 0;
@@ -26582,7 +26664,10 @@ document.addEventListener('DOMContentLoaded', function() {
         { kind: 'district', scope, districtNum: Number(districtNum), contestType, year: Number(year) }
       );
 
-      const signedMarginPct = ('margin_pct' in row) ? Number(row.margin_pct || 0) : signedMarginPctFromVotes(demVotes, repVotes, totalVotes);
+      const signedReported = Number(row.margin_pct);
+      const signedMarginPct = Number.isFinite(signedReported)
+        ? signedReported
+        : signedMarginPctFromVotes(demVotes, repVotes, totalVotes);
       let prevSignedForFlip = null;
       let prevYearForFlip = null;
       try {
@@ -26590,10 +26675,16 @@ document.addEventListener('DOMContentLoaded', function() {
         prevYearForFlip = prevCached?.prevYear || null;
         const prevResults = prevCached?.prevNode?.general?.results || null;
         if (prevResults) {
-          const prevRow = prevResults[String(districtNum)] || prevResults[String(Number(districtNum))] || null;
+          const prevRow = pickDistrictResultRow(prevResults, districtNum);
           if (prevRow) {
             const prevSignedRaw = Number(prevRow.margin_pct);
-            if (Number.isFinite(prevSignedRaw)) prevSignedForFlip = prevSignedRaw;
+            prevSignedForFlip = Number.isFinite(prevSignedRaw)
+              ? prevSignedRaw
+              : signedMarginPctFromVotes(
+                  Number(prevRow.dem_votes || 0),
+                  Number(prevRow.rep_votes || 0),
+                  Number(prevRow.total_votes || 0)
+                );
           }
         }
       } catch (_) {}
@@ -29535,28 +29626,11 @@ document.addEventListener('DOMContentLoaded', function() {
               showDistrictDetails(districtNum);
               lastSelectedCounty = getDistrictTitleForScope('congressional', districtNum);
 
-              // Pin vote counter to this district for current contest (if any).
-              const contestValue = document.getElementById('contestSelect')?.value || '';
-              if (contestValue) {
-                const i = contestValue.lastIndexOf('_');
-                const contestType = contestValue.substring(0, i);
-                const year = contestValue.substring(i + 1);
-                loadDistrictSlice('congressional', contestType, year).then(node => {
-                  const row = node?.general?.results?.[String(districtNum)] || node?.general?.results?.[String(Number(districtNum))] || null;
-                  if (!row) return;
-                  const demVotes = Number(row.dem_votes || 0);
-                  const repVotes = Number(row.rep_votes || 0);
-                  const otherVotes = Number(row.other_votes || 0);
-                  pinVoteCounterState(
-                    `Selected: ${getDistrictTitleForScope('congressional', districtNum)}`,
-                    `${formatContestLabel(contestType, year)}`,
-                    demVotes,
-                    repVotes,
-                    otherVotes,
-                    { kind: 'district', scope: 'congressional', districtNum: Number(districtNum), contestType, year: Number(year) },
-                    { demCandidate: row.dem_candidate || '', repCandidate: row.rep_candidate || '' }
-                  );
-                }).catch(() => {});
+              // Make the visible top-right focus card switch from statewide to the selected district.
+              try {
+                await pinDistrictFocusSelection('congressional', districtNum);
+              } catch (err) {
+                console.warn('Failed to pin congressional district focus:', err?.message || err);
               }
 
               // Mobile-friendly: show a tap tooltip (and outline) on selection.
@@ -29655,27 +29729,10 @@ document.addEventListener('DOMContentLoaded', function() {
               const districtTitle = getDistrictTitleForScope('state_house', districtNum);
               lastSelectedCounty = districtTitle;
 
-              const contestValue = document.getElementById('contestSelect')?.value || '';
-              if (contestValue) {
-                const i = contestValue.lastIndexOf('_');
-                const contestType = contestValue.substring(0, i);
-                const year = contestValue.substring(i + 1);
-                loadDistrictSlice('state_house', contestType, year).then(node => {
-                  const row = node?.general?.results?.[String(districtNum)] || node?.general?.results?.[String(Number(districtNum))] || null;
-                  if (!row) return;
-                  const demVotes = Number(row.dem_votes || 0);
-                  const repVotes = Number(row.rep_votes || 0);
-                  const otherVotes = Number(row.other_votes || 0);
-                  pinVoteCounterState(
-                    `Selected: ${districtTitle}`,
-                    `${formatContestLabel(contestType, year)}`,
-                    demVotes,
-                    repVotes,
-                    otherVotes,
-                    { kind: 'district', scope: 'state_house', districtNum: Number(districtNum), contestType, year: Number(year) },
-                    { demCandidate: row.dem_candidate || '', repCandidate: row.rep_candidate || '' }
-                  );
-                }).catch(() => {});
+              try {
+                await pinDistrictFocusSelection('state_house', districtNum);
+              } catch (err) {
+                console.warn('Failed to pin state assembly district focus:', err?.message || err);
               }
 
               try {
@@ -29773,27 +29830,10 @@ document.addEventListener('DOMContentLoaded', function() {
               const districtTitle = getDistrictTitleForScope('state_senate', districtNum);
               lastSelectedCounty = districtTitle;
 
-              const contestValue = document.getElementById('contestSelect')?.value || '';
-              if (contestValue) {
-                const i = contestValue.lastIndexOf('_');
-                const contestType = contestValue.substring(0, i);
-                const year = contestValue.substring(i + 1);
-                loadDistrictSlice('state_senate', contestType, year).then(node => {
-                  const row = node?.general?.results?.[String(districtNum)] || node?.general?.results?.[String(Number(districtNum))] || null;
-                  if (!row) return;
-                  const demVotes = Number(row.dem_votes || 0);
-                  const repVotes = Number(row.rep_votes || 0);
-                  const otherVotes = Number(row.other_votes || 0);
-                  pinVoteCounterState(
-                    `Selected: ${districtTitle}`,
-                    `${formatContestLabel(contestType, year)}`,
-                    demVotes,
-                    repVotes,
-                    otherVotes,
-                    { kind: 'district', scope: 'state_senate', districtNum: Number(districtNum), contestType, year: Number(year) },
-                    { demCandidate: row.dem_candidate || '', repCandidate: row.rep_candidate || '' }
-                  );
-                }).catch(() => {});
+              try {
+                await pinDistrictFocusSelection('state_senate', districtNum);
+              } catch (err) {
+                console.warn('Failed to pin state senate district focus:', err?.message || err);
               }
 
               try {
@@ -30239,7 +30279,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const scope = sourceId === 'districts'
         ? 'congressional'
         : (sourceId === 'state-house' ? 'state_house' : 'state_senate');
-      await showAndPinDistrictSelection(scope, districtNum, document.getElementById('contestSelect')?.value || '');
+      await showAndPinDistrictSelection(scope, districtNum, getActiveContestValue());
     }
 
     async function handlePrecinctSelection(countyNameRaw, precinctCodeRaw) {
@@ -30967,12 +31007,126 @@ document.addEventListener('DOMContentLoaded', function() {
     // show state legislative results. Override them here to use district contest slices.
     let districtSidebarRequestId = 0;
 
+    function pickDistrictResultRow(results, districtNum) {
+      if (!results || districtNum === undefined || districtNum === null) return null;
+      const raw = String(districtNum).trim();
+      if (raw && Object.prototype.hasOwnProperty.call(results, raw)) return results[raw];
+
+      const n = Number(raw);
+      if (!Number.isFinite(n)) return null;
+
+      // Nevada congressional slices commonly use zero-padded keys ("01"),
+      // while Census geometry normalizes the same district to "1".
+      const candidates = [
+        String(n),
+        String(n).padStart(2, '0'),
+        String(n).padStart(3, '0')
+      ];
+      for (const key of candidates) {
+        if (Object.prototype.hasOwnProperty.call(results, key)) return results[key];
+      }
+
+      for (const [key, row] of Object.entries(results)) {
+        if (Number(key) === n) return row;
+      }
+      return null;
+    }
+
     function pickDistrictSliceRow(payload, districtNum) {
-      const results = payload?.general?.results || null;
-      if (!results) return null;
-      const keyA = String(districtNum);
-      const keyB = String(Number(districtNum));
-      return results[keyA] || results[keyB] || null;
+      return pickDistrictResultRow(payload?.general?.results || null, districtNum);
+    }
+
+    async function pinDistrictFocusSelection(scope, districtNum, options = {}) {
+      const scopeKey = String(scope || '').trim();
+      const districtValue = normalizeDistrictNumber(districtNum);
+      if (!scopeKey || !districtValue) return false;
+
+      const contestValue = getActiveContestValue(options?.contestValue || '');
+      if (!contestValue) return false;
+
+      const i = contestValue.lastIndexOf('_');
+      if (i <= 0) return false;
+      const contestType = contestValue.substring(0, i);
+      const year = Number(contestValue.substring(i + 1));
+      if (!contestType || !Number.isFinite(year)) return false;
+
+      let row = options?.row || null;
+      let node = options?.node || null;
+
+      try {
+        if (!row) {
+          node = node || await loadDistrictSlice(scopeKey, contestType, year);
+          row = pickDistrictSliceRow(node, districtValue);
+        }
+      } catch (err) {
+        console.warn('District focus row load failed:', err?.message || err);
+      }
+
+      // Legacy US House fallback for older congressional rows.
+      if (!row && scopeKey === 'congressional' && contestType === 'us_house') {
+        try {
+          const legacy = (congressionalData || []).find(r =>
+            Number(r?.year) === Number(year) &&
+            Number(r?.district) === Number(districtValue)
+          );
+          if (legacy) {
+            const demVotes = Number(legacy.us_house_dem || 0);
+            const repVotes = Number(legacy.us_house_rep || 0);
+            const totalVotes = Number(legacy.us_house_total || (demVotes + repVotes));
+            row = {
+              dem_votes: demVotes,
+              rep_votes: repVotes,
+              other_votes: Math.max(0, totalVotes - demVotes - repVotes),
+              total_votes: totalVotes,
+              dem_candidate: legacy.us_house_dem_candidate || '',
+              rep_candidate: legacy.us_house_rep_candidate || ''
+            };
+          }
+        } catch (_) {}
+      }
+
+      // Final fallback: use the selected-year trend record if the slice loader
+      // has no direct row but history can resolve the district.
+      if (!row) {
+        try {
+          const series = await getDistrictTrendSeries(scopeKey, contestType, districtValue);
+          row = (series || []).find(item => Number(item?.year) === Number(year)) || null;
+        } catch (_) {}
+      }
+
+      if (!row) {
+        console.warn('No district row available for selected focus:', scopeKey, districtValue, contestType, year);
+        return false;
+      }
+
+      const demVotes = Number(row.dem_votes || 0);
+      const repVotes = Number(row.rep_votes || 0);
+      const explicitOther = Number(row.other_votes);
+      const totalVotes = Number(row.total_votes || 0);
+      const otherVotes = Number.isFinite(explicitOther)
+        ? explicitOther
+        : Math.max(0, totalVotes - demVotes - repVotes);
+
+      const title = getDistrictTitleForScope(scopeKey, districtValue);
+      pinVoteCounterState(
+        `Selected: ${title}`,
+        `${formatContestLabel(contestType, year)}`,
+        demVotes,
+        repVotes,
+        otherVotes,
+        {
+          kind: 'district',
+          scope: scopeKey,
+          districtNum: Number(districtValue),
+          contestType,
+          year: Number(year)
+        },
+        {
+          demCandidate: row.dem_candidate || '',
+          repCandidate: row.rep_candidate || ''
+        }
+      );
+      return true;
     }
 
     function renderDistrictElectionInfoHTML(contestType, year, row, fallbackCandidates) {
@@ -31155,7 +31309,7 @@ document.addEventListener('DOMContentLoaded', function() {
         demographicInfo = `<div style="margin:0 0 12px 0;color:#475569;font-weight:800;">${desc}</div>`;
       }
 
-      const contestValue = document.getElementById('contestSelect')?.value || '';
+      const contestValue = getActiveContestValue();
       if (!contestValue) {
         contentEl.innerHTML = demographicInfo + '<div style="color:#999;">Select a contest to see district results.</div>';
         detailsDiv.style.display = 'block';
@@ -31178,6 +31332,9 @@ document.addEventListener('DOMContentLoaded', function() {
           const payload = await loadDistrictSlice('congressional', contestType, year);
           const row = pickDistrictSliceRow(payload, districtNum);
           if (reqId !== districtSidebarRequestId) return;
+          if (row) {
+            try { await pinDistrictFocusSelection('congressional', districtNum, { node: payload, row, contestValue }); } catch (_) {}
+          }
           const el = document.getElementById('district-election');
           let cand = null;
           if (row && contestType !== 'us_house') {
@@ -31243,7 +31400,7 @@ document.addEventListener('DOMContentLoaded', function() {
         demographicInfo = `<div style="margin:0 0 12px 0;color:#475569;font-weight:800;">${desc}</div>`;
       }
 
-      const contestValue = document.getElementById('contestSelect')?.value || '';
+      const contestValue = getActiveContestValue();
       if (!contestValue) {
         contentEl.innerHTML = demographicInfo + '<div style="color:#999;">Select a contest to see district results.</div>';
         detailsDiv.style.display = 'block';
@@ -31266,6 +31423,9 @@ document.addEventListener('DOMContentLoaded', function() {
           const payload = await loadDistrictSlice(scope, contestType, year);
           const row = pickDistrictSliceRow(payload, districtNum);
           if (reqId !== districtSidebarRequestId) return;
+          if (row) {
+            try { await pinDistrictFocusSelection(scope, districtNum, { node: payload, row, contestValue }); } catch (_) {}
+          }
           const el = document.getElementById('district-election');
           let cand = null;
           if (row && contestType !== 'us_house') {
@@ -33489,7 +33649,10 @@ document.addEventListener('DOMContentLoaded', function() {
             totalVotes += rowTotalVotes;
             currentDistrictTurnoutTotals[String(Number(districtId))] = rowTotalVotes;
 
-            const signed = ('margin_pct' in row) ? Number(row.margin_pct || 0) : signedMarginPctFromVotes(demVotes, repVotes, rowTotalVotes);
+            const signedReported = Number(row.margin_pct);
+            const signed = Number.isFinite(signedReported)
+              ? signedReported
+              : signedMarginPctFromVotes(demVotes, repVotes, rowTotalVotes);
             const winnerRaw = (row.winner || '').toString().toUpperCase();
             const winner = winnerRaw.startsWith('REP') ? 'R' : (winnerRaw.startsWith('DEM') ? 'D' : winnerFromSignedMarginPct(signed));
             let color = '#e0e0e0';
@@ -33506,15 +33669,31 @@ document.addEventListener('DOMContentLoaded', function() {
                 demoRow?.multiracial_vap_pct ?? demoRow?.multiracial_pct ?? demoRow?.Multiracial
               );
             } else if (mode === 'flips') {
-              const prevRow = prevResults ? (prevResults[String(districtId)] || prevResults[String(Number(districtId))] || null) : null;
-              const prevSigned = prevRow ? Number(prevRow.margin_pct || 0) : 0;
+              const prevRow = prevResults ? pickDistrictResultRow(prevResults, districtId) : null;
+              const prevSigned = prevRow
+                ? (Number.isFinite(Number(prevRow.margin_pct))
+                    ? Number(prevRow.margin_pct)
+                    : signedMarginPctFromVotes(
+                        Number(prevRow.dem_votes || 0),
+                        Number(prevRow.rep_votes || 0),
+                        Number(prevRow.total_votes || 0)
+                      ))
+                : 0;
               const f = flipInfo(prevSigned, signed);
               color = f.flipped ? colorForFlipMode(f.to) : colorForFlipMode('T');
             } else if (mode === 'winners') {
               color = colorForWinnerMode(winner);
             } else if (mode === 'shift' && prevResults && prevYear) {
-              const prevRow = prevResults[String(districtId)] || prevResults[String(Number(districtId))] || null;
-              const prevSigned = prevRow ? Number(prevRow.margin_pct || 0) : 0;
+              const prevRow = pickDistrictResultRow(prevResults, districtId);
+              const prevSigned = prevRow
+                ? (Number.isFinite(Number(prevRow.margin_pct))
+                    ? Number(prevRow.margin_pct)
+                    : signedMarginPctFromVotes(
+                        Number(prevRow.dem_votes || 0),
+                        Number(prevRow.rep_votes || 0),
+                        Number(prevRow.total_votes || 0)
+                      ))
+                : 0;
               color = colorForShiftMode(signed - prevSigned);
             } else {
               color = colorForMarginMode(Math.abs(signed), winner === 'T' ? 'R' : winner);
