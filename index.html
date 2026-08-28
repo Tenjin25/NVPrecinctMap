@@ -10239,9 +10239,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-28-flips-timeline-v3';
+    const DATA_CACHE_BUSTER = '2026-08-28-flips-timeline-v4';
     const COUNTY_POP_CACHE_BUSTER = '2026-05-31-02';
-    const APP_BUILD_ID = '2026-08-28-flips-timeline-v3';
+    const APP_BUILD_ID = '2026-08-28-flips-timeline-v4';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -12654,6 +12654,9 @@ document.addEventListener('DOMContentLoaded', function() {
       districtElectionDataLoadInflight = null;
       districtSliceCache.clear();
       districtSliceInflight.clear();
+      // Previous-result bundles differ between enacted and neutral districts too.
+      // Keeping this cache across the geometry/result toggle corrupts flip comparisons.
+      vizPrevDistrictCache.clear();
       // Force congressional geometry refresh so neutral mode swaps shape files,
       // not just result JSON payloads.
       delete window['districts__search_geojson'];
@@ -14226,6 +14229,16 @@ document.addEventListener('DOMContentLoaded', function() {
       const c = document.getElementById('vote-context-clear');
       const b = document.getElementById('vote-context-badges');
       const rawTitle = String(title || '').trim();
+      const displayTitle = rawTitle.replace(
+        /^(Hover|Selected|Pinned):\s*(?:NV|CD)-0*(\d+)$/i,
+        (_, tagLabel, districtNum) => `${tagLabel}: Congressional District ${Number(districtNum)}`
+      ).replace(
+        /^(Hover|Selected|Pinned):\s*AD-0*(\d+)$/i,
+        (_, tagLabel, districtNum) => `${tagLabel}: State Assembly District ${String(Number(districtNum)).padStart(2, '0')}`
+      ).replace(
+        /^(Hover|Selected|Pinned):\s*SD-0*(\d+)$/i,
+        (_, tagLabel, districtNum) => `${tagLabel}: State Senate District ${String(Number(districtNum)).padStart(2, '0')}`
+      );
       let cleanedTitle = rawTitle;
       let tag = '';
       const m = /^(Hover|Selected|Pinned):\s*(.+)$/i.exec(rawTitle);
@@ -14235,7 +14248,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       // Preserve the exact legacy title string (tests + users rely on "Selected:" / "Hover:" prefixes).
       // Use the separate badge row for the compact context tag + tier badge.
-      if (t) t.textContent = rawTitle || '';
+      if (t) t.textContent = displayTitle || '';
       if (s) s.textContent = sub || '';
       if (c) {
         c.style.display = showClear ? 'inline-flex' : 'none';
@@ -18702,11 +18715,12 @@ document.addEventListener('DOMContentLoaded', function() {
     async function loadDistrictSlice(scope, contestType, year, linesYearOverride = currentDistrictLinesYear) {
       const key = `${scope}_${contestType}_${year}`;
       const linesYear = normalizeDistrictLinesYear(linesYearOverride);
-      const cacheKey = `${linesYear}|${key}`;
+      const congressionalModeKey = scope === 'congressional' && congressionalNeutralMode ? 'neutral' : 'enacted';
+      const cacheKey = `${linesYear}|${congressionalModeKey}|${key}`;
       const modeledDef = getModeledContestDefinition(contestType, year);
       if (modeledDef) {
         const sig = getModeledDefSignature(modeledDef);
-        const modeledKey = `${linesYear}|${String(scope || '').trim()}|${sig}`;
+        const modeledKey = `${linesYear}|${congressionalModeKey}|${String(scope || '').trim()}|${sig}`;
         if (sig && modeledDistrictOutputCache.has(modeledKey)) return modeledDistrictOutputCache.get(modeledKey);
         if (sig && modeledDistrictOutputInflight.has(modeledKey)) return modeledDistrictOutputInflight.get(modeledKey);
         const p = modeledPerf(`modeled.district.build:${String(scope || '').trim()}:${String(modeledDef?.contestType || '')}_${String(modeledDef?.year || '')}:${linesYear}`, async () => {
@@ -32245,7 +32259,8 @@ document.addEventListener('DOMContentLoaded', function() {
     async function ensurePrevDistrictCache(scope, contestType, year) {
       const y = Number(year);
       const linesYear = normalizeDistrictLinesYear(currentDistrictLinesYear);
-      const key = `${linesYear}_${scope}_${contestType}_${y}`;
+      const neutralKey = scope === 'congressional' && congressionalNeutralMode ? 'neutral' : 'enacted';
+      const key = `${linesYear}_${neutralKey}_${scope}_${contestType}_${y}`;
       if (vizPrevDistrictCache.has(key)) return vizPrevDistrictCache.get(key);
       const prev = await getPreviousDistrictSlice(scope, contestType, y, linesYear);
       const cached = prev ? { prevYear: prev.year, prevNode: prev.node } : { prevYear: null, prevNode: null };
