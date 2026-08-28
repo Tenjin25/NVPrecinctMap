@@ -9056,6 +9056,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     --nv-sage: #6e8572;
     --nv-gold: #c9a76a;
     --nv-panel: rgba(255, 251, 245, 0.95);
+    /* Nevada UI ribbon: deep state blue into silver, desert gold, and sand. */
+    --state-ribbon: linear-gradient(92deg, #17375e 0%, #365f8c 34%, #e4e8ef 54%, #c9a76a 76%, #efe6d6 100%);
   }
 
   body {
@@ -9095,10 +9097,26 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     box-shadow: 0 16px 36px rgba(19, 37, 57, 0.18);
   }
 
-  .controls-title-pill {
+  .controls-title-pill,
+  .legend-badge {
+    background: linear-gradient(135deg, #17375e 0%, #365f8c 100%);
+    color: #f6ead8;
+    border: 1px solid rgba(201, 167, 106, 0.5);
+    box-shadow: 0 10px 22px rgba(23, 55, 94, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.14);
+    text-shadow: 0 1px 0 rgba(15, 23, 42, 0.22);
+  }
+
+  /* Keep the minimized atlas title pill aligned with the Nevada visual identity. */
+  .controls-collapsed-label {
     background: linear-gradient(135deg, #17375e 0%, #365f8c 100%);
     color: #f6ead8;
     border-color: rgba(201, 167, 106, 0.5);
+    box-shadow: 0 10px 22px rgba(23, 55, 94, 0.24), inset 0 1px 0 rgba(255, 255, 255, 0.14);
+  }
+
+  .controls-collapsed-label::before {
+    background: linear-gradient(135deg, var(--state-red) 0%, var(--state-blue) 100%);
+    box-shadow: 0 0 0 4px rgba(248, 250, 252, 0.12);
   }
 
   .section-kicker,
@@ -10239,9 +10257,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-28-nv-district-focus-v9';
+    const DATA_CACHE_BUSTER = '2026-08-28-nv-district-focus-v10';
     const COUNTY_POP_CACHE_BUSTER = '2026-05-31-02';
-    const APP_BUILD_ID = '2026-08-28-nv-district-focus-v9';
+    const APP_BUILD_ID = '2026-08-28-nv-district-focus-v10';
     
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
