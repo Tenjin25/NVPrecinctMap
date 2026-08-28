@@ -10239,9 +10239,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-26-desktop-details-removed-v1';
+    const DATA_CACHE_BUSTER = '2026-08-28-flips-timeline-v1';
     const COUNTY_POP_CACHE_BUSTER = '2026-05-31-02';
-    const APP_BUILD_ID = '2026-08-26-desktop-details-removed-v1';
+    const APP_BUILD_ID = '2026-08-28-flips-timeline-v1';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -13119,10 +13119,10 @@ document.addEventListener('DOMContentLoaded', function() {
         focus: {
           countyActive: 0.9,
           countyWithPrecinct: 0.18,
-          district: 0.76,
-          house: 0.77,
-          senate: 0.77,
-          precinctFill: 0.76,
+          district: 0.89,
+          house: 0.88,
+          senate: 0.87,
+          precinctFill: 0.8,
           precinctDot: 0.88
         }
       };
@@ -20027,8 +20027,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const d = Number(districtNum);
       if (!Number.isFinite(d)) return '';
       if (scope === 'congressional') return `CD-${String(d).padStart(2, '0')}`;
-      if (scope === 'state_house') return `HD-${d}`;
-      if (scope === 'state_senate') return `SD-${d}`;
+      if (scope === 'state_house') return `AD-${String(d).padStart(2, '0')}`;
+      if (scope === 'state_senate') return `SD-${String(d).padStart(2, '0')}`;
       return `District ${d}`;
     }
 
@@ -22037,22 +22037,63 @@ document.addEventListener('DOMContentLoaded', function() {
       `;
     }
 
+    function getDistrictTrendYears(scope, contestType) {
+      const years = new Set();
+      const addYear = rawYear => {
+        const year = Number(rawYear);
+        if (Number.isFinite(year)) years.add(year);
+      };
+
+      (getActiveDistrictManifest() || []).forEach(entry => {
+        if (!entry || entry.scope !== scope || entry.contest_type !== contestType) return;
+        addYear(entry.year);
+      });
+
+      // Statewide history is also reallocated into each district layer. Its manifest is
+      // more complete than the district manifest, so use it to expose those timeline years.
+      (contestManifest || []).forEach(entry => {
+        if (!entry || entry.contest_type !== contestType || entry.scope) return;
+        addYear(entry.year);
+      });
+
+      // Nevada's district bundle includes older biennial legislative/House slices that
+      // are intentionally omitted from the compact district selector manifest. Without
+      // these candidates, the timeline only showed 2022/2024 despite the files existing.
+      const biennialTypes = new Set(['us_house', 'state_house', 'state_assembly', 'state_senate']);
+      if (biennialTypes.has(String(contestType || '').trim().toLowerCase())) {
+        [2004, 2006, 2008, 2010, 2012, 2014, 2016, 2020, 2022, 2024].forEach(addYear);
+      }
+
+      return Array.from(years).sort((a, b) => a - b);
+    }
+
     async function getDistrictTrendSeries(scope, contestType, districtNum) {
-      const entries = (getActiveDistrictManifest() || [])
-        .filter(f => f && f.scope === scope && f.contest_type === contestType && Number.isFinite(Number(f.year)))
-        .slice()
-        .sort((a, b) => Number(a.year) - Number(b.year));
+      const years = getDistrictTrendYears(scope, contestType);
 
       const out = [];
-      for (const e of entries) {
-        const year = Number(e.year);
-        const payload = await loadDistrictSlice(scope, contestType, year);
+      const loaded = await mapWithConcurrency(years, 4, async year => ({
+        year,
+        payload: await loadDistrictSlice(scope, contestType, year)
+      }));
+      for (const bundle of loaded) {
+        const year = Number(bundle?.year);
+        const payload = bundle?.payload || null;
         const results = payload?.general?.results || null;
         if (!results) continue;
         const keyA = String(districtNum);
         const keyB = String(Number(districtNum));
         const r = results[keyA] || results[keyB] || null;
         if (!r) continue;
+        const demVotes = Number(r.dem_votes) || 0;
+        const repVotes = Number(r.rep_votes) || 0;
+        const otherVotes = Number(r.other_votes) || 0;
+        const reportedTotal = Number(r.total_votes);
+        const totalVotes = Number.isFinite(reportedTotal) && reportedTotal > 0
+          ? reportedTotal
+          : (demVotes + repVotes + otherVotes);
+        // Staggered State Senate seats carry zero-vote rows in cycles when the seat
+        // was not up. They are gaps in the timeline, not tied election results.
+        if (totalVotes <= 0) continue;
 
         // Older statewide district slices may omit candidate labels; recover from contest slice.
         let demCand = (r.dem_candidate || '').toString().trim();
@@ -22066,10 +22107,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         out.push({
           year,
-          dem_votes: Number(r.dem_votes) || 0,
-          rep_votes: Number(r.rep_votes) || 0,
-          other_votes: Number(r.other_votes) || 0,
-          total_votes: Number(r.total_votes) || 0,
+          dem_votes: demVotes,
+          rep_votes: repVotes,
+          other_votes: otherVotes,
+          total_votes: totalVotes,
           dem_candidate: demCand,
           rep_candidate: repCand,
           winner: r.winner || '',
@@ -26373,19 +26414,22 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!districtNum) return;
       const requestId = ++districtHoverRequestId;
       setDistrictHoverOutline(scope, districtNum);
+      const districtHoverTitle = scope === 'congressional'
+        ? `NV-${String(districtNum).padStart(2, '0')}`
+        : formatDistrictTag(scope, districtNum);
 
       const contestValue = document.getElementById('contestSelect')?.value || '';
       const _demoRow = getDistrictDemographics(scope, districtNum);
       const _demoHTML = buildDemoHTML(_demoRow, scope, districtNum);
       if (!contestValue) {
         const pinnedShell = !!(tooltipPinned || (forceTooltip && isTouchInteractionMode()));
-        const copyText = `${districtLabel} ${districtNum} (Lines ${currentDistrictLinesYear})`;
+        const copyText = `${districtHoverTitle} (Lines ${currentDistrictLinesYear})`;
         if (isDesktopTooltipMode()) {
           showHoverTooltip(
             e.point.x,
             e.point.y,
             buildTooltipShell(
-              `${districtLabel} ${districtNum}`,
+              districtHoverTitle,
               _demoHTML + '<div style="color:#94a3b8;margin-top:6px;">Select a contest to see results</div>',
               { pinned: pinnedShell, copyText }
             ),
@@ -26400,7 +26444,7 @@ document.addEventListener('DOMContentLoaded', function() {
           e.point.x,
           e.point.y,
           buildTooltipShell(
-            `${districtLabel} ${districtNum}`,
+            districtHoverTitle,
             `${_demoHTML}<div class="tooltip-kicker">Start</div><div style="color:rgba(226,232,240,0.92);font-weight:650;margin-top:6px;">${escapeHtml(startText)}</div>`,
             { pinned: pinnedShell, copyText }
           ),
@@ -26428,13 +26472,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
       if (!row) {
         const pinnedShell = !!(tooltipPinned || (forceTooltip && isTouchInteractionMode()));
-        const copyText = `${districtLabel} ${districtNum} (Lines ${currentDistrictLinesYear})`;
+        const copyText = `${districtHoverTitle} (Lines ${currentDistrictLinesYear})`;
         if (isDesktopTooltipMode()) {
           showHoverTooltip(
             e.point.x,
             e.point.y,
             buildTooltipShell(
-              `${districtLabel} ${districtNum}`,
+              districtHoverTitle,
               _demoHTML + '<div style="color:#94a3b8;margin-top:6px;">No data for this contest</div>',
               { pinned: pinnedShell, copyText }
             ),
@@ -26447,7 +26491,7 @@ document.addEventListener('DOMContentLoaded', function() {
           e.point.x,
           e.point.y,
           buildTooltipShell(
-            `${districtLabel} ${districtNum}`,
+            districtHoverTitle,
             _demoHTML + '<div class="tooltip-kicker" style="margin-top:6px;">No data</div><div style="color:rgba(226,232,240,0.92);margin-top:6px;">No results for this contest.</div>',
             { pinned: pinnedShell, copyText }
           ),
@@ -26466,13 +26510,13 @@ document.addEventListener('DOMContentLoaded', function() {
         : (demVotes + repVotes + otherVotes);
       if (totalVotes <= 0) {
         const pinnedShell = !!(tooltipPinned || (forceTooltip && isTouchInteractionMode()));
-        const copyText = `${districtLabel} ${districtNum} (Lines ${currentDistrictLinesYear})`;
+        const copyText = `${districtHoverTitle} (Lines ${currentDistrictLinesYear})`;
         if (isDesktopTooltipMode()) {
           showHoverTooltip(
             e.point.x,
             e.point.y,
             buildTooltipShell(
-              `${districtLabel} ${districtNum}`,
+              districtHoverTitle,
               _demoHTML + '<div style="color:#94a3b8;margin-top:6px;">No data for this contest</div>',
               { pinned: pinnedShell, copyText }
             ),
@@ -26485,7 +26529,7 @@ document.addEventListener('DOMContentLoaded', function() {
           e.point.x,
           e.point.y,
           buildTooltipShell(
-            `${districtLabel} ${districtNum}`,
+            districtHoverTitle,
             _demoHTML + '<div class="tooltip-kicker" style="margin-top:6px;">No data</div><div style="color:rgba(226,232,240,0.92);margin-top:6px;">No results for this contest.</div>',
             { pinned: pinnedShell, copyText }
           ),
@@ -26507,7 +26551,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!demCandidate) demCandidate = getCandidateName(year, formatContestName(contestType, year), 'Democrat');
       if (!repCandidate) repCandidate = getCandidateName(year, formatContestName(contestType, year), 'Republican');
       setVoteCounterHoverState(
-        `Hover: ${districtLabel} ${districtNum}`,
+        `Hover: ${districtHoverTitle}`,
         `${formatContestLabel(contestType, year)}`,
         demVotes,
         repVotes,
@@ -26535,9 +26579,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const subtitleByScope = scope === 'congressional'
         ? 'Congressional District'
         : (scope === 'state_senate' ? 'State Senate' : 'State Assembly');
-      const districtTitle = scope === 'congressional'
-        ? `NV-${String(districtNum).padStart(2, '0')}`
-        : `${districtLabel} ${districtNum}`;
+      const districtTitle = districtHoverTitle;
       const winnerName = signedMarginPct > 0
         ? shortCandidateLabel(repCandidate, 'Republican')
         : (signedMarginPct < 0 ? shortCandidateLabel(demCandidate, 'Democratic') : 'Tie');
@@ -26573,7 +26615,7 @@ document.addEventListener('DOMContentLoaded', function() {
         shiftYearLabel: (prevYearForFlip && year) ? `${prevYearForFlip}→${year}` : '',
         showShiftLine: currentVizMode === 'shift' && Number.isFinite(shiftDelta) && !!prevYearForFlip
       });
-      const copyText = `${districtLabel} ${districtNum} (Lines ${currentDistrictLinesYear})`;
+      const copyText = `${districtHoverTitle} (Lines ${currentDistrictLinesYear})`;
       showHoverTooltip(
         e.point.x,
         e.point.y,
@@ -31922,10 +31964,14 @@ document.addEventListener('DOMContentLoaded', function() {
         return null;
       }
       const candidates = (() => {
-        const base = [y - 4, y - 6, y - 2, y - 8, y - 12].filter(v => v >= 2000);
+        const type = String(contestType || '').trim().toLowerCase();
+        const biennialTypes = new Set(['us_house', 'state_house', 'state_assembly', 'state_senate']);
+        const base = biennialTypes.has(type)
+          ? [y - 2, y - 4, y - 6, y - 8, y - 10, y - 12].filter(v => v >= 2000)
+          : [y - 4, y - 6, y - 2, y - 8, y - 12].filter(v => v >= 2000);
         // US Senate: prefer the last time the *same seat* was up (typically y-6) when available.
         // If that slice doesn't exist, fall back to the nearest earlier available year.
-        if (String(contestType || '').trim() !== 'us_senate') return base;
+        if (type !== 'us_senate') return base;
         const preferred = [y - 6, y - 12].filter(v => v >= 2000);
         const rest = base.filter(v => !preferred.includes(v));
         return [...preferred, ...rest];
@@ -32168,8 +32214,12 @@ document.addEventListener('DOMContentLoaded', function() {
         return null;
       }
       const candidates = (() => {
-        const base = [y - 4, y - 6, y - 2, y - 8, y - 12].filter(v => v >= 2000);
-        if (String(contestType || '').trim() !== 'us_senate') return base;
+        const type = String(contestType || '').trim().toLowerCase();
+        const biennialTypes = new Set(['us_house', 'state_house', 'state_assembly', 'state_senate']);
+        const base = biennialTypes.has(type)
+          ? [y - 2, y - 4, y - 6, y - 8, y - 10, y - 12].filter(v => v >= 2000)
+          : [y - 4, y - 6, y - 2, y - 8, y - 12].filter(v => v >= 2000);
+        if (type !== 'us_senate') return base;
         const preferred = [y - 6, y - 12].filter(v => v >= 2000);
         const rest = base.filter(v => !preferred.includes(v));
         return [...preferred, ...rest];
