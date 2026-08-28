@@ -10257,9 +10257,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-28-nv-district-focus-v10';
+    const DATA_CACHE_BUSTER = '2026-08-28-nv-district-focus-v11';
     const COUNTY_POP_CACHE_BUSTER = '2026-05-31-02';
-    const APP_BUILD_ID = '2026-08-28-nv-district-focus-v10';
+    const APP_BUILD_ID = '2026-08-28-nv-district-focus-v11';
     
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -19130,25 +19130,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	      if (contestType.startsWith('nc_court_of_appeals_judge_seat_')) {
 	        const seat = contestType.replace('nc_court_of_appeals_judge_seat_', '').replace(/^0+/, '');
-	        return `NV Court of Appeals Judge Seat ${seat || contestType}`;
+	        return `Court of Appeals Judge Seat ${seat || contestType}`;
 	      }
 	      if (contestType.startsWith('nc_court_of_appeals_judge_') && contestType.endsWith('_seat')) {
 	        const who = contestType.replace('nc_court_of_appeals_judge_', '').replace(/_seat$/i, '').replace(/_/g, ' ').trim();
 	        const label = who ? (typeof toTitleCaseName === 'function' ? toTitleCaseName(who) : who) : contestType;
-	        return `NV Court of Appeals Judge (${label})`;
+	        return `Court of Appeals Judge (${label})`;
 	      }
 	      if (contestType.startsWith('nc_supreme_court_associate_justice_seat_')) {
 	        const seat = contestType.replace('nc_supreme_court_associate_justice_seat_', '').replace(/^0+/, '');
-	        return `NV Supreme Court Associate Justice Seat ${seat || contestType}`;
+	        return `Supreme Court Associate Justice Seat ${seat || contestType}`;
 	      }
 	      if (contestType.startsWith('nc_supreme_court_chief_justice_seat_')) {
 	        const seat = contestType.replace('nc_supreme_court_chief_justice_seat_', '').replace(/^0+/, '');
-	        return `NV Supreme Court Chief Justice Seat ${seat || contestType}`;
+	        return `Supreme Court Chief Justice Seat ${seat || contestType}`;
 	      }
 	      if (contestType.startsWith('nc_supreme_court_chief_justice_') && contestType.endsWith('_seat')) {
 	        const who = contestType.replace('nc_supreme_court_chief_justice_', '').replace(/_seat$/i, '').replace(/_/g, ' ').trim();
 	        const label = who ? (typeof toTitleCaseName === 'function' ? toTitleCaseName(who) : who) : contestType;
-	        return `NV Supreme Court Chief Justice (${label})`;
+	        return `Supreme Court Chief Justice (${label})`;
 	      }
 
 	      return nameMap[contestType] || contestType.toUpperCase();
@@ -19422,17 +19422,17 @@ document.addEventListener('DOMContentLoaded', function() {
           if (modeledDef?.groupLabel) return modeledDef.groupLabel;
 	        if (contestType === 'president') return 'US President';
 	        if (contestType === 'us_senate') return 'US Senate';
-	        if (contestType === 'governor') return 'NV Governor';
-	        if (contestType === 'lieutenant_governor') return 'NV Lieutenant Governor';
-	        if (contestType === 'attorney_general') return 'NV Attorney General';
-	        if (contestType === 'secretary_of_state') return 'NV Secretary of State';
-	        if (contestType === 'treasurer') return 'NV Treasurer';
+	        if (contestType === 'governor') return 'Governor';
+	        if (contestType === 'lieutenant_governor') return 'Lieutenant Governor';
+	        if (contestType === 'attorney_general') return 'Attorney General';
+	        if (contestType === 'secretary_of_state') return 'Secretary of State';
+	        if (contestType === 'treasurer') return 'Treasurer';
 	        if (contestType === 'auditor') return 'Auditor';
 	        if (contestType === 'labor_commissioner') return 'Labor Commissioner';
 	        if (contestType === 'insurance_commissioner') return 'Insurance Commissioner';
 	        if (contestType === 'agriculture_commissioner') return 'Agriculture Commissioner';
 	        if (contestType === 'superintendent') return 'Superintendent of Public Instruction';
-	        if (contestType.startsWith('nc_supreme_court_')) return 'NV Supreme Court';
+	        if (contestType.startsWith('nc_supreme_court_')) return 'Supreme Court';
 	        if (contestType.startsWith('nc_court_of_appeals_')) return 'Court of Appeals';
 	        return formatContestName(contestType, '');
 	      }
@@ -19445,17 +19445,17 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const groupOrder = [
 	        'US President',
 	        'US Senate',
-	        'NV Governor',
-	        'NV Lieutenant Governor',
-	        'NV Attorney General',
-	        'NV Secretary of State',
-	        'NV Treasurer',
+	        'Governor',
+	        'Lieutenant Governor',
+	        'Attorney General',
+	        'Secretary of State',
+	        'Treasurer',
 	        'Auditor',
 	        'Labor Commissioner',
 	        'Insurance Commissioner',
 	        'Agriculture Commissioner',
 	        'Superintendent of Public Instruction',
-	        'NV Supreme Court',
+	        'Supreme Court',
 	        'Court of Appeals'
 	      ];
 
@@ -19651,11 +19651,11 @@ document.addEventListener('DOMContentLoaded', function() {
 	      function groupLabelForContestType(contestType) {
 	        if (contestType === 'president') return 'US President';
 	        if (contestType === 'us_senate') return 'US Senate';
-	        if (contestType === 'governor') return 'NV Governor';
-	        if (contestType === 'lieutenant_governor') return 'NV Lieutenant Governor';
-	        if (contestType === 'attorney_general') return 'NV Attorney General';
-	        if (contestType === 'secretary_of_state') return 'NV Secretary of State';
-	        if (contestType === 'treasurer') return 'NV Treasurer';
+	        if (contestType === 'governor') return 'Governor';
+	        if (contestType === 'lieutenant_governor') return 'Lieutenant Governor';
+	        if (contestType === 'attorney_general') return 'Attorney General';
+	        if (contestType === 'secretary_of_state') return 'Secretary of State';
+	        if (contestType === 'treasurer') return 'Treasurer';
 	        if (contestType === 'auditor') return 'Auditor';
 	        if (contestType === 'labor_commissioner') return 'Labor Commissioner';
 	        if (contestType === 'insurance_commissioner') return 'Insurance Commissioner';
@@ -19667,11 +19667,11 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const groupOrder = [
 	        'US President',
 	        'US Senate',
-	        'NV Governor',
-	        'NV Lieutenant Governor',
-	        'NV Attorney General',
-	        'NV Secretary of State',
-	        'NV Treasurer',
+	        'Governor',
+	        'Lieutenant Governor',
+	        'Attorney General',
+	        'Secretary of State',
+	        'Treasurer',
 	        'Auditor',
 	        'Labor Commissioner',
 	        'Insurance Commissioner',
