@@ -10239,9 +10239,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-28-nv-district-focus-v7';
+    const DATA_CACHE_BUSTER = '2026-08-28-nv-district-focus-v8';
     const COUNTY_POP_CACHE_BUSTER = '2026-05-31-02';
-    const APP_BUILD_ID = '2026-08-28-nv-district-focus-v7';
+    const APP_BUILD_ID = '2026-08-28-nv-district-focus-v8';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -20053,7 +20053,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function formatDistrictTag(scope, districtNum) {
       const d = Number(districtNum);
       if (!Number.isFinite(d)) return '';
-      if (scope === 'congressional') return `CD-${String(d).padStart(2, '0')}`;
+      if (scope === 'congressional') return `NV-${String(d).padStart(2, '0')}`;
       if (scope === 'state_house') return `HD-${d}`;
       if (scope === 'state_senate') return `SD-${d}`;
       return `District ${d}`;
