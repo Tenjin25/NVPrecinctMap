@@ -330,18 +330,10 @@ def load_cd_to_neutral_shares() -> dict[str, list[tuple[str, float]]]:
     return cd_to_neutral_shares
 
 
-def aggregate_rows(
-    rows: list[dict],
-    group_key_name: str,
-    year: str,
-    candidate_pair_key_name: str = "",
-) -> dict:
+def aggregate_rows(rows: list[dict], group_key_name: str, year: str) -> dict:
     grouped = defaultdict(lambda: {"dem": 0, "rep": 0, "other": 0})
     dem_name = defaultdict(lambda: defaultdict(int))
     rep_name = defaultdict(lambda: defaultdict(int))
-    pair_votes = defaultdict(lambda: defaultdict(int))
-    pair_dem_name = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
-    pair_rep_name = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
 
     for row in rows:
         group_key = clean(row.get(group_key_name, ""))
@@ -351,23 +343,14 @@ def aggregate_rows(
         p = resolve_party(year, contest, row.get("party", ""), row.get("candidate", ""))
         cand = normalize_candidate_name(contest, row.get("candidate", ""))
         votes = to_int(row.get("votes", ""))
-        pair_key = clean(row.get(candidate_pair_key_name, "")) if candidate_pair_key_name else ""
         if p == "DEM":
             grouped[group_key]["dem"] += votes
             if cand:
                 dem_name[group_key][cand] += votes
-            if pair_key:
-                pair_votes[group_key][pair_key] += votes
-                if cand:
-                    pair_dem_name[group_key][pair_key][cand] += votes
         elif p == "REP":
             grouped[group_key]["rep"] += votes
             if cand:
                 rep_name[group_key][cand] += votes
-            if pair_key:
-                pair_votes[group_key][pair_key] += votes
-                if cand:
-                    pair_rep_name[group_key][pair_key][cand] += votes
         else:
             grouped[group_key]["other"] += votes
 
@@ -379,31 +362,44 @@ def aggregate_rows(
         total = dem + rep + other
         margin = rep - dem
         margin_pct = (margin / total * 100.0) if total else 0.0
-        dem_candidate = pick_top_name(dem_name[key])
-        rep_candidate = pick_top_name(rep_name[key])
-        if candidate_pair_key_name and pair_votes[key]:
-            # A neutral district can contain precincts from several enacted House
-            # races. Select both labels from the same, largest-contributing source
-            # district so we never display a candidate matchup that did not exist.
-            pair_key = sorted(
-                pair_votes[key].items(),
-                key=lambda kv: (-kv[1], kv[0].lower()),
-            )[0][0]
-            dem_candidate = pick_top_name(pair_dem_name[key][pair_key])
-            rep_candidate = pick_top_name(pair_rep_name[key][pair_key])
         out[key] = {
             "dem_votes": dem,
             "rep_votes": rep,
             "other_votes": other,
             "total_votes": total,
-            "dem_candidate": dem_candidate,
-            "rep_candidate": rep_candidate,
+            "dem_candidate": pick_top_name(dem_name[key]),
+            "rep_candidate": pick_top_name(rep_name[key]),
             "margin": margin,
             "margin_pct": round(margin_pct, 2),
             "winner": "REP" if margin > 0 else "DEM" if margin < 0 else "TIE",
             "competitiveness": {"color": competitiveness_color(margin_pct)},
         }
     return out
+
+
+def apply_matching_district_candidate_labels(
+    neutral_results: dict,
+    enacted_rows: list[dict],
+    year: str,
+) -> None:
+    """Label neutral district N with the enacted district N House ticket."""
+    enacted_results = aggregate_rows(enacted_rows, "district", year)
+    enacted_by_number = {}
+    for key, row in enacted_results.items():
+        try:
+            enacted_by_number[str(int(float(key)))] = row
+        except (TypeError, ValueError):
+            continue
+    for neutral_id, neutral_row in neutral_results.items():
+        try:
+            district_number = str(int(float(neutral_id)))
+        except (TypeError, ValueError):
+            continue
+        ticket = enacted_by_number.get(district_number)
+        if not ticket:
+            continue
+        neutral_row["dem_candidate"] = ticket.get("dem_candidate", "")
+        neutral_row["rep_candidate"] = ticket.get("rep_candidate", "")
 
 
 def main() -> None:
@@ -579,15 +575,11 @@ def main() -> None:
                 if neutral_rows:
                     coverage = (matched_source / total_source * 100.0) if total_source else 0.0
                     allocated_coverage = ((matched_source + backfilled_source) / total_source * 100.0) if total_source else 0.0
+                    neutral_results = aggregate_rows(neutral_rows, "neutral_id", year)
+                    if t == "us_house" and year in {"2022", "2024"}:
+                        apply_matching_district_candidate_labels(neutral_results, trows, year)
                     year_neutral[t] = {
-                        "general": {
-                            "results": aggregate_rows(
-                                neutral_rows,
-                                "neutral_id",
-                                year,
-                                candidate_pair_key_name="district",
-                            )
-                        },
+                        "general": {"results": neutral_results},
                         "meta": {
                             "match_rows": matched_source,
                             "backfilled_rows": backfilled_source,
