@@ -10259,7 +10259,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
     const DATA_CACHE_BUSTER = '2026-08-28-nv-district-focus-v14';
     const COUNTY_POP_CACHE_BUSTER = '2026-05-31-02';
-    const APP_BUILD_ID = '2026-08-28-nv-district-focus-v14';
+    const APP_BUILD_ID = '2026-08-28-nv-district-focus-v15';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -19542,7 +19542,14 @@ document.addEventListener('DOMContentLoaded', function() {
           ? 'congressional'
           : (currentView === 'state_house' ? 'state_house' : (currentView === 'state_senate' ? 'state_senate' : null));
         if (scope) {
-          const scoped = (Array.isArray(activeDistrictManifest) ? activeDistrictManifest : []).filter(e => e && e.scope === scope);
+          const scoped = (Array.isArray(activeDistrictManifest) ? activeDistrictManifest : []).filter(e => {
+            if (!e || e.scope !== scope) return false;
+            const contestType = String(e.contest_type || '').trim().toLowerCase();
+            // U.S. House belongs in the congressional view. Legislative views still
+            // retain statewide contests reallocated onto their district boundaries.
+            if ((scope === 'state_house' || scope === 'state_senate') && contestType === 'us_house') return false;
+            return true;
+          });
           if (scope === 'congressional') {
             const statewideCongressionalContestTypes = new Set([
               'president',

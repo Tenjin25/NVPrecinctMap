@@ -1,0 +1,69 @@
+{
+  "year": 2018,
+  "scope": "congressional",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 95225,
+        "rep_votes": 47759,
+        "other_votes": 9752,
+        "total_votes": 152736,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -47466,
+        "margin_pct": -31.08,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "02": {
+        "dem_votes": 127678,
+        "rep_votes": 143082,
+        "other_votes": 18488,
+        "total_votes": 289248,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": 15404,
+        "margin_pct": 5.33,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "03": {
+        "dem_votes": 142476,
+        "rep_votes": 130539,
+        "other_votes": 15028,
+        "total_votes": 288043,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -11937,
+        "margin_pct": -4.14,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "04": {
+        "dem_votes": 121002,
+        "rep_votes": 100317,
+        "other_votes": 14597,
+        "total_votes": 235916,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -20685,
+        "margin_pct": -8.77,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      }
+    }
+  }
+}

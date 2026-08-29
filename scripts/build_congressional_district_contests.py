@@ -1,10 +1,15 @@
 import csv
+import argparse
 import json
 import re
 from collections import defaultdict
 from pathlib import Path
 
-from build_nv_scope_aggregates import build_precinct_match_probes, load_precinct_to_geoid20
+from build_nv_scope_aggregates import (
+    build_precinct_match_probes,
+    load_precinct_to_geoid20,
+    resolve_party,
+)
 
 
 OE_DIR = Path("data/openelections")
@@ -14,6 +19,13 @@ CROSSWALKS_DIR = Path("data/crosswalks")
 
 def clean(v: str) -> str:
     return (v or "").strip()
+
+
+def normalize_legislative_district(v: str) -> str:
+    district = clean(v)
+    if re.fullmatch(r"\d+", district):
+        return str(int(district))
+    return district
 
 
 def to_int(v: str) -> int:
@@ -134,7 +146,7 @@ def load_vtd20_to_district(path: Path) -> dict[str, str]:
     return out
 
 
-def aggregate_rows(rows: list[dict], group_key_name: str, ctype: str) -> dict:
+def aggregate_rows(rows: list[dict], group_key_name: str, ctype: str, year: int) -> dict:
     grouped = defaultdict(lambda: {"dem": 0, "rep": 0, "other": 0})
     dem_name = defaultdict(lambda: defaultdict(int))
     rep_name = defaultdict(lambda: defaultdict(int))
@@ -143,7 +155,7 @@ def aggregate_rows(rows: list[dict], group_key_name: str, ctype: str) -> dict:
         group_key = clean(row.get(group_key_name, ""))
         if not group_key:
             continue
-        p = normalize_party(row.get("party", ""))
+        p = resolve_party(str(year), ctype, row.get("party", ""), row.get("candidate", ""))
         cand = normalize_candidate_name(ctype, row.get("candidate", ""))
         votes = to_int(row.get("votes", ""))
         if p == "DEM":
@@ -206,14 +218,14 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
     pkey_to_sldl = {}
     for r in by_type.get("state_assembly", []):
         pkey = (clean(r.get("county", "")), clean(r.get("precinct", "")))
-        d = clean(r.get("district", ""))
+        d = normalize_legislative_district(r.get("district", ""))
         if pkey[0] and pkey[1] and d:
             pkey_to_sldl[pkey] = d
 
     pkey_to_sldu = {}
     for r in by_type.get("state_senate", []):
         pkey = (clean(r.get("county", "")), clean(r.get("precinct", "")))
-        d = clean(r.get("district", ""))
+        d = normalize_legislative_district(r.get("district", ""))
         if pkey[0] and pkey[1] and d:
             pkey_to_sldu[pkey] = d
 
@@ -231,9 +243,9 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
         if pkey not in pkey_to_cd and geoid in vtd20_to_cd:
             pkey_to_cd[pkey] = clean(vtd20_to_cd[geoid]).zfill(2)
         if pkey not in pkey_to_sldl and geoid in vtd20_to_sldl:
-            pkey_to_sldl[pkey] = clean(vtd20_to_sldl[geoid])
+            pkey_to_sldl[pkey] = normalize_legislative_district(vtd20_to_sldl[geoid])
         if pkey not in pkey_to_sldu and geoid in vtd20_to_sldu:
-            pkey_to_sldu[pkey] = clean(vtd20_to_sldu[geoid])
+            pkey_to_sldu[pkey] = normalize_legislative_district(vtd20_to_sldu[geoid])
 
     common_types = (
         "president",
@@ -276,7 +288,7 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
                 trows.append(rc)
             if not trows:
                 continue
-        results = aggregate_rows(trows, "district", t)
+        results = aggregate_rows(trows, "district", t, year)
         payload = {
             "year": year,
             "scope": "congressional",
@@ -292,7 +304,14 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
         if not source_rows:
             continue
         if t == "state_assembly":
-            trows = [dict(r) for r in source_rows if clean(r.get("district", ""))]
+            trows = []
+            for r in source_rows:
+                d = normalize_legislative_district(r.get("district", ""))
+                if not d:
+                    continue
+                rc = dict(r)
+                rc["district"] = d
+                trows.append(rc)
         else:
             trows = []
             for r in source_rows:
@@ -305,7 +324,7 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
                 trows.append(rc)
         if not trows:
             continue
-        results = aggregate_rows(trows, "district", t)
+        results = aggregate_rows(trows, "district", t, year)
         payload = {
             "year": year,
             "scope": "state_house",
@@ -321,7 +340,14 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
         if not source_rows:
             continue
         if t == "state_senate":
-            trows = [dict(r) for r in source_rows if clean(r.get("district", ""))]
+            trows = []
+            for r in source_rows:
+                d = normalize_legislative_district(r.get("district", ""))
+                if not d:
+                    continue
+                rc = dict(r)
+                rc["district"] = d
+                trows.append(rc)
         else:
             trows = []
             for r in source_rows:
@@ -334,7 +360,7 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
                 trows.append(rc)
         if not trows:
             continue
-        results = aggregate_rows(trows, "district", t)
+        results = aggregate_rows(trows, "district", t, year)
         payload = {
             "year": year,
             "scope": "state_senate",
@@ -348,12 +374,26 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Build Nevada district contest slices.")
+    parser.add_argument(
+        "--years",
+        nargs="+",
+        type=int,
+        help="Rebuild only these election years and preserve other manifest entries.",
+    )
+    args = parser.parse_args()
+    selected_years = set(args.years or [])
+
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     manifest = []
 
-    allowed_years = {2022, 2024}
+    manifest_path = OUT_DIR / "manifest.json"
+    if selected_years and manifest_path.exists():
+        existing = json.loads(manifest_path.read_text(encoding="utf-8")).get("files", [])
+        manifest.extend(e for e in existing if int(e.get("year", 0)) not in selected_years)
+
     for p in sorted(OE_DIR.glob("*__nv__general__precinct.csv")):
-        if parse_year(p) not in allowed_years:
+        if selected_years and parse_year(p) not in selected_years:
             continue
         generated = build_for_year(p)
         for fname, payload in generated:
@@ -361,9 +401,25 @@ def main() -> None:
             scope = payload["scope"]
             ctype = payload["contest_type"]
             keep = (
-                (scope == "congressional" and ctype == "us_house") or
-                (scope == "state_house") or
-                (scope == "state_senate")
+                # Keep U.S. House confined to the recent congressional selector;
+                # 2018 contributes its statewide contests, but not U.S. House.
+                (
+                    scope == "congressional"
+                    and (
+                        (ctype == "us_house" and y in {2022, 2024})
+                        or (y == 2018 and ctype != "us_house")
+                    )
+                ) or
+                (
+                    scope == "state_house"
+                    and ctype != "us_house"
+                    and (ctype != "state_assembly" or y >= 2022)
+                ) or
+                (
+                    scope == "state_senate"
+                    and ctype != "us_house"
+                    and (ctype != "state_senate" or y >= 2022)
+                )
             )
             if not keep:
                 continue
@@ -381,8 +437,8 @@ def main() -> None:
             )
 
     manifest.sort(key=lambda x: (x["year"], x["scope"], x["contest_type"]))
-    (OUT_DIR / "manifest.json").write_text(json.dumps({"files": manifest}, indent=2), encoding="utf-8")
-    print(f"Wrote {OUT_DIR / 'manifest.json'} entries={len(manifest)}")
+    manifest_path.write_text(json.dumps({"files": manifest}, indent=2), encoding="utf-8")
+    print(f"Wrote {manifest_path} entries={len(manifest)}")
 
 
 if __name__ == "__main__":

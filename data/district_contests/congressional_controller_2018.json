@@ -1,0 +1,69 @@
+{
+  "year": 2018,
+  "scope": "congressional",
+  "contest_type": "controller",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 97850,
+        "rep_votes": 49632,
+        "other_votes": 5053,
+        "total_votes": 152535,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -48218,
+        "margin_pct": -31.61,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "02": {
+        "dem_votes": 122352,
+        "rep_votes": 156513,
+        "other_votes": 9519,
+        "total_votes": 288384,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": 34161,
+        "margin_pct": 11.85,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "03": {
+        "dem_votes": 143821,
+        "rep_votes": 134231,
+        "other_votes": 8618,
+        "total_votes": 286670,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -9590,
+        "margin_pct": -3.35,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "04": {
+        "dem_votes": 123045,
+        "rep_votes": 104723,
+        "other_votes": 7310,
+        "total_votes": 235078,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -18322,
+        "margin_pct": -7.79,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      }
+    }
+  }
+}

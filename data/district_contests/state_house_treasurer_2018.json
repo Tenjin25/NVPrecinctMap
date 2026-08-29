@@ -1,0 +1,601 @@
+{
+  "year": 2018,
+  "scope": "state_house",
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 13822,
+        "rep_votes": 9711,
+        "other_votes": 1235,
+        "total_votes": 24768,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -4111,
+        "margin_pct": -16.6,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "2": {
+        "dem_votes": 12987,
+        "rep_votes": 14390,
+        "other_votes": 1226,
+        "total_votes": 28603,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": 1403,
+        "margin_pct": 4.91,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "3": {
+        "dem_votes": 9303,
+        "rep_votes": 5234,
+        "other_votes": 810,
+        "total_votes": 15347,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -4069,
+        "margin_pct": -26.51,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "4": {
+        "dem_votes": 13746,
+        "rep_votes": 14767,
+        "other_votes": 1351,
+        "total_votes": 29864,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": 1021,
+        "margin_pct": 3.42,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "5": {
+        "dem_votes": 10811,
+        "rep_votes": 9874,
+        "other_votes": 998,
+        "total_votes": 21683,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -937,
+        "margin_pct": -4.32,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "6": {
+        "dem_votes": 9240,
+        "rep_votes": 1428,
+        "other_votes": 645,
+        "total_votes": 11313,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -7812,
+        "margin_pct": -69.05,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "7": {
+        "dem_votes": 12228,
+        "rep_votes": 4743,
+        "other_votes": 889,
+        "total_votes": 17860,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -7485,
+        "margin_pct": -41.91,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "8": {
+        "dem_votes": 10971,
+        "rep_votes": 7624,
+        "other_votes": 989,
+        "total_votes": 19584,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -3347,
+        "margin_pct": -17.09,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "9": {
+        "dem_votes": 14310,
+        "rep_votes": 11509,
+        "other_votes": 1275,
+        "total_votes": 27094,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -2801,
+        "margin_pct": -10.34,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "10": {
+        "dem_votes": 8620,
+        "rep_votes": 5158,
+        "other_votes": 759,
+        "total_votes": 14537,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -3462,
+        "margin_pct": -23.82,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "11": {
+        "dem_votes": 6170,
+        "rep_votes": 1654,
+        "other_votes": 567,
+        "total_votes": 8391,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -4516,
+        "margin_pct": -53.82,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "12": {
+        "dem_votes": 12207,
+        "rep_votes": 10342,
+        "other_votes": 1194,
+        "total_votes": 23743,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -1865,
+        "margin_pct": -7.85,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "13": {
+        "dem_votes": 11415,
+        "rep_votes": 15283,
+        "other_votes": 1240,
+        "total_votes": 27938,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": 3868,
+        "margin_pct": 13.84,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "14": {
+        "dem_votes": 8316,
+        "rep_votes": 3582,
+        "other_votes": 748,
+        "total_votes": 12646,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -4734,
+        "margin_pct": -37.43,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "15": {
+        "dem_votes": 8799,
+        "rep_votes": 4673,
+        "other_votes": 825,
+        "total_votes": 14297,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -4126,
+        "margin_pct": -28.86,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "16": {
+        "dem_votes": 7422,
+        "rep_votes": 3803,
+        "other_votes": 624,
+        "total_votes": 11849,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -3619,
+        "margin_pct": -30.54,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "17": {
+        "dem_votes": 13307,
+        "rep_votes": 6645,
+        "other_votes": 1092,
+        "total_votes": 21044,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -6662,
+        "margin_pct": -31.66,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "18": {
+        "dem_votes": 10497,
+        "rep_votes": 6045,
+        "other_votes": 1012,
+        "total_votes": 17554,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -4452,
+        "margin_pct": -25.36,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "19": {
+        "dem_votes": 9336,
+        "rep_votes": 13577,
+        "other_votes": 1174,
+        "total_votes": 24087,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": 4241,
+        "margin_pct": 17.61,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "20": {
+        "dem_votes": 10901,
+        "rep_votes": 7610,
+        "other_votes": 1033,
+        "total_votes": 19544,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -3291,
+        "margin_pct": -16.84,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "21": {
+        "dem_votes": 11429,
+        "rep_votes": 10045,
+        "other_votes": 1062,
+        "total_votes": 22536,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -1384,
+        "margin_pct": -6.14,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "22": {
+        "dem_votes": 13882,
+        "rep_votes": 16475,
+        "other_votes": 1355,
+        "total_votes": 31712,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": 2593,
+        "margin_pct": 8.18,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "23": {
+        "dem_votes": 13683,
+        "rep_votes": 21480,
+        "other_votes": 1512,
+        "total_votes": 36675,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": 7797,
+        "margin_pct": 21.26,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "24": {
+        "dem_votes": 12910,
+        "rep_votes": 5864,
+        "other_votes": 1436,
+        "total_votes": 20210,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -7046,
+        "margin_pct": -34.86,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "25": {
+        "dem_votes": 15340,
+        "rep_votes": 17761,
+        "other_votes": 1862,
+        "total_votes": 34963,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": 2421,
+        "margin_pct": 6.92,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "26": {
+        "dem_votes": 15353,
+        "rep_votes": 19936,
+        "other_votes": 1775,
+        "total_votes": 37064,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": 4583,
+        "margin_pct": 12.37,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "27": {
+        "dem_votes": 12979,
+        "rep_votes": 9898,
+        "other_votes": 1686,
+        "total_votes": 24563,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -3081,
+        "margin_pct": -12.54,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "28": {
+        "dem_votes": 6563,
+        "rep_votes": 1896,
+        "other_votes": 576,
+        "total_votes": 9035,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -4667,
+        "margin_pct": -51.65,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "29": {
+        "dem_votes": 12669,
+        "rep_votes": 12417,
+        "other_votes": 1352,
+        "total_votes": 26438,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -252,
+        "margin_pct": -0.95,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#e1f5fe"
+        }
+      },
+      "30": {
+        "dem_votes": 10946,
+        "rep_votes": 8681,
+        "other_votes": 1448,
+        "total_votes": 21075,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -2265,
+        "margin_pct": -10.75,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "31": {
+        "dem_votes": 12753,
+        "rep_votes": 14632,
+        "other_votes": 1747,
+        "total_votes": 29132,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": 1879,
+        "margin_pct": 6.45,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "32": {
+        "dem_votes": 6911,
+        "rep_votes": 16983,
+        "other_votes": 1787,
+        "total_votes": 25681,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": 10072,
+        "margin_pct": 39.22,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "33": {
+        "dem_votes": 3798,
+        "rep_votes": 15262,
+        "other_votes": 1348,
+        "total_votes": 20408,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": 11464,
+        "margin_pct": 56.17,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "34": {
+        "dem_votes": 11986,
+        "rep_votes": 9027,
+        "other_votes": 977,
+        "total_votes": 21990,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -2959,
+        "margin_pct": -13.46,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "35": {
+        "dem_votes": 15004,
+        "rep_votes": 12488,
+        "other_votes": 1413,
+        "total_votes": 28905,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -2516,
+        "margin_pct": -8.7,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "36": {
+        "dem_votes": 8775,
+        "rep_votes": 17424,
+        "other_votes": 1539,
+        "total_votes": 27738,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": 8649,
+        "margin_pct": 31.18,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "37": {
+        "dem_votes": 12998,
+        "rep_votes": 14385,
+        "other_votes": 1163,
+        "total_votes": 28546,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": 1387,
+        "margin_pct": 4.86,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "38": {
+        "dem_votes": 5500,
+        "rep_votes": 17176,
+        "other_votes": 1552,
+        "total_votes": 24228,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": 11676,
+        "margin_pct": 48.19,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "39": {
+        "dem_votes": 10184,
+        "rep_votes": 22406,
+        "other_votes": 1679,
+        "total_votes": 34269,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": 12222,
+        "margin_pct": 35.66,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "40": {
+        "dem_votes": 11005,
+        "rep_votes": 16006,
+        "other_votes": 1775,
+        "total_votes": 28786,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": 5001,
+        "margin_pct": 17.37,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "41": {
+        "dem_votes": 12309,
+        "rep_votes": 10560,
+        "other_votes": 1119,
+        "total_votes": 23988,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -1749,
+        "margin_pct": -7.29,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "42": {
+        "dem_votes": 8489,
+        "rep_votes": 5294,
+        "other_votes": 728,
+        "total_votes": 14511,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -3195,
+        "margin_pct": -22.02,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      }
+    }
+  }
+}

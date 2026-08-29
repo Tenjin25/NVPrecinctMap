@@ -1,0 +1,69 @@
+{
+  "year": 2018,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 98334,
+        "rep_votes": 48757,
+        "other_votes": 7100,
+        "total_votes": 154191,
+        "dem_candidate": "Jacky Rosen",
+        "rep_candidate": "Dean Heller",
+        "margin": -49577,
+        "margin_pct": -32.15,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "02": {
+        "dem_votes": 123795,
+        "rep_votes": 154837,
+        "other_votes": 12470,
+        "total_votes": 291102,
+        "dem_candidate": "Jacky Rosen",
+        "rep_candidate": "Dean Heller",
+        "margin": 31042,
+        "margin_pct": 10.66,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "03": {
+        "dem_votes": 145964,
+        "rep_votes": 133121,
+        "other_votes": 10607,
+        "total_votes": 289692,
+        "dem_candidate": "Jacky Rosen",
+        "rep_candidate": "Dean Heller",
+        "margin": -12843,
+        "margin_pct": -4.43,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "04": {
+        "dem_votes": 121978,
+        "rep_votes": 104487,
+        "other_votes": 10682,
+        "total_votes": 237147,
+        "dem_candidate": "Jacky Rosen",
+        "rep_candidate": "Dean Heller",
+        "margin": -17491,
+        "margin_pct": -7.38,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      }
+    }
+  }
+}

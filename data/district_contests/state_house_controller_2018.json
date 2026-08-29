@@ -1,0 +1,601 @@
+{
+  "year": 2018,
+  "scope": "state_house",
+  "contest_type": "controller",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 14579,
+        "rep_votes": 9396,
+        "other_votes": 761,
+        "total_votes": 24736,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -5183,
+        "margin_pct": -20.95,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "2": {
+        "dem_votes": 13649,
+        "rep_votes": 14068,
+        "other_votes": 779,
+        "total_votes": 28496,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": 419,
+        "margin_pct": 1.47,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "3": {
+        "dem_votes": 9878,
+        "rep_votes": 4960,
+        "other_votes": 487,
+        "total_votes": 15325,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -4918,
+        "margin_pct": -32.09,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "4": {
+        "dem_votes": 14564,
+        "rep_votes": 14341,
+        "other_votes": 879,
+        "total_votes": 29784,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -223,
+        "margin_pct": -0.75,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#e1f5fe"
+        }
+      },
+      "5": {
+        "dem_votes": 11486,
+        "rep_votes": 9476,
+        "other_votes": 634,
+        "total_votes": 21596,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -2010,
+        "margin_pct": -9.31,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "6": {
+        "dem_votes": 9540,
+        "rep_votes": 1348,
+        "other_votes": 455,
+        "total_votes": 11343,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -8192,
+        "margin_pct": -72.22,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "7": {
+        "dem_votes": 12728,
+        "rep_votes": 4550,
+        "other_votes": 565,
+        "total_votes": 17843,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -8178,
+        "margin_pct": -45.83,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "8": {
+        "dem_votes": 11481,
+        "rep_votes": 7443,
+        "other_votes": 622,
+        "total_votes": 19546,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -4038,
+        "margin_pct": -20.66,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "9": {
+        "dem_votes": 15041,
+        "rep_votes": 11184,
+        "other_votes": 814,
+        "total_votes": 27039,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -3857,
+        "margin_pct": -14.26,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "10": {
+        "dem_votes": 9114,
+        "rep_votes": 4924,
+        "other_votes": 473,
+        "total_votes": 14511,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -4190,
+        "margin_pct": -28.87,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "11": {
+        "dem_votes": 6492,
+        "rep_votes": 1545,
+        "other_votes": 360,
+        "total_votes": 8397,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -4947,
+        "margin_pct": -58.91,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "12": {
+        "dem_votes": 12961,
+        "rep_votes": 10044,
+        "other_votes": 720,
+        "total_votes": 23725,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -2917,
+        "margin_pct": -12.3,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "13": {
+        "dem_votes": 12235,
+        "rep_votes": 14858,
+        "other_votes": 758,
+        "total_votes": 27851,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": 2623,
+        "margin_pct": 9.42,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "14": {
+        "dem_votes": 8749,
+        "rep_votes": 3448,
+        "other_votes": 432,
+        "total_votes": 12629,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -5301,
+        "margin_pct": -41.97,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "15": {
+        "dem_votes": 9348,
+        "rep_votes": 4440,
+        "other_votes": 488,
+        "total_votes": 14276,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -4908,
+        "margin_pct": -34.38,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "16": {
+        "dem_votes": 7806,
+        "rep_votes": 3653,
+        "other_votes": 377,
+        "total_votes": 11836,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -4153,
+        "margin_pct": -35.09,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "17": {
+        "dem_votes": 13952,
+        "rep_votes": 6435,
+        "other_votes": 628,
+        "total_votes": 21015,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -7517,
+        "margin_pct": -35.77,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "18": {
+        "dem_votes": 11096,
+        "rep_votes": 5844,
+        "other_votes": 585,
+        "total_votes": 17525,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -5252,
+        "margin_pct": -29.97,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "19": {
+        "dem_votes": 10071,
+        "rep_votes": 13226,
+        "other_votes": 750,
+        "total_votes": 24047,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": 3155,
+        "margin_pct": 13.12,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "20": {
+        "dem_votes": 11577,
+        "rep_votes": 7308,
+        "other_votes": 616,
+        "total_votes": 19501,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -4269,
+        "margin_pct": -21.89,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "21": {
+        "dem_votes": 12196,
+        "rep_votes": 9656,
+        "other_votes": 633,
+        "total_votes": 22485,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -2540,
+        "margin_pct": -11.3,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "22": {
+        "dem_votes": 14596,
+        "rep_votes": 16091,
+        "other_votes": 949,
+        "total_votes": 31636,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": 1495,
+        "margin_pct": 4.73,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "23": {
+        "dem_votes": 14599,
+        "rep_votes": 20950,
+        "other_votes": 1012,
+        "total_votes": 36561,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": 6351,
+        "margin_pct": 17.37,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "24": {
+        "dem_votes": 13660,
+        "rep_votes": 5731,
+        "other_votes": 829,
+        "total_votes": 20220,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -7929,
+        "margin_pct": -39.21,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "25": {
+        "dem_votes": 16125,
+        "rep_votes": 17673,
+        "other_votes": 1128,
+        "total_votes": 34926,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": 1548,
+        "margin_pct": 4.43,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "26": {
+        "dem_votes": 16004,
+        "rep_votes": 19895,
+        "other_votes": 1078,
+        "total_votes": 36977,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": 3891,
+        "margin_pct": 10.52,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "27": {
+        "dem_votes": 13811,
+        "rep_votes": 9786,
+        "other_votes": 925,
+        "total_votes": 24522,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -4025,
+        "margin_pct": -16.41,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "28": {
+        "dem_votes": 6889,
+        "rep_votes": 1816,
+        "other_votes": 344,
+        "total_votes": 9049,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -5073,
+        "margin_pct": -56.06,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "29": {
+        "dem_votes": 13437,
+        "rep_votes": 12045,
+        "other_votes": 895,
+        "total_votes": 26377,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -1392,
+        "margin_pct": -5.28,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "30": {
+        "dem_votes": 11655,
+        "rep_votes": 8650,
+        "other_votes": 792,
+        "total_votes": 21097,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -3005,
+        "margin_pct": -14.24,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "31": {
+        "dem_votes": 13618,
+        "rep_votes": 14545,
+        "other_votes": 965,
+        "total_votes": 29128,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": 927,
+        "margin_pct": 3.18,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "32": {
+        "dem_votes": 7641,
+        "rep_votes": 16945,
+        "other_votes": 1048,
+        "total_votes": 25634,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": 9304,
+        "margin_pct": 36.3,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "33": {
+        "dem_votes": 4233,
+        "rep_votes": 15417,
+        "other_votes": 718,
+        "total_votes": 20368,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": 11184,
+        "margin_pct": 54.91,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "34": {
+        "dem_votes": 12678,
+        "rep_votes": 8580,
+        "other_votes": 671,
+        "total_votes": 21929,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -4098,
+        "margin_pct": -18.69,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "35": {
+        "dem_votes": 15752,
+        "rep_votes": 12193,
+        "other_votes": 911,
+        "total_votes": 28856,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -3559,
+        "margin_pct": -12.33,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "36": {
+        "dem_votes": 9554,
+        "rep_votes": 17209,
+        "other_votes": 893,
+        "total_votes": 27656,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": 7655,
+        "margin_pct": 27.68,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "37": {
+        "dem_votes": 14026,
+        "rep_votes": 13716,
+        "other_votes": 740,
+        "total_votes": 28482,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -310,
+        "margin_pct": -1.09,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "38": {
+        "dem_votes": 6023,
+        "rep_votes": 17427,
+        "other_votes": 795,
+        "total_votes": 24245,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": 11404,
+        "margin_pct": 47.04,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "39": {
+        "dem_votes": 10711,
+        "rep_votes": 22659,
+        "other_votes": 906,
+        "total_votes": 34276,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": 11948,
+        "margin_pct": 34.86,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "40": {
+        "dem_votes": 11647,
+        "rep_votes": 16233,
+        "other_votes": 904,
+        "total_votes": 28784,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": 4586,
+        "margin_pct": 15.93,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "41": {
+        "dem_votes": 12929,
+        "rep_votes": 10302,
+        "other_votes": 716,
+        "total_votes": 23947,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -2627,
+        "margin_pct": -10.97,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "42": {
+        "dem_votes": 8937,
+        "rep_votes": 5089,
+        "other_votes": 465,
+        "total_votes": 14491,
+        "dem_candidate": "Catherine Byrne",
+        "rep_candidate": "Ron Knecht",
+        "margin": -3848,
+        "margin_pct": -26.55,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      }
+    }
+  }
+}

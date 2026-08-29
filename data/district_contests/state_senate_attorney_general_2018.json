@@ -1,0 +1,307 @@
+{
+  "year": 2018,
+  "scope": "state_senate",
+  "contest_type": "attorney_general",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 22199,
+        "rep_votes": 14093,
+        "other_votes": 1897,
+        "total_votes": 38189,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": -8106,
+        "margin_pct": -21.23,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "2": {
+        "dem_votes": 13008,
+        "rep_votes": 3494,
+        "other_votes": 1225,
+        "total_votes": 17727,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": -9514,
+        "margin_pct": -53.67,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "3": {
+        "dem_votes": 19354,
+        "rep_votes": 12773,
+        "other_votes": 2037,
+        "total_votes": 34164,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": -6581,
+        "margin_pct": -19.26,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "4": {
+        "dem_votes": 23504,
+        "rep_votes": 7225,
+        "other_votes": 1741,
+        "total_votes": 32470,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": -16279,
+        "margin_pct": -50.14,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "5": {
+        "dem_votes": 12425,
+        "rep_votes": 11396,
+        "other_votes": 1551,
+        "total_votes": 25372,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": -1029,
+        "margin_pct": -4.06,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "6": {
+        "dem_votes": 26429,
+        "rep_votes": 22795,
+        "other_votes": 2667,
+        "total_votes": 51891,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": -3634,
+        "margin_pct": -7.0,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "7": {
+        "dem_votes": 14311,
+        "rep_votes": 7864,
+        "other_votes": 1463,
+        "total_votes": 23638,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": -6447,
+        "margin_pct": -27.27,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "8": {
+        "dem_votes": 24753,
+        "rep_votes": 24704,
+        "other_votes": 2471,
+        "total_votes": 51928,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": -49,
+        "margin_pct": -0.09,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "9": {
+        "dem_votes": 39574,
+        "rep_votes": 30942,
+        "other_votes": 3979,
+        "total_votes": 74495,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": -8632,
+        "margin_pct": -11.59,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "10": {
+        "dem_votes": 25499,
+        "rep_votes": 14717,
+        "other_votes": 2517,
+        "total_votes": 42733,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": -10782,
+        "margin_pct": -25.23,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "11": {
+        "dem_votes": 3514,
+        "rep_votes": 1776,
+        "other_votes": 277,
+        "total_votes": 5567,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": -1738,
+        "margin_pct": -31.22,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "12": {
+        "dem_votes": 38310,
+        "rep_votes": 48378,
+        "other_votes": 4791,
+        "total_votes": 91479,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": 10068,
+        "margin_pct": 11.01,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "13": {
+        "dem_votes": 24619,
+        "rep_votes": 15679,
+        "other_votes": 3542,
+        "total_votes": 43840,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": -8940,
+        "margin_pct": -20.39,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "14": {
+        "dem_votes": 22127,
+        "rep_votes": 37741,
+        "other_votes": 5004,
+        "total_votes": 64872,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": 15614,
+        "margin_pct": 24.07,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "15": {
+        "dem_votes": 22788,
+        "rep_votes": 21071,
+        "other_votes": 3219,
+        "total_votes": 47078,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": -1717,
+        "margin_pct": -3.65,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "16": {
+        "dem_votes": 25421,
+        "rep_votes": 36733,
+        "other_votes": 4284,
+        "total_votes": 66438,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": 11312,
+        "margin_pct": 17.03,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "17": {
+        "dem_votes": 14804,
+        "rep_votes": 39777,
+        "other_votes": 4062,
+        "total_votes": 58643,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": 24973,
+        "margin_pct": 42.58,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "18": {
+        "dem_votes": 24125,
+        "rep_votes": 26847,
+        "other_votes": 2759,
+        "total_votes": 53731,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": 2722,
+        "margin_pct": 5.07,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "19": {
+        "dem_votes": 11117,
+        "rep_votes": 28183,
+        "other_votes": 2991,
+        "total_votes": 42291,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": 17066,
+        "margin_pct": 40.35,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "20": {
+        "dem_votes": 26869,
+        "rep_votes": 28636,
+        "other_votes": 2854,
+        "total_votes": 58359,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": 1767,
+        "margin_pct": 3.03,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "21": {
+        "dem_votes": 20478,
+        "rep_votes": 13866,
+        "other_votes": 2097,
+        "total_votes": 36441,
+        "dem_candidate": "Aaron Ford",
+        "rep_candidate": "Wes Duncan",
+        "margin": -6612,
+        "margin_pct": -18.14,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      }
+    }
+  }
+}

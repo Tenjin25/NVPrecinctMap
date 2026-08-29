@@ -1,0 +1,69 @@
+{
+  "year": 2018,
+  "scope": "congressional",
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "01": {
+        "dem_votes": 92574,
+        "rep_votes": 51851,
+        "other_votes": 8308,
+        "total_votes": 152733,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -40723,
+        "margin_pct": -26.66,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "02": {
+        "dem_votes": 115212,
+        "rep_votes": 156175,
+        "other_votes": 17179,
+        "total_votes": 288566,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": 40963,
+        "margin_pct": 14.2,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "03": {
+        "dem_votes": 136073,
+        "rep_votes": 137991,
+        "other_votes": 13331,
+        "total_votes": 287395,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": 1918,
+        "margin_pct": 0.67,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fee8c8"
+        }
+      },
+      "04": {
+        "dem_votes": 116015,
+        "rep_votes": 107731,
+        "other_votes": 11759,
+        "total_votes": 235505,
+        "dem_candidate": "Zach Conine",
+        "rep_candidate": "Bob Beers",
+        "margin": -8284,
+        "margin_pct": -3.52,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      }
+    }
+  }
+}

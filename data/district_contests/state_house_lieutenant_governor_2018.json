@@ -1,0 +1,601 @@
+{
+  "year": 2018,
+  "scope": "state_house",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "source": "nv_openelections_precinct",
+    "nongeo_allocation_mode": "precinct_map"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 14240,
+        "rep_votes": 9182,
+        "other_votes": 1379,
+        "total_votes": 24801,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -5058,
+        "margin_pct": -20.39,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "2": {
+        "dem_votes": 13769,
+        "rep_votes": 13653,
+        "other_votes": 1238,
+        "total_votes": 28660,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -116,
+        "margin_pct": -0.4,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#f7f7f7"
+        }
+      },
+      "3": {
+        "dem_votes": 9594,
+        "rep_votes": 4770,
+        "other_votes": 1001,
+        "total_votes": 15365,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -4824,
+        "margin_pct": -31.4,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "4": {
+        "dem_votes": 14344,
+        "rep_votes": 13792,
+        "other_votes": 1761,
+        "total_votes": 29897,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -552,
+        "margin_pct": -1.85,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "5": {
+        "dem_votes": 11444,
+        "rep_votes": 9104,
+        "other_votes": 1130,
+        "total_votes": 21678,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -2340,
+        "margin_pct": -10.79,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "6": {
+        "dem_votes": 9340,
+        "rep_votes": 1299,
+        "other_votes": 714,
+        "total_votes": 11353,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -8041,
+        "margin_pct": -70.83,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "7": {
+        "dem_votes": 12403,
+        "rep_votes": 4407,
+        "other_votes": 1077,
+        "total_votes": 17887,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -7996,
+        "margin_pct": -44.7,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "8": {
+        "dem_votes": 11303,
+        "rep_votes": 7213,
+        "other_votes": 1100,
+        "total_votes": 19616,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -4090,
+        "margin_pct": -20.85,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "9": {
+        "dem_votes": 14874,
+        "rep_votes": 10869,
+        "other_votes": 1411,
+        "total_votes": 27154,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -4005,
+        "margin_pct": -14.75,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "10": {
+        "dem_votes": 8875,
+        "rep_votes": 4720,
+        "other_votes": 949,
+        "total_votes": 14544,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -4155,
+        "margin_pct": -28.57,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "11": {
+        "dem_votes": 6228,
+        "rep_votes": 1473,
+        "other_votes": 664,
+        "total_votes": 8365,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -4755,
+        "margin_pct": -56.84,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "12": {
+        "dem_votes": 12604,
+        "rep_votes": 9816,
+        "other_votes": 1358,
+        "total_votes": 23778,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -2788,
+        "margin_pct": -11.73,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "13": {
+        "dem_votes": 12098,
+        "rep_votes": 14450,
+        "other_votes": 1418,
+        "total_votes": 27966,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": 2352,
+        "margin_pct": 8.41,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "14": {
+        "dem_votes": 8500,
+        "rep_votes": 3323,
+        "other_votes": 807,
+        "total_votes": 12630,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -5177,
+        "margin_pct": -40.99,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "15": {
+        "dem_votes": 9085,
+        "rep_votes": 4239,
+        "other_votes": 970,
+        "total_votes": 14294,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -4846,
+        "margin_pct": -33.9,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "16": {
+        "dem_votes": 7591,
+        "rep_votes": 3496,
+        "other_votes": 781,
+        "total_votes": 11868,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -4095,
+        "margin_pct": -34.5,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "17": {
+        "dem_votes": 13665,
+        "rep_votes": 6246,
+        "other_votes": 1156,
+        "total_votes": 21067,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -7419,
+        "margin_pct": -35.22,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "18": {
+        "dem_votes": 10767,
+        "rep_votes": 5647,
+        "other_votes": 1152,
+        "total_votes": 17566,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -5120,
+        "margin_pct": -29.15,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "19": {
+        "dem_votes": 9856,
+        "rep_votes": 12693,
+        "other_votes": 1607,
+        "total_votes": 24156,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": 2837,
+        "margin_pct": 11.74,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "20": {
+        "dem_votes": 11243,
+        "rep_votes": 7073,
+        "other_votes": 1227,
+        "total_votes": 19543,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -4170,
+        "margin_pct": -21.34,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "21": {
+        "dem_votes": 11943,
+        "rep_votes": 9340,
+        "other_votes": 1301,
+        "total_votes": 22584,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -2603,
+        "margin_pct": -11.53,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "22": {
+        "dem_votes": 14580,
+        "rep_votes": 15769,
+        "other_votes": 1469,
+        "total_votes": 31818,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": 1189,
+        "margin_pct": 3.74,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "23": {
+        "dem_votes": 14502,
+        "rep_votes": 20506,
+        "other_votes": 1754,
+        "total_votes": 36762,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": 6004,
+        "margin_pct": 16.33,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#ef3b2c"
+        }
+      },
+      "24": {
+        "dem_votes": 13765,
+        "rep_votes": 5206,
+        "other_votes": 1272,
+        "total_votes": 20243,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -8559,
+        "margin_pct": -42.28,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "25": {
+        "dem_votes": 17136,
+        "rep_votes": 16309,
+        "other_votes": 1630,
+        "total_votes": 35075,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -827,
+        "margin_pct": -2.36,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "26": {
+        "dem_votes": 16989,
+        "rep_votes": 18369,
+        "other_votes": 1808,
+        "total_votes": 37166,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": 1380,
+        "margin_pct": 3.71,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "27": {
+        "dem_votes": 14209,
+        "rep_votes": 8866,
+        "other_votes": 1563,
+        "total_votes": 24638,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -5343,
+        "margin_pct": -21.69,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      },
+      "28": {
+        "dem_votes": 6610,
+        "rep_votes": 1723,
+        "other_votes": 686,
+        "total_votes": 9019,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -4887,
+        "margin_pct": -54.19,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#08306b"
+        }
+      },
+      "29": {
+        "dem_votes": 13264,
+        "rep_votes": 11726,
+        "other_votes": 1497,
+        "total_votes": 26487,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -1538,
+        "margin_pct": -5.81,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "30": {
+        "dem_votes": 11785,
+        "rep_votes": 7893,
+        "other_votes": 1408,
+        "total_votes": 21086,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -3892,
+        "margin_pct": -18.46,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "31": {
+        "dem_votes": 14099,
+        "rep_votes": 13279,
+        "other_votes": 1826,
+        "total_votes": 29204,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -820,
+        "margin_pct": -2.81,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "32": {
+        "dem_votes": 8138,
+        "rep_votes": 15355,
+        "other_votes": 2258,
+        "total_votes": 25751,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": 7217,
+        "margin_pct": 28.03,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "33": {
+        "dem_votes": 4169,
+        "rep_votes": 14143,
+        "other_votes": 2105,
+        "total_votes": 20417,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": 9974,
+        "margin_pct": 48.85,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#67000d"
+        }
+      },
+      "34": {
+        "dem_votes": 12597,
+        "rep_votes": 8252,
+        "other_votes": 1168,
+        "total_votes": 22017,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -4345,
+        "margin_pct": -19.73,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "35": {
+        "dem_votes": 15617,
+        "rep_votes": 11829,
+        "other_votes": 1553,
+        "total_votes": 28999,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -3788,
+        "margin_pct": -13.06,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "36": {
+        "dem_votes": 9391,
+        "rep_votes": 16101,
+        "other_votes": 2313,
+        "total_votes": 27805,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": 6710,
+        "margin_pct": 24.13,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "37": {
+        "dem_votes": 13909,
+        "rep_votes": 13314,
+        "other_votes": 1407,
+        "total_votes": 28630,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -595,
+        "margin_pct": -2.08,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#c6dbef"
+        }
+      },
+      "38": {
+        "dem_votes": 6435,
+        "rep_votes": 15952,
+        "other_votes": 1907,
+        "total_votes": 24294,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": 9517,
+        "margin_pct": 39.17,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "39": {
+        "dem_votes": 11475,
+        "rep_votes": 20752,
+        "other_votes": 2155,
+        "total_votes": 34382,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": 9277,
+        "margin_pct": 26.98,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#cb181d"
+        }
+      },
+      "40": {
+        "dem_votes": 12410,
+        "rep_votes": 14621,
+        "other_votes": 1800,
+        "total_votes": 28831,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": 2211,
+        "margin_pct": 7.67,
+        "winner": "REP",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "41": {
+        "dem_votes": 12743,
+        "rep_votes": 9990,
+        "other_votes": 1286,
+        "total_votes": 24019,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -2753,
+        "margin_pct": -11.46,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "42": {
+        "dem_votes": 8792,
+        "rep_votes": 4937,
+        "other_votes": 799,
+        "total_votes": 14528,
+        "dem_candidate": "Kate Marshall",
+        "rep_candidate": "Michael Roberson",
+        "margin": -3855,
+        "margin_pct": -26.53,
+        "winner": "DEM",
+        "competitiveness": {
+          "color": "#3182bd"
+        }
+      }
+    }
+  }
+}
