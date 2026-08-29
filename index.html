@@ -10257,9 +10257,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-28-nv-district-focus-v13';
+    const DATA_CACHE_BUSTER = '2026-08-28-nv-district-focus-v14';
     const COUNTY_POP_CACHE_BUSTER = '2026-05-31-02';
-    const APP_BUILD_ID = '2026-08-28-nv-district-focus-v13';
+    const APP_BUILD_ID = '2026-08-28-nv-district-focus-v14';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -26664,6 +26664,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
       let demCandidate = (row.dem_candidate || '').toString().trim();
       let repCandidate = (row.rep_candidate || '').toString().trim();
+      const hasDistrictDemCandidate = !!demCandidate;
+      const hasDistrictRepCandidate = !!repCandidate;
+      const omitMissingHouseCandidate = scope === 'congressional' && contestType === 'us_house';
       if ((!(demCandidate && repCandidate)) && contestType !== 'us_house') {
         try {
           const cand = await getContestCandidates(contestType, year);
@@ -26671,8 +26674,12 @@ document.addEventListener('DOMContentLoaded', function() {
           if (!repCandidate) repCandidate = cand.rep || '';
         } catch (_) {}
       }
-      if (!demCandidate) demCandidate = getCandidateName(year, formatContestName(contestType, year), 'Democrat');
-      if (!repCandidate) repCandidate = getCandidateName(year, formatContestName(contestType, year), 'Republican');
+      if (!demCandidate && !(omitMissingHouseCandidate && !hasDistrictDemCandidate)) {
+        demCandidate = getCandidateName(year, formatContestName(contestType, year), 'Democrat');
+      }
+      if (!repCandidate && !(omitMissingHouseCandidate && !hasDistrictRepCandidate)) {
+        repCandidate = getCandidateName(year, formatContestName(contestType, year), 'Republican');
+      }
       setVoteCounterHoverState(
         `Hover: ${districtHoverTitle}`,
         `${formatContestLabel(contestType, year)}`,
@@ -26745,7 +26752,9 @@ document.addEventListener('DOMContentLoaded', function() {
         shiftLineText: Number.isFinite(shiftDelta) ? formatShiftLabel(shiftDelta) : '',
         shiftToneClass: shiftClass,
         shiftYearLabel: (prevYearForFlip && year) ? `${prevYearForFlip}→${year}` : '',
-        showShiftLine: currentVizMode === 'shift' && Number.isFinite(shiftDelta) && !!prevYearForFlip
+        showShiftLine: currentVizMode === 'shift' && Number.isFinite(shiftDelta) && !!prevYearForFlip,
+        showDemRow: !(omitMissingHouseCandidate && !hasDistrictDemCandidate),
+        showRepRow: !(omitMissingHouseCandidate && !hasDistrictRepCandidate)
       });
       const copyText = `${districtHoverTitle} (Lines ${currentDistrictLinesYear})`;
       showHoverTooltip(
@@ -28649,7 +28658,9 @@ document.addEventListener('DOMContentLoaded', function() {
       shiftLineText,
       shiftToneClass,
       shiftYearLabel,
-      showShiftLine
+      showShiftLine,
+      showDemRow = true,
+      showRepRow = true
     } = {}) {
       const dVotes = Number(demVotes || 0);
       const rVotes = Number(repVotes || 0);
@@ -28677,10 +28688,9 @@ document.addEventListener('DOMContentLoaded', function() {
       const repLabel = normalizeCandidateLabel(repName, 'Republican');
       const otherLabel = normalizeCandidateLabel(otherName, 'Other');
 
-      const candidateRows = [
-        { partyClass: 'rep', label: repLabel, votes: rVotes, pct: repPct },
-        { partyClass: 'dem', label: demLabel, votes: dVotes, pct: demPct }
-      ];
+      const candidateRows = [];
+      if (showRepRow) candidateRows.push({ partyClass: 'rep', label: repLabel, votes: rVotes, pct: repPct });
+      if (showDemRow) candidateRows.push({ partyClass: 'dem', label: demLabel, votes: dVotes, pct: demPct });
       if (oVotes > 0) candidateRows.push({ partyClass: 'other', label: otherLabel, votes: oVotes, pct: otherPct });
       candidateRows.sort((a, b) => (Number(b.votes || 0) - Number(a.votes || 0)));
       candidateRows.forEach(row => {
