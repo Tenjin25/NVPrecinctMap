@@ -4,299 +4,299 @@
   "contest_type": "governor",
   "meta": {
     "source": "nv_openelections_precinct",
-    "nongeo_allocation_mode": "precinct_map"
+    "nongeo_allocation_mode": "vtd20_tabblock20_majority_crosswalk_with_county_fallback"
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 22612,
-        "rep_votes": 13731,
-        "other_votes": 2030,
-        "total_votes": 38373,
+        "dem_votes": 23932,
+        "rep_votes": 14261,
+        "other_votes": 2143,
+        "total_votes": 40336,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": -8881,
-        "margin_pct": -23.14,
+        "margin": -9671,
+        "margin_pct": -23.98,
         "winner": "DEM",
         "competitiveness": {
           "color": "#3182bd"
         }
       },
       "2": {
-        "dem_votes": 13127,
-        "rep_votes": 3357,
-        "other_votes": 1369,
-        "total_votes": 17853,
+        "dem_votes": 14639,
+        "rep_votes": 4308,
+        "other_votes": 1537,
+        "total_votes": 20484,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": -9770,
-        "margin_pct": -54.72,
+        "margin": -10331,
+        "margin_pct": -50.43,
         "winner": "DEM",
         "competitiveness": {
           "color": "#08306b"
         }
       },
       "3": {
-        "dem_votes": 19892,
-        "rep_votes": 12459,
-        "other_votes": 2073,
-        "total_votes": 34424,
+        "dem_votes": 22126,
+        "rep_votes": 14900,
+        "other_votes": 2256,
+        "total_votes": 39282,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": -7433,
-        "margin_pct": -21.59,
+        "margin": -7226,
+        "margin_pct": -18.4,
         "winner": "DEM",
         "competitiveness": {
-          "color": "#3182bd"
+          "color": "#6baed6"
         }
       },
       "4": {
-        "dem_votes": 23568,
-        "rep_votes": 7027,
-        "other_votes": 2067,
-        "total_votes": 32662,
+        "dem_votes": 23392,
+        "rep_votes": 6831,
+        "other_votes": 2060,
+        "total_votes": 32283,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": -16541,
-        "margin_pct": -50.64,
+        "margin": -16561,
+        "margin_pct": -51.3,
         "winner": "DEM",
         "competitiveness": {
           "color": "#08306b"
         }
       },
       "5": {
-        "dem_votes": 13037,
-        "rep_votes": 11097,
-        "other_votes": 1375,
-        "total_votes": 25509,
+        "dem_votes": 25828,
+        "rep_votes": 24241,
+        "other_votes": 2600,
+        "total_votes": 52669,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": -1940,
-        "margin_pct": -7.61,
+        "margin": -1587,
+        "margin_pct": -3.01,
         "winner": "DEM",
         "competitiveness": {
           "color": "#c6dbef"
         }
       },
       "6": {
-        "dem_votes": 27779,
-        "rep_votes": 22203,
-        "other_votes": 2282,
-        "total_votes": 52264,
+        "dem_votes": 28616,
+        "rep_votes": 22806,
+        "other_votes": 2353,
+        "total_votes": 53775,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": -5576,
-        "margin_pct": -10.67,
+        "margin": -5810,
+        "margin_pct": -10.8,
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
         }
       },
       "7": {
-        "dem_votes": 14685,
-        "rep_votes": 7604,
-        "other_votes": 1485,
-        "total_votes": 23774,
+        "dem_votes": 21496,
+        "rep_votes": 11872,
+        "other_votes": 2189,
+        "total_votes": 35557,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": -7081,
-        "margin_pct": -29.78,
+        "margin": -9624,
+        "margin_pct": -27.07,
         "winner": "DEM",
         "competitiveness": {
           "color": "#3182bd"
         }
       },
       "8": {
-        "dem_votes": 26461,
-        "rep_votes": 23782,
+        "dem_votes": 26887,
+        "rep_votes": 23099,
         "other_votes": 2027,
-        "total_votes": 52270,
+        "total_votes": 52013,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": -2679,
-        "margin_pct": -5.13,
+        "margin": -3788,
+        "margin_pct": -7.28,
         "winner": "DEM",
         "competitiveness": {
           "color": "#c6dbef"
         }
       },
       "9": {
-        "dem_votes": 41834,
-        "rep_votes": 29836,
-        "other_votes": 3374,
-        "total_votes": 75044,
+        "dem_votes": 22945,
+        "rep_votes": 15601,
+        "other_votes": 1882,
+        "total_votes": 40428,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": -11998,
-        "margin_pct": -15.99,
+        "margin": -7344,
+        "margin_pct": -18.17,
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
         }
       },
       "10": {
-        "dem_votes": 26383,
-        "rep_votes": 14207,
-        "other_votes": 2470,
-        "total_votes": 43060,
+        "dem_votes": 19087,
+        "rep_votes": 11351,
+        "other_votes": 1718,
+        "total_votes": 32156,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": -12176,
-        "margin_pct": -28.28,
+        "margin": -7736,
+        "margin_pct": -24.06,
         "winner": "DEM",
         "competitiveness": {
           "color": "#3182bd"
         }
       },
       "11": {
-        "dem_votes": 3637,
-        "rep_votes": 1707,
-        "other_votes": 279,
-        "total_votes": 5623,
+        "dem_votes": 21920,
+        "rep_votes": 15428,
+        "other_votes": 1744,
+        "total_votes": 39092,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": -1930,
-        "margin_pct": -34.32,
+        "margin": -6492,
+        "margin_pct": -16.61,
         "winner": "DEM",
         "competitiveness": {
-          "color": "#3182bd"
+          "color": "#6baed6"
         }
       },
       "12": {
-        "dem_votes": 40597,
-        "rep_votes": 46852,
-        "other_votes": 4632,
-        "total_votes": 92081,
+        "dem_votes": 26860,
+        "rep_votes": 20560,
+        "other_votes": 2249,
+        "total_votes": 49669,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": 6255,
-        "margin_pct": 6.79,
-        "winner": "REP",
+        "margin": -6300,
+        "margin_pct": -12.68,
+        "winner": "DEM",
         "competitiveness": {
-          "color": "#fcae91"
+          "color": "#6baed6"
         }
       },
       "13": {
-        "dem_votes": 26218,
-        "rep_votes": 15223,
-        "other_votes": 2686,
-        "total_votes": 44127,
+        "dem_votes": 24579,
+        "rep_votes": 14536,
+        "other_votes": 2623,
+        "total_votes": 41738,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": -10995,
-        "margin_pct": -24.92,
+        "margin": -10043,
+        "margin_pct": -24.06,
         "winner": "DEM",
         "competitiveness": {
           "color": "#3182bd"
         }
       },
       "14": {
-        "dem_votes": 24009,
-        "rep_votes": 37440,
-        "other_votes": 3764,
-        "total_votes": 65213,
+        "dem_votes": 21102,
+        "rep_votes": 33834,
+        "other_votes": 3114,
+        "total_votes": 58050,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": 13431,
-        "margin_pct": 20.6,
+        "margin": 12732,
+        "margin_pct": 21.93,
         "winner": "REP",
         "competitiveness": {
           "color": "#cb181d"
         }
       },
       "15": {
-        "dem_votes": 25052,
-        "rep_votes": 20212,
-        "other_votes": 2180,
-        "total_votes": 47444,
+        "dem_votes": 30460,
+        "rep_votes": 23366,
+        "other_votes": 2728,
+        "total_votes": 56554,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": -4840,
-        "margin_pct": -10.2,
+        "margin": -7094,
+        "margin_pct": -12.54,
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
         }
       },
       "16": {
-        "dem_votes": 28199,
-        "rep_votes": 35523,
-        "other_votes": 3042,
-        "total_votes": 66764,
+        "dem_votes": 27317,
+        "rep_votes": 36016,
+        "other_votes": 3022,
+        "total_votes": 66355,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": 7324,
-        "margin_pct": 10.97,
+        "margin": 8699,
+        "margin_pct": 13.11,
         "winner": "REP",
         "competitiveness": {
           "color": "#ef3b2c"
         }
       },
       "17": {
-        "dem_votes": 15829,
-        "rep_votes": 39653,
-        "other_votes": 3493,
-        "total_votes": 58975,
+        "dem_votes": 15849,
+        "rep_votes": 40299,
+        "other_votes": 3678,
+        "total_votes": 59826,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": 23824,
-        "margin_pct": 40.4,
+        "margin": 24450,
+        "margin_pct": 40.87,
         "winner": "REP",
         "competitiveness": {
           "color": "#67000d"
         }
       },
       "18": {
-        "dem_votes": 25275,
-        "rep_votes": 26322,
-        "other_votes": 2426,
-        "total_votes": 54023,
+        "dem_votes": 24993,
+        "rep_votes": 26005,
+        "other_votes": 2410,
+        "total_votes": 53408,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": 1047,
-        "margin_pct": 1.94,
+        "margin": 1012,
+        "margin_pct": 1.89,
         "winner": "REP",
         "competitiveness": {
           "color": "#fcae91"
         }
       },
       "19": {
-        "dem_votes": 11184,
-        "rep_votes": 27987,
-        "other_votes": 3349,
-        "total_votes": 42520,
+        "dem_votes": 12524,
+        "rep_votes": 31460,
+        "other_votes": 3863,
+        "total_votes": 47847,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": 16803,
-        "margin_pct": 39.52,
+        "margin": 18936,
+        "margin_pct": 39.58,
         "winner": "REP",
         "competitiveness": {
           "color": "#cb181d"
         }
       },
       "20": {
-        "dem_votes": 28577,
-        "rep_votes": 27646,
-        "other_votes": 2489,
-        "total_votes": 58712,
+        "dem_votes": 24364,
+        "rep_votes": 37233,
+        "other_votes": 3189,
+        "total_votes": 64786,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": -931,
-        "margin_pct": -1.59,
-        "winner": "DEM",
+        "margin": 12869,
+        "margin_pct": 19.86,
+        "winner": "REP",
         "competitiveness": {
-          "color": "#c6dbef"
+          "color": "#ef3b2c"
         }
       },
       "21": {
-        "dem_votes": 21097,
-        "rep_votes": 13471,
-        "other_votes": 2086,
-        "total_votes": 36654,
+        "dem_votes": 21091,
+        "rep_votes": 12313,
+        "other_votes": 2087,
+        "total_votes": 35491,
         "dem_candidate": "Steve Sisolak",
         "rep_candidate": "Adam P. Laxalt",
-        "margin": -7626,
-        "margin_pct": -20.81,
+        "margin": -8778,
+        "margin_pct": -24.73,
         "winner": "DEM",
         "competitiveness": {
           "color": "#3182bd"

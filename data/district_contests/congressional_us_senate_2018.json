@@ -4,64 +4,64 @@
   "contest_type": "us_senate",
   "meta": {
     "source": "nv_openelections_precinct",
-    "nongeo_allocation_mode": "precinct_map"
+    "nongeo_allocation_mode": "vtd20_tabblock20_majority_crosswalk_with_county_fallback"
   },
   "general": {
     "results": {
       "01": {
-        "dem_votes": 98334,
-        "rep_votes": 48757,
-        "other_votes": 7100,
-        "total_votes": 154191,
+        "dem_votes": 121415,
+        "rep_votes": 91796,
+        "other_votes": 9309,
+        "total_votes": 222520,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -49577,
-        "margin_pct": -32.15,
+        "margin": -29619,
+        "margin_pct": -13.31,
         "winner": "DEM",
         "competitiveness": {
-          "color": "#3182bd"
+          "color": "#6baed6"
         }
       },
       "02": {
-        "dem_votes": 123795,
-        "rep_votes": 154837,
-        "other_votes": 12470,
-        "total_votes": 291102,
+        "dem_votes": 124716,
+        "rep_votes": 158426,
+        "other_votes": 12749,
+        "total_votes": 295891,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": 31042,
-        "margin_pct": 10.66,
+        "margin": 33710,
+        "margin_pct": 11.39,
         "winner": "REP",
         "competitiveness": {
           "color": "#ef3b2c"
         }
       },
       "03": {
-        "dem_votes": 145964,
-        "rep_votes": 133121,
-        "other_votes": 10607,
-        "total_votes": 289692,
+        "dem_votes": 128196,
+        "rep_votes": 100552,
+        "other_votes": 8770,
+        "total_votes": 237518,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -12843,
-        "margin_pct": -4.43,
+        "margin": -27644,
+        "margin_pct": -11.64,
         "winner": "DEM",
         "competitiveness": {
-          "color": "#c6dbef"
+          "color": "#6baed6"
         }
       },
       "04": {
-        "dem_votes": 121978,
-        "rep_votes": 104487,
-        "other_votes": 10682,
-        "total_votes": 237147,
+        "dem_votes": 115744,
+        "rep_votes": 90428,
+        "other_votes": 10031,
+        "total_votes": 216203,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -17491,
-        "margin_pct": -7.38,
+        "margin": -25316,
+        "margin_pct": -11.71,
         "winner": "DEM",
         "competitiveness": {
-          "color": "#c6dbef"
+          "color": "#6baed6"
         }
       }
     }

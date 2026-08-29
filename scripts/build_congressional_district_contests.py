@@ -3,7 +3,12 @@ import argparse
 import json
 import re
 from collections import defaultdict
+from functools import lru_cache
 from pathlib import Path
+
+import shapefile
+from shapely.geometry import Point, shape
+from shapely.strtree import STRtree
 
 from build_nv_scope_aggregates import (
     build_precinct_match_probes,
@@ -15,6 +20,8 @@ from build_nv_scope_aggregates import (
 OE_DIR = Path("data/openelections")
 OUT_DIR = Path("data/district_contests")
 CROSSWALKS_DIR = Path("data/crosswalks")
+VTD20_SHP = Path("data/census/tl_2020_32_vtd20/tl_2020_32_vtd20.shp")
+TABBLOCK20_SHP = Path("data/census/tl_2022_32_tabblock20/tl_2022_32_tabblock20.shp")
 
 
 def clean(v: str) -> str:
@@ -26,6 +33,50 @@ def normalize_legislative_district(v: str) -> str:
     if re.fullmatch(r"\d+", district):
         return str(int(district))
     return district
+
+
+def build_district_match_probes(county: str, precinct: str, year: int) -> list[tuple[str, str]]:
+    probes = list(build_precinct_match_probes(county, precinct))
+    if year != 2018:
+        return probes
+
+    # The 2018 export often zero-pads numeric precinct tokens and identifies
+    # split precincts as "25-2" where VTD20 uses the parent code "25".
+    # These aliases are accepted only later when the VTD index resolves them
+    # to one unique geography.
+    seen = set(probes)
+    for county_key, precinct_key in list(probes):
+        unpadded = re.sub(r"\b0+(\d+)\b", r"\1", precinct_key)
+        for candidate in (unpadded,):
+            key = (county_key, candidate)
+            if candidate and key not in seen:
+                seen.add(key)
+                probes.append(key)
+        split_match = re.match(r"^0*(\d+)\s+\d+(?:\s|$)", unpadded)
+        if split_match:
+            key = (county_key, str(int(split_match.group(1))))
+            if key not in seen:
+                seen.add(key)
+                probes.append(key)
+    return probes
+
+
+def fill_unmatched_with_county_mode(
+    pkey_to_district: dict[tuple[str, str], str],
+    all_pkeys: set[tuple[str, str]],
+) -> None:
+    counts = defaultdict(lambda: defaultdict(int))
+    for (county, _), district in pkey_to_district.items():
+        if county and district:
+            counts[county][district] += 1
+    county_mode = {
+        county: min(districts, key=lambda district: (-districts[district], district))
+        for county, districts in counts.items()
+        if districts
+    }
+    for pkey in all_pkeys:
+        if pkey not in pkey_to_district and pkey[0] in county_mode:
+            pkey_to_district[pkey] = county_mode[pkey[0]]
 
 
 def to_int(v: str) -> int:
@@ -146,6 +197,69 @@ def load_vtd20_to_district(path: Path) -> dict[str, str]:
     return out
 
 
+@lru_cache(maxsize=1)
+def load_tabblock20_derived_vtd20_districts() -> tuple[dict[str, str], dict[str, str], dict[str, str]]:
+    """Assign each VTD20 to the district containing most of its Census tabblocks."""
+    direct_maps = {
+        "cd": load_vtd20_to_district(CROSSWALKS_DIR / "vtd20_to_cd118.csv"),
+        "sldl": load_vtd20_to_district(CROSSWALKS_DIR / "vtd20_to_sldl.csv"),
+        "sldu": load_vtd20_to_district(CROSSWALKS_DIR / "vtd20_to_sldu.csv"),
+    }
+    block_maps = {
+        "cd": load_vtd20_to_district(CROSSWALKS_DIR / "tabblock20_to_cd118.csv"),
+        "sldl": load_vtd20_to_district(CROSSWALKS_DIR / "tabblock20_to_sldl.csv"),
+        "sldu": load_vtd20_to_district(CROSSWALKS_DIR / "tabblock20_to_sldu.csv"),
+    }
+
+    vtd_reader = shapefile.Reader(str(VTD20_SHP))
+    vtd_fields = [f[0] for f in vtd_reader.fields[1:]]
+    vtd_geometries = []
+    vtd_geoids = []
+    for sr in vtd_reader.iterShapeRecords():
+        record = {vtd_fields[i]: sr.record[i] for i in range(len(vtd_fields))}
+        vtd_geometries.append(shape(sr.shape.__geo_interface__))
+        vtd_geoids.append(clean(str(record.get("GEOID20", ""))))
+    tree = STRtree(vtd_geometries)
+
+    counts = {
+        scope: defaultdict(lambda: defaultdict(int))
+        for scope in block_maps
+    }
+    block_reader = shapefile.Reader(str(TABBLOCK20_SHP))
+    block_fields = [f[0] for f in block_reader.fields[1:]]
+    for record_values in block_reader.iterRecords():
+        record = {block_fields[i]: record_values[i] for i in range(len(block_fields))}
+        block_geoid = clean(str(record.get("GEOID20", "")))
+        try:
+            point = Point(float(record["INTPTLON20"]), float(record["INTPTLAT20"]))
+        except (KeyError, TypeError, ValueError):
+            continue
+        hits = tree.query(point, predicate="intersects")
+        if len(hits) == 0:
+            continue
+        vtd_geoid = vtd_geoids[int(hits[0])]
+        for scope, district_by_block in block_maps.items():
+            district = clean(district_by_block.get(block_geoid, ""))
+            if district:
+                counts[scope][vtd_geoid][district] += 1
+
+    out = {}
+    for scope, by_vtd in counts.items():
+        assignments = {}
+        for vtd_geoid, district_counts in by_vtd.items():
+            direct = direct_maps[scope].get(vtd_geoid, "")
+            assignments[vtd_geoid] = min(
+                district_counts,
+                key=lambda district: (
+                    -district_counts[district],
+                    0 if district == direct else 1,
+                    district,
+                ),
+            )
+        out[scope] = assignments
+    return out["cd"], out["sldl"], out["sldu"]
+
+
 def aggregate_rows(rows: list[dict], group_key_name: str, ctype: str, year: int) -> dict:
     grouped = defaultdict(lambda: {"dem": 0, "rep": 0, "other": 0})
     dem_name = defaultdict(lambda: defaultdict(int))
@@ -204,9 +318,12 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
             by_type[t].append(row)
 
     precinct_to_geoid20 = load_precinct_to_geoid20()
-    vtd20_to_cd = load_vtd20_to_district(CROSSWALKS_DIR / "vtd20_to_cd118.csv")
-    vtd20_to_sldl = load_vtd20_to_district(CROSSWALKS_DIR / "vtd20_to_sldl.csv")
-    vtd20_to_sldu = load_vtd20_to_district(CROSSWALKS_DIR / "vtd20_to_sldu.csv")
+    if year == 2018:
+        vtd20_to_cd, vtd20_to_sldl, vtd20_to_sldu = load_tabblock20_derived_vtd20_districts()
+    else:
+        vtd20_to_cd = load_vtd20_to_district(CROSSWALKS_DIR / "vtd20_to_cd118.csv")
+        vtd20_to_sldl = load_vtd20_to_district(CROSSWALKS_DIR / "vtd20_to_sldl.csv")
+        vtd20_to_sldu = load_vtd20_to_district(CROSSWALKS_DIR / "vtd20_to_sldu.csv")
 
     pkey_to_cd = {}
     for r in by_type.get("us_house", []):
@@ -232,7 +349,7 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
     all_pkeys = {(clean(r.get("county", "")), clean(r.get("precinct", ""))) for r in rows}
     for county, precinct in all_pkeys:
         pkey = (county, precinct)
-        probes = build_precinct_match_probes(county, precinct)
+        probes = build_district_match_probes(county, precinct, year)
         geoid = ""
         for pr in probes:
             if pr in precinct_to_geoid20:
@@ -240,12 +357,21 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
                 break
         if not geoid:
             continue
-        if pkey not in pkey_to_cd and geoid in vtd20_to_cd:
+        # Reallocate 2018 statewide contests onto the enacted 2022 district
+        # layers. Same-year office labels remain a fallback for precincts that
+        # cannot be matched through the supplied tabblock-derived crosswalk.
+        prefer_crosswalk = year == 2018
+        if geoid in vtd20_to_cd and (prefer_crosswalk or pkey not in pkey_to_cd):
             pkey_to_cd[pkey] = clean(vtd20_to_cd[geoid]).zfill(2)
-        if pkey not in pkey_to_sldl and geoid in vtd20_to_sldl:
+        if geoid in vtd20_to_sldl and (prefer_crosswalk or pkey not in pkey_to_sldl):
             pkey_to_sldl[pkey] = normalize_legislative_district(vtd20_to_sldl[geoid])
-        if pkey not in pkey_to_sldu and geoid in vtd20_to_sldu:
+        if geoid in vtd20_to_sldu and (prefer_crosswalk or pkey not in pkey_to_sldu):
             pkey_to_sldu[pkey] = normalize_legislative_district(vtd20_to_sldu[geoid])
+
+    if year == 2018:
+        fill_unmatched_with_county_mode(pkey_to_cd, all_pkeys)
+        fill_unmatched_with_county_mode(pkey_to_sldl, all_pkeys)
+        fill_unmatched_with_county_mode(pkey_to_sldu, all_pkeys)
 
     common_types = (
         "president",
@@ -293,7 +419,14 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
             "year": year,
             "scope": "congressional",
             "contest_type": t,
-            "meta": {"source": "nv_openelections_precinct", "nongeo_allocation_mode": "precinct_map"},
+            "meta": {
+                "source": "nv_openelections_precinct",
+                "nongeo_allocation_mode": (
+                    "vtd20_tabblock20_majority_crosswalk_with_county_fallback"
+                    if year == 2018 and t != "us_house"
+                    else "precinct_map"
+                ),
+            },
             "general": {"results": results},
         }
         out.append((f"congressional_{t}_{year}.json", payload))
@@ -329,7 +462,14 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
             "year": year,
             "scope": "state_house",
             "contest_type": t,
-            "meta": {"source": "nv_openelections_precinct", "nongeo_allocation_mode": "precinct_map"},
+            "meta": {
+                "source": "nv_openelections_precinct",
+                "nongeo_allocation_mode": (
+                    "vtd20_tabblock20_majority_crosswalk_with_county_fallback"
+                    if year == 2018 and t != "state_assembly"
+                    else "precinct_map"
+                ),
+            },
             "general": {"results": results},
         }
         out.append((f"state_house_{t}_{year}.json", payload))
@@ -365,7 +505,14 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
             "year": year,
             "scope": "state_senate",
             "contest_type": t,
-            "meta": {"source": "nv_openelections_precinct", "nongeo_allocation_mode": "precinct_map"},
+            "meta": {
+                "source": "nv_openelections_precinct",
+                "nongeo_allocation_mode": (
+                    "vtd20_tabblock20_majority_crosswalk_with_county_fallback"
+                    if year == 2018 and t != "state_senate"
+                    else "precinct_map"
+                ),
+            },
             "general": {"results": results},
         }
         out.append((f"state_senate_{t}_{year}.json", payload))

@@ -4,593 +4,593 @@
   "contest_type": "us_senate",
   "meta": {
     "source": "nv_openelections_precinct",
-    "nongeo_allocation_mode": "precinct_map"
+    "nongeo_allocation_mode": "vtd20_tabblock20_majority_crosswalk_with_county_fallback"
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 14406,
-        "rep_votes": 9431,
-        "other_votes": 1073,
-        "total_votes": 24910,
+        "dem_votes": 13980,
+        "rep_votes": 10007,
+        "other_votes": 1013,
+        "total_votes": 25000,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -4975,
-        "margin_pct": -19.97,
+        "margin": -3973,
+        "margin_pct": -15.89,
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
         }
       },
       "2": {
-        "dem_votes": 14085,
-        "rep_votes": 13969,
-        "other_votes": 777,
-        "total_votes": 28831,
+        "dem_votes": 14274,
+        "rep_votes": 14076,
+        "other_votes": 753,
+        "total_votes": 29103,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -116,
-        "margin_pct": -0.4,
+        "margin": -198,
+        "margin_pct": -0.68,
         "winner": "DEM",
         "competitiveness": {
-          "color": "#f7f7f7"
+          "color": "#e1f5fe"
         }
       },
       "3": {
-        "dem_votes": 9858,
-        "rep_votes": 4858,
-        "other_votes": 768,
-        "total_votes": 15484,
+        "dem_votes": 11377,
+        "rep_votes": 7722,
+        "other_votes": 934,
+        "total_votes": 20033,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -5000,
-        "margin_pct": -32.29,
+        "margin": -3655,
+        "margin_pct": -18.24,
         "winner": "DEM",
         "competitiveness": {
-          "color": "#3182bd"
+          "color": "#6baed6"
         }
       },
       "4": {
-        "dem_votes": 14612,
-        "rep_votes": 14285,
-        "other_votes": 1143,
-        "total_votes": 30040,
+        "dem_votes": 13069,
+        "rep_votes": 12711,
+        "other_votes": 1140,
+        "total_votes": 26920,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -327,
-        "margin_pct": -1.09,
+        "margin": -358,
+        "margin_pct": -1.33,
         "winner": "DEM",
         "competitiveness": {
           "color": "#c6dbef"
         }
       },
       "5": {
-        "dem_votes": 11626,
-        "rep_votes": 9370,
-        "other_votes": 832,
-        "total_votes": 21828,
+        "dem_votes": 12850,
+        "rep_votes": 9172,
+        "other_votes": 888,
+        "total_votes": 22910,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -2256,
-        "margin_pct": -10.34,
+        "margin": -3678,
+        "margin_pct": -16.05,
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
         }
       },
       "6": {
-        "dem_votes": 9557,
-        "rep_votes": 1353,
-        "other_votes": 539,
-        "total_votes": 11449,
+        "dem_votes": 10572,
+        "rep_votes": 1444,
+        "other_votes": 605,
+        "total_votes": 12621,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -8204,
-        "margin_pct": -71.66,
+        "margin": -9128,
+        "margin_pct": -72.32,
         "winner": "DEM",
         "competitiveness": {
           "color": "#08306b"
         }
       },
       "7": {
-        "dem_votes": 12689,
-        "rep_votes": 4535,
-        "other_votes": 791,
-        "total_votes": 18015,
+        "dem_votes": 13462,
+        "rep_votes": 5325,
+        "other_votes": 874,
+        "total_votes": 19661,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -8154,
-        "margin_pct": -45.26,
+        "margin": -8137,
+        "margin_pct": -41.39,
         "winner": "DEM",
         "competitiveness": {
           "color": "#08306b"
         }
       },
       "8": {
-        "dem_votes": 11631,
-        "rep_votes": 7323,
-        "other_votes": 803,
-        "total_votes": 19757,
+        "dem_votes": 10229,
+        "rep_votes": 6381,
+        "other_votes": 607,
+        "total_votes": 17217,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -4308,
-        "margin_pct": -21.8,
+        "margin": -3848,
+        "margin_pct": -22.35,
         "winner": "DEM",
         "competitiveness": {
           "color": "#3182bd"
         }
       },
       "9": {
-        "dem_votes": 15268,
-        "rep_votes": 11111,
-        "other_votes": 929,
-        "total_votes": 27308,
+        "dem_votes": 11866,
+        "rep_votes": 8481,
+        "other_votes": 752,
+        "total_votes": 21099,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -4157,
-        "margin_pct": -15.22,
+        "margin": -3385,
+        "margin_pct": -16.04,
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
         }
       },
       "10": {
-        "dem_votes": 9165,
-        "rep_votes": 4835,
-        "other_votes": 667,
-        "total_votes": 14667,
+        "dem_votes": 11352,
+        "rep_votes": 7051,
+        "other_votes": 836,
+        "total_votes": 19239,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -4330,
-        "margin_pct": -29.52,
+        "margin": -4301,
+        "margin_pct": -22.36,
         "winner": "DEM",
         "competitiveness": {
           "color": "#3182bd"
         }
       },
       "11": {
-        "dem_votes": 6501,
-        "rep_votes": 1518,
-        "other_votes": 473,
-        "total_votes": 8492,
+        "dem_votes": 7282,
+        "rep_votes": 1718,
+        "other_votes": 500,
+        "total_votes": 9500,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -4983,
-        "margin_pct": -58.68,
+        "margin": -5564,
+        "margin_pct": -58.57,
         "winner": "DEM",
         "competitiveness": {
           "color": "#08306b"
         }
       },
       "12": {
-        "dem_votes": 12920,
-        "rep_votes": 9968,
-        "other_votes": 1047,
-        "total_votes": 23935,
+        "dem_votes": 11354,
+        "rep_votes": 8257,
+        "other_votes": 861,
+        "total_votes": 20472,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -2952,
-        "margin_pct": -12.33,
+        "margin": -3097,
+        "margin_pct": -15.13,
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
         }
       },
       "13": {
-        "dem_votes": 12087,
-        "rep_votes": 14998,
-        "other_votes": 1011,
-        "total_votes": 28096,
+        "dem_votes": 12238,
+        "rep_votes": 13427,
+        "other_votes": 915,
+        "total_votes": 26580,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": 2911,
-        "margin_pct": 10.36,
+        "margin": 1189,
+        "margin_pct": 4.47,
         "winner": "REP",
         "competitiveness": {
-          "color": "#ef3b2c"
+          "color": "#fcae91"
         }
       },
       "14": {
-        "dem_votes": 8700,
-        "rep_votes": 3411,
-        "other_votes": 663,
-        "total_votes": 12774,
+        "dem_votes": 10371,
+        "rep_votes": 3911,
+        "other_votes": 783,
+        "total_votes": 15065,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -5289,
-        "margin_pct": -41.4,
+        "margin": -6460,
+        "margin_pct": -42.88,
         "winner": "DEM",
         "competitiveness": {
           "color": "#08306b"
         }
       },
       "15": {
-        "dem_votes": 9413,
-        "rep_votes": 4349,
-        "other_votes": 691,
-        "total_votes": 14453,
+        "dem_votes": 8413,
+        "rep_votes": 3755,
+        "other_votes": 517,
+        "total_votes": 12685,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -5064,
-        "margin_pct": -35.04,
+        "margin": -4658,
+        "margin_pct": -36.72,
         "winner": "DEM",
         "competitiveness": {
           "color": "#3182bd"
         }
       },
       "16": {
-        "dem_votes": 7931,
-        "rep_votes": 3576,
-        "other_votes": 482,
-        "total_votes": 11989,
+        "dem_votes": 11094,
+        "rep_votes": 7598,
+        "other_votes": 828,
+        "total_votes": 19520,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -4355,
-        "margin_pct": -36.32,
+        "margin": -3496,
+        "margin_pct": -17.91,
         "winner": "DEM",
         "competitiveness": {
-          "color": "#3182bd"
+          "color": "#6baed6"
         }
       },
       "17": {
-        "dem_votes": 13865,
-        "rep_votes": 6355,
-        "other_votes": 952,
-        "total_votes": 21172,
+        "dem_votes": 10391,
+        "rep_votes": 4214,
+        "other_votes": 709,
+        "total_votes": 15314,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -7510,
-        "margin_pct": -35.47,
+        "margin": -6177,
+        "margin_pct": -40.34,
         "winner": "DEM",
         "competitiveness": {
-          "color": "#3182bd"
+          "color": "#08306b"
         }
       },
       "18": {
-        "dem_votes": 11066,
-        "rep_votes": 5705,
-        "other_votes": 890,
-        "total_votes": 17661,
+        "dem_votes": 11337,
+        "rep_votes": 5849,
+        "other_votes": 872,
+        "total_votes": 18058,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -5361,
-        "margin_pct": -30.36,
+        "margin": -5488,
+        "margin_pct": -30.39,
         "winner": "DEM",
         "competitiveness": {
           "color": "#3182bd"
         }
       },
       "19": {
-        "dem_votes": 9911,
-        "rep_votes": 13144,
-        "other_votes": 1211,
-        "total_votes": 24266,
+        "dem_votes": 10237,
+        "rep_votes": 17631,
+        "other_votes": 1319,
+        "total_votes": 29187,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": 3233,
-        "margin_pct": 13.32,
+        "margin": 7394,
+        "margin_pct": 25.33,
         "winner": "REP",
         "competitiveness": {
-          "color": "#ef3b2c"
+          "color": "#cb181d"
         }
       },
       "20": {
-        "dem_votes": 11586,
-        "rep_votes": 7193,
-        "other_votes": 902,
-        "total_votes": 19681,
+        "dem_votes": 10687,
+        "rep_votes": 5943,
+        "other_votes": 855,
+        "total_votes": 17485,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -4393,
-        "margin_pct": -22.32,
+        "margin": -4744,
+        "margin_pct": -27.13,
         "winner": "DEM",
         "competitiveness": {
           "color": "#3182bd"
         }
       },
       "21": {
-        "dem_votes": 12274,
-        "rep_votes": 9517,
-        "other_votes": 920,
-        "total_votes": 22711,
+        "dem_votes": 14719,
+        "rep_votes": 11711,
+        "other_votes": 1000,
+        "total_votes": 27430,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -2757,
-        "margin_pct": -12.14,
+        "margin": -3008,
+        "margin_pct": -10.97,
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
         }
       },
       "22": {
-        "dem_votes": 14934,
-        "rep_votes": 16011,
-        "other_votes": 1034,
-        "total_votes": 31979,
+        "dem_votes": 12755,
+        "rep_votes": 14058,
+        "other_votes": 1147,
+        "total_votes": 27960,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": 1077,
-        "margin_pct": 3.37,
+        "margin": 1303,
+        "margin_pct": 4.66,
         "winner": "REP",
         "competitiveness": {
           "color": "#fcae91"
         }
       },
       "23": {
-        "dem_votes": 14822,
-        "rep_votes": 20886,
-        "other_votes": 1229,
-        "total_votes": 36937,
+        "dem_votes": 14485,
+        "rep_votes": 20064,
+        "other_votes": 1023,
+        "total_votes": 35572,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": 6064,
-        "margin_pct": 16.42,
+        "margin": 5579,
+        "margin_pct": 15.68,
         "winner": "REP",
         "competitiveness": {
           "color": "#ef3b2c"
         }
       },
       "24": {
-        "dem_votes": 14020,
-        "rep_votes": 5574,
-        "other_votes": 873,
-        "total_votes": 20467,
+        "dem_votes": 13997,
+        "rep_votes": 6568,
+        "other_votes": 983,
+        "total_votes": 21548,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -8446,
-        "margin_pct": -41.27,
+        "margin": -7429,
+        "margin_pct": -34.48,
         "winner": "DEM",
         "competitiveness": {
-          "color": "#08306b"
+          "color": "#3182bd"
         }
       },
       "25": {
-        "dem_votes": 16804,
-        "rep_votes": 17409,
-        "other_votes": 1085,
-        "total_votes": 35298,
+        "dem_votes": 18713,
+        "rep_votes": 15369,
+        "other_votes": 1015,
+        "total_votes": 35097,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": 605,
-        "margin_pct": 1.71,
-        "winner": "REP",
+        "margin": -3344,
+        "margin_pct": -9.53,
+        "winner": "DEM",
         "competitiveness": {
-          "color": "#fcae91"
+          "color": "#c6dbef"
         }
       },
       "26": {
-        "dem_votes": 16705,
-        "rep_votes": 19637,
-        "other_votes": 1100,
-        "total_votes": 37442,
+        "dem_votes": 15041,
+        "rep_votes": 18797,
+        "other_votes": 939,
+        "total_votes": 34777,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": 2932,
-        "margin_pct": 7.83,
+        "margin": 3756,
+        "margin_pct": 10.8,
         "winner": "REP",
         "competitiveness": {
-          "color": "#fcae91"
+          "color": "#ef3b2c"
         }
       },
       "27": {
-        "dem_votes": 14055,
-        "rep_votes": 9641,
-        "other_votes": 1145,
-        "total_votes": 24841,
+        "dem_votes": 12368,
+        "rep_votes": 8020,
+        "other_votes": 1093,
+        "total_votes": 21481,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -4414,
-        "margin_pct": -17.77,
+        "margin": -4348,
+        "margin_pct": -20.24,
         "winner": "DEM",
         "competitiveness": {
-          "color": "#6baed6"
+          "color": "#3182bd"
         }
       },
       "28": {
-        "dem_votes": 6897,
-        "rep_votes": 1765,
-        "other_votes": 466,
-        "total_votes": 9128,
+        "dem_votes": 7916,
+        "rep_votes": 2517,
+        "other_votes": 595,
+        "total_votes": 11028,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -5132,
-        "margin_pct": -56.22,
+        "margin": -5399,
+        "margin_pct": -48.96,
         "winner": "DEM",
         "competitiveness": {
           "color": "#08306b"
         }
       },
       "29": {
-        "dem_votes": 13637,
-        "rep_votes": 11888,
-        "other_votes": 1109,
-        "total_votes": 26634,
+        "dem_votes": 13415,
+        "rep_votes": 10248,
+        "other_votes": 1063,
+        "total_votes": 24726,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -1749,
-        "margin_pct": -6.57,
+        "margin": -3167,
+        "margin_pct": -12.81,
         "winner": "DEM",
         "competitiveness": {
-          "color": "#c6dbef"
+          "color": "#6baed6"
         }
       },
       "30": {
-        "dem_votes": 11709,
-        "rep_votes": 8438,
-        "other_votes": 1114,
-        "total_votes": 21261,
+        "dem_votes": 11445,
+        "rep_votes": 7725,
+        "other_votes": 1086,
+        "total_votes": 20256,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -3271,
-        "margin_pct": -15.38,
+        "margin": -3720,
+        "margin_pct": -18.36,
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
         }
       },
       "31": {
-        "dem_votes": 13690,
-        "rep_votes": 14428,
-        "other_votes": 1297,
-        "total_votes": 29415,
+        "dem_votes": 13095,
+        "rep_votes": 16970,
+        "other_votes": 1272,
+        "total_votes": 31337,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": 738,
-        "margin_pct": 2.51,
+        "margin": 3875,
+        "margin_pct": 12.37,
         "winner": "REP",
         "competitiveness": {
-          "color": "#fcae91"
+          "color": "#ef3b2c"
         }
       },
       "32": {
-        "dem_votes": 7212,
-        "rep_votes": 17211,
-        "other_votes": 1450,
-        "total_votes": 25873,
+        "dem_votes": 8641,
+        "rep_votes": 16705,
+        "other_votes": 1388,
+        "total_votes": 26734,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": 9999,
-        "margin_pct": 38.65,
+        "margin": 8064,
+        "margin_pct": 30.16,
         "winner": "REP",
         "competitiveness": {
           "color": "#cb181d"
         }
       },
       "33": {
-        "dem_votes": 3812,
-        "rep_votes": 15521,
-        "other_votes": 1174,
-        "total_votes": 20507,
+        "dem_votes": 4747,
+        "rep_votes": 17895,
+        "other_votes": 1427,
+        "total_votes": 24069,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": 11709,
-        "margin_pct": 57.1,
+        "margin": 13148,
+        "margin_pct": 54.63,
         "winner": "REP",
         "competitiveness": {
           "color": "#67000d"
         }
       },
       "34": {
-        "dem_votes": 12786,
-        "rep_votes": 8486,
-        "other_votes": 862,
-        "total_votes": 22134,
+        "dem_votes": 12715,
+        "rep_votes": 8383,
+        "other_votes": 858,
+        "total_votes": 21956,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -4300,
-        "margin_pct": -19.43,
+        "margin": -4332,
+        "margin_pct": -19.73,
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
         }
       },
       "35": {
-        "dem_votes": 16026,
-        "rep_votes": 12059,
-        "other_votes": 1070,
-        "total_votes": 29155,
+        "dem_votes": 11885,
+        "rep_votes": 9133,
+        "other_votes": 839,
+        "total_votes": 21857,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -3967,
-        "margin_pct": -13.61,
+        "margin": -2752,
+        "margin_pct": -12.59,
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
         }
       },
       "36": {
-        "dem_votes": 9397,
-        "rep_votes": 16930,
-        "other_votes": 1600,
-        "total_votes": 27927,
+        "dem_votes": 8464,
+        "rep_votes": 14036,
+        "other_votes": 1287,
+        "total_votes": 23787,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": 7533,
-        "margin_pct": 26.97,
+        "margin": 5572,
+        "margin_pct": 23.42,
         "winner": "REP",
         "competitiveness": {
           "color": "#cb181d"
         }
       },
       "37": {
-        "dem_votes": 14013,
-        "rep_votes": 13734,
-        "other_votes": 1030,
-        "total_votes": 28777,
+        "dem_votes": 16315,
+        "rep_votes": 14344,
+        "other_votes": 1144,
+        "total_votes": 31803,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -279,
-        "margin_pct": -0.97,
+        "margin": -1971,
+        "margin_pct": -6.2,
         "winner": "DEM",
         "competitiveness": {
-          "color": "#e1f5fe"
+          "color": "#c6dbef"
         }
       },
       "38": {
-        "dem_votes": 5627,
-        "rep_votes": 17357,
-        "other_votes": 1417,
-        "total_votes": 24401,
+        "dem_votes": 5893,
+        "rep_votes": 18002,
+        "other_votes": 1584,
+        "total_votes": 25479,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": 11730,
-        "margin_pct": 48.07,
+        "margin": 12109,
+        "margin_pct": 47.53,
         "winner": "REP",
         "competitiveness": {
           "color": "#67000d"
         }
       },
       "39": {
-        "dem_votes": 10922,
-        "rep_votes": 22218,
-        "other_votes": 1409,
-        "total_votes": 34549,
+        "dem_votes": 10757,
+        "rep_votes": 22233,
+        "other_votes": 1387,
+        "total_votes": 34377,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": 11296,
-        "margin_pct": 32.7,
+        "margin": 11476,
+        "margin_pct": 33.38,
         "winner": "REP",
         "competitiveness": {
           "color": "#cb181d"
         }
       },
       "40": {
-        "dem_votes": 11695,
-        "rep_votes": 15968,
-        "other_votes": 1265,
-        "total_votes": 28928,
+        "dem_votes": 12571,
+        "rep_votes": 17627,
+        "other_votes": 1422,
+        "total_votes": 31620,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": 4273,
-        "margin_pct": 14.77,
+        "margin": 5056,
+        "margin_pct": 15.99,
         "winner": "REP",
         "competitiveness": {
           "color": "#ef3b2c"
         }
       },
       "41": {
-        "dem_votes": 13035,
-        "rep_votes": 10204,
-        "other_votes": 915,
-        "total_votes": 24154,
+        "dem_votes": 12438,
+        "rep_votes": 8859,
+        "other_votes": 947,
+        "total_votes": 22244,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -2831,
-        "margin_pct": -11.72,
+        "margin": -3579,
+        "margin_pct": -16.09,
         "winner": "DEM",
         "competitiveness": {
           "color": "#6baed6"
         }
       },
       "42": {
-        "dem_votes": 9029,
-        "rep_votes": 4992,
-        "other_votes": 641,
-        "total_votes": 14662,
+        "dem_votes": 11261,
+        "rep_votes": 7265,
+        "other_votes": 799,
+        "total_votes": 19325,
         "dem_candidate": "Jacky Rosen",
         "rep_candidate": "Dean Heller",
-        "margin": -4037,
-        "margin_pct": -27.53,
+        "margin": -3996,
+        "margin_pct": -20.68,
         "winner": "DEM",
         "competitiveness": {
           "color": "#3182bd"

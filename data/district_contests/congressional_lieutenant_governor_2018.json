@@ -4,64 +4,64 @@
   "contest_type": "lieutenant_governor",
   "meta": {
     "source": "nv_openelections_precinct",
-    "nongeo_allocation_mode": "precinct_map"
+    "nongeo_allocation_mode": "vtd20_tabblock20_majority_crosswalk_with_county_fallback"
   },
   "general": {
     "results": {
       "01": {
-        "dem_votes": 95225,
-        "rep_votes": 47759,
-        "other_votes": 9752,
-        "total_votes": 152736,
+        "dem_votes": 117981,
+        "rep_votes": 90065,
+        "other_votes": 12884,
+        "total_votes": 220930,
         "dem_candidate": "Kate Marshall",
         "rep_candidate": "Michael Roberson",
-        "margin": -47466,
-        "margin_pct": -31.08,
+        "margin": -27916,
+        "margin_pct": -12.64,
         "winner": "DEM",
         "competitiveness": {
-          "color": "#3182bd"
+          "color": "#6baed6"
         }
       },
       "02": {
-        "dem_votes": 127678,
-        "rep_votes": 143082,
-        "other_votes": 18488,
-        "total_votes": 289248,
+        "dem_votes": 128786,
+        "rep_votes": 146383,
+        "other_votes": 18846,
+        "total_votes": 294015,
         "dem_candidate": "Kate Marshall",
         "rep_candidate": "Michael Roberson",
-        "margin": 15404,
-        "margin_pct": 5.33,
+        "margin": 17597,
+        "margin_pct": 5.99,
         "winner": "REP",
         "competitiveness": {
           "color": "#fcae91"
         }
       },
       "03": {
-        "dem_votes": 142476,
-        "rep_votes": 130539,
-        "other_votes": 15028,
-        "total_votes": 288043,
+        "dem_votes": 125294,
+        "rep_votes": 98253,
+        "other_votes": 12465,
+        "total_votes": 236012,
         "dem_candidate": "Kate Marshall",
         "rep_candidate": "Michael Roberson",
-        "margin": -11937,
-        "margin_pct": -4.14,
+        "margin": -27041,
+        "margin_pct": -11.46,
         "winner": "DEM",
         "competitiveness": {
-          "color": "#c6dbef"
+          "color": "#6baed6"
         }
       },
       "04": {
-        "dem_votes": 121002,
-        "rep_votes": 100317,
-        "other_votes": 14597,
-        "total_votes": 235916,
+        "dem_votes": 114320,
+        "rep_votes": 86996,
+        "other_votes": 13670,
+        "total_votes": 214986,
         "dem_candidate": "Kate Marshall",
         "rep_candidate": "Michael Roberson",
-        "margin": -20685,
-        "margin_pct": -8.77,
+        "margin": -27324,
+        "margin_pct": -12.71,
         "winner": "DEM",
         "competitiveness": {
-          "color": "#c6dbef"
+          "color": "#6baed6"
         }
       }
     }
