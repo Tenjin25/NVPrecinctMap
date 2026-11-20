@@ -1,0 +1,123 @@
+race_id,state,office,place_kind,fips,place,candidate_a,party_a,votes_a,candidate_b,party_b,votes_b,votes_other,total_votes,finished,count_updated_utc
+AG-NV,NV,Attorney General,county,32001,Churchill County,Nicole Cannizzaro,D,2704,Adriana Guzmán Fralick,R,6567,387,9658,no,2026-11-16T01:45:27Z
+AG-NV,NV,Attorney General,county,32003,Clark County,Nicole Cannizzaro,D,443388,Adriana Guzmán Fralick,R,273511,14711,731610,no,2026-11-16T01:45:27Z
+AG-NV,NV,Attorney General,county,32005,Douglas County,Nicole Cannizzaro,D,10036,Adriana Guzmán Fralick,R,18136,648,28820,no,2026-11-16T01:45:27Z
+AG-NV,NV,Attorney General,county,32007,Elko County,Nicole Cannizzaro,D,4101,Adriana Guzmán Fralick,R,10470,541,15112,no,2026-11-16T01:45:27Z
+AG-NV,NV,Attorney General,county,32009,Esmeralda County,Nicole Cannizzaro,D,78,Adriana Guzmán Fralick,R,300,20,398,no,2026-11-16T01:45:27Z
+AG-NV,NV,Attorney General,county,32011,Eureka County,Nicole Cannizzaro,D,84,Adriana Guzmán Fralick,R,637,42,763,no,2026-11-16T01:45:27Z
+AG-NV,NV,Attorney General,county,32013,Humboldt County,Nicole Cannizzaro,D,1541,Adriana Guzmán Fralick,R,3822,254,5617,no,2026-11-16T01:45:27Z
+AG-NV,NV,Attorney General,county,32015,Lander County,Nicole Cannizzaro,D,449,Adriana Guzmán Fralick,R,1431,119,1999,no,2026-11-16T01:45:27Z
+AG-NV,NV,Attorney General,county,32017,Lincoln County,Nicole Cannizzaro,D,287,Adriana Guzmán Fralick,R,1529,117,1933,no,2026-11-16T01:45:27Z
+AG-NV,NV,Attorney General,county,32019,Lyon County,Nicole Cannizzaro,D,7923,Adriana Guzmán Fralick,R,15610,780,24313,no,2026-11-16T01:45:27Z
+AG-NV,NV,Attorney General,county,32021,Mineral County,Nicole Cannizzaro,D,629,Adriana Guzmán Fralick,R,973,96,1698,no,2026-11-16T01:45:27Z
+AG-NV,NV,Attorney General,county,32023,Nye County,Nicole Cannizzaro,D,6818,Adriana Guzmán Fralick,R,13553,950,21321,no,2026-11-16T01:45:27Z
+AG-NV,NV,Attorney General,county,32027,Pershing County,Nicole Cannizzaro,D,425,Adriana Guzmán Fralick,R,1190,87,1702,no,2026-11-16T01:45:27Z
+AG-NV,NV,Attorney General,county,32029,Storey County,Nicole Cannizzaro,D,830,Adriana Guzmán Fralick,R,1511,84,2425,no,2026-11-16T01:45:27Z
+AG-NV,NV,Attorney General,county,32031,Washoe County,Nicole Cannizzaro,D,115858,Adriana Guzmán Fralick,R,83219,4323,203400,no,2026-11-16T01:45:27Z
+AG-NV,NV,Attorney General,county,32033,White Pine County,Nicole Cannizzaro,D,780,Adriana Guzmán Fralick,R,2171,125,3076,no,2026-11-16T01:45:27Z
+AG-NV,NV,Attorney General,county,32510,Carson City,Nicole Cannizzaro,D,12318,Adriana Guzmán Fralick,R,12011,697,25026,no,2026-11-16T01:45:27Z
+CTRL-NV,NV,Controller,county,32001,Churchill County,Michael MacDougall,D,2401,Andy Matthews,R,6674,0,9075,no,2026-11-16T01:45:27Z
+CTRL-NV,NV,Controller,county,32003,Clark County,Michael MacDougall,D,406731,Andy Matthews,R,271917,0,678648,no,2026-11-16T01:45:27Z
+CTRL-NV,NV,Controller,county,32005,Douglas County,Michael MacDougall,D,8423,Andy Matthews,R,17176,0,25599,no,2026-11-16T01:45:27Z
+CTRL-NV,NV,Controller,county,32007,Elko County,Michael MacDougall,D,3435,Andy Matthews,R,9766,0,13201,no,2026-11-16T01:45:27Z
+CTRL-NV,NV,Controller,county,32009,Esmeralda County,Michael MacDougall,D,70,Andy Matthews,R,298,0,368,no,2026-11-16T01:45:27Z
+CTRL-NV,NV,Controller,county,32011,Eureka County,Michael MacDougall,D,61,Andy Matthews,R,663,0,724,no,2026-11-16T01:45:27Z
+CTRL-NV,NV,Controller,county,32013,Humboldt County,Michael MacDougall,D,1388,Andy Matthews,R,3902,0,5290,no,2026-11-16T01:45:27Z
+CTRL-NV,NV,Controller,county,32015,Lander County,Michael MacDougall,D,416,Andy Matthews,R,1476,0,1892,no,2026-11-16T01:45:27Z
+CTRL-NV,NV,Controller,county,32017,Lincoln County,Michael MacDougall,D,245,Andy Matthews,R,1605,0,1850,no,2026-11-16T01:45:27Z
+CTRL-NV,NV,Controller,county,32019,Lyon County,Michael MacDougall,D,7321,Andy Matthews,R,15829,0,23150,no,2026-11-16T01:45:27Z
+CTRL-NV,NV,Controller,county,32021,Mineral County,Michael MacDougall,D,547,Andy Matthews,R,964,0,1511,no,2026-11-16T01:45:27Z
+CTRL-NV,NV,Controller,county,32023,Nye County,Michael MacDougall,D,5725,Andy Matthews,R,12308,0,18033,no,2026-11-16T01:45:27Z
+CTRL-NV,NV,Controller,county,32027,Pershing County,Michael MacDougall,D,392,Andy Matthews,R,1213,0,1605,no,2026-11-16T01:45:27Z
+CTRL-NV,NV,Controller,county,32029,Storey County,Michael MacDougall,D,692,Andy Matthews,R,1453,0,2145,no,2026-11-16T01:45:27Z
+CTRL-NV,NV,Controller,county,32031,Washoe County,Michael MacDougall,D,101871,Andy Matthews,R,82707,0,184578,no,2026-11-16T01:45:27Z
+CTRL-NV,NV,Controller,county,32033,White Pine County,Michael MacDougall,D,716,Andy Matthews,R,2230,0,2946,no,2026-11-16T01:45:27Z
+CTRL-NV,NV,Controller,county,32510,Carson City,Michael MacDougall,D,11338,Andy Matthews,R,12720,0,24058,no,2026-11-16T01:45:27Z
+GOV-NV,NV,Governor,county,32001,Churchill County,Aaron Ford,D,2301,Joe Lombardo,R,6787,634,9722,no,2026-11-17T04:43:02Z
+GOV-NV,NV,Governor,county,32003,Clark County,Aaron Ford,D,412966,Joe Lombardo,R,297961,30501,741428,no,2026-11-17T04:43:02Z
+GOV-NV,NV,Governor,county,32005,Douglas County,Aaron Ford,D,8879,Joe Lombardo,R,19207,1023,29109,no,2026-11-17T04:43:02Z
+GOV-NV,NV,Governor,county,32007,Elko County,Aaron Ford,D,3629,Joe Lombardo,R,10550,1038,15217,no,2026-11-17T04:43:02Z
+GOV-NV,NV,Governor,county,32009,Esmeralda County,Aaron Ford,D,73,Joe Lombardo,R,295,33,401,no,2026-11-17T04:43:02Z
+GOV-NV,NV,Governor,county,32011,Eureka County,Aaron Ford,D,61,Joe Lombardo,R,665,44,770,no,2026-11-17T04:43:02Z
+GOV-NV,NV,Governor,county,32013,Humboldt County,Aaron Ford,D,1305,Joe Lombardo,R,3970,385,5660,no,2026-11-17T04:43:02Z
+GOV-NV,NV,Governor,county,32015,Lander County,Aaron Ford,D,377,Joe Lombardo,R,1478,156,2011,no,2026-11-17T04:43:02Z
+GOV-NV,NV,Governor,county,32017,Lincoln County,Aaron Ford,D,205,Joe Lombardo,R,1607,131,1943,no,2026-11-17T04:43:02Z
+GOV-NV,NV,Governor,county,32019,Lyon County,Aaron Ford,D,6926,Joe Lombardo,R,16092,1488,24506,no,2026-11-17T04:43:02Z
+GOV-NV,NV,Governor,county,32021,Mineral County,Aaron Ford,D,558,Joe Lombardo,R,1001,149,1708,no,2026-11-17T04:43:02Z
+GOV-NV,NV,Governor,county,32023,Nye County,Aaron Ford,D,6103,Joe Lombardo,R,13891,1480,21474,no,2026-11-17T04:43:02Z
+GOV-NV,NV,Governor,county,32027,Pershing County,Aaron Ford,D,344,Joe Lombardo,R,1252,118,1714,no,2026-11-17T04:43:02Z
+GOV-NV,NV,Governor,county,32029,Storey County,Aaron Ford,D,720,Joe Lombardo,R,1578,145,2443,no,2026-11-17T04:43:02Z
+GOV-NV,NV,Governor,county,32031,Washoe County,Aaron Ford,D,106895,Joe Lombardo,R,89282,9023,205200,no,2026-11-17T04:43:02Z
+GOV-NV,NV,Governor,county,32033,White Pine County,Aaron Ford,D,649,Joe Lombardo,R,2224,231,3104,no,2026-11-17T04:43:02Z
+GOV-NV,NV,Governor,county,32510,Carson City,Aaron Ford,D,11160,Joe Lombardo,R,12755,1256,25171,no,2026-11-17T04:43:02Z
+LG-NV,NV,Lieutenant Governor,county,32001,Churchill County,Sandra Jauregui,D,2487,Stavros Anthony,R,6382,832,9701,no,2026-11-16T01:45:27Z
+LG-NV,NV,Lieutenant Governor,county,32003,Clark County,Sandra Jauregui,D,432088,Stavros Anthony,R,276207,27810,736105,no,2026-11-16T01:45:27Z
+LG-NV,NV,Lieutenant Governor,county,32005,Douglas County,Sandra Jauregui,D,9586,Stavros Anthony,R,17966,1414,28966,no,2026-11-16T01:45:27Z
+LG-NV,NV,Lieutenant Governor,county,32007,Elko County,Sandra Jauregui,D,3840,Stavros Anthony,R,9884,1431,15155,no,2026-11-16T01:45:27Z
+LG-NV,NV,Lieutenant Governor,county,32009,Esmeralda County,Sandra Jauregui,D,71,Stavros Anthony,R,286,43,400,no,2026-11-16T01:45:27Z
+LG-NV,NV,Lieutenant Governor,county,32011,Eureka County,Sandra Jauregui,D,71,Stavros Anthony,R,606,88,765,no,2026-11-16T01:45:27Z
+LG-NV,NV,Lieutenant Governor,county,32013,Humboldt County,Sandra Jauregui,D,1398,Stavros Anthony,R,3653,580,5631,no,2026-11-16T01:45:27Z
+LG-NV,NV,Lieutenant Governor,county,32015,Lander County,Sandra Jauregui,D,405,Stavros Anthony,R,1326,276,2007,no,2026-11-16T01:45:27Z
+LG-NV,NV,Lieutenant Governor,county,32017,Lincoln County,Sandra Jauregui,D,215,Stavros Anthony,R,1507,209,1931,no,2026-11-16T01:45:27Z
+LG-NV,NV,Lieutenant Governor,county,32019,Lyon County,Sandra Jauregui,D,7359,Stavros Anthony,R,15225,1806,24390,no,2026-11-16T01:45:27Z
+LG-NV,NV,Lieutenant Governor,county,32021,Mineral County,Sandra Jauregui,D,576,Stavros Anthony,R,949,175,1700,no,2026-11-16T01:45:27Z
+LG-NV,NV,Lieutenant Governor,county,32023,Nye County,Sandra Jauregui,D,6387,Stavros Anthony,R,13137,1873,21397,no,2026-11-16T01:45:27Z
+LG-NV,NV,Lieutenant Governor,county,32027,Pershing County,Sandra Jauregui,D,385,Stavros Anthony,R,1158,163,1706,no,2026-11-16T01:45:27Z
+LG-NV,NV,Lieutenant Governor,county,32029,Storey County,Sandra Jauregui,D,754,Stavros Anthony,R,1508,172,2434,no,2026-11-16T01:45:27Z
+LG-NV,NV,Lieutenant Governor,county,32031,Washoe County,Sandra Jauregui,D,111752,Stavros Anthony,R,81062,10564,203378,no,2026-11-16T01:45:27Z
+LG-NV,NV,Lieutenant Governor,county,32033,White Pine County,Sandra Jauregui,D,701,Stavros Anthony,R,2086,299,3086,no,2026-11-16T01:45:27Z
+LG-NV,NV,Lieutenant Governor,county,32510,Carson City,Sandra Jauregui,D,11738,Stavros Anthony,R,11751,1561,25050,no,2026-11-16T01:45:27Z
+NV-01,NV,House,county part,32003,Clark County,Dina Titus,D,140944,Carrie Buck,R,89724,7377,238045,no,2026-11-16T01:45:26Z
+NV-02,NV,House,county part,32001,Churchill County,Teresa Benitez-Thompson,D,2754,Dave Flippo,R,6076,791,9621,no,2026-11-16T01:45:26Z
+NV-02,NV,House,county part,32005,Douglas County,Teresa Benitez-Thompson,D,10543,Dave Flippo,R,16565,1688,28796,no,2026-11-16T01:45:26Z
+NV-02,NV,House,county part,32007,Elko County,Teresa Benitez-Thompson,D,4223,Dave Flippo,R,9646,1202,15071,no,2026-11-16T01:45:26Z
+NV-02,NV,House,county part,32011,Eureka County,Teresa Benitez-Thompson,D,87,Dave Flippo,R,583,92,762,no,2026-11-16T01:45:26Z
+NV-02,NV,House,county part,32013,Humboldt County,Teresa Benitez-Thompson,D,1559,Dave Flippo,R,3590,450,5599,no,2026-11-16T01:45:26Z
+NV-02,NV,House,county part,32015,Lander County,Teresa Benitez-Thompson,D,456,Dave Flippo,R,1353,184,1993,no,2026-11-16T01:45:26Z
+NV-02,NV,House,county part,32019,Lyon County,Teresa Benitez-Thompson,D,7936,Dave Flippo,R,14324,1831,24091,no,2026-11-16T01:45:26Z
+NV-02,NV,House,county part,32027,Pershing County,Teresa Benitez-Thompson,D,426,Dave Flippo,R,1137,126,1689,no,2026-11-16T01:45:26Z
+NV-02,NV,House,county part,32029,Storey County,Teresa Benitez-Thompson,D,829,Dave Flippo,R,1407,175,2411,no,2026-11-16T01:45:26Z
+NV-02,NV,House,county part,32031,Washoe County,Teresa Benitez-Thompson,D,119310,Dave Flippo,R,75402,9221,203933,no,2026-11-16T01:45:26Z
+NV-02,NV,House,county part,32033,White Pine County,Teresa Benitez-Thompson,D,791,Dave Flippo,R,2059,228,3078,no,2026-11-16T01:45:26Z
+NV-02,NV,House,county part,32510,Carson City,Teresa Benitez-Thompson,D,12710,Dave Flippo,R,10619,1648,24977,no,2026-11-16T01:45:26Z
+NV-03,NV,House,county part,32003,Clark County,Susie Lee,D,161418,Martin O'Donnell,R,103197,6345,270960,no,2026-11-16T01:45:26Z
+NV-04,NV,House,county part,32003,Clark County,Steven Horsford,D,144397,Cody Whipple,R,78223,4039,226659,no,2026-11-16T01:45:27Z
+NV-04,NV,House,county part,32009,Esmeralda County,Steven Horsford,D,75,Cody Whipple,R,300,17,392,no,2026-11-16T01:45:27Z
+NV-04,NV,House,county part,32017,Lincoln County,Steven Horsford,D,272,Cody Whipple,R,1584,70,1926,no,2026-11-16T01:45:27Z
+NV-04,NV,House,county part,32019,Lyon County,Steven Horsford,D,34,Cody Whipple,R,151,3,188,no,2026-11-16T01:45:27Z
+NV-04,NV,House,county part,32021,Mineral County,Steven Horsford,D,610,Cody Whipple,R,1016,69,1695,no,2026-11-16T01:45:27Z
+NV-04,NV,House,county part,32023,Nye County,Steven Horsford,D,6892,Cody Whipple,R,13823,626,21341,no,2026-11-16T01:45:27Z
+SOS-NV,NV,Secretary of State,county,32001,Churchill County,Cisco Aguilar,D,2712,Jim Marchant,R,6342,641,9695,no,2026-11-16T01:45:27Z
+SOS-NV,NV,Secretary of State,county,32003,Clark County,Cisco Aguilar,D,448848,Jim Marchant,R,261340,24368,734556,no,2026-11-16T01:45:27Z
+SOS-NV,NV,Secretary of State,county,32005,Douglas County,Cisco Aguilar,D,10306,Jim Marchant,R,17541,1116,28963,no,2026-11-16T01:45:27Z
+SOS-NV,NV,Secretary of State,county,32007,Elko County,Cisco Aguilar,D,4174,Jim Marchant,R,9929,1021,15124,no,2026-11-16T01:45:27Z
+SOS-NV,NV,Secretary of State,county,32009,Esmeralda County,Cisco Aguilar,D,88,Jim Marchant,R,278,33,399,no,2026-11-16T01:45:27Z
+SOS-NV,NV,Secretary of State,county,32011,Eureka County,Cisco Aguilar,D,92,Jim Marchant,R,595,80,767,no,2026-11-16T01:45:27Z
+SOS-NV,NV,Secretary of State,county,32013,Humboldt County,Cisco Aguilar,D,1572,Jim Marchant,R,3654,414,5640,no,2026-11-16T01:45:27Z
+SOS-NV,NV,Secretary of State,county,32015,Lander County,Cisco Aguilar,D,440,Jim Marchant,R,1376,189,2005,no,2026-11-16T01:45:27Z
+SOS-NV,NV,Secretary of State,county,32017,Lincoln County,Cisco Aguilar,D,294,Jim Marchant,R,1502,143,1939,no,2026-11-16T01:45:27Z
+SOS-NV,NV,Secretary of State,county,32019,Lyon County,Cisco Aguilar,D,7991,Jim Marchant,R,15053,1361,24405,no,2026-11-16T01:45:27Z
+SOS-NV,NV,Secretary of State,county,32021,Mineral County,Cisco Aguilar,D,631,Jim Marchant,R,949,125,1705,no,2026-11-16T01:45:27Z
+SOS-NV,NV,Secretary of State,county,32023,Nye County,Cisco Aguilar,D,6903,Jim Marchant,R,13274,1242,21419,no,2026-11-16T01:45:27Z
+SOS-NV,NV,Secretary of State,county,32027,Pershing County,Cisco Aguilar,D,423,Jim Marchant,R,1157,129,1709,no,2026-11-16T01:45:27Z
+SOS-NV,NV,Secretary of State,county,32029,Storey County,Cisco Aguilar,D,824,Jim Marchant,R,1483,128,2435,no,2026-11-16T01:45:27Z
+SOS-NV,NV,Secretary of State,county,32031,Washoe County,Cisco Aguilar,D,118197,Jim Marchant,R,77450,8194,203841,no,2026-11-16T01:45:27Z
+SOS-NV,NV,Secretary of State,county,32033,White Pine County,Cisco Aguilar,D,755,Jim Marchant,R,2118,216,3089,no,2026-11-16T01:45:27Z
+SOS-NV,NV,Secretary of State,county,32510,Carson City,Cisco Aguilar,D,12670,Jim Marchant,R,11140,1200,25010,no,2026-11-16T01:45:27Z
+TREAS-NV,NV,Treasurer,county,32001,Churchill County,Tya Mathis-Coleman,D,2548,Drew Johnson,R,6804,322,9674,no,2026-11-16T01:45:27Z
+TREAS-NV,NV,Treasurer,county,32003,Clark County,Tya Mathis-Coleman,D,435709,Drew Johnson,R,282236,13126,731071,no,2026-11-16T01:45:27Z
+TREAS-NV,NV,Treasurer,county,32005,Douglas County,Tya Mathis-Coleman,D,9516,Drew Johnson,R,18806,532,28854,no,2026-11-16T01:45:27Z
+TREAS-NV,NV,Treasurer,county,32007,Elko County,Tya Mathis-Coleman,D,3948,Drew Johnson,R,10635,483,15066,no,2026-11-16T01:45:27Z
+TREAS-NV,NV,Treasurer,county,32009,Esmeralda County,Tya Mathis-Coleman,D,69,Drew Johnson,R,307,21,397,no,2026-11-16T01:45:27Z
+TREAS-NV,NV,Treasurer,county,32011,Eureka County,Tya Mathis-Coleman,D,68,Drew Johnson,R,658,38,764,no,2026-11-16T01:45:27Z
+TREAS-NV,NV,Treasurer,county,32013,Humboldt County,Tya Mathis-Coleman,D,1470,Drew Johnson,R,3957,200,5627,no,2026-11-16T01:45:27Z
+TREAS-NV,NV,Treasurer,county,32015,Lander County,Tya Mathis-Coleman,D,414,Drew Johnson,R,1493,89,1996,no,2026-11-16T01:45:27Z
+TREAS-NV,NV,Treasurer,county,32017,Lincoln County,Tya Mathis-Coleman,D,255,Drew Johnson,R,1593,79,1927,no,2026-11-16T01:45:27Z
+TREAS-NV,NV,Treasurer,county,32019,Lyon County,Tya Mathis-Coleman,D,7570,Drew Johnson,R,16126,623,24319,no,2026-11-16T01:45:27Z
+TREAS-NV,NV,Treasurer,county,32021,Mineral County,Tya Mathis-Coleman,D,597,Drew Johnson,R,1008,91,1696,no,2026-11-16T01:45:27Z
+TREAS-NV,NV,Treasurer,county,32023,Nye County,Tya Mathis-Coleman,D,6653,Drew Johnson,R,14030,660,21343,no,2026-11-16T01:45:27Z
+TREAS-NV,NV,Treasurer,county,32027,Pershing County,Tya Mathis-Coleman,D,388,Drew Johnson,R,1253,65,1706,no,2026-11-16T01:45:27Z
+TREAS-NV,NV,Treasurer,county,32029,Storey County,Tya Mathis-Coleman,D,778,Drew Johnson,R,1582,72,2432,no,2026-11-16T01:45:27Z
+TREAS-NV,NV,Treasurer,county,32031,Washoe County,Tya Mathis-Coleman,D,111380,Drew Johnson,R,87412,3953,202745,no,2026-11-16T01:45:27Z
+TREAS-NV,NV,Treasurer,county,32033,White Pine County,Tya Mathis-Coleman,D,719,Drew Johnson,R,2256,104,3079,no,2026-11-16T01:45:27Z
+TREAS-NV,NV,Treasurer,county,32510,Carson City,Tya Mathis-Coleman,D,11870,Drew Johnson,R,12462,629,24961,no,2026-11-16T01:45:27Z

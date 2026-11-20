@@ -27,6 +27,25 @@ Key generated aggregate files:
 - `data/nv_legislative_aggregated.json`
 - `data/nv_neutral_congressional_aggregated.json`
 
+## 2026 actual results
+
+The 2026 general-election views use recorded vote totals, not projections:
+
+- Six statewide contests (Governor, Lieutenant Governor, Attorney General,
+  Secretary of State, Treasurer, Controller) have results for all 17 counties.
+- U.S. House has results for all four congressional districts.
+- Nevada Assembly and State Senate show results only for districts on the 2026 ballot.
+
+The source is [Call the Map's 2026 open-data release](https://www.callthemap.com/results/data),
+which credits civicAPI for counts compiled from Nevada state and county election offices.
+Credit: Call the Map (callthemap.com/results); civicAPI (civicapi.org), compiled
+from state and county election offices. The Nevada-only input tables in
+`data/2026_source/` were downloaded November 20, 2026; their source timestamps
+are embedded in the generated JSON. The counts are unofficial until Nevada's
+state canvass. The release has no Nevada precinct returns, so 2026 precinct
+and cross-district estimates are intentionally absent. Refresh the source CSVs
+and run `py scripts/import_2026_results.py` to rebuild the slices and manifests.
+
 Frontend:
 
 - `index.html` (single-page atlas app)

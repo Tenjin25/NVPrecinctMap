@@ -1,0 +1,96 @@
+state,chamber,district,contest,seats,candidate,party,votes,share_pct,leads,uncontested,held_by_before,total_votes,precincts_reporting,precincts_total,count_updated_utc,source,source_url,source_read_utc
+NV,upper,2,State Senate District 2,1,Edgar Flores,D,18991,100,yes,yes,D,18991,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,upper,8,State Senate District 8,1,Marilyn Dondero Loop,D,29124,57.07,yes,no,D,51030,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,upper,8,State Senate District 8,1,George E. Harris,R,21906,42.93,no,no,D,51030,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,upper,9,State Senate District 9,1,Melanie Scheible,D,27449,61.99,yes,no,D,44277,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,upper,9,State Senate District 9,1,Maria Thompson,R,16828,38.01,no,no,D,44277,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,upper,10,State Senate District 10,1,Fabian Donate,D,21629,100,yes,yes,D,21629,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,upper,12,State Senate District 12,1,Julie Ann Pazina,D,29615,59.79,yes,no,D,49532,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,upper,12,State Senate District 12,1,Rafael Arroyo,R,19917,40.21,no,no,D,49532,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,upper,13,State Senate District 13,1,"Richard ""Skip"" Daly",D,25643,68.35,yes,no,D,37517,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,upper,13,State Senate District 13,1,Matthew R. Buehler,R,10476,27.92,no,no,D,37517,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,upper,13,State Senate District 13,1,Charlene Young,O,1398,3.73,no,no,D,37517,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,upper,14,State Senate District 14,1,Ira D. Hansen,R,43652,100,yes,yes,R,43652,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,upper,16,State Senate District 16,1,Lisa Krasner,R,38041,53.76,yes,no,R,70756,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,upper,16,State Senate District 16,1,Chrystal L. Roll,D,32715,46.24,no,no,R,70756,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,upper,17,State Senate District 17,1,Robin L. Titus,R,42828,69.05,yes,no,R,62023,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,upper,17,State Senate District 17,1,Lynne Ballatore,D,19195,30.95,no,no,R,62023,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,upper,20,State Senate District 20,1,Danielle Gallant,R,39722,56.51,yes,no,R,70296,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,upper,20,State Senate District 20,1,Calvin Sandoval,D,30574,43.49,no,no,R,70296,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,upper,21,State Senate District 21,1,James Ohrenschall,D,24543,65.8,yes,no,D,37300,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,upper,21,State Senate District 21,1,Al Rojas,R,12757,34.2,no,no,D,37300,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,1,State House District 1,1,Alexis Elizabeth Esparza,D,20205,100,yes,yes,D,20205,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,2,State House District 2,1,Kamilah Bywaters,D,14919,52.31,yes,no,R,28520,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,2,State House District 2,1,Drew Teitelbaum,R,13601,47.69,no,no,R,28520,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,3,State House District 3,1,Selena Torres-Fossett,D,12139,64.22,yes,no,D,18903,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,3,State House District 3,1,Joseph P. Silvestri,R,6764,35.78,no,no,D,18903,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,4,State House District 4,1,Eileen Eady,D,15201,53.03,yes,no,R,28664,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,4,State House District 4,1,Lisa Cole,R,13463,46.97,no,no,R,28664,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,5,State House District 5,1,Brittney M. Miller,D,13471,60.59,yes,no,D,22232,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,5,State House District 5,1,Kelly Quinn,R,8761,39.41,no,no,D,22232,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,6,State House District 6,1,Jovan Alexander Jackson,D,10692,86.17,yes,no,D,12408,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,6,State House District 6,1,"Katherine ""Katie"" Duncan",O,1716,13.83,no,no,D,12408,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,7,State House District 7,1,"Cameron ""C.H."" Miller",D,15098,80.97,yes,no,D,18646,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,7,State House District 7,1,"Anthony Scott ""Red"" Willett",L,3548,19.03,no,no,D,18646,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,8,State House District 8,1,Duy Nguyen,D,16076,66.26,yes,no,D,24261,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,8,State House District 8,1,"Joseph ""Joey"" Charafi",R,8185,33.74,no,no,D,24261,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,9,State House District 9,1,Ryan Hampton,D,14749,60.65,yes,no,D,24317,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,9,State House District 9,1,Erica Alejandra Neely,R,9568,39.35,no,no,D,24317,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,10,State House District 10,1,Venise L. Karris,D,12388,100,yes,yes,D,12388,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,11,State House District 11,1,Cinthia Moore,D,8881,100,yes,yes,D,8881,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,12,State House District 12,1,Max Carter II,D,14384,60.92,yes,no,D,23612,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,12,State House District 12,1,"Nancy ""Nan"" Roecker",R,9228,39.08,no,no,D,23612,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,13,State House District 13,1,Daniel Andrews,D,16031,52.95,yes,no,R,30275,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,13,State House District 13,1,Brian Hibbetts,R,13763,45.46,no,no,R,30275,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,13,State House District 13,1,Gage C. Beck,L,481,1.59,no,no,R,30275,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,14,State House District 14,1,Erica Mosca,D,11136,100,yes,yes,D,11136,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,15,State House District 15,1,Miguel Davila,D,9116,100,yes,yes,D,9116,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,16,State House District 16,1,Cecelia González,D,10800,62.43,yes,no,D,17300,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,16,State House District 16,1,John Carlo,R,6500,37.57,no,no,D,17300,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,17,State House District 17,1,Linda F. Hunt,D,17842,100,yes,yes,D,17842,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,18,State House District 18,1,Venicia Considine,D,12906,69.62,yes,no,D,18538,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,18,State House District 18,1,Crystal Newton,R,5632,30.38,no,no,D,18538,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,19,State House District 19,1,Jason Patchett,R,20792,68.35,yes,no,R,30419,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,19,State House District 19,1,Zackaraih Lysaght,L,9627,31.65,no,no,R,30419,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,20,State House District 20,1,David Orentlicher,D,11459,74.71,yes,no,D,15339,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,20,State House District 20,1,Stan Vaughan,O,3880,25.29,no,no,D,15339,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,21,State House District 21,1,Elaine Marzola,D,14658,58.59,yes,no,D,25018,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,21,State House District 21,1,Patsy A. Carvalho,R,9855,39.39,no,no,D,25018,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,21,State House District 21,1,Tighe Galvin,L,505,2.02,no,no,D,25018,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,22,State House District 22,1,Shenea Booth,D,16218,50.01,yes,no,R,32429,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,22,State House District 22,1,Melissa Hardy,R,16211,49.99,no,no,R,32429,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,23,State House District 23,1,Denise Daniels Fanning,R,20173,54.8,yes,no,R,36810,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,23,State House District 23,1,Jan Allen Aspelund,D,16637,45.2,no,no,R,36810,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,24,State House District 24,1,Erica Roth,D,14884,100,yes,yes,D,14884,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,25,State House District 25,1,Selena La Rue Hatch,D,19066,59.33,yes,no,D,32135,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,25,State House District 25,1,Michael A. Ginsburg,R,13069,40.67,no,no,D,32135,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,26,State House District 26,1,Richard DeLong,R,19632,52.14,yes,no,R,37655,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,26,State House District 26,1,Sam Baugh,D,18023,47.86,no,no,R,37655,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,27,State House District 27,1,Heather Goulding,D,15177,67.38,yes,no,D,22526,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,27,State House District 27,1,"Veronica ""Lunch Lady"" Cortes",R,7349,32.62,no,no,D,22526,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,28,State House District 28,1,Reuben D'Silva,D,10024,100,yes,yes,D,10024,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,29,State House District 29,1,Alex J. Pereszlenyi,D,13631,60.95,yes,no,D,22363,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,29,State House District 29,1,Joe Ludwig,R,8732,39.05,no,no,D,22363,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,30,State House District 30,1,Natha C. Anderson,D,12313,66.12,yes,no,D,18621,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,30,State House District 30,1,Trista Gomez,R,6308,33.88,no,no,D,18621,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,31,State House District 31,1,Jill Dickman,R,17064,51.35,yes,no,R,33229,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,31,State House District 31,1,Neal Schwartz,D,16165,48.65,no,no,R,33229,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,32,State House District 32,1,Alexis M. Hansen,R,20511,100,yes,yes,R,20511,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,33,State House District 33,1,Bert K. Gurr,R,18932,100,yes,yes,R,18932,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,34,State House District 34,1,Hanadi Nadeem,D,13517,62.78,yes,no,D,21532,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,34,State House District 34,1,Brandon Davis,R,8015,37.22,no,no,D,21532,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,35,State House District 35,1,Joe Spica,D,16096,58.46,yes,no,R,27532,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,35,State House District 35,1,Rebecca Edgeworth,R,11436,41.54,no,no,R,27532,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,36,State House District 36,1,Gregory T. Hafen II,R,19668,56.34,yes,no,R,34908,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,36,State House District 36,1,Jon Penn Junejo,D,15240,43.66,no,no,R,34908,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,37,State House District 37,1,Shea M. Backus,D,17395,57.41,yes,no,D,30299,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,37,State House District 37,1,Jill M. Douglass,R,12904,42.59,no,no,D,30299,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,38,State House District 38,1,Gregory S. Koenig,R,21076,100,yes,yes,R,21076,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,39,State House District 39,1,Blayne Osborn,R,24374,67.06,yes,no,R,36348,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,39,State House District 39,1,Erich Obermayr,D,11974,32.94,no,no,R,36348,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,40,State House District 40,1,Julie A. Butler,R,17856,54.48,yes,no,R,32773,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,40,State House District 40,1,Oscar Fuentes,D,14917,45.52,no,no,R,32773,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,41,State House District 41,1,Vinny Spotleson,D,14569,59.75,yes,no,D,24385,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,41,State House District 41,1,Kelly Chapman,R,9816,40.25,no,no,D,24385,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,42,State House District 42,1,Tracy Brown-May,D,12671,63.98,yes,no,D,19804,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z
+NV,lower,42,State House District 42,1,Christopher Brandlin,R,7133,36.02,no,no,D,19804,,,2026-11-18T00:49:42Z,civicAPI,https://civicapi.org/race/156744,2026-11-19T21:32:27Z

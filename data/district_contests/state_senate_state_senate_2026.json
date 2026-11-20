@@ -1,0 +1,137 @@
+{
+  "year": 2026,
+  "scope": "state_senate",
+  "contest_type": "state_senate",
+  "meta": {
+    "source": "Call the Map / civicAPI, compiled from Nevada election offices",
+    "source_url": "https://www.callthemap.com/results/data",
+    "source_read_utc": "2026-11-17T04:49:15Z",
+    "status": "unofficial",
+    "geography": "district"
+  },
+  "general": {
+    "results": {
+      "2": {
+        "dem_votes": 18991,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 18991,
+        "dem_candidate": "Edgar Flores",
+        "rep_candidate": "",
+        "margin": -18991,
+        "margin_pct": -100.0,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 29124,
+        "rep_votes": 21906,
+        "other_votes": 0,
+        "total_votes": 51030,
+        "dem_candidate": "Marilyn Dondero Loop",
+        "rep_candidate": "George E. Harris",
+        "margin": -7218,
+        "margin_pct": -14.14,
+        "winner": "DEM"
+      },
+      "9": {
+        "dem_votes": 27449,
+        "rep_votes": 16828,
+        "other_votes": 0,
+        "total_votes": 44277,
+        "dem_candidate": "Melanie Scheible",
+        "rep_candidate": "Maria Thompson",
+        "margin": -10621,
+        "margin_pct": -23.99,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 21629,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 21629,
+        "dem_candidate": "Fabian Donate",
+        "rep_candidate": "",
+        "margin": -21629,
+        "margin_pct": -100.0,
+        "winner": "DEM"
+      },
+      "12": {
+        "dem_votes": 29615,
+        "rep_votes": 19917,
+        "other_votes": 0,
+        "total_votes": 49532,
+        "dem_candidate": "Julie Ann Pazina",
+        "rep_candidate": "Rafael Arroyo",
+        "margin": -9698,
+        "margin_pct": -19.58,
+        "winner": "DEM"
+      },
+      "13": {
+        "dem_votes": 25643,
+        "rep_votes": 10476,
+        "other_votes": 1398,
+        "total_votes": 37517,
+        "dem_candidate": "Richard \"Skip\" Daly",
+        "rep_candidate": "Matthew R. Buehler",
+        "margin": -15167,
+        "margin_pct": -40.43,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 43652,
+        "other_votes": 0,
+        "total_votes": 43652,
+        "dem_candidate": "",
+        "rep_candidate": "Ira D. Hansen",
+        "margin": 43652,
+        "margin_pct": 100.0,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 32715,
+        "rep_votes": 38041,
+        "other_votes": 0,
+        "total_votes": 70756,
+        "dem_candidate": "Chrystal L. Roll",
+        "rep_candidate": "Lisa Krasner",
+        "margin": 5326,
+        "margin_pct": 7.53,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 19195,
+        "rep_votes": 42828,
+        "other_votes": 0,
+        "total_votes": 62023,
+        "dem_candidate": "Lynne Ballatore",
+        "rep_candidate": "Robin L. Titus",
+        "margin": 23633,
+        "margin_pct": 38.1,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 30574,
+        "rep_votes": 39722,
+        "other_votes": 0,
+        "total_votes": 70296,
+        "dem_candidate": "Calvin Sandoval",
+        "rep_candidate": "Danielle Gallant",
+        "margin": 9148,
+        "margin_pct": 13.01,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 24543,
+        "rep_votes": 12757,
+        "other_votes": 0,
+        "total_votes": 37300,
+        "dem_candidate": "James Ohrenschall",
+        "rep_candidate": "Al Rojas",
+        "margin": -11786,
+        "margin_pct": -31.6,
+        "winner": "DEM"
+      }
+    }
+  }
+}

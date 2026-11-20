@@ -269,6 +269,48 @@
       "contest_type": "us_senate",
       "file": "us_senate_2024.json",
       "rows": 1640
+    },
+    {
+      "year": 2026,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2026.json",
+      "rows": 17,
+      "major_party_contested": true
+    },
+    {
+      "year": 2026,
+      "contest_type": "controller",
+      "file": "controller_2026.json",
+      "rows": 17,
+      "major_party_contested": true
+    },
+    {
+      "year": 2026,
+      "contest_type": "governor",
+      "file": "governor_2026.json",
+      "rows": 17,
+      "major_party_contested": true
+    },
+    {
+      "year": 2026,
+      "contest_type": "lieutenant_governor",
+      "file": "lieutenant_governor_2026.json",
+      "rows": 17,
+      "major_party_contested": true
+    },
+    {
+      "year": 2026,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2026.json",
+      "rows": 17,
+      "major_party_contested": true
+    },
+    {
+      "year": 2026,
+      "contest_type": "treasurer",
+      "file": "treasurer_2026.json",
+      "rows": 17,
+      "major_party_contested": true
     }
   ]
 }

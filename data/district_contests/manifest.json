@@ -629,6 +629,27 @@
       "contest_type": "us_senate",
       "file": "state_senate_us_senate_2024.json",
       "districts": 21
+    },
+    {
+      "year": 2026,
+      "scope": "state_house",
+      "contest_type": "state_assembly",
+      "file": "state_house_state_assembly_2026.json",
+      "districts": 42
+    },
+    {
+      "year": 2026,
+      "scope": "state_senate",
+      "contest_type": "state_senate",
+      "file": "state_senate_state_senate_2026.json",
+      "districts": 11
+    },
+    {
+      "year": 2026,
+      "scope": "congressional",
+      "contest_type": "us_house",
+      "file": "congressional_us_house_2026.json",
+      "districts": 4
     }
   ]
 }

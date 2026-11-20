@@ -9647,125 +9647,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Modeled contest tuning (2026 synthetic entries).
-  const modelPreset = document.getElementById('model-preset');
-  const modelBlend = document.getElementById('model-blend');
-  const modelTurnout = document.getElementById('model-turnout');
-  const modelBonus = document.getElementById('model-bonus');
-  const modelResetBtn = document.getElementById('model-reset-btn');
-  let modelTuningTimer = null;
-  const scheduleModelReapply = () => {
-    if (modelTuningTimer) clearTimeout(modelTuningTimer);
-    modelTuningTimer = setTimeout(() => {
-      modelTuningTimer = null;
-      const key = document.getElementById('contestSelect')?.value || '';
-      if (!key || typeof applyContest !== 'function') return;
-      applyContest(key).catch(() => {});
-    }, 220);
-  };
-  const applyModelTuningFromControls = () => {
-    const meta = (currentContestMeta && currentContestMeta.contestType)
-      ? { contestType: String(currentContestMeta.contestType || ''), year: Number(currentContestMeta.year) }
-      : getSelectedContestTypeYear();
-    const contestType = String(meta?.contestType || '').trim();
-    const year = Number(meta?.year);
-    if (!contestType || !Number.isFinite(year)) return;
-    const modeled = getModeledContestDefinition(contestType, year);
-    if (!modeled) return;
 
-    const patch = {};
-    if (modelBlend && document.getElementById('model-blend-row')?.style?.display !== 'none') {
-      const bw = Number(modelBlend.value);
-      if (Number.isFinite(bw) && bw >= 0 && bw <= 1) patch.blendWeight = bw;
-    }
-    if (modelTurnout && document.getElementById('model-turnout-row')?.style?.display !== 'none') {
-      const tf = Number(modelTurnout.value);
-      if (Number.isFinite(tf) && tf > 0) patch.turnoutFactor = tf;
-    }
-    if (modelBonus && document.getElementById('model-bonus-row')?.style?.display !== 'none') {
-      const bs = Number(modelBonus.value);
-      if (Number.isFinite(bs) && bs >= 0) patch.bonusScale = bs;
-    }
-    if (!Object.keys(patch).length) return;
-    setModeledContestOverrides(contestType, patch);
-    syncModelTuningControls();
-    scheduleModelReapply();
-  };
-  if (modelBlend) modelBlend.addEventListener('input', applyModelTuningFromControls);
-  if (modelTurnout) modelTurnout.addEventListener('input', applyModelTuningFromControls);
-  if (modelBonus) modelBonus.addEventListener('input', applyModelTuningFromControls);
-  if (modelPreset) {
-    modelPreset.addEventListener('change', function() {
-      const meta = (currentContestMeta && currentContestMeta.contestType)
-        ? { contestType: String(currentContestMeta.contestType || ''), year: Number(currentContestMeta.year) }
-        : getSelectedContestTypeYear();
-      const contestType = String(meta?.contestType || '').trim();
-      const year = Number(meta?.year);
-      if (!contestType || !Number.isFinite(year)) return;
-      const modeled = getModeledContestDefinition(contestType, year);
-      const base = getBaseModeledContestDefinition(contestType, year);
-      if (!modeled || !base) return;
-
-      const presetId = String(this.value || 'default').trim();
-      const presetList = MODELED_CONTEST_PRESETS_BY_TYPE[String(modeled?.contestType || '').trim()] || [];
-      const presetDef = presetList.find(p => String(p?.id || '') === presetId) || null;
-      if (!presetDef || String(presetDef?.kind) === 'reset' || presetId === 'default') {
-        resetModeledContestOverrides(contestType);
-        syncModelTuningControls();
-        scheduleModelReapply();
-        if (typeof setStatus === 'function') setStatus('Model preset applied: Default.');
-        try { saveUIState(); } catch (_) {}
-        return;
-      }
-
-      const patch = {};
-      const patchIn = presetDef?.patch || {};
-      if (Object.prototype.hasOwnProperty.call(patchIn, 'blendWeight') && Number.isFinite(Number(base?.blendWeight))) {
-        const bw = Number(patchIn.blendWeight);
-        if (Number.isFinite(bw) && bw >= 0 && bw <= 1) patch.blendWeight = bw;
-      }
-      if (Object.prototype.hasOwnProperty.call(patchIn, 'turnoutFactor') && Number.isFinite(Number(base?.turnoutFactor))) {
-        const tf = Number(patchIn.turnoutFactor);
-        if (Number.isFinite(tf) && tf > 0) patch.turnoutFactor = tf;
-      }
-      if (Object.prototype.hasOwnProperty.call(patchIn, 'bonusScale')) {
-        const bs = Number(patchIn.bonusScale);
-        if (Number.isFinite(bs) && bs >= 0) patch.bonusScale = bs;
-      }
-      if (Object.prototype.hasOwnProperty.call(patchIn, 'countyBehaviorMode')) {
-        const mode = String(patchIn.countyBehaviorMode || '').trim().toLowerCase();
-        if (mode) patch.countyBehaviorMode = mode;
-      }
-      if (Object.prototype.hasOwnProperty.call(patchIn, 'uncertaintyBoost')) {
-        const ub = Number(patchIn.uncertaintyBoost);
-        if (Number.isFinite(ub) && ub > 0) patch.uncertaintyBoost = ub;
-      }
-      if (!Object.keys(patch).length) return;
-      setModeledContestOverrides(contestType, patch);
-      syncModelTuningControls();
-      scheduleModelReapply();
-      if (typeof setStatus === 'function') setStatus(`Model preset applied: ${String(presetDef.label || presetId)}.`);
-      try { saveUIState(); } catch (_) {}
-    });
-  }
-  if (modelResetBtn) {
-    modelResetBtn.addEventListener('click', function() {
-      const meta = (currentContestMeta && currentContestMeta.contestType)
-        ? { contestType: String(currentContestMeta.contestType || ''), year: Number(currentContestMeta.year) }
-        : getSelectedContestTypeYear();
-      const contestType = String(meta?.contestType || '').trim();
-      const year = Number(meta?.year);
-      if (!contestType || !Number.isFinite(year)) return;
-      if (!getModeledContestDefinition(contestType, year)) return;
-      resetModeledContestOverrides(contestType);
-      syncModelTuningControls();
-      const key = document.getElementById('contestSelect')?.value || '';
-      if (key && typeof applyContest === 'function') applyContest(key).catch(() => {});
-      if (typeof setStatus === 'function') setStatus('Model tuning reset to defaults.');
-      try { saveUIState(); } catch (_) {}
-    });
-  }
-  try { syncModelTuningControls(); } catch (_) {}
 
   // Contest search (filters dropdown without changing the dataset).
   const contestSearch = document.getElementById('contestSearch');
@@ -10029,8 +9911,8 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <details class="control-group control-group-scenario controls-disclosure" id="scenario-disclosure">
               <summary class="controls-disclosure-summary">
-                <span class="section-kicker">What-if, model, overlays</span>
-                <span class="controls-disclosure-hint">Simple swing, baseline modeling controls, and map overlays</span>
+                <span class="section-kicker">What-if, overlays</span>
+                <span class="controls-disclosure-hint">Simple swing and map overlays</span>
               </summary>
               <div class="scenario-row">
                 <label for="scenario-scope">Scope</label>
@@ -10050,39 +9932,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 <button id="scenario-reset-btn" class="tool-chip-btn tool-chip-btn-muted" type="button" data-testid="scenario-reset" aria-label="Reset scenario swing">Reset Swing</button>
                 <span></span>
               </div>
-              <div class="scenario-row" id="model-preset-row" style="display:none;">
-                <label for="model-preset">Model preset</label>
-                <select id="model-preset" data-testid="model-preset" aria-label="Model tuning preset"></select>
-                <span class="scenario-value" aria-hidden="true"></span>
-                <div class="scenario-help">Preset bundles for baseline assumptions and county behavior.</div>
-              </div>
-              <div class="scenario-row" id="model-blend-row" style="display:none;">
-                <label for="model-blend" id="model-blend-label">History vs fundamentals</label>
-                <input id="model-blend" type="range" min="0" max="1" step="0.05" value="0.5" data-testid="model-blend" aria-label="Model blend weight" />
-                <span class="scenario-value" id="model-blend-value">50%</span>
-                <div class="scenario-help">Higher values lean on county historical behavior; lower values lean on statewide environment anchoring.</div>
-              </div>
-              <div class="scenario-row" id="model-turnout-row" style="display:none;">
-                <label for="model-turnout">Expected turnout</label>
-                <input id="model-turnout" type="range" min="0.35" max="0.85" step="0.025" value="0.575" data-testid="model-turnout" aria-label="Model turnout factor" />
-                <span class="scenario-value" id="model-turnout-value">57.5%</span>
-                <div class="scenario-help">Scales the turnout baseline before county redistribution.</div>
-              </div>
-              <div class="scenario-row" id="model-bonus-row" style="display:none;">
-                <label for="model-bonus">Candidate overperformance</label>
-                <input id="model-bonus" type="range" min="0" max="1.5" step="0.1" value="1" data-testid="model-bonus" aria-label="Model candidate bonus scale" />
-                <span class="scenario-value" id="model-bonus-value">1.0x</span>
-                <div class="scenario-help">Scales county-level overperformance effects with Nevada-specific guardrails.</div>
-              </div>
-              <div class="scenario-row scenario-row-actions" id="model-reset-row" style="display:none;">
-                <span></span>
-                <button id="model-reset-btn" class="tool-chip-btn tool-chip-btn-muted" type="button" data-testid="model-reset" aria-label="Reset model tuning">Reset Model</button>
-                <span></span>
-              </div>
-              <div class="model-tuning-note" id="model-tuning-note" style="display:none;">
-                Model tuning only affects the synthetic 2026 modeled contests.
-              </div>
-              <div class="model-summary-card" id="model-summary-card" style="display:none;" aria-live="polite"></div>
               <div class="scenario-row">
                 <label for="overlay-opacity-preset">Overlay</label>
                 <select id="overlay-opacity-preset" data-testid="overlay-preset" aria-label="Overlay opacity preset">
@@ -10100,8 +9949,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 High contrast demographics
               </label>
               <div class="controls-panel-note">
-                Positive swing shifts margins toward Democrats. Negative values shift toward Republicans. Modeled 2026 entries inherit this swing.
-                <span id="modeled-context-badge" class="modeled-context-badge" style="display:none;">Modeled Scenario</span>
+                Positive swing shifts margins toward Democrats. Negative values shift toward Republicans.
               </div>
             </details>
             <details class="control-group control-group-analytics controls-disclosure" id="analytics-disclosure">
@@ -10187,6 +10035,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: #08519c;"></span><span class="legend-tier-label dem">Dominant</span><span class="legend-tier-range">30.00–39.99</span></div>
             <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: #08306b;"></span><span class="legend-tier-label dem">Annihilation</span><span class="legend-tier-range">40+</span></div>
           </div>
+
             </div>
         </div>
         <div class="legend-footer" id="legend-footer">Darker shades indicate larger two-party leads in the current contest.</div>
@@ -10417,9 +10266,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-10-06-mobile-contest-ready-v4';
+    const DATA_CACHE_BUSTER = '2026-11-20-actual-results-v1';
     const COUNTY_POP_CACHE_BUSTER = '2026-05-31-02';
-    const APP_BUILD_ID = '2026-10-06-mobile-contest-ready-v4';
+    const APP_BUILD_ID = '2026-11-20-actual-results-v1';
+
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -11466,154 +11316,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const BELLWETHER_COUNTY_MAX_AVG_ERR_PCT = 9; // avg abs error vs statewide margin across cycles
     const BELLWETHER_PRECINCT_MAX_ERR_PCT = 18;
     const BELLWETHER_PRECINCT_MAX_AVG_ERR_PCT = 12;
-    const MODELED_CONTEST_DEFINITIONS = {
-      'governor_model_2026': {
-        contestType: 'governor_model',
-        year: 2026,
-        displayName: 'Ford vs Lombardo Governor Model',
-        optionLabel: 'Governor (2026) Ford vs Lombardo model',
-        groupLabel: 'Governor',
-        baseContestType: 'governor',
-        baseYear: 2022,
-        // Nevada model: 2022 Governor is the concrete downballot anchor and 2024 President supplies
-        // the current partisan climate. 2018 Governor is kept as a valid prior-cycle context for preload
-        // and future extension, but the generic governor model does not use Senate-only deviation logic.
-        secondaryBaseContestType: 'governor',
-        secondaryBaseYear: 2018,
-        senateAnchorSecondWeight: 0.22,
-        climateContestType: 'president',
-        climateYear: 2024,
-        blendWeight: 0.70, // 0 => pure 2024 President climate, 1 => pure 2022 Governor baseline
-        presidentialBaselineWeight: 0.62,
-        senateBaselineWeight: 0.38,
-        baselineRecentWeight: 0.60,
-        baselineSecondWeight: 0.25,
-        baselineLongRunWeight: 0.15,
-        baselineReliabilityMinVotes: 15000,
-        baselineReliabilityMaxVotes: 110000,
-        baselineReliabilityFloor: 0.41,
-        statewideRecenterStrength: 0.96,
-        countyBehaviorMode: 'balanced', // balanced | suburban_rebound | rural_surge | incumbent_friendly | volatile
-        ruralGopOverperformanceWeight: 0.15,
-        urbanDemElasticityWeight: 0.27,
-        anomalySwingClampPts: 12,
-        anomalyClampCounties: ['ROBESON', 'BLADEN', 'SCOTLAND'],
-        trendCarryoverWeight: 0.32,
-        senateResidualElasticityEnabled: false,
-        incumbentParty: 'DEM',
-        incumbentBoostPts: 1.4,
-        trendNudgeMaxPts: 0.55,
-        stableCountyBrakeMin: 0.44,
-        safeCountyBrakeMargin: 16,
-        // Optional county-cluster calibration (subtle by default): keep similar county archetypes
-        // behaving more consistently without changing any user-facing controls.
-        countyClusterCalibrationEnabled: true,
-        countyClusterCalibrationStrength: 0.58, // 0..1 (higher = stronger cluster-based adjustments)
-        // Federalization brake: very deep-partisan counties are less likely to sustain large crossover patterns.
-        federalizationBrakeMargin: 20,
-        federalizationDeepMargin: 34,
-        federalizationFloor: 0.62,
-        // Blend brake: in counties with durable downballot-vs-presidential divergence, reduce the share
-        // coming from the presidential climate baseline (capped).
-        distinctSenateBehaviorPresWeightBrakeMax: 0.10,
-        // Realignment adjustment: subtle rightward nudge in counties with unusually strong federal movement
-        // across 2016/2020/2024 and Senate 2020->2022 (capped + reliability-scaled).
-        realignmentAdjustmentEnabled: true,
-        realignmentAdjustmentMinTrendPts: 1.25,
-        realignmentAdjustmentMaxTrendPts: 9.0,
-        realignmentAdjustmentSlope: 0.055, // pts of adjustment per 1 pt of rightward trend
-        realignmentAdjustmentMaxPts: 0.45,
-        // Turnout sensitivity: in edge-case realigning counties, coalition mix makes turnout matter more.
-        realignmentTurnoutEnabled: true,
-        realignmentTurnoutMinTrendPts: 1.0,
-        realignmentTurnoutMaxTrendPts: 9.0,
-        realignmentTurnoutSensitivityMaxMul: 0.16, // keep turnout as coalition sensitivity, not a second realignment engine
-        // Positive deviation brake: avoid modeling a generic R Senate candidate as outrunning the presidential
-        // baseline in counties that are still strongly realigning at the federal level.
-        positiveDeviationRealignmentBrakeEnabled: true,
-        positiveDeviationRealignmentFloor: 0.50, // strongest brake keeps ~50% of positive (R>Pres) deviation
-        positiveDeviationRealignmentMinTrendPts: 1.0,
-        positiveDeviationRealignmentMaxTrendPts: 9.0,
-        // Guardrail fields are inert for the generic governor model unless the Senate-deviation path is enabled.
-        senateMaxOverPresEnabled: false,
-        senateDeviationOutlierBrakeEnabled: false,
-        // Candidate effect: keep a modest generic overperformance dial for gubernatorial nominee quality.
-        candidateBonusEnabled: true,
-        candidateBonusMode: 'heuristic', // historical | heuristic
-        candidateBonusWeight: 0.20,
-        candidateBonusMinTwoPartyVotes: 8000, // damp very small county/precinct clusters
-        candidateBonusFallbackToHeuristic: true,
-        candidateBonusConsistencyBoost: 1.08,
-        candidateBonusConsistencyFloor: 0.58,
-        // Separate durable downballot crossover from candidate-personal effects so the bonus stays portable.
-        candidateBonusDurableShare: 0.62,
-        candidateBonusPersonalShare: 0.38,
-        candidateBonusDurableRealignmentFloor: 0.68,
-        candidateBonusDurableAdjustmentFadeMax: 0.22,
-        candidateBonusDurableGeneralFloor: 0.28,
-        candidateBonusDurablePriorityFloor: 0.42,
-        candidateBonusPersonalFederalizationFloor: 0.24,
-        // Realignment-aware fade: treat more of the bonus as non-portable in counties that have continued
-        // moving right at the federal level.
-        candidateBonusPersonalRealignmentEnabled: true,
-        candidateBonusPersonalRealignmentFloor: 0.34, // strongest fade keeps more personal portability than prior over-fade
-        candidateBonusPersonalRealignmentMinTrendPts: 0.9,
-        candidateBonusPersonalRealignmentMaxTrendPts: 8.5,
-        // Distinct class: rural/mining counties that have become sharply more federalized.
-        candidateBonusRealignedFormerDemFederalCounties: ['ELKO', 'LANDER', 'EUREKA', 'HUMBOLDT', 'WHITE PINE'],
-        candidateBonusRealignedFormerDemFederalDurableFloor: 0.44,
-        candidateBonusRealignedFormerDemFederalPersonalFloor: 0.18,
-        candidateBonusRealignedFormerDemFederalPersonalCapPts: 0.26,
-        candidateBonusRealignedFormerDemFederalResidualFloor: 0.30,
-        candidateBonusRepeatableCrossoverBoost: 1.10,
-        candidateBonusSuburbanDurableBoost: 1.08,
-        candidateBonusFederalizationBrakeMargin: 22,
-        candidateBonusFederalizationDeepRedMargin: 34,
-        candidateBonusFederalizationFloor: 0.15,
-        candidateBonusDeepRedCapPts: 0.32,
-        candidateBonusMaxPts: 0.78,
-        candidateBonusBasePts: 0.25,
-        candidateBonusUrbanPts: 0.15,
-        candidateBonusMetroPts: 0.30,
-        candidateBonusCoastalPts: 0.25,
-        candidateBonusTransitionPts: 0.32,
-        candidateBonusSlowPts: 0.30,
-        candidateBonusInstitutionalExtraPts: 0.15,
-        candidateBonusDistrictPts: 0.28,
-        // District-layer calibration: keep modeled district views aligned with county-mode tuning,
-        // but allow chamber-specific damping so legislative layers do not overreact.
-        districtBlendMulCongressional: 0.93,
-        districtBlendMulStateHouse: 0.91,
-        districtBlendMulStateSenate: 0.92,
-        districtDeviationBrakeCongressional: 0.90,
-        districtDeviationBrakeStateHouse: 0.88,
-        districtDeviationBrakeStateSenate: 0.89,
-        candidateBonusDistrictPtsCongressional: 0.26,
-        candidateBonusDistrictPtsStateHouse: 0.24,
-        candidateBonusDistrictPtsStateSenate: 0.25,
-        // Context-sensitive anchor rebalance (keeps 2022 primary, but trims its weight in unstable counties).
-        unstableCountyBlendShiftMax: 0.14,
-        unstableCountySecondAnchorBoost: 0.12,
-        // Dedicated blend for realigned former-D federal counties (RBS class).
-        realignedFormerDemFederalClimateWeight: 0.52,
-        realignedFormerDemFederalSenate2022Weight: 0.28,
-        realignedFormerDemFederalSenate2020Weight: 0.20,
-        realignedFormerDemFederalBlendWeight: 0.38,
-        // Turnout responsiveness by county class.
-        turnoutUrbanCoreMul: 1.09,
-        turnoutBlackBeltMul: 1.07,
-        turnoutSuburbanMul: 1.035,
-        turnoutGrowthExurbMul: 1.005,
-        turnoutRealigningRuralMul: 1.02,
-        turnoutRuralWhiteMul: 0.96,
-        turnoutContestType: 'president',
-        turnoutYear: 2024,
-        turnoutFactor: 0.575,
-        demCandidate: 'Aaron Ford',
-        repCandidate: 'Joe Lombardo',
-        description: 'Blended 2022 Governor baseline with a 2024 President climate and calibrated midterm turnout'
-      }
-    };
+    const MODELED_CONTEST_DEFINITIONS = {}; // 2026 now uses published vote totals.
     const MODELED_SENATE_UX_FEATURES = {
       historicalAnalogEnabled: true,
       baselineVsCandidateEnabled: true
@@ -19808,7 +19511,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const blockedCountyContestTypes = new Set(['us_house', 'state_house', 'state_senate', 'state_assembly']);
         entries = (contestManifest || []).filter(e => {
           const ct = String(e?.contest_type || '').trim().toLowerCase();
-          return !blockedCountyContestTypes.has(ct);
+          return !blockedCountyContestTypes.has(ct) &&
+            (currentView !== 'vtds_2000' || Number(e?.year) < 2026);
         });
       } else {
         const scope = currentView === 'districts'
@@ -19821,6 +19525,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // U.S. House belongs in the congressional view. Legislative views still
             // retain statewide contests reallocated onto their district boundaries.
             if ((scope === 'state_house' || scope === 'state_senate') && contestType === 'us_house') return false;
+            if (scope === 'congressional' && congressionalNeutralMode && Number(e.year) >= 2026) return false;
             return true;
           });
           if (scope === 'congressional') {
@@ -19837,7 +19542,7 @@ document.addEventListener('DOMContentLoaded', function() {
               if (!e) return false;
               const ct = String(e?.contest_type || '').trim().toLowerCase();
               const y = Number(e?.year);
-              return statewideCongressionalContestTypes.has(ct) && Number.isFinite(y);
+              return statewideCongressionalContestTypes.has(ct) && Number.isFinite(y) && y < 2026;
             }).map(e => ({
               year: Number(e.year),
               contest_type: String(e.contest_type || '').trim().toLowerCase(),
@@ -20143,6 +19848,7 @@ document.addEventListener('DOMContentLoaded', function() {
           compColor = winner === 'Republican' ? '#dc2626' : '#3b82f6';
         } else if (marginPct >= 5.50) {
           compLabel = winner === 'Republican' ? "Likely Republican (5.50-9.99%)" : "Likely Democratic (5.50-9.99%)";
+
           compColor = winner === 'Republican' ? '#ef4444' : '#60a5fa';
         } else if (marginPct >= 1) {
           compLabel = winner === 'Republican' ? "Lean Republican (1.00-5.49%)" : "Lean Democratic (1.00-5.49%)";
@@ -21369,6 +21075,12 @@ document.addEventListener('DOMContentLoaded', function() {
       return roundForDisplay(pct, 2);
     }
 
+    function competitivenessMarginValue(marginPct) {
+      const pct = Math.abs(Number(marginPct) || 0);
+      // Classify the one-decimal margin shown in county-facing summaries.
+      return roundForDisplay(pct, 1);
+    }
+
     function marginPctDisplayValue(repVotes, demVotes, totalVotes) {
       const rawMarginPct = marginPctValue(repVotes, demVotes, totalVotes);
       const t = Number(totalVotes) || 0;
@@ -21779,6 +21491,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForMarginMode(30, 'D')};"></span><span class="legend-tier-label dem">Dominant</span><span class="legend-tier-range">30.00–39.99</span></div>
                 <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForMarginMode(40, 'D')};"></span><span class="legend-tier-label dem">Annihilation</span><span class="legend-tier-range">40+</span></div>
               </div>
+
         </div>
       `;
     }
@@ -22390,7 +22103,10 @@ document.addEventListener('DOMContentLoaded', function() {
           : `${winnerCall.winnerName} (${winnerCall.party === 'rep' ? 'R' : 'D'})`;
         const isModeledSenate = isModeledSenateEnhancementContest(contestType, year);
         const modeledBadgeHtml = isModeledSenate ? `<span class="modeled-context-badge modeled-senate">Modeled race</span>` : '';
-        const kickerHtml = isModeledSenate ? `Modeled baseline ${modeledBadgeHtml}` : 'Statewide leader';
+        const kickerHtml = isModeledSenate ? `Modeled baseline ${modeledBadgeHtml}`
+          : (Number(year) === 2026
+            ? (Number(scenarioSwingPct || 0) === 0 ? '2026 reported results' : '2026 what-if scenario')
+            : 'Statewide leader');
         const sublineHtml = isModeledSenate
           ? `${escapeHtml(winnerSummary)} | projected edge ${escapeHtml(marginLabel)}%`
           : `${escapeHtml(winnerSummary)} | ${Math.abs(repVotes - demVotes).toLocaleString()} vote margin`;
@@ -22420,6 +22136,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 ${methodologyHtml}
                 ${hintHtml}
                 ${closeRaceAlertHtml}
+                ${Number(year) === 2026 ? '<div class="statewide-modeled-method">Unofficial county totals. Source: Call the Map / civicAPI, compiled from Nevada election offices.</div>' : ''}
               </div>
               <div class="statewide-competitive" style="color:${compColor};" title="${compLabel}">${compactCompetitivenessLabel(marginPct, winnerCall.party)}</div>
             </div>
@@ -33083,7 +32800,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Only build heavy precinct matching/color expressions when the overlay is enabled.
       // If users switch contests with precincts off, keep the county path fast.
-      let needsPrecinctDetail = !!precinctsEnabled;
+      // The 2026 release has county and district counts, but no precinct returns.
+      let needsPrecinctDetail = !!precinctsEnabled && Number(year) < 2026;
       if (needsPrecinctDetail && shouldDeferPrecinctDetail()) {
         needsPrecinctDetail = false;
       }
