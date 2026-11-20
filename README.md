@@ -78,14 +78,18 @@ The conversion pipeline applies:
 
 Year rules:
 
-- `2022`: `us_house`, `us_senate`, `governor`, `lieutenant_governor`, `attorney_general`, `treasurer`, `controller`, `state_senate`, `state_assembly`
+- `2022`: `us_house`, `us_senate`, `governor`, `lieutenant_governor`, `attorney_general`, `secretary_of_state`, `treasurer`, `controller`, `state_senate`, `state_assembly`
 - `2024`: `president`, `us_senate`, `us_house`, `state_senate`, `state_assembly`
-- other years: `president`, `us_senate`, `governor`, `lieutenant_governor`, `attorney_general`, `treasurer`, `controller`
+- other years: `president`, `us_senate`, `governor`, `lieutenant_governor`, `attorney_general`, `secretary_of_state`, `treasurer`, `controller`
 
 Notes:
 
 - Nevada uses `controller` (not `comptroller`) as output key.
 - `comptroller` is accepted as an input alias in office parsing.
+- Historical Secretary of State precinct returns are available for 2006, 2010,
+  2014, 2018, and 2022. The 2018 export leaves Nelson Araujo's party blank;
+  the contest builder restores his Democratic affiliation so that race remains
+  correctly classified as a two-party contest.
 
 ### Congressional + Neutral aggregation
 

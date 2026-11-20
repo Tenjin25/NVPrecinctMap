@@ -38,6 +38,12 @@
     },
     {
       "year": 2006,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2006.json",
+      "rows": 1897
+    },
+    {
+      "year": 2006,
       "contest_type": "treasurer",
       "file": "treasurer_2006.json",
       "rows": 1897
@@ -76,6 +82,12 @@
       "year": 2010,
       "contest_type": "lieutenant_governor",
       "file": "lieutenant_governor_2010.json",
+      "rows": 2120
+    },
+    {
+      "year": 2010,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2010.json",
       "rows": 2120
     },
     {
@@ -128,6 +140,12 @@
     },
     {
       "year": 2014,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2014.json",
+      "rows": 2018
+    },
+    {
+      "year": 2014,
       "contest_type": "treasurer",
       "file": "treasurer_2014.json",
       "rows": 2018
@@ -170,6 +188,12 @@
     },
     {
       "year": 2018,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2018.json",
+      "rows": 2038
+    },
+    {
+      "year": 2018,
       "contest_type": "treasurer",
       "file": "treasurer_2018.json",
       "rows": 2038
@@ -208,6 +232,12 @@
       "year": 2022,
       "contest_type": "lieutenant_governor",
       "file": "lieutenant_governor_2022.json",
+      "rows": 1689
+    },
+    {
+      "year": 2022,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2022.json",
       "rows": 1689
     },
     {

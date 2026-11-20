@@ -18,6 +18,7 @@ BLANK_PARTY_CANDIDATE_OVERRIDES: dict[tuple[str, str, str], str] = {
     ("2018", "controller", "catherine byrne"): "DEM",
     ("2018", "lieutenant_governor", "michael roberson"): "REP",
     ("2018", "treasurer", "bob beers"): "REP",
+    ("2018", "secretary_of_state", "nelson araujo"): "DEM",
 }
 
 
@@ -58,6 +59,8 @@ def normalize_contest_type(office: str) -> str:
         return "lieutenant_governor"
     if "attorney general" in low:
         return "attorney_general"
+    if "secretary of state" in low:
+        return "secretary_of_state"
     if "treasurer" in low:
         # Keep statewide treasurer only; exclude county/local clerk-treasurer offices.
         if "county" in low or "clerk" in low:
@@ -260,6 +263,7 @@ def build_for_file(path: Path) -> list[dict]:
             "governor",
             "lieutenant_governor",
             "attorney_general",
+            "secretary_of_state",
             "treasurer",
             "controller",
             "state_senate",
@@ -268,7 +272,7 @@ def build_for_file(path: Path) -> list[dict]:
     elif year == 2024:
         allowed = {"president", "us_senate", "us_house", "state_senate", "state_assembly"}
     else:
-        allowed = {"president", "us_senate", "governor", "lieutenant_governor", "attorney_general", "treasurer", "controller"}
+        allowed = {"president", "us_senate", "governor", "lieutenant_governor", "attorney_general", "secretary_of_state", "treasurer", "controller"}
 
     for contest_type in (
         "president",
@@ -277,6 +281,7 @@ def build_for_file(path: Path) -> list[dict]:
         "governor",
         "lieutenant_governor",
         "attorney_general",
+        "secretary_of_state",
         "treasurer",
         "controller",
         "state_senate",
@@ -319,11 +324,15 @@ def main():
         raise FileNotFoundError(f"No NV OpenElections files matched years: {sorted(years) if years else 'ALL'}")
 
     manifest_entries = []
+    manifest_path = OUT_DIR / "manifest.json"
+    rebuilt_years = {parse_date_from_name(path)[:4] for path in files}
+    if manifest_path.exists():
+        existing = json.loads(manifest_path.read_text(encoding="utf-8")).get("files", [])
+        manifest_entries.extend(e for e in existing if str(e.get("year", "")) not in rebuilt_years)
     for path in files:
         manifest_entries.extend(build_for_file(path))
 
     manifest_entries.sort(key=lambda x: (x["year"], x["contest_type"]))
-    manifest_path = OUT_DIR / "manifest.json"
     manifest_path.write_text(json.dumps({"files": manifest_entries}, indent=2), encoding="utf-8")
     print(f"Wrote {manifest_path}")
 
