@@ -10266,9 +10266,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-11-20-sos-history-v2';
+    const DATA_CACHE_BUSTER = '2026-11-20-sos-districts-v3';
     const COUNTY_POP_CACHE_BUSTER = '2026-05-31-02';
-    const APP_BUILD_ID = '2026-11-20-sos-history-v2';
+    const APP_BUILD_ID = '2026-11-20-sos-districts-v3';
 
 
     function withCacheBuster(path) {
@@ -31257,7 +31257,7 @@ document.addEventListener('DOMContentLoaded', function() {
       return true;
     }
 
-    function renderDistrictElectionInfoHTML(contestType, year, row, fallbackCandidates) {
+    function renderDistrictElectionInfoHTML(contestType, year, row, fallbackCandidates, meta = {}) {
       if (!row) return '<div style="color:#999;">No results for this district/contest.</div>';
       const demVotes = Number(row.dem_votes || 0);
       const repVotes = Number(row.rep_votes || 0);
@@ -31326,6 +31326,10 @@ document.addEventListener('DOMContentLoaded', function() {
       const marginLineText = winnerCall.uncontested
         ? `Result: ${winnerCall.shortLabel}`
         : `Margin: ${winnerCall.text} <span style="color:#64748b;font-weight:600;">(${Math.abs(repVotes - demVotes).toLocaleString()} votes)</span>`;
+      const matchCoverage = Number(meta?.match_coverage_pct);
+      const districtSourceNote = contestType === 'secretary_of_state' && Number.isFinite(matchCoverage)
+        ? `<div style="margin-top:8px;color:#64748b;font-size:12px;">${matchCoverage.toFixed(2)}% of statewide votes assigned to districts${matchCoverage < 99.995 ? '; unmatched votes are excluded' : ''}.${Number(year) < 2022 ? ' Historical district boundaries may differ from the displayed map.' : ''}${String(meta?.nongeo_allocation_mode || '').includes('county_fallback') ? ' Some precincts use a county-based district assignment.' : ''}</div>`
+        : '';
 
       return `
         <div style="margin-bottom: 12px;">
@@ -31341,6 +31345,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div style="margin-top:6px;color:#374151;font-weight:700;">Total Votes: ${totalVotes.toLocaleString()}</div>
           </div>
           <div style="margin-top:8px;font-size:14px;font-weight:800;color:${compColor};">Competitiveness: ${compLabel}</div>
+          ${districtSourceNote}
         </div>
       `;
     }
@@ -31478,7 +31483,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const repBlank = !((row.rep_candidate || '').toString().trim());
             if (demBlank || repBlank) cand = await getContestCandidates(contestType, year);
           }
-          if (el) el.innerHTML = renderDistrictElectionInfoHTML(contestType, year, row, cand);
+          if (el) el.innerHTML = renderDistrictElectionInfoHTML(contestType, year, row, cand, payload?.meta);
         } catch (err) {
           if (reqId !== districtSidebarRequestId) return;
           const el = document.getElementById('district-election');
@@ -31577,7 +31582,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const repBlank = !((row.rep_candidate || '').toString().trim());
             if (demBlank || repBlank) cand = await getContestCandidates(contestType, year);
           }
-          if (el) el.innerHTML = renderDistrictElectionInfoHTML(contestType, year, row, cand);
+          if (el) el.innerHTML = renderDistrictElectionInfoHTML(contestType, year, row, cand, payload?.meta);
         } catch (err) {
           if (reqId !== districtSidebarRequestId) return;
           const el = document.getElementById('district-election');

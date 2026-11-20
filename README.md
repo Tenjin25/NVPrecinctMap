@@ -90,6 +90,15 @@ Notes:
   2014, 2018, and 2022. The 2018 export leaves Nelson Araujo's party blank;
   the contest builder restores his Democratic affiliation so that race remains
   correctly classified as a two-party contest.
+- Those five races also have congressional, Assembly, and Senate district slices.
+  Congressional and Assembly slices assign 100% of statewide votes to districts.
+  Senate match coverage is 83.51% (2006), 85.06% (2010), 99.30% (2014),
+  100% (2018), and 88.50% (2022); district details display the coverage and
+  omit unmatched votes. The 2018 district slices use a direct VTD20 crosswalk
+  with county fallback where the tabblock source is unavailable. District
+  assignments combine same-year office district labels and VTD20 crosswalks;
+  older boundaries can differ from the lines displayed by the atlas. These
+  slices are derived from precinct returns, not certified district canvasses.
 
 ### Congressional + Neutral aggregation
 

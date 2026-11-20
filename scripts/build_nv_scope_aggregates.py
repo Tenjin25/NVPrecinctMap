@@ -24,6 +24,7 @@ BLANK_PARTY_CANDIDATE_OVERRIDES: dict[tuple[str, str, str], str] = {
     ("2018", "controller", "catherine byrne"): "DEM",
     ("2018", "lieutenant_governor", "michael roberson"): "REP",
     ("2018", "treasurer", "bob beers"): "REP",
+    ("2018", "secretary_of_state", "nelson araujo"): "DEM",
 }
 
 

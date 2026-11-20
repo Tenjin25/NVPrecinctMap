@@ -108,6 +108,8 @@ def contest_type(office: str) -> str:
         return "lieutenant_governor"
     if "attorney general" in o:
         return "attorney_general"
+    if "secretary of state" in o:
+        return "secretary_of_state"
     if "treasurer" in o:
         # Keep statewide treasurer only; exclude county/local clerk-treasurer offices.
         if "county" in o or "clerk" in o:
@@ -318,7 +320,8 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
             by_type[t].append(row)
 
     precinct_to_geoid20 = load_precinct_to_geoid20()
-    if year == 2018:
+    use_tabblock_crosswalk = year == 2018 and VTD20_SHP.exists() and TABBLOCK20_SHP.exists()
+    if use_tabblock_crosswalk:
         vtd20_to_cd, vtd20_to_sldl, vtd20_to_sldu = load_tabblock20_derived_vtd20_districts()
     else:
         vtd20_to_cd = load_vtd20_to_district(CROSSWALKS_DIR / "vtd20_to_cd118.csv")
@@ -379,6 +382,7 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
         "governor",
         "lieutenant_governor",
         "attorney_general",
+        "secretary_of_state",
         "treasurer",
         "controller",
         "us_house",
@@ -423,6 +427,8 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
                 "source": "nv_openelections_precinct",
                 "nongeo_allocation_mode": (
                     "vtd20_tabblock20_majority_crosswalk_with_county_fallback"
+                    if use_tabblock_crosswalk and t != "us_house"
+                    else "vtd20_direct_crosswalk_with_county_fallback"
                     if year == 2018 and t != "us_house"
                     else "precinct_map"
                 ),
@@ -466,6 +472,8 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
                 "source": "nv_openelections_precinct",
                 "nongeo_allocation_mode": (
                     "vtd20_tabblock20_majority_crosswalk_with_county_fallback"
+                    if use_tabblock_crosswalk and t != "state_assembly"
+                    else "vtd20_direct_crosswalk_with_county_fallback"
                     if year == 2018 and t != "state_assembly"
                     else "precinct_map"
                 ),
@@ -509,6 +517,8 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
                 "source": "nv_openelections_precinct",
                 "nongeo_allocation_mode": (
                     "vtd20_tabblock20_majority_crosswalk_with_county_fallback"
+                    if use_tabblock_crosswalk and t != "state_senate"
+                    else "vtd20_direct_crosswalk_with_county_fallback"
                     if year == 2018 and t != "state_senate"
                     else "precinct_map"
                 ),
@@ -516,6 +526,18 @@ def build_for_year(path: Path) -> list[tuple[str, dict]]:
             "general": {"results": results},
         }
         out.append((f"state_senate_{t}_{year}.json", payload))
+
+    source_votes = sum(to_int(row.get("votes", "")) for row in by_type.get("secretary_of_state", []))
+    for _, payload in out:
+        if payload["contest_type"] != "secretary_of_state" or not source_votes:
+            continue
+        assigned_votes = sum(
+            int(row.get("total_votes", 0))
+            for row in payload["general"]["results"].values()
+        )
+        payload["meta"]["source_total_votes"] = source_votes
+        payload["meta"]["assigned_total_votes"] = assigned_votes
+        payload["meta"]["match_coverage_pct"] = round(100 * assigned_votes / source_votes, 2)
 
     return out
 
@@ -528,6 +550,7 @@ def main() -> None:
         type=int,
         help="Rebuild only these election years and preserve other manifest entries.",
     )
+    parser.add_argument("--contest-type", help="Rebuild one contest while preserving all other manifest entries.")
     args = parser.parse_args()
     selected_years = set(args.years or [])
 
@@ -535,9 +558,11 @@ def main() -> None:
     manifest = []
 
     manifest_path = OUT_DIR / "manifest.json"
-    if selected_years and manifest_path.exists():
+    if (selected_years or args.contest_type) and manifest_path.exists():
         existing = json.loads(manifest_path.read_text(encoding="utf-8")).get("files", [])
-        manifest.extend(e for e in existing if int(e.get("year", 0)) not in selected_years)
+        manifest.extend(e for e in existing if
+                        (selected_years and int(e.get("year", 0)) not in selected_years) or
+                        (args.contest_type and e.get("contest_type") != args.contest_type))
 
     for p in sorted(OE_DIR.glob("*__nv__general__precinct.csv")):
         if selected_years and parse_year(p) not in selected_years:
@@ -547,6 +572,8 @@ def main() -> None:
             y = int(payload["year"])
             scope = payload["scope"]
             ctype = payload["contest_type"]
+            if args.contest_type and ctype != args.contest_type:
+                continue
             keep = (
                 # Keep U.S. House confined to the recent congressional selector;
                 # 2018 contributes its statewide contests, but not U.S. House.
@@ -555,6 +582,7 @@ def main() -> None:
                     and (
                         (ctype == "us_house" and y in {2022, 2024})
                         or (y == 2018 and ctype != "us_house")
+                        or ctype == "secretary_of_state"
                     )
                 ) or
                 (
@@ -584,7 +612,7 @@ def main() -> None:
             )
 
     manifest.sort(key=lambda x: (x["year"], x["scope"], x["contest_type"]))
-    manifest_path.write_text(json.dumps({"files": manifest}, indent=2), encoding="utf-8")
+    manifest_path.write_text(json.dumps({"files": manifest}, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {manifest_path} entries={len(manifest)}")
 
 
